@@ -7,6 +7,10 @@
 	$myvar = json_decode($_GET['data'], true);
 	$zero = 0;
 
+	$myvar[2] = explode('/', $myvar[2]);     // transforma em array
+	$myvar[2] = array_reverse($myvar[2]); // inverte posicoes do array
+	$myvar[2] = implode('-', $myvar[2]);     // transforma em string novamente
+
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );
 	}catch (PDOException $e){
@@ -16,12 +20,12 @@
 		exit;
 	}
 
-	$sql = "SELECT * FROM identificacao WHERE `cpf1-1` = ".$myvar[5]." OR `masp1-1` = ".$myvar[5];
+	$sql = "SELECT * FROM identificacao WHERE `cpf_1_1` = ".$myvar[5]." OR `masp_1_1` = ".$myvar[5];
 	$result = $PDO->query( $sql );
 	$first_rows = $result->fetchAll( PDO::FETCH_ASSOC );
 
 	if(!$first_rows){
-		$sql = "INSERT INTO identificacao(`nome1-0`, `sexo1-0`, `dt1-1`, `ec1-1`, `cpf1-1`, `masp1-1`) 
+		$sql = "INSERT INTO identificacao(`nome_1_0`, `sexo_1_0`, `dt_1_1`, `ec_1_1`, `cpf_1_1`, `masp_1_1`) 
 		VALUES (:nome , :sexo, :dt, :ec, :cpf, :masp)";
 
 		$stmt = $PDO->prepare( $sql );
@@ -57,8 +61,8 @@
 	else{
 		$id = $first_rows[0]['id_pessoa'];
 		if($myvar[4] == 1){	
-			$sql = "UPDATE identificacao SET `nome1-0` = :nome, `sexo1-0` = :sexo, `dt1-1` = :dt, `ec1-1` = :ec, `cpf1-1` = :cpf
-			WHERE `cpf1-1` = :information OR `masp1-1` = :information";
+			$sql = "UPDATE identificacao SET `nome_1_0` = :nome, `sexo_1_0` = :sexo, `dt_1_1` = :dt, `ec_1_1` = :ec, `cpf_1_1` = :cpf
+			WHERE `cpf_1_1` = :information OR `masp_1_1` = :information";
 			$stmt = $PDO->prepare( $sql );
 			$stmt->bindParam( ':nome', $myvar[0] );
 			$stmt->bindParam( ':sexo', $myvar[1] );
@@ -82,8 +86,8 @@
 			exit;		
 		}
 		else{
-			$sql = "UPDATE identificacao SET `nome1-0` = :nome, `sexo1-0` = :sexo, `dt1-1` = :dt, `ec1-1` = :ec, `masp1-1` = :masp
-			WHERE `cpf1-1` = :information OR `masp1-1` = :information";
+			$sql = "UPDATE identificacao SET `nome_1_0` = :nome, `sexo_1_0` = :sexo, `dt_1_1` = :dt, `ec_1_1` = :ec, `masp_1_1` = :masp
+			WHERE `cpf_1_1` = :information OR `masp_1_1` = :information";
 			$stmt = $PDO->prepare( $sql );
 			$stmt->bindParam( ':nome', $myvar[0] );
 			$stmt->bindParam( ':sexo', $myvar[1] );

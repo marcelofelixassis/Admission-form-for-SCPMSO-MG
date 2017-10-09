@@ -8,26 +8,12 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/jquery.datetimepicker.css">
-
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/formulario_config.js"></script>
-		<script src="js/jquery.datetimepicker.full.min.js"></script>
-		<script src="js/date.js"></script>
-		<script src="js/insert_files/insert_start.js"></script>
-		<script src="js/insert_files/insert_identificacao.js"></script>
-		<script src="js/insert_files/insert_finalidade.js"></script>
-		<script src="js/insert_files/insert_complementares.js"></script>
-		<script src="js/insert_files/insert_saude_geral.js"></script>
-		<script src="js/insert_files/insert_habitos.js"></script>
-		<script src="js/insert_files/insert_saude_vocal.js"></script>
 	</head>
 
 	<body>
 		<!--######################################################################################################################
 		##################################################      SESSAO 1     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao1  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!-- INICIO CABEÇALHO -->
@@ -103,7 +89,7 @@
 
 
 
-		<!-- LINHA 1.2 (DT1-2)-->
+		<!-- LINHA 1.2 (DT2-0)    INSERIDO NA TABELA DE FINALIDADES-->
 	  <div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-2 col-md-print-6">
 	    	<div class="input-group input-group-sm">
@@ -126,7 +112,6 @@
 		<!--######################################################################################################################
 		##################################################      SESSAO 2     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao2  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!-- INICIO CABEÇALHO -->
@@ -225,7 +210,6 @@
 		<!--######################################################################################################################
 		##################################################      SESSAO 3     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao3  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!-- INICIO CABEÇALHO -->
@@ -242,7 +226,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="pqccp30()" id="pqccp3-0" name="sessao3">
+	        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3">
 					  	<option value="0">NENHUM</option>
 					  	<option value="1">UM CARGO</option>
 					  	<option value="2">DOIS CARGOS</option>
@@ -274,7 +258,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>b) </strong>JÁ ATUOU COMO PROFESSOR(A)?</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_jacp441()" id="jacp4-4-1" name="sessao3">
+	        	<select class="btn" onblur="onblur_jacp34()" id="jacp3-4" name="sessao3">
 					  	<option value="0">NÃO</option>
 					  	<option value="1">SIM(1)</option>
 					  	<option value="2">SIM(2)</option>
@@ -307,14 +291,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ATUAL)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oadu451()" id="oadu4-5-1" name="sessao3">
+	        	<select class="btn" onblur="onblur_oadu39()" id="oadu3-9" name="sessao3">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oadu4-5-1">
+			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oadu3-9">
 	    	<div class="input-group input-group-sm">
 	      	<form id="cboadu4-5-1">
     				<label class="checkbox-inline">
@@ -355,14 +339,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>d) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oada451()" id="oada4-5-1" name="sessao3">
+	        	<select class="btn" onblur="onblur_oada310()" id="oada3-10" name="sessao3">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oada4-5-1">
+			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oada3-10">
 	    	<div class="input-group input-group-sm">
 	      	<form id="cboadu4-5-1">
     				<label class="checkbox-inline">
@@ -397,7 +381,6 @@
 		<!--######################################################################################################################
 		##################################################      SESSAO 4     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao4  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!-- INICIO CABEÇALHO -->	  
@@ -414,14 +397,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS FARÍNGEOS/LARÍNGEOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dfl50()" id="dfl5-0" name="sessao4">
+	        	<select class="btn" onblur="onblur_dfl40()" id="dfl4-0" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_dfl5-0">
+			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_dfl4-0">
 	    	<div class="input-group input-group-sm">
 	      	<form id="dflcb5-0">
     				<label class="checkbox-inline">
@@ -449,14 +432,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS OTOLÓGICOS/AUDITIVOS?</span>                                                     
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_doa51()" id="doa5-1" name="sessao4">
+	        	<select class="btn" onblur="onblur_doa41()" id="doa4-1" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_doa5-1">
+			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_doa4-1">
 	    	<div class="input-group input-group-sm">
 	      	<form id="doacb5-1">
     				<label class="checkbox-inline">
@@ -487,14 +470,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS ALÉRGICOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" id="da5-2" onblur="onblur_da52()" name="sessao4">
+	        	<select class="btn" id="da4-2" onblur="onblur_da42()" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-3 /// col-md-print-6 -->
-			<div class="collapse col-md-9 col-md-print-8 col-md-print-offset-14" id="collapse_da5-2">
+			<div class="collapse col-md-9 col-md-print-8 col-md-print-offset-14" id="collapse_da4-2">
 	    	<div class="input-group input-group-sm">
 	      	<form id="dacb5-2">
     				<label class="checkbox-inline">
@@ -531,14 +514,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS NAZAIS E DOS SEIOS DA FACE?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dnsf53()" id="dnsf5-3" name="sessao4">
+	        	<select class="btn" onblur="onblur_dnsf43()" id="dnsf4-3" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->
-			<div class="collapse col-md-5 col-md-offset-31 col-md-print-offset-1" id="collapse_dnsf5-3">
+			<div class="collapse col-md-5 col-md-offset-31 col-md-print-offset-1" id="collapse_dnsf4-3">
 	    	<div class="input-group input-group-sm">
 	      	<form id="dnsfcb5-3">
     				<label class="checkbox-inline">
@@ -566,14 +549,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">SINAIS DE DOENÇA DO REFLUXO GASTROESOFÁGICO (DRGE)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_sdrg54()" id="sdrg5-4" name="sessao4">
+	        	<select class="btn" onblur="onblur_sdrg44()" id="sdrg4-4" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-			<div class="collapse col-md-17 col-md-offset-18 col-md-print-9 col-md-print-offset-12" id="collapse_sdrg5-4">
+			<div class="collapse col-md-17 col-md-offset-18 col-md-print-9 col-md-print-offset-12" id="collapse_sdrg4-4">
 	    	<div class="input-group input-group-sm">
 	      	<form id="sdrgcb5-4">
     				<label class="checkbox-inline">
@@ -610,14 +593,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTRAS ALTERAÇÕES NA SAÚDE GERAL?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oasg55()" id="oasg5-5" name="sessao4">
+	        	<select class="btn" onblur="onblur_oasg45()" id="oasg4-5" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->
-			<div class="collapse col-md-7 col-md-offset-30 col-md-print-offset-10" id="collapse_oasg5-5">
+			<div class="collapse col-md-7 col-md-offset-30 col-md-print-offset-10" id="collapse_oasg4-5">
 	    	<div class="input-group input-group-sm">
 	      	<form id="oasgcb5-5">
     				<label class="checkbox-inline">
@@ -648,14 +631,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">USO DE MEDICAMENTO(S)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_fudm56()" id="fudm5-6" name="sessao4">
+	        	<select class="btn" onblur="onblur_fudm46()" id="fudm4-6" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-			<div class="collapse col-md-8 col-md-offset-30 col-md-print-8 col-md-print-offset-5" id="collapse_fudm5-6">
+			<div class="collapse col-md-8 col-md-offset-30 col-md-print-8 col-md-print-offset-5" id="collapse_fudm4-6">
 	    	<div class="input-group input-group-sm">
 	      	<form id="fudmcb5-6">
     				<label class="checkbox-inline">
@@ -695,13 +678,13 @@
 
 
 
-	  <!-- LETRA B -->		
+	  <!-- LETRA B /// LINHA 4.7 (CCAG4.7)-->		
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">CIRURGIA COM ANESTESIA GERAL?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" id="ccag" onblur="onblur_ccag()" name="sessao4">
+	        	<select class="btn" onblur="onblur_ccag47()" id="ccag4-7" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -709,20 +692,23 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->
 
-	    <!-- ESSES DADOS NÃO SERAM INCLUSOS NO BANCO, SENDO ASSIM NÃO POSSUEM ID/IDENTIFICAÇÃO /// ficará no final do dicionário-->
 
-	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag">
+	    <!-- ESSES DADOS NÃO SERAM INCLUSOS NO BANCO, SENDO ASSIM NÃO POSSUEM ID/IDENTIFICAÇÃO /// ficará no final do dicionário-->
+	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag4-7">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ccag4-7"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
 		</div><!-- /.row -->
-
-		<!-- LETRA B FINALIZADA -->
 		<!-- FINALIZADO PARTE QUE NÃO SERA INCLUSSA NO BANCO -->
 
-		<!-- LETRA B.1 /// LINHA 4.7 (TIRE4.7) -->	
+
+
+
+
+
+		<!-- LETRA B.1 /// LINHA 4.8 (TIRE4.8) -->	
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -736,19 +722,18 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3-->
 	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs5-7" onclick="testename()">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
 		</div><!-- /.row -->
-		<!-- LETRA B/B.1 FINALIZADA -->
-		<!-- FINALIZADO PARTE QUE NÃO SERA INCLUSSA NO BANCO -->
 
 
 
 
 
 
-		<!-- LINHA 4.8 (OBS4-8) -->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs5-7" style="margin-bottom: -0.8%;">
+
+		<!-- LINHA 4.9 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs4-8">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
@@ -2201,5 +2186,25 @@
 			<button type="" onclick="testename()">teste name function</button>
 		</div>		
 	</body>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- FUNÇÕES DE DATA -->
+		<script src="js/jquery.datetimepicker.full.min.js"></script>
+		<script src="js/date.js"></script>
+		<!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
+		<script src="js/formulario_config.js"></script>
+		<!-- SCRIPTS DE INSERT PARA CADA SESSAO -->
+		<script src="js/insert_files/insert_start.js"></script>
+		<script src="js/insert_files/insert_identificacao.js"></script>
+		<script src="js/insert_files/insert_finalidade.js"></script>
+		<script src="js/insert_files/insert_complementares.js"></script>
+		<script src="js/insert_files/insert_saude_geral.js"></script>
+		<script src="js/insert_files/insert_habitos.js"></script>
+		<script src="js/insert_files/insert_saude_vocal.js"></script>
+		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
+		<script src="js/scripts_identificacao/identificacao.js"></script>
+		<script src="js/scripts_finalidade/finalidade.js"></script>
+		<script src="js/scripts_complementares/complementares.js"></script>
+		<script src="js/scripts_saude_geral/saude_geral.js"></script>
 </html>
 

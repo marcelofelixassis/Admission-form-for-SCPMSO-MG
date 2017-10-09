@@ -5,6 +5,10 @@
 	define( 'MYSQL_DB_NAME', 'fono' );
 
 	$myvar = json_decode($_GET['data'], true);
+
+	$myvar[0] = explode('/', $myvar[0]);     // transforma em array
+	$myvar[0] = array_reverse($myvar[0]); // inverte posicoes do array
+	$myvar[0] = implode('-', $myvar[0]);     // transforma em string novamente
 	
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );
@@ -15,7 +19,7 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO finalidade(`fk_pessoa`, `dt2-0`, `apfd2-0`, `dias2-0`, `ad2-0`, `as2-1`, `ap2-1`) 
+	$sql = "INSERT INTO finalidade(`fk_pessoa`, `dt_2_0`, `apfd_2_0`, `dias_2_0`, `ad_2_0`, `as_2_1`, `ap_2_1`) 
 	VALUES (:fkpessoa , :dt, :apfd, :dias, :ad, :as2 , :ap)";
 
 	$stmt = $PDO->prepare( $sql );

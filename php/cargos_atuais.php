@@ -5,6 +5,14 @@
 	define( 'MYSQL_DB_NAME', 'fono' );
 
 	$myvar = json_decode($_GET['data'], true);
+
+	$myvar[8] = explode('/', $myvar[8]);     // transforma em array
+	$myvar[8] = array_reverse($myvar[8]); // inverte posicoes do array
+	$myvar[8] = implode('-', $myvar[8]);     // transforma em string novamente
+
+	$myvar[9] = explode('/', $myvar[9]);     // transforma em array
+	$myvar[9] = array_reverse($myvar[9]); // inverte posicoes do array
+	$myvar[9] = implode('-', $myvar[9]);     // transforma em string novamente
 	
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );

@@ -2,67 +2,7 @@ window.onload = function() {
 	document.getElementById("visible_apfd2-0").style.visibility = "hidden";
 }
 
-function onblur_apfd20(){
-	var x = document.getElementById("apfd2-0").value;
-	if(x == 4){	
-		document.getElementById("visible_apfd2-0").style.visibility = "visible";
-	}else{
-		document.getElementById("visible_apfd2-0").style.visibility = "hidden";	
-		document.getElementById("inputsessao2").value = "";
 
-	}		
-}
-
-function onblur_jacp441(){
-	var x = document.getElementById("jacp4-4-1").value;
-	if(x == 0){	
-  		document.getElementById("collapse_cargosanteriores").innerHTML = "";
-	}else if(x == 1){
-		document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_1cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-	}else if(x == 2){
-		document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_1cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-        document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_2cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-	}else if(x == 3){
-		document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_1cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-        document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_2cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-        document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_3cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-	}else if(x == 4){
-		document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_1cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-        document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_2cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-        document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_3cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-        document.getElementById("collapse_cargosanteriores").innerHTML="";
-		$.get("cargos_anteriormente/sim_4cargo.html", function (data) {
-            $("#collapse_cargosanteriores").append(data);
-        });
-	}
-}
 
 function clearcheckbox(x){
 	for (i = 0; i < x.length; i++){
@@ -70,108 +10,20 @@ function clearcheckbox(x){
 	}
 }
 
-function onblur_oadu451(){
-	var x = document.getElementById("oadu4-5-1").value;
-	if(x == 1){	
-  		$('#collapse_oadu4-5-1').collapse('show');
-  		document.getElementById("oadu4-5-1").style.height = "30px";
-	}else{
-		$('#collapse_oadu4-5-1').collapse('hide');
-		clearcheckbox(document.getElementsByName("3-9cb"));	
-	}	
-}
 
-function onblur_oada451(){
-	var x = document.getElementById("oada4-5-1").value;
-	if(x == 1){	
-  		$('#collapse_oada4-5-1').collapse('show');
-  		document.getElementById("oada4-5-1").style.height = "30px";
-	}else{
-		$('#collapse_oada4-5-1').collapse('hide');
-		clearcheckbox(document.getElementsByName("3-10cb"));	
-	}	
-}
 
-function onblur_dfl50(){
-	var x = document.getElementById("dfl5-0").value;
-	if(x == 1){	
-  		$('#collapse_dfl5-0').collapse('show');
-	}else{
-		$('#collapse_dfl5-0').collapse('hide');	
-		clearcheckbox(document.getElementsByName("sessao5-0cb"));
-	}
-}
 
-function onblur_doa51(){
-	var x = document.getElementById("doa5-1").value;
-	if(x == 1){	
-  		$('#collapse_doa5-1').collapse('show');
-	}else{
-		$('#collapse_doa5-1').collapse('hide');
-		clearcheckbox(document.getElementsByName("sessao5-1cb"));	
-	}
-}
 
-function onblur_da52(){
-	var x = document.getElementById("da5-2").value;
-	if(x == 1){	
-  		$('#collapse_da5-2').collapse('show');
-	}else{
-		$('#collapse_da5-2').collapse('hide');	
-		clearcheckbox(document.getElementsByName("sessao5-2cb"));
-	}
-}
 
-function onblur_dnsf53(){
-	var x = document.getElementById("dnsf5-3").value;
-	if(x == 1){	
-  		$('#collapse_dnsf5-3').collapse('show');
-	}else{
-		$('#collapse_dnsf5-3').collapse('hide');
-		clearcheckbox(document.getElementsByName("sessao5-3cb"));	
-	}
-}
 
-function onblur_sdrg54(){
-	var x = document.getElementById("sdrg5-4").value;
-	if(x == 1){	
-  		$('#collapse_sdrg5-4').collapse('show');
-  		document.getElementById("sdrg5-4").style.height = "30px";
-	}else{
-		$('#collapse_sdrg5-4').collapse('hide');	
-		clearcheckbox(document.getElementsByName("sessao5-4cb"));
-	}
-}
 
-function onblur_oasg55(){
-	var x = document.getElementById("oasg5-5").value;
-	if(x == 1){	
-  		$('#collapse_oasg5-5').collapse('show');
-	}else{
-		$('#collapse_oasg5-5').collapse('hide');
-		clearcheckbox(document.getElementsByName("sessao5-5cb"));	
-	}
-}
 
-function onblur_fudm56(){
-	var x = document.getElementById("fudm5-6").value;
-	if(x == 1){	
-  		$('#collapse_fudm5-6').collapse('show');
-  		document.getElementById("fudm5-6").style.height = "30px";
-	}else{
-		$('#collapse_fudm5-6').collapse('hide');
-		clearcheckbox(document.getElementsByName("sessao5-6cb"));	
-	}
-}
 
-function onblur_ccag(){
-	var x = document.getElementById("ccag").value;
-	if(x == 1){	
-  		$('#collapse_ccag').collapse('show');
-	}else{
-		$('#collapse_ccag').collapse('hide');	
-	}	
-}
+
+
+
+
+
 
 function onblur_taba60(){
 	var x = document.getElementById("taba6-0").value;
@@ -217,39 +69,7 @@ function onblur_etil63(){
 	}	
 }
 
-function pqccp30(){
-	var x = document.getElementById("pqccp3-0").value;
-	if(x == "0"){
-		document.getElementById("collapse_cargos").innerHTML="";
-	}
-	else if(x == "1"){
-		document.getElementById("collapse_cargos").innerHTML="";
-		$.get("cargos/primeiro_cargo.html", function (data) {
-            $("#collapse_cargos").append(data);
-        });
-	}
-	else if(x == "2"){
-		document.getElementById("collapse_cargos").innerHTML="";
-		$.get("cargos/primeiro_cargo.html", function (data) {
-            $("#collapse_cargos").append(data);
-        });
-		$.get("cargos/segundo_cargo.html", function (data) {
-            $("#collapse_cargos").append(data);
-        });
-	}
-	else if(x == "3"){
-		document.getElementById("collapse_cargos").innerHTML="";
-		$.get("cargos/primeiro_cargo.html", function (data) {
-            $("#collapse_cargos").append(data);
-        });
-		$.get("cargos/segundo_cargo.html", function (data) {
-            $("#collapse_cargos").append(data);
-        });
-		$.get("cargos/terceiro_cargo.html", function (data) {
-            $("#collapse_cargos").append(data);
-        });        
-    }
-}
+
 
 function onblur_sipr70(){
 	var x = document.getElementById("sipr7-0").value;
