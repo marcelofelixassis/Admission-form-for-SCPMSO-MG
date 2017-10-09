@@ -1,0 +1,2205 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> PROTOCOLO DE AVALIAÇÃO FONOAUDIOLOGICA PERIODICA DA VOZ DO PROFESSOR - SCMPSO/SEPLAG </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-widht, initial-scale=1">
+
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/jquery.datetimepicker.css">
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/formulario_config.js"></script>
+		<script src="js/jquery.datetimepicker.full.min.js"></script>
+		<script src="js/date.js"></script>
+		<script src="js/insert_files/insert_start.js"></script>
+		<script src="js/insert_files/insert_identificacao.js"></script>
+		<script src="js/insert_files/insert_finalidade.js"></script>
+		<script src="js/insert_files/insert_complementares.js"></script>
+		<script src="js/insert_files/insert_saude_geral.js"></script>
+		<script src="js/insert_files/insert_habitos.js"></script>
+		<script src="js/insert_files/insert_saude_vocal.js"></script>
+	</head>
+
+	<body>
+		<!--######################################################################################################################
+		##################################################      SESSAO 1     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao1  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!-- INICIO CABEÇALHO -->
+		<img src="imagens/cabecalho1.png" class="col-md-10 cabecalho col-md-offset-1">
+
+
+
+
+
+
+		<!-- LINHA 1.0 (NOME1-0, SEXO1-0)-->
+		<div class="row col-md-10 col-md-offset-1">
+	  	<div class="col-md-10 col-md-print-1">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">NOME:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao1">
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-10 /// col-md-print-1 -->
+	  	<div class="col-md-2 col-md-print-2 col-md-print-offset-1">
+	    	<div class="input-group input-group-sm">
+	    		<span class="input-group-addon" id="basic-addon">SEXO:</span>  
+	    		<div class="form-group form-group-sm">
+		      	<select class="form-control selectcss" name="sessao1">
+		        	<option value="1">F</option>
+		        	<option value="2">M</option>
+		      	</select>
+	      	</div>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-2 /// col-md-print-2 /// col-md-print-offset-1 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 1.1 (DT1-1, EC1-1, CPFMASPN1-1, CPFMASPN1-1)-->
+		<div class="row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3 col-md-print-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DATA NASCIMENTO:</span>
+	  			<input type='text' class="form-control date" name="sessao1" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-3 /// col-md-print-3 -->
+	  	<div class="col-md-4 col-md-offset-1 col-md-print-4 col-md-print-offset-3">
+	    	<div class="input-group input-group-sm">
+	    		<span class="input-group-addon" id="basic-addon">ESTADO CIVIL:</span>  
+	    		<span class="input-group-btn">
+		      	<select class="btn" name="sessao1">
+		        	<option value="1">SOLTEIRO</option>
+		        	<option value="2">CASADO/UNIÃO ESTÁVEL</option>
+		        	<option value="3">VIÚVO</option>
+		        	<option value="4">SEPARADO/DIVORCIADO</option>
+		      	</select>
+		      </span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-4 col-md-offset-1 /// col-md-print-4 col-md-print-offset-3-->
+	  	<div class="col-md-3 col-md-offset-1 col-md-print-offset-3">
+	  		<div class="input-group input-group-sm input-group">
+	  			<span class="input-group-btn">
+        		<select class="btn cinza" name="sessao1">
+          		<option value="1">CPF:</option>
+          		<option value="2">MASP:</option>
+        		</select>
+      		</span>
+      		<input type="text" class="form-control" maxlength="12" name="sessao1">
+	  		</div><!-- /input-group -->         
+	  	</div><!-- /col-md-3 col-md-offset-1 /// col-md-print-offset-3 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 1.2 (DT1-2)-->
+	  <div class="row col-md-10 col-md-offset-1">
+	  	<div class="col-md-2 col-md-print-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DATA:</span>
+	  			<input type='text' class="form-control date" name="sessao2"/>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-2 /// col-md-print-3 -->
+	  	<div class="col-md-9 col-md-offset-1 col-md-print-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">ASSINATURA DO(A) PERICIANDO(A):</span>
+	  			<input type='text' class="form-control" disabled="true" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-9 col-md-offset-1 /// col-md-print-5 col-md-print-offset-2 -->
+		</div><!-- /.row -->
+		
+
+
+
+		
+		<!--######################################################################################################################
+		##################################################      SESSAO 2     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao2  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!-- INICIO CABEÇALHO -->
+		<img src="imagens/cabecalho2.png" class="col-md-10 col-md-offset-1">
+		
+
+		
+
+	
+
+		<!--LINHA 2.0 (APFD2-0, DIAS2-0, AD2-0)-->
+		<div class="row col-md-10 col-md-offset-1">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">ADMISSIONAL PARA FINS DE:</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_apfd20()" id="apfd2-0" name="sessao2">
+				  		<option value="1">NOMEAÇAO EM CONCURSO PÚBLICO</option>
+				  		<option value="2">DESIGNAÇÃO</option>
+				  		<option value="3">RECURSO</option>
+				  		<option value="4">RETORNO</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-4 -->
+	  	<div class="col-md-2 col-md-offset-19 col-md-print-7 col-md-print-offset-4" id="visible_apfd2-0">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DIAS:</span>
+	  			<input type='text' class="form-control" id="inputsessao2" name="sessao2"/>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-2 col-md-offset-19 /// col-md-print-7 col-md-print-offset-4 -->
+		  <div class="col-md-2 col-md-offset-1 col-md-print-offset-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">AULAS DE:</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" name="sessao2">
+							<option value="1">REGENTE DE TURMA</option>
+							<option value="2">PORTUGUES</option>
+			        <option value="3">MATEMÁTICA</option>
+			        <option value="4">QUIMICA</option>
+              <option value="5">FISICA</option>
+			        <option value="6">LINGUA ESTRANGEIRA</option>
+			        <option value="7">EDUCAÇÃO FÍSICA</option>
+              <option value="8">HISTORIA</option>
+			        <option value="9">ARTES</option>
+			        <option value="10">ENSINO RELIGIOSO</option>
+              <option value="11">GEOGRAFIA</option>
+			        <option value="12">CIÊNCIAS/BIOLOGIA</option>
+			        <option value="13">FILOSOFIA</option>
+              <option value="14">SOCIOLOGIA</option>
+			        <option value="15">OUTRA</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-2 col-md-offset-1 /// col-md-print-offset-5 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 2.1 (AS2-1, AP2-1)-->
+		<div class="row col-md-10 col-md-offset-1">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">AULAS SEMANAIS:</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" name="sessao2">
+							<option value="1">ATÉ 5 AULAS/SEMANAIS</option>
+	  					<option value="2">DE 6 A 10 AULAS/SEMANAIS </option>
+	  					<option value="3">DE 11 A 20 AULAS/SEMANAIS</option>
+	  					<option value="4">MAIS DE 20 AULAS/SEMANAIS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-4 -->
+	  	<div class="col-md-4 col-md-offset-40 col-md-print-offset-26">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">AULAS PARA:</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" name="sessao2">
+							<option value="1">SERIES INICIAIS DO ENSINO FUNDAMENTAL</option>
+	  					<option value="2">SERIES FINAIS DO ENSINO FUNDAMENTAL</option>
+	  					<option value="3">ENSINO MÉDIO</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-4 col-md-offset-1 -->
+		</div><!-- /.row -->
+
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 3     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao3  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!-- INICIO CABEÇALHO -->
+		<img src="imagens/cabecalho3.png" class="col-md-10 col-md-offset-1">
+
+
+
+
+
+
+		<!-- LETRA A /// LINHA 3.0 (PQCCP3-0) -->		
+		<div class="row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" onblur="pqccp30()" id="pqccp3-0" name="sessao3">
+					  	<option value="0">NENHUM</option>
+					  	<option value="1">UM CARGO</option>
+					  	<option value="2">DOIS CARGOS</option>
+					  	<option value="3">TRÊS CARGOS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-3 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- INICIO CONTEINER -->
+		<!-- CONTEINER DE CARGOS /// PAGINAS primeiro_cargo.html = 3.1,
+		segundo_cargo.html = 3.2, terceiro_cargo.html = 3.3 -->
+		<div id="collapse_cargos" class="col-md-16 col-md-offset-13"></div>
+
+
+
+
+
+
+		<!-- LETRA B /// LINHA 3.4 (JACP3-4) -->	
+		<div class="row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>b) </strong>JÁ ATUOU COMO PROFESSOR(A)?</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_jacp441()" id="jacp4-4-1" name="sessao3">
+					  	<option value="0">NÃO</option>
+					  	<option value="1">SIM(1)</option>
+					  	<option value="2">SIM(2)</option>
+					  	<option value="3">SIM(3)</option>
+					  	<option value="4">SIM(4)</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-3 --> 	
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- INICIO CONTEINER -->
+		<!-- CONTEINER DE CARGOS ANTERIORES /// PAGINAS sim_1cargo = 3.5, 
+		sim_2cargo = 3.6, sim_3cargo = 3.7, sim_4cargo = 3.8 -->
+		<div id="collapse_cargosanteriores" class="col-md-16 col-md-offset-13"></div>
+
+
+
+
+
+
+		<!-- LETRA C /// LINHA 3.9 (OADU3-9, CB_OADU3-9) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ATUAL)?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_oadu451()" id="oadu4-5-1" name="sessao3">
+							<option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-5 -->
+			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oadu4-5-1">
+	    	<div class="input-group input-group-sm">
+	      	<form id="cboadu4-5-1">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="3-9cb">CANTOR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="3-9cb">VENDEDOR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="3-9cb">REPÓRTER
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="3-9cb">ADVOGADO
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="3-9cb">PADRE/PASTOR
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="3-9cb">ATOR/ATRIZ
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="7" name="3-9cb">TELEMARKETING
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
+	  </div><!-- /.row -->  
+
+
+
+
+
+
+
+		<!-- LETRA D /// LINHA 3.10 (OADA3-10, CB_OADA3-10) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>d) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_oada451()" id="oada4-5-1" name="sessao3">
+							<option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-5 -->
+			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oada4-5-1">
+	    	<div class="input-group input-group-sm">
+	      	<form id="cboadu4-5-1">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="3-10cb">CANTOR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="3-10cb">VENDEDOR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="3-10cb">REPÓRTER
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="3-10cb">ADVOGADO
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="3-10cb">PADRE/PASTOR
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="3-10cb">ATOR/ATRIZ
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="7" name="3-10cb">TELEMARKETING
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
+	  </div><!-- /.row -->
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 4     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao4  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!-- INICIO CABEÇALHO -->	  
+		<img src="imagens/cabecalho4.png" class="col-md-10 col-md-offset-1">
+
+
+
+
+
+
+		<!-- LINHA 4.0 (DFL4-0, CB_DFL4-0) -->	
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS FARÍNGEOS/LARÍNGEOS?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_dfl50()" id="dfl5-0" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_dfl5-0">
+	    	<div class="input-group input-group-sm">
+	      	<form id="dflcb5-0">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-0cb">LARINGITE
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-0cb">AMIGDALITE
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-0cb">FARINGITE
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-7 col-md-offset-22 /// col-md-print-offset-11 -->	  
+	  </div><!-- /.row --> 
+
+
+
+
+
+
+	  <!-- LINHA 4.1 (DOA4-1, CB_DOA4-1) -->			
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS OTOLÓGICOS/AUDITIVOS?</span>                                                     
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_doa51()" id="doa5-1" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_doa5-1">
+	    	<div class="input-group input-group-sm">
+	      	<form id="doacb5-1">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-1cb">PERDA AUDITIVA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-1cb">OTITE
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-1cb">VERTIGEM/TONTURA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="4-1cb">ZUMBIDO
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-7 col-md-offset-22 /// col-md-print-offset-11 -->	  
+	  </div><!-- /.row --> 
+
+
+
+
+
+
+	  <!-- LINHA 4.2 (DA4-2, CB_DA4-2) -->			
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3 col-md-print-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS ALÉRGICOS?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" id="da5-2" onblur="onblur_da52()" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-3 /// col-md-print-6 -->
+			<div class="collapse col-md-9 col-md-print-8 col-md-print-offset-14" id="collapse_da5-2">
+	    	<div class="input-group input-group-sm">
+	      	<form id="dacb5-2">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-2cb">CHEIRO FORTE
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-2cb">POEIRA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-2cb">MOFO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="4-2cb">PÓ DE GIZ
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="4-2cb">ALIMENTAR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="4-2cb">MEDICAÇÃO
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-9 /// col-md-print-8 col-md-print-offset-14 -->	  
+	  </div><!-- /.row --> 
+
+
+
+
+
+
+	  <!-- LINHA 4.3 (DNSF4-3, CB_DNSF4-3) -->			
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS NAZAIS E DOS SEIOS DA FACE?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_dnsf53()" id="dnsf5-3" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+			<div class="collapse col-md-5 col-md-offset-31 col-md-print-offset-1" id="collapse_dnsf5-3">
+	    	<div class="input-group input-group-sm">
+	      	<form id="dnsfcb5-3">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-3cb">SINUSITE
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-3cb">DESVIO DE SEPTO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-3cb">RINITE
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-5 col-md-offset-31 /// col-md-print-offset-1 -->	  
+	  </div><!-- /.row --> 
+
+
+
+
+
+
+	  <!-- LINHA 4.4 (SDRG4-4, CB_SDRG4-4) -->			
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">SINAIS DE DOENÇA DO REFLUXO GASTROESOFÁGICO (DRGE)?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_sdrg54()" id="sdrg5-4" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-5 -->
+			<div class="collapse col-md-17 col-md-offset-18 col-md-print-9 col-md-print-offset-12" id="collapse_sdrg5-4">
+	    	<div class="input-group input-group-sm">
+	      	<form id="sdrgcb5-4">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-4cb">ASSINTOMÁTICO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-4cb">QUEMAÇÃO/ARDÊNCIA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-4cb">AZIA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="4-4cb">PIGARRO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="4-4cb">ACÍDO GÁSTRICO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="4-4cb">DOR ESTÔMACAL
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-17 col-md-offset-18 /// col-md-print-9 col-md-print-offset-12 -->	  
+	  </div><!-- /.row --> 
+
+
+
+
+
+
+	  <!-- LINHA 4.5 (OASG4-5, CB_OASG4-5) -->			
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">OUTRAS ALTERAÇÕES NA SAÚDE GERAL?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_oasg55()" id="oasg5-5" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+			<div class="collapse col-md-7 col-md-offset-30 col-md-print-offset-10" id="collapse_oasg5-5">
+	    	<div class="input-group input-group-sm">
+	      	<form id="oasgcb5-5">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-5cb">DEPRESSÃO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-5cb">HIPO/HIPERTIROIDISMO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-5cb">HIPERTENSÃO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="4-5cb">DIABETES
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-7 col-md-offset-30 /// col-md-print-offset-10 -->	  
+	  </div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LETRA A /// LINHA 4.6 (FUDM4-6, CB_FUDM4-6) -->			
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">USO DE MEDICAMENTO(S)?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_fudm56()" id="fudm5-6" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+			<div class="collapse col-md-8 col-md-offset-30 col-md-print-8 col-md-print-offset-5" id="collapse_fudm5-6">
+	    	<div class="input-group input-group-sm">
+	      	<form id="fudmcb5-6">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="4-6cb">ANTICONCEPCIONAL
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="4-6cb">ANTIHIPERTENSIVO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="4-6cb">ANTIDEPRESSIVO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="4-6cb">REPOSIÇÃO HORMONAL
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="4-6cb">ANTIGLICEMICO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="4-6cb">ANTIACIDO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="7" name="4-6cb">HORMONIOS
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="8" name="4-6cb">ANTILIPEMICOS
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="9" name="4-6cb">ANSIOLITICO
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-8 col-md-offset-30 /// col-md-print-8 col-md-print-offset-5 -->	  
+	  </div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LETRA B -->		
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">CIRURGIA COM ANESTESIA GERAL?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" id="ccag" onblur="onblur_ccag()" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+
+	    <!-- ESSES DADOS NÃO SERAM INCLUSOS NO BANCO, SENDO ASSIM NÃO POSSUEM ID/IDENTIFICAÇÃO /// ficará no final do dicionário-->
+
+	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
+		</div><!-- /.row -->
+
+		<!-- LETRA B FINALIZADA -->
+		<!-- FINALIZADO PARTE QUE NÃO SERA INCLUSSA NO BANCO -->
+
+		<!-- LETRA B.1 /// LINHA 4.7 (TIRE4.7) -->	
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">TIREOIDECTOMIA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao4">
+							 <option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3-->
+	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs5-7" onclick="testename()">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
+		</div><!-- /.row -->
+		<!-- LETRA B/B.1 FINALIZADA -->
+		<!-- FINALIZADO PARTE QUE NÃO SERA INCLUSSA NO BANCO -->
+
+
+
+
+
+
+		<!-- LINHA 4.8 (OBS4-8) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs5-7" style="margin-bottom: -0.8%;">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
+		    </div>
+			</div>		
+		</div>
+
+
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 5     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao5  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!-- INICIO CABEÇALHO -->	  
+		<img src="imagens/cabecalho5.png" class="col-md-10 col-md-offset-1">
+
+
+
+
+
+		<!--LINHA 5.0 (TABA5-0, HQT5-0, QCD5-0)-->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">TABAGISTA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_taba60()" id="taba6-0" name="sessao5">
+							<option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+		  <div class="collapse col-md-3 col-md-offset-21 col-md-print-offset-15 collapse_taba6-0">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
+		  		<span class="input-group-btn">
+		        <select class="btn" name="sessao5">
+		        	<option id="setselect5-1" value="">SELECIONE...</option>
+							<option value="1">ATÉ 1 ANO</option>
+				      <option value="2">2 A 5 ANOS</option>
+							<option value="3">6 A 10 ANOS</option>
+				      <option value="4">11 A 15 ANOS</option>
+							<option value="5">MAIS DE 15 ANOS</option>
+		        </select>
+	      	</span>
+		    </div><!-- /input-group -->
+		   </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		   <div class="collapse col-md-2 col-md-offset-1 col-md-print-offset-17 collapse_taba6-0">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">QUANTOS CIGAROS/DIA?</span>
+		  		<span class="input-group-btn">
+		        <select class="btn" name="sessao5">
+		        	<option id="setselect5-2" value="">SELECIONE...</option>
+							<option value="1">10 OU MENOS</option>
+				      <option value="2">11 A 20</option>
+							<option value="3">21 A 30</option>
+				      <option value="4">31 OU MAIS</option>
+		        </select>
+	      	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-2 col-md-offset-1 /// 3 col-md-print-offset-17 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 5.1 (EXTABA5-1, FPQT5-1, PHQT5-1)-->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">EX-TABAGISTA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_extaba61()" id="extaba6-1" name="sessao5">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+	    <div class="collapse collapse_extaba6-1 col-md-3 col-md-offset-18 col-md-print-offset-15">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">POR QUANTO TEMPO?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao5">
+	        		<option id="setselect5-3" value="">SELECIONE...</option>
+							<option value="1">ATÉ 1 ANO</option>
+				      <option value="2">2 A 5 ANOS</option>
+							<option value="3">6 A 10 ANOS</option>
+				      <option value="4">11 A 15 ANOS</option>
+							<option value="5">MAIS DE 15 ANOS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 col-md-offset-18 /// col-md-print-offset-15 -->
+	    <div class="collapse collapse_extaba6-1 col-md-3 col-md-offset-21 col-md-print-offset-16">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">PAROU HÁ QUANTO TEMPO?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao5">
+	        		<option id="setselect5-4" value="">SELECIONE...</option>
+							<option value="1">MENOS DE 1 ANO</option>
+				      <option value="2">2 A 5 ANOS</option>
+							<option value="3">6 A 10 ANOS</option>
+							<option value="4">MAIS DE 10 ANOS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 col-md-offset-21 /// col-md-print-offset-16 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 5.2 (DRIL5-2, CB_DRIL5-2, OTR5-2)-->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DROGAS ILÍCITAS?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_dril62()" id="dril6-2" name="sessao5">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+			<div class="collapse col-md-4 collapse_dril6-2" style="padding-top: 0.7%;">
+	    	<div class="input-group input-group-sm">
+	      	<form>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="5-2cb">MACONHA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="5-2cb">COCAINA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="5-2cb">CRACK
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->	
+	    <div class="collapse col-md-5 collapse_dril6-2">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">OUTRA:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao5" id="inputsessao5"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-5 -->  
+		</div><!-- /.row -->	
+		
+
+
+
+
+
+		<!--LINHA 5.3 (ETIL5-3, QTB5-3, QAF5-3)-->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-2">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">ETLISTA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_etil63()" id="etil6-3" name="sessao5">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-2 -->
+	    <div class="collapse col-md-3 col-md-offset-13 col-md-print-offset-1 collapse_etil6-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL TIPO DE BEBIDA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao5">
+	        		<option id="setselect5-5" value="">SELECIONE...</option>
+							<option value="1">DESTILADOS</option>
+			        <option value="2">FERMENTADOS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 col-md-offset-13 col-md-print-offset-1 -->
+	    <div class="collapse col-md-3 col-md-offset-29 col-md-print-offset-12 collapse_etil6-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL A FREQUÊNCIA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao5">
+	        		<option id="setselect5-6" value="">SELECIONE...</option>
+							<option value="1">1 VEZ POR MÊS</option>
+			        <option value="2">2 A 3 VEZES POR MÊS</option>
+			        <option value="3">1 OU 2 VEZES POR SEMANA</option>
+			        <option value="4">3 A 4 VEZES POR SEMANA</option>
+			        <option value="5">QUASE TODOS OS DIAS</option>
+			        <option value="6">UMA VEZ POR DIA OU MAIS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 col-md-offset-29 col-md-print-offset-12 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 5.4 (OHVI5-4)-->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">OUTROS HABITOS VOCAIS INADEQUADOS?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao5">
+	        		<option value="0">NENHUM</option>
+							<option value="1">GRITA</option>
+			        <option value="2">FALA MUITO</option>
+							<option value="3">FALA ALTO</option>
+			        <option value="4">FALA RÁPIDO</option>	   
+			        <option value="5">PIGARREIA</option>
+			        <option value="6">TOSSE</option>
+			        <option value="7">HIDRATAÇÃO INSUFICIENTE</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs6-5">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
+	  </div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LINHA 5.5 (OBS5-5) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-5" style="margin-bottom: -0.8%;">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+		    </div>
+			</div>		
+		</div>
+
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 6     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao6  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!-- INICIO CABEÇALHO -->	  
+		<img src="imagens/cabecalho6.png" class="col-md-10 col-md-offset-1">
+
+
+
+
+
+
+		<!-- LETRA A /// LINHA 6.0 (SINP6-0) -->		
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>SINTOMAS PRESENTES:</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_sipr70()" id="sipr7-0" name="sessao6">
+							 <option value="1">AUSÊNCIA DE QUEIXAS VOCAIS NO MOMENTO</option>
+			         <option value="2">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-5 -->
+	  </div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 6.1 (CB_SINP6-1) -->
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr7-0">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="6-1cb">DOR AO FALAR
+	    			</label>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="2" name="6-1cb">RESSECAMENTO
+	    			</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="3" name="6-1cb">QUEIMAÇÃO
+	   				</label>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="4" name="6-1cb">ARDÊNCIA
+	    			</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="5" name="6-1cb">CANSAÇO VOCAL
+	   				</label>
+	   				<label class="checkbox-inline">
+      			<input type="checkbox" value="6" name="6-1cb">ROUQUIDÃO
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="7" name="6-1cb">FALTA DE AR
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="8" name="6-1cb">COCEIRA
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="9" name="6-1cb">VOZ GROSSA
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="10" name="6-1cb">ESFORÇO PARA FALAR
+	   				</label>
+    				<label class="checkbox-inline">
+	      			<input type="checkbox" value="11" name="6-1cb">TOSSE COM SECREÇÃO
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="12" name="6-1cb">TOSSE SECA
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="13" name="6-1cb">DOR NA GARGANTA
+    				</label>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="14" name="6-1cb">FALHAS NA VOZ
+	    			</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="15" name="6-1cb">APERTO NA GARGANTA
+	   				</label>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="16" name="6-1cb">ENGASGO
+	    			</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="17" name="6-1cb">SENSAÇÃO DE CORPO ESTRANHO
+	   				</label>
+	   				<label class="checkbox-inline">
+      				<input type="checkbox" value="18" name="6-1cb">DISFAGIA
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="19" name="6-1cb">ODINOFAGIA
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+		
+
+
+
+
+
+
+		<!-- LETRA B /// LINHA 6.2 (SPQT6-2, CFMP6-2) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr7-0" style="margin-top: 1.5%;">
+		  <div class="col-md-5">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>b) </strong>SINTOMAS PRESENTES HÁ QUANTO TEMPO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-1" value="">SELECIONE...</option>
+							<option value="1">ATÉ 5 MESES</option>
+				      <option value="2">6 A 11 MESES</option>
+							<option value="3">1 A 2 ANOS</option>
+				      <option value="4">2 A 3 ANOS</option>
+							<option value="5">3 A 4 ANOS</option>
+							<option value="6">MAIS DE 4 ANOS</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-5 -->
+		  <div class="col-md-4 col-md-offset-32 col-md-print-offset-18">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">COMO FORAM PERCEBIDOS?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-2" value="">SELECIONE...</option>
+							<option value="1">DE FORMA GRADUAL</option>
+				      <option value="2">DE FORMA BRUSCA</option>
+							<option value="3">INTERMITENTE</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-4 col-md-offset-32 /// col-md-print-offset-18 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LETRA C /// LINHA 6.3 (PSLC6-3, QND6-3) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-4">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>c) </strong>PATOLOGIA/SINAIS LARINGEOS CONFIRMADOS?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" onblur="onblur_pslc73()" id="pslc7-3" name="sessao6">
+							<option value="0">NÃO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-4 -->
+		  <div class="collapse collapse_pslc7-3 col-md-2 col-md-offset-36 col-md-print-offset-19">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-3" value="">SELECIONE...</option>
+							<option value="1">ATÉ 6 MESES</option>
+				      <option value="2">DE 7 MESES A 1 ANO</option>
+							<option value="3">DE 1 A 2 ANOS</option>
+							<option value="4">DE 2 A 3 ANOS</option>
+				      <option value="5">DE 3 A 4 ANOS</option>
+							<option value="6">MAIS DE 4 ANOS</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-36 /// col-md-print-offset-19 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 6.4 (CB_PSLC6-4) -->
+	  <div class="row row collapse collapse_pslc7-3 col-md-10 col-md-offset-1">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form id="">
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="6-4cb">NÓDULOS
+	    			</label>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="2" name="6-4cb">PÓLIPÓ(S)
+	    			</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="3" name="6-4cb">CISTO(S)
+	   				</label>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="4" name="6-4cb">SULCO(S)
+	    			</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="5" name="6-4cb">EDEMA
+	   				</label>
+	   				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="6-4cb">EDEMA DE REINKE
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="7" name="6-4cb">HIPEREMIA NA(S) PPVV(S)
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="8" name="6-4cb">ALTERAÇÃO VASCULAR
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="9" name="6-4cb">FENDA GLÓTICA
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="10" name="6-4cb">NÃO SOUBE INFORMAR
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LETRA D.1 /// LINHA 6.5 (ETFO6-5, NDSE6-5) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>d.1) </strong>EM TRATAMENTO FONOTERÁPICO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" onblur="onblur_etfo75()" id="etfo7-5" name="sessao6">
+							<option value="0">NÃO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->
+		  <div class="collapse collapse_etfo7-5 col-md-3 col-md-offset-37 col-md-print-offset-20">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">Nº DE SESSÕES?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-4" value="">SELECIONE...</option>
+							<option value="1">SOMENTE A AVALIAÇÃO</option>
+				      <option value="2">ATÉ 4 SESSÕES</option>
+							<option value="3">5 A 8 SESSÕES</option>
+							<option value="4">9 A 12 SESSÕES</option>
+				      <option value="5">13 A 16 SESSÕES</option>
+							<option value="6">17 A 24 SESSÕES</option>
+							<option value="6">MAIS DE 24 SESSÕES</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-3 col-md-offset-37 /// col-md-print-offset-20 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 6.6 (FRSE6-6, FDFO6-6) -->
+		<div class="collapse collapse_etfo7-5 row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA SEMANAL:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-5" value="">SELECIONE...</option>
+							<option value="1">1X/SEMANA</option>
+				      <option value="2">2X/SEMANA</option>
+				      <option value="3">3X/SEMANA</option>
+				      <option value="4">4X/SEMANA</option>
+				      <option value="5">5X/SEMANA</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->
+		  <div class="col-md-3 col-md-offset-33 col-md-print-offset-21">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA DA FONOTERAPIA:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-6" value="">SELECIONE...</option>
+							<option value="1">TRATAMENTO CONTÍNUO</option>
+				      <option value="2">ATÉ 4 SESSÕES</option>
+							<option value="3">5 A 8 SESSÕES</option>
+							<option value="4">9 A 12 SESSÕES</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-3 col-md-offset-33 /// col-md-print-offset-21 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LETRA D.2 /// LINHA 6.7 (TFJR6-7, QND6-7) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-4">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>d.2) </strong>TRATAMENTO FONOTERÁPICO JÁ REALIZADO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" onblur="onblur_tfjr76()" id="tfjr7-6" name="sessao6">
+							<option value="0">NÃO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-4 -->
+		  <div class="collapse collapse_tfjr7-6 col-md-2 col-md-offset-16 col-md-print-offset-8">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-7" value="">SELECIONE...</option>
+							<option value="1">ATÉ 1 ANO ATRÁS</option>
+				      <option value="2">DE 1 ANO A 2 ATRÁS</option>
+							<option value="3">ACIMA DE 2 ANOS ATRÁS</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-16 /// col-md-print-offset-8 -->			 
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 6.8 (ALFA6-8) -->
+		<div class="collapse collapse_tfjr7-6 row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">ALGUM LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao6">
+	        		<option id="setselect6-8" value="">SELECIONE...</option>
+	        		<option value="0">NÃO</option>
+							<option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-3 -->
+	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs7-8">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
+	  </div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LINHA 6.9 (OBS6-9) -->
+		<div class="collapse collapse_tfjr7-6 row row col-md-10 col-md-offset-1" id="obs7-8" style="margin-bottom: -0.8%;">
+	    <div class="form-group">
+	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+	    	<label for="txtareaobs">Observações:</label>
+		  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
+	    </div>
+			</div>		
+		</div>
+
+
+
+
+
+
+		<!-- LETRA E /// LINHA 6.10 (CRVC6-10, QND6-10) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>e) </strong>CIRUGIA(S) VOCAL(IS)?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" onblur="onblur_civo77()" id="civo7-7" name="sessao6">
+							<option value="0">NÃO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->
+		  <div class="collapse collapse_civo7-7 col-md-3 col-md-offset-35 col-md-print-offset-10">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-9" value="">SELECIONE...</option>
+							<option value="1">ATÉ 1 ANO ATRÁS</option>
+				      <option value="2">DE 1 ANO A 2 ATRÁS</option>
+							<option value="3">ACIMA DE 2 ANOS ATRÁS</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-3 col-md-offset-35 /// col-md-print-offset-10 -->	
+			 	    <div class="collapse collapse_civo7-7 col-md-1 col-md-offset-34 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs7-9-1">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-34 /// col-md-print-offset-2 -->		 
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+	  <!-- LINHA 6.11 (OBS6.11) -->
+		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs7-9-1" style="margin-bottom: -0.8%;">
+	    <div class="form-group">
+	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+	    	<label for="txtareaobs">Observações:</label>
+		  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
+	    </div>
+			</div>		
+		</div>
+
+
+
+
+
+
+		<!--LETRA F /// LINHA 6.12 (FUDM6-12, HQNT6-12, OQMD6-12) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>f) </strong>FAZ USO DE MICROFONE?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" onblur="onblur_fudm792()" id="fudm7-9-2" name="sessao6">
+							<option value="0">NÃO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->
+		  <div class="collapse collapse_fudm7-9-2 col-md-3 col-md-offset-1 col-md-print-offset-1">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-10" value="">SELECIONE...</option>
+							<option value="1">ATÉ 1 ANO</option>
+				      <option value="2">DE 1 A 2 ANOS</option>
+							<option value="3">DE 2 A 5 ANOS</option>
+							<option value="4">MAIS DE 5 ANOS</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-1 -->		
+		  <div class="collapse collapse_fudm7-9-2 col-md-3 col-md-offset-38 col-md-print-offset-24">
+			  <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">O QUE MUDOU?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-11" value="">SELECIONE...</option>
+							<option value="1">AUXILIA MUITO</option>
+				      <option value="2">AUXILIA POUCO</option>
+							<option value="3">NÃO AUXILIA</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-3 col-md-offset-38 /// col-md-print-offset-24 -->		 
+		</div><!-- /.row -->
+
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 7     #####################################################
+		##########################################################################################################################
+		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao7  | nome dos atributos: 'presente junto ao número da linha'###
+		##########################################################################################################################-->
+
+		<!--INICIO CABEÇALHO /// SESSÃO 7-->	  
+		<img src="imagens/cabecalho7.png" class="col-md-10 col-md-offset-1">
+
+
+
+
+
+
+		<!--LINHA 8.0 -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">QUALIDAD E VOCAL:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-0">
+							<option value="1">NEUTRA (NORMAL)</option>
+				      <option value="2">ALTERADA (DISFONADA)</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-1 col-md-print-offset-17">
+			  <div class="input-group input-group-sm">
+			  <span class="input-group-addon" id="basic-addon">GRAU DE ALTERAÇÃO:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-0">
+							<option value="1">AUSENTE</option>
+				      <option value="2">LEVEMENTE ALTERADO</option>
+							<option value="3">MODERADAMENTE ALTERADO</option>
+							<option value="4">ALTERAÇÃO SEVERA</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-1 -->		
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--INICIO CABEÇALHO /// SESSÃO 9-->	 	
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+			<div class="panel-group">
+			  <div class="col-md-12">
+	    		<div class="panel panel-default">
+	      		<div class="panel-heading">CARACTERÍSTICAS DA DISFONIA (GRBASI, 1981)   -   CLASSIFICAÇÃO FINAL:</div>
+	      		<div class="panel-body">
+		      		<div class="row">
+		      			<div class="col-md-9">
+		      				<div class="row">
+			     					<div class="col-md-4">
+			      					<div class="input-group input-group-sm">
+				        				<span class="input-group-addon" id="basic-addon">GRAU GERAL DA DISFONIA:</span>
+				        				<div class="input-group-btn" data-toggle="buttons">
+				       						<label class="btn btn-default active">
+														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+				        				</div>
+			     						</div>
+			      				</div>
+		      					<div class="col-md-4 col-md-offset-2 col-md-print-offset-25">
+			      					<div class="input-group input-group-sm">
+			        					<span class="input-group-addon" id="basic-addon">RUGOSIDADE:</span>
+			        					<div class="input-group-btn" data-toggle="buttons">
+			       							<label class="btn btn-default active">
+														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+			        					</div>
+		      						</div>
+		      					</div>
+		      				</div>
+		      				<div class="row">
+			     					<div class="col-md-4">
+			      					<div class="input-group input-group-sm">
+				        				<span class="input-group-addon" id="basic-addon">SOPROSIDADE:</span>
+				        				<div class="input-group-btn" data-toggle="buttons">
+				       						<label class="btn btn-default active">
+														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+				        				</div>
+			     						</div>
+			      				</div>
+		      					<div class="col-md-4 col-md-offset-2 col-md-print-offset-25">
+			      					<div class="input-group input-group-sm">
+			        					<span class="input-group-addon" id="basic-addon">ASTENIA:</span>
+			        					<div class="input-group-btn" data-toggle="buttons">
+			       							<label class="btn btn-default active">
+														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+			        					</div>
+			      					</div>
+		      					</div>
+		      				</div>
+		      				<div class="row">
+			     					<div class="col-md-4">
+			      					<div class="input-group input-group-sm">
+				        				<span class="input-group-addon" id="basic-addon">TENSÃO:</span>
+				        				<div class="input-group-btn" data-toggle="buttons">
+				       						<label class="btn btn-default active">
+														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+				        				</div>
+			     						</div>
+			      				</div>
+		      					<div class="col-md-4 col-md-offset-2 col-md-print-offset-25">
+			      					<div class="input-group input-group-sm">
+			        					<span class="input-group-addon" id="basic-addon">INSTABILIDADE:</span>
+			        					<div class="input-group-btn" data-toggle="buttons">
+			       							<label class="btn btn-default active">
+														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+
+													<label class="btn btn-default">
+														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<span class="glyphicon glyphicon-ok"></span>
+													</label>
+			        					</div>
+			      					</div>
+		      					</div>
+		      				</div>
+					      </div>
+					      <img src="imagens/legenda.png" class="legenda col-md-print-offset-5">
+					    </div> 
+			      </div> 
+		    	</div>
+	    	</div>
+	    </div>
+    </div>
+
+
+
+
+
+
+
+
+		<!--LINHA 8.2 -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">CPFA <small>(fala espontânea):</small></span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">COORDENADA</option>
+				      <option value="2">INCOORDENADA</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+			  <div class="input-group input-group-sm">
+			  <span class="input-group-addon" id="basic-addon">CPFA <small>(fala dirigida):</small></span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">COORDENADA</option>
+				      <option value="2">INCOORDENADA</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-1 -->		
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+
+		<!--LINHA 8.3 -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala espontânea):</small></span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">ISOCRÔNICO</option>
+				      <option value="2">BRUSCO</option>
+				      <option value="3">SOPROSO</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+			  <div class="input-group input-group-sm">
+			  <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala dirigida):</small></span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">ISOCRÔNICO</option>
+				      <option value="2">BRUSCO</option>
+				      <option value="3">SOPROSO</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-1 -->		
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--LINHA 8.3 -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">PITCH <small>(sensação da frequência vocal):</small></span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">GRAVE</option>
+				      <option value="2">MÉDIO</option>
+				      <option value="3">AGUDO</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+			  <div class="input-group input-group-sm">
+			  <span class="input-group-addon" id="basic-addon">LOUDNESS <small>(sensação da intensidade vocal):</small></span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">ADEQUADA</option>
+				      <option value="2">FORTE</option>
+				      <option value="3">FRACA</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-1 -->		
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<!--LINHA 8.3 -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">RESSONÂNCIA:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">EQUILIBRADA</option>
+				      <option value="2">BAIXA</option>
+				      <option value="3">ALTA</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+			  <div class="input-group input-group-sm">
+			  <span class="input-group-addon" id="basic-addon">TENSÃO LARÍNGEA:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">ADEQUADA</option>
+				      <option value="2">AUMENTADA</option>
+			      </select>
+		    	</span>
+			  </div><!-- /input-group -->
+			</div><!-- /.col-md-2 col-md-offset-1 -->	
+			<div class="col-md-1">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-3">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+	  <!-- LINHA 6.5 (SOMENTE TEXTAREA) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs8-3">
+		  <div class="col-md-12 inputobs">
+		    <div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">OBS:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="">
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		</div>
+
+
+
+
+
+
+
+		<!--LINHA 8.3 -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-6">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">RESISTÊNCIA VOCAL:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">MANTEVE-SE INALTERADA AO FINAL DA AVALIAÇÃO</option>
+				      <option value="2">QUALIDADE VOCAL ALTEROU AO FINAL DA AVALIAÇÃO</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+			<div class="col-md-2 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-4">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+	  <!-- LINHA 7.9.1 (SOMENTE TEXTAREA) -->
+		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs8-4">
+	    <div class="form-group">
+	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+	    	<label for="txtareaobs">Observações:</label>
+		  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+	    </div>
+			</div>		
+		</div>
+
+
+
+
+
+
+
+
+		<!--SESSAO 9 -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-5">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>TEMPO MÁXIMO DE FONAÇÃO (TMF) - </strong> É POSSÍVEL AVALIAR?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2" id="nfpa9-0" onblur="onblur_nfpa90()">
+							<option value="0">NAO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs9-0">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+		</div><!-- /.row -->
+
+
+
+		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13 vogais"> 
+  		<div class="col-md-4">
+    		<label>VOGAIS - NORMAL(NOR)  / REDUZIDO(RED)</label>
+ 		 	</div><!-- /.col-md-4 -->
+		</div><!-- /.row -->
+
+		
+		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
+  		<div class="col-md-4">
+    		<div class="input-group input-group-sm">
+    			<span class="input-group-addon"><strong>[a]</strong></span>
+    			<input type="text" class="form-control">
+      		<span class="input-group-addon" style="line-height: 0;">
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
+      		</span>
+          <span class="input-group-addon" style="line-height: 0;">
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
+      		</span> 
+    		</div>
+ 		 	</div>
+  		<div class="col-md-4">
+    		<div class="input-group input-group-sm">
+    			<span class="input-group-addon"><strong>[i]</strong></span>
+    			<input type="text" class="form-control">
+      		<span class="input-group-addon" style="line-height: 0;">
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
+      		</span>
+          <span class="input-group-addon" style="line-height: 0;">
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
+      		</span> 
+    		</div>
+ 		 	</div>
+  		<div class="col-md-4">
+    		<div class="input-group input-group-sm">
+    			<span class="input-group-addon"><strong>[u]</strong></span>
+    			<input type="text" class="form-control">
+      		<span class="input-group-addon" style="line-height: 0;">
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
+      		</span>
+          <span class="input-group-addon" style="line-height: 0;">
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
+      		</span> 
+    		</div>
+ 		 	</div>
+		</div><!-- /.row -->
+
+
+		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13"> 
+  		<div class="col-md-9">
+    		<label>RELAÇÃO S/Z - = 1 (normal)  /  > 1,1 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  < 0,9 (sugestivo de hipercinesia laringea) </label>
+ 		 	</div><!-- /.col-md-4 -->
+		</div><!-- /.row -->
+
+
+
+		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
+  		<div class="col-md-6">
+    		<div class="input-group input-group-sm">
+    			<span class="input-group-addon"><strong>[s]</strong></span>
+    			<input type="text" class="form-control">
+    			<span class="input-group-addon"><strong>[z]</strong></span>
+					<input type="text" class="form-control">
+    			<span class="input-group-addon"><strong>Relação: s/z =</strong></span>
+					<input type="number" class="form-control" step=0.01>
+    		</div>
+ 		 	</div>
+		</div><!-- /.row -->
+
+
+
+	  <!-- LINHA 7.9.1 (SOMENTE TEXTAREA) -->
+		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs9-0">
+	    <div class="form-group">
+	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+	    	<label for="txtareaobs">Observações:</label>
+		  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+	    </div>
+			</div>		
+		</div>
+
+
+
+
+
+
+		<!--SESSAO 9 -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon"><strong>FALA/AUDIÇÃO - </strong> FLUÊNCIA:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">FLUENTE</option>
+				      <option value="2">DISFLUENTE</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->	
+		  <div class="col-md-3 col-md-offset-34 col-md-print-offset-12">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">VELOCIDADE:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">ADEQUADA</option>
+				      <option value="2">AUMENTADA</option>
+				      <option value="3">DIMINUÍDA</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->	
+		  <div class="col-md-3 col-md-print-offset-27">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">ARTICULAÇÃO:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">PRECISA</option>
+				      <option value="2">IMPRECISA</option>
+				      <option value="3">TRAVADA</option>
+				      <option value="4">EXAGERADA</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->	
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--SESSAO 9 -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-5">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">AUDIÇÃO:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao8-2">
+							<option value="1">NÃO SE OBSERVA ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
+							<option value="2">OBESERVA-SE ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs10-0">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+		</div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LINHA 7.9.1 (SOMENTE TEXTAREA) -->
+		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs10-0">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+		    </div>
+			</div>		
+		</div>
+
+
+
+
+		<!--INICIO CABEÇALHO /// SESSÃO 8-->
+		<img src="imagens/cabecalho8.png" class="col-md-10 col-md-offset-1">
+			
+		
+
+
+
+
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">SOFTWARE UTILIZADO:</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" id="spfu" onblur="onblur_spfu()">
+							<option value="1">GRAM</option>
+			        <option value="2">PRAAT</option>
+			        <option value="3">OUTRO</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+	    <div class="collapse collapse_spfu col-md-8 col-md-print-10 col-md-print-offset-13">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL?</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<div class="row row col-md-10 col-md-offset-1">
+			<div class="col-md-6">
+				<table class="table table-striped table-print" style="border-style: solid; border-color: black; border-width: 1px; font-size: 12px;">
+	  			<thead>
+	    			<tr class="bg-primary">
+				      <td><strong>PARÂMETROS VOCAIS ACÚSTICOS</strong>></td>
+				      <td style="text-align: center;"><strong>SUSTENTAÇÃO DA VOGAL [a]</strong>></td>
+				    </tr>
+	  			</thead>
+	  			<tbody>
+				    <tr>
+				      <td scope="row">Flutuações de frequência</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Quebras de frequência</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Ruído</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Quebras de sonoridade</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Flutuações de intensidade</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Sub-harmônicos</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Ataque vocal: Brusco</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+				    <tr>
+				      <td scope="row">Ataque vocal: Soproso</td>
+				      <td style="text-align: center;"><input type="checkbox"></td>
+				    </tr>
+	  			</tbody>
+				</table>
+			</div>
+			<div class="col-md-6">
+		  	<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs11-0">OBSERVAÇÕES</button>
+		  	<div class="collapse form-group" id="obs11-0">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%; margin-top: 2%;">
+			    	<label for="txtareaobs" style="margin-left: 0.3%;">Observações:</label>
+				  	<textarea class="form-control" rows="5" id="txtareaobs" name="sessao6-5"></textarea>
+			    </div>
+				</div>
+			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->		
+		</div>
+
+
+
+
+
+
+		<!--INICIO CABEÇALHO /// SESSÃO 7-->	
+		<div class="row row col-md-10 col-md-offset-1">
+			<h6 style="page-break-after: always;"></h6>
+			<img src="imagens/cabecalho9.png" class="col-md-12">
+		</div>  
+		
+		
+		
+		
+		
+			
+
+		<div class="row row fotter col-md-10 col-md-offset-1">
+			<button type="" onclick="start_insert()">insert function</button>
+			<button type="" onclick="testename()">teste name function</button>
+		</div>		
+	</body>
+</html>
+
