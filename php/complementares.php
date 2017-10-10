@@ -15,7 +15,7 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO complementares(`fk_finalidade`, `pqccp3-0`, `jacp3-4`, `oadu3-9`, `cb_oadu3-9`, `oada3-10`, `cb_oada3-10`) 
+	$sql = "INSERT INTO complementares(`fk_finalidade`, `pqccp_3_0`, `jacp_3_4`, `oadu_3_9`, `cb_oadu_3_9`, `oada_3_10`, `cb_oada_3_10`) 
 	VALUES (:fkpessoa , :pqccp, :jacp, :oadu, :cb_oadu, :oada , :cb_oada)";
 
 	$stmt = $PDO->prepare( $sql );

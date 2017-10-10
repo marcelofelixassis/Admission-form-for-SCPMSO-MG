@@ -15,8 +15,9 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO saude_geral(`fk_finalidade`, `dfl4-0`, `cb_dfl4-0`, `doa4-1`, `cb_doa4-1`, `da4-2`, `cb_da4-2`,
-	 `dnsf4-3`, `cb_dnsf4-3`, `sdrg4-4`, `cb_sdrg4-4`, `oasg4-5`, `cb_oasg4-5`, `fudm4-6`, `cb_fudm4-6`, `ccag4-7`, `tire4-8`) 
+	$sql = "INSERT INTO saude_geral(`fk_finalidade`, `dfl_4_0`, `cb_dfl_4_0`, `doa_4_1`, `cb_doa_4_1`, `da_4_2`, `cb_da_4_2`, 
+	`dnsf_4_3`, `cb_dnsf_4_3`, `sdrg_4_4`, `cb_sdrg_4_4`, `oasg_4_5`, `cb_oasg_4_5`, `fudm_4_6`, `cb_fudm_4_6`, `ccag_4_7`, 
+	`tire_4_8`) 
 	VALUES (:fkfinalidade, :dfl, :cb_dfl, :doa, :cb_doa, :da, :cb_da, :dnsf, :cb_dnsf, :sdrg, :cb_sdrg, :oasg, :cb_oasg, :fudm, :cb_fudm, :ccag, :tire)";
 
 	$stmt = $PDO->prepare( $sql );

@@ -70,7 +70,7 @@ function onblur_fudm46(){
 	var x = document.getElementById("fudm4-6").value;
 	if(x == 1){	
   		$('#collapse_fudm4-6').collapse('show');
-  		document.getElementById("fudm5-6").style.height = "30px";
+  		document.getElementById("fudm4-6").style.height = "30px";
 	}else{
 		$('#collapse_fudm4-6').collapse('hide');
 		clearcheckbox(document.getElementsByName("4-6cb"));	

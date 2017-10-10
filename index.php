@@ -129,6 +129,7 @@
 	      	<span class="input-group-addon" id="basic-addon">ADMISSIONAL PARA FINS DE:</span>
 	      	<span class="input-group-btn">
 	        	<select class="btn" onblur="onblur_apfd20()" id="apfd2-0" name="sessao2">
+	        		<option id="setselect2-1" value="">SELECIONE...</option>
 				  		<option value="1">NOMEAÇAO EM CONCURSO PÚBLICO</option>
 				  		<option value="2">DESIGNAÇÃO</option>
 				  		<option value="3">RECURSO</option>
@@ -148,6 +149,7 @@
 	      	<span class="input-group-addon" id="basic-addon">AULAS DE:</span>
 	      	<span class="input-group-btn">
 	        	<select class="btn" name="sessao2">
+	        		<option id="setselect2-2" value="">SELECIONE...</option>
 							<option value="1">REGENTE DE TURMA</option>
 							<option value="2">PORTUGUES</option>
 			        <option value="3">MATEMÁTICA</option>
@@ -181,6 +183,7 @@
 	      	<span class="input-group-addon" id="basic-addon">AULAS SEMANAIS:</span>
 	      	<span class="input-group-btn">
 	        	<select class="btn" name="sessao2">
+	        		<option id="setselect2-3" value="">SELECIONE...</option>
 							<option value="1">ATÉ 5 AULAS/SEMANAIS</option>
 	  					<option value="2">DE 6 A 10 AULAS/SEMANAIS </option>
 	  					<option value="3">DE 11 A 20 AULAS/SEMANAIS</option>
@@ -194,6 +197,7 @@
 	      	<span class="input-group-addon" id="basic-addon">AULAS PARA:</span>
 	      	<span class="input-group-btn">
 	        	<select class="btn" name="sessao2">
+	        		<option id="setselect2-4" value="">SELECIONE...</option>
 							<option value="1">SERIES INICIAIS DO ENSINO FUNDAMENTAL</option>
 	  					<option value="2">SERIES FINAIS DO ENSINO FUNDAMENTAL</option>
 	  					<option value="3">ENSINO MÉDIO</option>
@@ -750,7 +754,6 @@
 		<!--######################################################################################################################
 		##################################################      SESSAO 5     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao5  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!-- INICIO CABEÇALHO -->	  
@@ -766,14 +769,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">TABAGISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_taba60()" id="taba6-0" name="sessao5">
+	        	<select class="btn" onblur="onblur_taba50()" id="taba5-0" name="sessao5">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-		  <div class="collapse col-md-3 col-md-offset-21 col-md-print-offset-15 collapse_taba6-0">
+		  <div class="collapse col-md-3 col-md-offset-21 col-md-print-offset-15 collapse_taba5-0">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
 		  		<span class="input-group-btn">
@@ -788,7 +791,7 @@
 	      	</span>
 		    </div><!-- /input-group -->
 		   </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
-		   <div class="collapse col-md-2 col-md-offset-1 col-md-print-offset-17 collapse_taba6-0">
+		   <div class="collapse col-md-2 col-md-offset-1 col-md-print-offset-17 collapse_taba5-0">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANTOS CIGAROS/DIA?</span>
 		  		<span class="input-group-btn">
@@ -815,14 +818,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EX-TABAGISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_extaba61()" id="extaba6-1" name="sessao5">
+	        	<select class="btn" onblur="onblur_extaba51()" id="extaba5-1" name="sessao5">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-	    <div class="collapse collapse_extaba6-1 col-md-3 col-md-offset-18 col-md-print-offset-15">
+	    <div class="collapse col-md-3 col-md-offset-18 col-md-print-offset-15 collapse_extaba5-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">POR QUANTO TEMPO?</span>
 	  			<span class="input-group-btn">
@@ -837,7 +840,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 col-md-offset-18 /// col-md-print-offset-15 -->
-	    <div class="collapse collapse_extaba6-1 col-md-3 col-md-offset-21 col-md-print-offset-16">
+	    <div class="collapse col-md-3 col-md-offset-21 col-md-print-offset-16 collapse_extaba5-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">PAROU HÁ QUANTO TEMPO?</span>
 	  			<span class="input-group-btn">
@@ -864,14 +867,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DROGAS ILÍCITAS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dril62()" id="dril6-2" name="sessao5">
+	        	<select class="btn" onblur="onblur_dril52()" id="dril5-2" name="sessao5">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-			<div class="collapse col-md-4 collapse_dril6-2" style="padding-top: 0.7%;">
+			<div class="collapse col-md-4 collapse_dril5-2" style="padding-top: 0.7%;">
 	    	<div class="input-group input-group-sm">
 	      	<form>
     				<label class="checkbox-inline">
@@ -886,10 +889,10 @@
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->	
-	    <div class="collapse col-md-5 collapse_dril6-2">
+	    <div class="collapse col-md-5 collapse_dril5-2">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTRA:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao5" id="inputsessao5"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" maxlength="10" name="sessao5" id="inputsessao5"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-5 -->  
 		</div><!-- /.row -->	
@@ -905,14 +908,14 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ETLISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_etil63()" id="etil6-3" name="sessao5">
+	        	<select class="btn" onblur="onblur_etil53()" id="etil5-3" name="sessao5">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-2 -->
-	    <div class="collapse col-md-3 col-md-offset-13 col-md-print-offset-1 collapse_etil6-3">
+	    <div class="collapse col-md-3 col-md-offset-13 col-md-print-offset-1 collapse_etil5-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL TIPO DE BEBIDA?</span>
 	  			<span class="input-group-btn">
@@ -924,7 +927,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 col-md-offset-13 col-md-print-offset-1 -->
-	    <div class="collapse col-md-3 col-md-offset-29 col-md-print-offset-12 collapse_etil6-3">
+	    <div class="collapse col-md-3 col-md-offset-29 col-md-print-offset-12 collapse_etil5-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL A FREQUÊNCIA?</span>
 	  			<span class="input-group-btn">
@@ -967,7 +970,7 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
 	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs6-5">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs5-5">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
 	  </div><!-- /.row -->
 
@@ -976,12 +979,12 @@
 
 
 
-	  <!-- LINHA 5.5 (OBS5-5) -->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-5" style="margin-bottom: -0.8%;">
+	  <!-- LINHA 5.5 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs5-5">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+			  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -993,7 +996,6 @@
 		<!--######################################################################################################################
 		##################################################      SESSAO 6     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao6  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!-- INICIO CABEÇALHO -->	  
@@ -1010,7 +1012,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>SINTOMAS PRESENTES:</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_sipr70()" id="sipr7-0" name="sessao6">
+	        	<select class="btn" onblur="onblur_sipr60()" id="sipr6-0" name="sessao6">
 							 <option value="1">AUSÊNCIA DE QUEIXAS VOCAIS NO MOMENTO</option>
 			         <option value="2">SIM</option>
 	        	</select>
@@ -1025,7 +1027,7 @@
 
 
 		<!-- LINHA 6.1 (CB_SINP6-1) -->
-	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr7-0">
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr6-0">
 			<div class="col-md-12">
 		   	<div class="input-group input-group-sm">
 		     	<form>
@@ -1098,7 +1100,7 @@
 
 
 		<!-- LETRA B /// LINHA 6.2 (SPQT6-2, CFMP6-2) -->
-		<div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr7-0" style="margin-top: 1.5%;">
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr6-0" style="margin-top: 1.5%;">
 		  <div class="col-md-5">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>b) </strong>SINTOMAS PRESENTES HÁ QUANTO TEMPO?</span>
@@ -1141,14 +1143,14 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c) </strong>PATOLOGIA/SINAIS LARINGEOS CONFIRMADOS?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_pslc73()" id="pslc7-3" name="sessao6">
+			      <select class="btn" onblur="onblur_pslc63()" id="pslc6-3" name="sessao6">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 -->
-		  <div class="collapse collapse_pslc7-3 col-md-2 col-md-offset-36 col-md-print-offset-19">
+		  <div class="collapse col-md-2 col-md-offset-36 col-md-print-offset-19 collapse_pslc6-3">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
@@ -1172,7 +1174,7 @@
 
 
 		<!-- LINHA 6.4 (CB_PSLC6-4) -->
-	  <div class="row row collapse collapse_pslc7-3 col-md-10 col-md-offset-1">
+	  <div class="row row collapse col-md-10 col-md-offset-1 collapse_pslc6-3">
 			<div class="col-md-12">
 		   	<div class="input-group input-group-sm">
 		     	<form id="">
@@ -1222,14 +1224,14 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>d.1) </strong>EM TRATAMENTO FONOTERÁPICO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_etfo75()" id="etfo7-5" name="sessao6">
+			      <select class="btn" onblur="onblur_etfo65()" id="etfo6-5" name="sessao6">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse collapse_etfo7-5 col-md-3 col-md-offset-37 col-md-print-offset-20">
+		  <div class="collapse col-md-3 col-md-offset-37 col-md-print-offset-20 collapse_etfo6-5">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">Nº DE SESSÕES?</span>
 		  		<span class="input-group-btn">
@@ -1254,7 +1256,7 @@
 
 
 		<!--LINHA 6.6 (FRSE6-6, FDFO6-6) -->
-		<div class="collapse collapse_etfo7-5 row row col-md-10 col-md-offset-1">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-5">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA SEMANAL:</span>
@@ -1297,14 +1299,14 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>d.2) </strong>TRATAMENTO FONOTERÁPICO JÁ REALIZADO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_tfjr76()" id="tfjr7-6" name="sessao6">
+			      <select class="btn" onblur="onblur_tfjr67()" id="tfjr6-7" name="sessao6">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 -->
-		  <div class="collapse collapse_tfjr7-6 col-md-2 col-md-offset-16 col-md-print-offset-8">
+		  <div class="collapse col-md-2 col-md-offset-16 col-md-print-offset-8 collapse_tfjr6-7">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
@@ -1325,7 +1327,7 @@
 
 
 		<!--LINHA 6.8 (ALFA6-8) -->
-		<div class="collapse collapse_tfjr7-6 row row col-md-10 col-md-offset-1">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tfjr6-7">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ALGUM LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
@@ -1339,7 +1341,7 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
 	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs7-8">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs6-8">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
 	  </div><!-- /.row -->
 
@@ -1348,8 +1350,8 @@
 
 
 
-	  <!-- LINHA 6.9 (OBS6-9) -->
-		<div class="collapse collapse_tfjr7-6 row row col-md-10 col-md-offset-1" id="obs7-8" style="margin-bottom: -0.8%;">
+	  <!-- LINHA 6.9 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-8" style="margin-bottom: -0.8%;">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 	    	<label for="txtareaobs">Observações:</label>
@@ -1369,14 +1371,14 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>e) </strong>CIRUGIA(S) VOCAL(IS)?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_civo77()" id="civo7-7" name="sessao6">
+			      <select class="btn" onblur="onblur_civo610()" id="civo6-10" name="sessao6">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse collapse_civo7-7 col-md-3 col-md-offset-35 col-md-print-offset-10">
+		  <div class="collapse col-md-3 col-md-offset-35 col-md-print-offset-10 collapse_civo6-10">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
@@ -1389,8 +1391,8 @@
 		    	</span>
 			  </div><!-- /input-group -->
 			</div><!-- /.col-md-3 col-md-offset-35 /// col-md-print-offset-10 -->	
-			 	    <div class="collapse collapse_civo7-7 col-md-1 col-md-offset-34 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs7-9-1">OBSERVAÇÕES</button>
+			 	    <div class="collapse col-md-1 col-md-offset-34 col-md-print-offset-2 collapse_civo6-10">
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-34 /// col-md-print-offset-2 -->		 
 		</div><!-- /.row -->
 
@@ -1400,8 +1402,8 @@
 
 
 
-	  <!-- LINHA 6.11 (OBS6.11) -->
-		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs7-9-1" style="margin-bottom: -0.8%;">
+	  <!-- LINHA 6.11 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-10" style="margin-bottom: -0.8%;">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 	    	<label for="txtareaobs">Observações:</label>
@@ -1421,14 +1423,14 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>f) </strong>FAZ USO DE MICROFONE?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_fudm792()" id="fudm7-9-2" name="sessao6">
+			      <select class="btn" onblur="onblur_fudm612()" id="fudm6-12" name="sessao6">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse collapse_fudm7-9-2 col-md-3 col-md-offset-1 col-md-print-offset-1">
+		  <div class="collapse col-md-3 col-md-offset-1 col-md-print-offset-1 collapse_fudm6-12">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
 		  		<span class="input-group-btn">
@@ -1442,7 +1444,7 @@
 		    	</span>
 			  </div><!-- /input-group -->
 			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-1 -->		
-		  <div class="collapse collapse_fudm7-9-2 col-md-3 col-md-offset-38 col-md-print-offset-24">
+		  <div class="collapse col-md-3 col-md-offset-38 col-md-print-offset-24 collapse_fudm6-12">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">O QUE MUDOU?</span>
 		  		<span class="input-group-btn">
@@ -1464,7 +1466,6 @@
 		<!--######################################################################################################################
 		##################################################      SESSAO 7     #####################################################
 		##########################################################################################################################
-		#####Qnt de tabelas: 1 | Nome da(s) tabela(s) no bd: sessao7  | nome dos atributos: 'presente junto ao número da linha'###
 		##########################################################################################################################-->
 
 		<!--INICIO CABEÇALHO /// SESSÃO 7-->	  
@@ -1475,24 +1476,26 @@
 
 
 
-		<!--LINHA 8.0 -->
+		<!--LINHA 7.0 (QEV_7_0, GDA_7_0)-->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUALIDAD E VOCAL:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-0">
+			      	<option id="setselect7-1" value="">SELECIONE...</option>
 							<option value="1">NEUTRA (NORMAL)</option>
 				      <option value="2">ALTERADA (DISFONADA)</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
-		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-1 col-md-print-offset-17">
+		  </div><!-- /.col-md-3 -->
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-17">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">GRAU DE ALTERAÇÃO:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-0">
+			      	<option id="setselect7-2" value="">SELECIONE...</option>
 							<option value="1">AUSENTE</option>
 				      <option value="2">LEVEMENTE ALTERADO</option>
 							<option value="3">MODERADAMENTE ALTERADO</option>
@@ -1500,7 +1503,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-2 col-md-offset-1 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-17 -->		
 		</div><!-- /.row -->
 
 
@@ -1508,12 +1511,12 @@
 
 
 
-		<!--INICIO CABEÇALHO /// SESSÃO 9-->	 	
+		<!--LINHA 7.1 (GGDD_7_1, SPR_7_1, TNS_7_1, RUG_7_1, AST_7_1, INST_7_1)-->	 	
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 			<div class="panel-group">
 			  <div class="col-md-12">
 	    		<div class="panel panel-default">
-	      		<div class="panel-heading">CARACTERÍSTICAS DA DISFONIA (GRBASI, 1981)   -   CLASSIFICAÇÃO FINAL:</div>
+	      		<div class="panel-heading">CARACTERÍSTICAS DA DISFONIA (GRBASI, 1981) - CLASSIFICAÇÃO FINAL:</div>
 	      		<div class="panel-body">
 		      		<div class="row">
 		      			<div class="col-md-9">
@@ -1543,7 +1546,7 @@
 													</label>
 				        				</div>
 			     						</div>
-			      				</div>
+			      				</div><!-- /.col-md-4 -->
 		      					<div class="col-md-4 col-md-offset-2 col-md-print-offset-25">
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">RUGOSIDADE:</span>
@@ -1569,7 +1572,7 @@
 													</label>
 			        					</div>
 		      						</div>
-		      					</div>
+		      					</div><!-- /.col-md-4 col-md-offset-2 -->
 		      				</div>
 		      				<div class="row">
 			     					<div class="col-md-4">
@@ -1597,7 +1600,7 @@
 													</label>
 				        				</div>
 			     						</div>
-			      				</div>
+			      				</div><!-- /.col-md-4 -->
 		      					<div class="col-md-4 col-md-offset-2 col-md-print-offset-25">
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">ASTENIA:</span>
@@ -1623,7 +1626,7 @@
 													</label>
 			        					</div>
 			      					</div>
-		      					</div>
+		      					</div><!-- /.col-md-4 col-md-offset-2 -->
 		      				</div>
 		      				<div class="row">
 			     					<div class="col-md-4">
@@ -1651,7 +1654,7 @@
 													</label>
 				        				</div>
 			     						</div>
-			      				</div>
+			      				</div><!-- /.col-md-4 -->
 		      					<div class="col-md-4 col-md-offset-2 col-md-print-offset-25">
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">INSTABILIDADE:</span>
@@ -1677,14 +1680,14 @@
 													</label>
 			        					</div>
 			      					</div>
-		      					</div>
+		      					</div><!-- /.col-md-4 col-md-offset-2 -->
 		      				</div>
-					      </div>
+					      </div><!-- /.col-md-9 -->
 					      <img src="imagens/legenda.png" class="legenda col-md-print-offset-5">
 					    </div> 
 			      </div> 
 		    	</div>
-	    	</div>
+	    	</div><!-- /.col-md-12 -->
 	    </div>
     </div>
 
@@ -1695,30 +1698,32 @@
 
 
 
-		<!--LINHA 8.2 -->
+		<!--LINHA 7.2 (CPFE_7_2, CPFD_7_2) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">CPFA <small>(fala espontânea):</small></span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-3" value="">SELECIONE...</option>
 							<option value="1">COORDENADA</option>
 				      <option value="2">INCOORDENADA</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  </div><!-- /.col-md-3 -->
 		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">CPFA <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-4" value="">SELECIONE...</option>
 							<option value="1">COORDENADA</option>
 				      <option value="2">INCOORDENADA</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-2 col-md-offset-1 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->		
 		</div><!-- /.row -->
 
 
@@ -1728,32 +1733,34 @@
 
 
 
-		<!--LINHA 8.3 -->
+		<!--LINHA 7.3 (ATVE_7_3, ATVD_7_3) -->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala espontânea):</small></span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-5" value="">SELECIONE...</option>
 							<option value="1">ISOCRÔNICO</option>
 				      <option value="2">BRUSCO</option>
 				      <option value="3">SOPROSO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  </div><!-- /.col-md-3 -->
 		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-6" value="">SELECIONE...</option>
 							<option value="1">ISOCRÔNICO</option>
 				      <option value="2">BRUSCO</option>
 				      <option value="3">SOPROSO</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-2 col-md-offset-1 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->		
 		</div><!-- /.row -->
 
 
@@ -1761,32 +1768,34 @@
 
 
 
-		<!--LINHA 8.3 -->
+		<!--LINHA 7.4 (PIT_7_4, LNS_7_4)-->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">PITCH <small>(sensação da frequência vocal):</small></span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-7" value="">SELECIONE...</option>
 							<option value="1">GRAVE</option>
 				      <option value="2">MÉDIO</option>
 				      <option value="3">AGUDO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  </div><!-- /.col-md-3 -->
 		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">LOUDNESS <small>(sensação da intensidade vocal):</small></span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-8" value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">FORTE</option>
 				      <option value="3">FRACA</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-2 col-md-offset-1 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->		
 		</div><!-- /.row -->
 
 
@@ -1795,34 +1804,36 @@
 
 
 
-		<!--LINHA 8.3 -->
+		<!--LINHA 7.5 (RNC_7_5, TLG_7_5) -->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESSONÂNCIA:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-9" value="">SELECIONE...</option>
 							<option value="1">EQUILIBRADA</option>
 				      <option value="2">BAIXA</option>
 				      <option value="3">ALTA</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  </div><!-- /.col-md-3 -->
 		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">TENSÃO LARÍNGEA:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-10" value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">AUMENTADA</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-2 col-md-offset-1 -->	
-			<div class="col-md-1">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-3">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->	
+			<div class="col-md-1 col-md-offset-42">
+				<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-3">OBSERVAÇÕES</button>	
+			</div><!-- /.col-md-1 col-md-offset-42 -->			
 		</div><!-- /.row -->
 
 
@@ -1831,7 +1842,7 @@
 
 
 
-	  <!-- LINHA 6.5 (SOMENTE TEXTAREA) -->
+	  <!-- LINHA 7.6 (SOMENTE TEXTAREA  pegar o texto das obs e colocar aqui) -->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs8-3">
 		  <div class="col-md-12 inputobs">
 		    <div class="input-group input-group-sm">
@@ -1847,22 +1858,23 @@
 
 
 
-		<!--LINHA 8.3 -->
+		<!--LINHA 7.7 (RCV_7_7)-->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-6">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESISTÊNCIA VOCAL:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-11" value="">SELECIONE...</option>
 							<option value="1">MANTEVE-SE INALTERADA AO FINAL DA AVALIAÇÃO</option>
 				      <option value="2">QUALIDADE VOCAL ALTEROU AO FINAL DA AVALIAÇÃO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
-			<div class="col-md-2 col-md-print-offset-2">
+		  </div><!-- /.col-md-6 -->
+			<div class="col-md-1 col-md-offset-43">
 	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-4">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+			</div><!-- /.col-md-1 col-md-offset-43 -->			
 		</div><!-- /.row -->
 
 
@@ -1871,7 +1883,7 @@
 
 
 
-	  <!-- LINHA 7.9.1 (SOMENTE TEXTAREA) -->
+	  <!-- LINHA 7.8 (SOMENTE TEXTAREA) -->
 		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs8-4">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -1887,8 +1899,7 @@
 
 
 
-
-		<!--SESSAO 9 -->
+		<!-- LINHA 7.9 (TMDF_7_9) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-5">
 		    <div class="input-group input-group-sm">
@@ -1900,21 +1911,23 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  </div><!-- /.col-md-5 -->
 			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
 	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs9-0">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
 		</div><!-- /.row -->
 
 
 
+
+
+
+		<!-- LINHA 7.10 (A_7_10, CB_A_7_10, I_7_10, CB_I_7_10, U_7_10, CB_U_7_10) -->
 		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13 vogais"> 
   		<div class="col-md-4">
     		<label>VOGAIS - NORMAL(NOR)  / REDUZIDO(RED)</label>
  		 	</div><!-- /.col-md-4 -->
 		</div><!-- /.row -->
-
-		
 		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
@@ -1927,19 +1940,19 @@
           	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
       		</span> 
     		</div>
- 		 	</div>
+ 		 	</div><!-- /.col-md-4 -->
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[i]</strong></span>
     			<input type="text" class="form-control">
-      		<span class="input-group-addon" style="line-height: 0;">
+      		<span class="input-group-addon lineheight" style="line-height: 0;">
         		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
           	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
       		</span> 
     		</div>
- 		 	</div>
+ 		 	</div><!-- /.col-md-4 -->
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[u]</strong></span>
@@ -1951,18 +1964,20 @@
           	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
       		</span> 
     		</div>
- 		 	</div>
-		</div><!-- /.row -->
-
-
-		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13"> 
-  		<div class="col-md-9">
-    		<label>RELAÇÃO S/Z - = 1 (normal)  /  > 1,1 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  < 0,9 (sugestivo de hipercinesia laringea) </label>
  		 	</div><!-- /.col-md-4 -->
 		</div><!-- /.row -->
 
 
 
+
+
+
+		<!-- LINHA 7.11 (S_7_11, Z_7_11, RSZ_7_11) -->
+		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13"> 
+  		<div class="col-md-9">
+    		<label>RELAÇÃO S/Z - = 1 (normal)  /  > 1,1 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  < 0,9 (sugestivo de hipercinesia laringea) </label>
+ 		 	</div><!-- /.col-md-9 -->
+		</div><!-- /.row -->
 		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
   		<div class="col-md-6">
     		<div class="input-group input-group-sm">
@@ -1973,17 +1988,21 @@
     			<span class="input-group-addon"><strong>Relação: s/z =</strong></span>
 					<input type="number" class="form-control" step=0.01>
     		</div>
- 		 	</div>
+ 		 	</div><!-- /.col-md-6 -->
 		</div><!-- /.row -->
 
 
 
-	  <!-- LINHA 7.9.1 (SOMENTE TEXTAREA) -->
+
+
+
+
+	  <!-- LINHA 7.12 (SOMENTE TEXTAREA colcar texto das obs aqui) -->
 		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs9-0">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+		  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
 	    </div>
 			</div>		
 		</div>
@@ -1993,36 +2012,40 @@
 
 
 
-		<!--SESSAO 9 -->
+
+		<!-- LINHA 7.13 (LAF_7_13, VEL_7_13, ART_7_13) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>FALA/AUDIÇÃO - </strong> FLUÊNCIA:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-12" value="">SELECIONE...</option>
 							<option value="1">FLUENTE</option>
 				      <option value="2">DISFLUENTE</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->	
+		  </div><!-- /.col-md-3 -->	
 		  <div class="col-md-3 col-md-offset-34 col-md-print-offset-12">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">VELOCIDADE:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-13" value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">AUMENTADA</option>
 				      <option value="3">DIMINUÍDA</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->	
+		  </div><!-- /.col-md-3 col-md-offset-34 /// col-md-print-offset-12 -->	
 		  <div class="col-md-3 col-md-print-offset-27">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ARTICULAÇÃO:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-14" value="">SELECIONE...</option>
 							<option value="1">PRECISA</option>
 				      <option value="2">IMPRECISA</option>
 				      <option value="3">TRAVADA</option>
@@ -2030,7 +2053,7 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->	
+		  </div><!-- /.col-md-3 /// col-md-print-offset-27 -->	
 		</div><!-- /.row -->
 
 
@@ -2038,22 +2061,23 @@
 
 
 
-		<!--SESSAO 9 -->
+		<!-- LINHA 7.14 (AUD_7_14) -->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-5">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">AUDIÇÃO:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao8-2">
+			      	<option id="setselect7-15" value="">SELECIONE...</option>
 							<option value="1">NÃO SE OBSERVA ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
 							<option value="2">OBESERVA-SE ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
+		  </div><!-- /.col-md-5 -->
 			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
 	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs10-0">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->			
+			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
 		</div><!-- /.row -->
 
 
@@ -2061,7 +2085,7 @@
 
 
 
-	  <!-- LINHA 7.9.1 (SOMENTE TEXTAREA) -->
+	  <!-- LINHA 7.15 (SOMENTE TEXTAREA colocar texto das obs aqui) -->
 		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs10-0">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -2073,6 +2097,13 @@
 
 
 
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 8     #####################################################
+		##########################################################################################################################
+		##########################################################################################################################-->
 
 		<!--INICIO CABEÇALHO /// SESSÃO 8-->
 		<img src="imagens/cabecalho8.png" class="col-md-10 col-md-offset-1">
@@ -2206,5 +2237,7 @@
 		<script src="js/scripts_finalidade/finalidade.js"></script>
 		<script src="js/scripts_complementares/complementares.js"></script>
 		<script src="js/scripts_saude_geral/saude_geral.js"></script>
+		<script src="js/scripts_habitos/habitos.js"></script>
+		<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
 </html>
 

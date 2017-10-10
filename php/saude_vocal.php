@@ -15,9 +15,7 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO saude_vocal(`fk_finalidade`, `sinp6-0`, `cb_sinp6-0`, `spqt6-2`, `cfmp6-2`, `pslc6-3`, `qnd6-3`,
-	 `cb_pslc6-4`, `etfo6-5`, `ndse6-5`, `frse6-6`, `fdfo6-6`, `tfjr6-7`, `qnd6-7`, `alfa6-8`, `crvc6-10`, `qnd6-10`,
-	 `fudm6-12`, `hqnt6-12`, `oqmd6-12`) 
+	$sql = "INSERT INTO saude_vocal(`fk_finalidade`, `sinp_6_0`, `cb_sinp_6_0`, `spqt_6_2`, `cfmp_6_2`, `pslc_6_3`, `qnd_6_3`, `cb_pslc_6_4`, `etfo_6_5`, `ndse_6_5`, `frse_6_6`, `fdfo_6_6`, `tfjr_6_7`, `qnd_6_7`, `alfa_6_8`, `crvc_6_10`, `qnd_6_10`, `fudm_6_12`, `hqnt_6_12`, `oqmd_6_12`) 
 	VALUES (:fkfinalidade, :sinp, :cb_sinp, :spqt, :cfmp, :pslc, :qnd, :cb_pslc, :etfo, :ndse, :frse, :fdfo, :tfjr, :qnd1,
 	 :alfa, :crvc, :qnd2, :fudm, :hqnt, :oqmd)";
 

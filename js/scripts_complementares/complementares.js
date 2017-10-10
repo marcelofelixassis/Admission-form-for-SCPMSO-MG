@@ -1,5 +1,4 @@
-//CARGOS ATUAIS
-
+//LETRA A /// LINHA 3.0 (PQCCP3-0)
 function onblur_pqccp30(){
 	var x = document.getElementById("pqccp3-0").value;
 	if(x == "0"){
@@ -35,8 +34,7 @@ function onblur_pqccp30(){
 }
 
 
-// CARGOS ANTERIORES
-
+//LETRA B /// LINHA 3.4 (JACP3-4)
 function onblur_jacp34(){
 	var x = document.getElementById("jacp3-4").value;
 	if(x == 0){	
@@ -89,8 +87,7 @@ function onblur_jacp34(){
 }
 
 
-// CHECKBOX DE CARGOS ATUAIS
-
+//LETRA C /// LINHA 3.9 (OADU3-9, CB_OADU3-9)
 function onblur_oadu39(){
 	var x = document.getElementById("oadu3-9").value;
 	if(x == 1){	
@@ -103,8 +100,7 @@ function onblur_oadu39(){
 }
 
 
-// CHECKBOX DE CARGOS ANTERIORES
-
+//LETRA D /// LINHA 3.10 (OADA3-10, CB_OADA3-10)
 function onblur_oada310(){
 	var x = document.getElementById("oada3-10").value;
 	if(x == 1){	

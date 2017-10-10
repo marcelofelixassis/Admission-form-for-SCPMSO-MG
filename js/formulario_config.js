@@ -25,118 +25,27 @@ function clearcheckbox(x){
 
 
 
-function onblur_taba60(){
-	var x = document.getElementById("taba6-0").value;
-	if(x == 1){	
-  		$('.collapse_taba6-0').collapse('show');
-	}else{
-		$('.collapse_taba6-0').collapse('hide');
-		document.getElementById("setselect5-1").selected = "true";
-		document.getElementById("setselect5-2").selected = "true";	
-	}
-}
-
-function onblur_extaba61(){
-	var x = document.getElementById("extaba6-1").value;
-	if(x == 1){	
-  		$('.collapse_extaba6-1').collapse('show');
-	}else{
-		$('.collapse_extaba6-1').collapse('hide');	
-		document.getElementById("setselect5-3").selected = "true";
-		document.getElementById("setselect5-4").selected = "true";	
-	}	
-}
-
-function onblur_dril62(){
-	var x = document.getElementById("dril6-2").value;
-	if(x == 1){	
-  		$('.collapse_dril6-2').collapse('show');
-	}else{
-		$('.collapse_dril6-2').collapse('hide');	
-		clearcheckbox(document.getElementsByName("5-2cb"));
-		document.getElementById("inputsessao5").value = "";	
-	}	
-}
-
-function onblur_etil63(){
-	var x = document.getElementById("etil6-3").value;
-	if(x == 1){	
-  		$('.collapse_etil6-3').collapse('show');
-	}else{
-		$('.collapse_etil6-3').collapse('hide');
-		document.getElementById("setselect5-5").selected = "true";
-		document.getElementById("setselect5-6").selected = "true";	
-	}	
-}
 
 
 
-function onblur_sipr70(){
-	var x = document.getElementById("sipr7-0").value;
-	if(x == 2){	
-  		$('.collapse_sipr7-0').collapse('show');
-	}else{
-		$('.collapse_sipr7-0').collapse('hide');
-		clearcheckbox(document.getElementsByName("6-1cb"));
-		document.getElementById("setselect6-1").selected = "true";
-		document.getElementById("setselect6-2").selected = "true";		
-	}
-}
 
-function onblur_pslc73(){
-	var x = document.getElementById("pslc7-3").value;
-	if(x == 1){	
-  		$('.collapse_pslc7-3').collapse('show');
-	}else{
-		$('.collapse_pslc7-3').collapse('hide');
-		clearcheckbox(document.getElementsByName("6-4cb"));
-		document.getElementById("setselect6-3").selected = "true";	
-	}
-}
 
-function onblur_etfo75(){
-	var x = document.getElementById("etfo7-5").value;
-	if(x == 1){	
-  		$('.collapse_etfo7-5').collapse('show');
-	}else{
-		$('.collapse_etfo7-5').collapse('hide');	
-		document.getElementById("setselect6-4").selected = "true";
-		document.getElementById("setselect6-5").selected = "true";
-		document.getElementById("setselect6-6").selected = "true";	
-	}	
-}
 
-function onblur_tfjr76(){
-	var x = document.getElementById("tfjr7-6").value;
-	if(x == 1){	
-  		$('.collapse_tfjr7-6').collapse('show');
-	}else{
-		$('.collapse_tfjr7-6').collapse('hide');
-		document.getElementById("setselect6-7").selected = "true";
-		document.getElementById("setselect6-8").selected = "true";
-	}	
-}
 
-function onblur_civo77(){
-	var x = document.getElementById("civo7-7").value;
-	if(x == 1){	
-  		$('.collapse_civo7-7').collapse('show');
-	}else{
-		$('.collapse_civo7-7').collapse('hide');
-		document.getElementById("setselect6-9").selected = "true";	
-	}	
-}
 
-function onblur_fudm792(){
-	var x = document.getElementById("fudm7-9-2").value;
-	if(x == 1){	
-  		$('.collapse_fudm7-9-2').collapse('show');
-	}else{
-		$('.collapse_fudm7-9-2').collapse('hide');	
-		document.getElementById("setselect6-10").selected = "true";
-		document.getElementById("setselect6-11").selected = "true";
-	}	
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function onblur_nfpa90(){
 	var x = document.getElementById("nfpa9-0").value;

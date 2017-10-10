@@ -15,8 +15,7 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO habitos(`fk_finalidade`, `taba5-0`, `hqt5-0`, `qcd5-0`, `extaba5-1`, `fpqt5-1`, `phqt5-1`, `dril5-2`,
-	 `cb_dril5-2`, `otr5-2`, `etil5-3`, `qtb5-3`, `qaf5-3`, `ohvi5-4`) 
+	$sql = "INSERT INTO habitos(`fk_finalidade`, `taba_5_0`, `hqt_5_0`, `qcd_5_0`, `extaba_5_1`, `fpqt_5_1`, `phqt_5_1`, `dril_5_2`, `cb_dril_5_2`, `otr_5_2`, `etil_5_3`, `qtb_5_3`, `qaf_5_3`, `ohvi_5_4`) 
 	VALUES (:fkfinalidade, :taba, :hqt, :qcd, :extaba, :fpqt, :phqt, :dril, :cb_dril, :otr, :etil, :qtb, :qaf, :ohvi)";
 
 	$stmt = $PDO->prepare( $sql );
