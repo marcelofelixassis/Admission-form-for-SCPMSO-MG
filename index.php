@@ -79,7 +79,7 @@
           		<option value="2">MASP:</option>
         		</select>
       		</span>
-      		<input type="text" class="form-control" maxlength="12" name="sessao1">
+      		<input type="text" class="form-control" maxlength="14" onkeypress="mascara(this,cpf)" name="sessao1">
 	  		</div><!-- /input-group -->         
 	  	</div><!-- /col-md-3 col-md-offset-1 /// col-md-print-offset-3 -->
 		</div><!-- /.row -->
@@ -1482,7 +1482,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUALIDAD E VOCAL:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-0">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-1" value="">SELECIONE...</option>
 							<option value="1">NEUTRA (NORMAL)</option>
 				      <option value="2">ALTERADA (DISFONADA)</option>
@@ -1494,7 +1494,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">GRAU DE ALTERAÇÃO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-0">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-2" value="">SELECIONE...</option>
 							<option value="1">AUSENTE</option>
 				      <option value="2">LEVEMENTE ALTERADO</option>
@@ -1525,23 +1525,23 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">GRAU GERAL DA DISFONIA:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default active">
-														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+				       						<label class="btn btn-default">
+														<input type="radio" autocomplete="off" value="0" name="7-1grb">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1grb" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<input type="radio" value="2" name="7-1grb" autocomplete="off">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<input type="radio" value="3" name="7-1grb" autocomplete="off">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 				        				</div>
@@ -1551,23 +1551,23 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">RUGOSIDADE:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default active">
-														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+			       							<label class="btn btn-default">
+														<input type="radio" value="0" name="7-1srb" autocomplete="off">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1srb" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<input type="radio" value="2" name="7-1srb" autocomplete="off">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<input type="radio" value="3" name="7-1srb" autocomplete="off">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 			        					</div>
@@ -1579,23 +1579,23 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">SOPROSIDADE:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default active">
-														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+				       						<label class="btn btn-default">
+														<input type="radio" value="0" name="7-1trb" autocomplete="off">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1trb" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<input type="radio" value="2" name="7-1trb" autocomplete="off">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<input type="radio" value="3" name="7-1trb" autocomplete="off">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 				        				</div>
@@ -1605,23 +1605,23 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">ASTENIA:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default active">
-														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+			       							<label class="btn btn-default">
+														<input type="radio" value="0" name="7-1rrb" autocomplete="off">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1rrb" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<input type="radio" value="2" name="7-1rrb" autocomplete="off">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<input type="radio" value="3" name="7-1rrb" autocomplete="off">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 			        					</div>
@@ -1633,23 +1633,23 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">TENSÃO:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default active">
-														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+				       						<label class="btn btn-default">
+														<input type="radio" value="0" name="7-1arb" autocomplete="off">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1arb" id="option1" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<input type="radio" value="2" name="7-1arb" autocomplete="off">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<input type="radio" value="3" name="7-1arb" autocomplete="off">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 				        				</div>
@@ -1659,23 +1659,23 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">INSTABILIDADE:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default active">
-														<input type="radio" name="options" id="option2" autocomplete="off" chacked>0
+			       							<label class="btn btn-default">
+														<input type="radio" value="0" name="7-1irb" autocomplete="off">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1irb" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">2
+														<input type="radio" value="2" name="7-1irb" autocomplete="off">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" name="options" id="option2" autocomplete="off">3
+														<input type="radio" value="3" name="7-1irb" autocomplete="off">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 			        					</div>
@@ -1704,7 +1704,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">CPFA <small>(fala espontânea):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-3" value="">SELECIONE...</option>
 							<option value="1">COORDENADA</option>
 				      <option value="2">INCOORDENADA</option>
@@ -1716,7 +1716,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">CPFA <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-4" value="">SELECIONE...</option>
 							<option value="1">COORDENADA</option>
 				      <option value="2">INCOORDENADA</option>
@@ -1739,7 +1739,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala espontânea):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-5" value="">SELECIONE...</option>
 							<option value="1">ISOCRÔNICO</option>
 				      <option value="2">BRUSCO</option>
@@ -1752,7 +1752,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-6" value="">SELECIONE...</option>
 							<option value="1">ISOCRÔNICO</option>
 				      <option value="2">BRUSCO</option>
@@ -1774,7 +1774,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">PITCH <small>(sensação da frequência vocal):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-7" value="">SELECIONE...</option>
 							<option value="1">GRAVE</option>
 				      <option value="2">MÉDIO</option>
@@ -1787,7 +1787,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">LOUDNESS <small>(sensação da intensidade vocal):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-8" value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">FORTE</option>
@@ -1810,7 +1810,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESSONÂNCIA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-9" value="">SELECIONE...</option>
 							<option value="1">EQUILIBRADA</option>
 				      <option value="2">BAIXA</option>
@@ -1823,7 +1823,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">TENSÃO LARÍNGEA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-10" value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">AUMENTADA</option>
@@ -1842,7 +1842,7 @@
 
 
 
-	  <!-- LINHA 7.6 (SOMENTE TEXTAREA  pegar o texto das obs e colocar aqui) -->
+	  <!-- LINHA 7.6 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs8-3">
 		  <div class="col-md-12 inputobs">
 		    <div class="input-group input-group-sm">
@@ -1864,7 +1864,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESISTÊNCIA VOCAL:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-11" value="">SELECIONE...</option>
 							<option value="1">MANTEVE-SE INALTERADA AO FINAL DA AVALIAÇÃO</option>
 				      <option value="2">QUALIDADE VOCAL ALTEROU AO FINAL DA AVALIAÇÃO</option>
@@ -1883,7 +1883,7 @@
 
 
 
-	  <!-- LINHA 7.8 (SOMENTE TEXTAREA) -->
+	  <!-- LINHA 7.8 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
 		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs8-4">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -1905,7 +1905,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>TEMPO MÁXIMO DE FONAÇÃO (TMF) - </strong> É POSSÍVEL AVALIAR?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2" id="nfpa9-0" onblur="onblur_nfpa90()">
+			      <select class="btn" name="sessao7" id="tmdf7-9" onblur="onblur_tmdf79()">
 							<option value="0">NAO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1923,45 +1923,45 @@
 
 
 		<!-- LINHA 7.10 (A_7_10, CB_A_7_10, I_7_10, CB_I_7_10, U_7_10, CB_U_7_10) -->
-		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13 vogais"> 
+		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-13 vogais"> 
   		<div class="col-md-4">
     		<label>VOGAIS - NORMAL(NOR)  / REDUZIDO(RED)</label>
  		 	</div><!-- /.col-md-4 -->
 		</div><!-- /.row -->
-		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
+		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[a]</strong></span>
-    			<input type="text" class="form-control">
+    			<input type="text" class="form-control" name="sessao7" id="input_a">
       		<span class="input-group-addon" style="line-height: 0;">
-        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-10acb"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
-          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-10acb"> RED</label>
       		</span> 
     		</div>
  		 	</div><!-- /.col-md-4 -->
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[i]</strong></span>
-    			<input type="text" class="form-control">
+    			<input type="text" class="form-control" name="sessao7" id="input_i">
       		<span class="input-group-addon lineheight" style="line-height: 0;">
-        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-10icb"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
-          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-10icb"> RED</label>
       		</span> 
     		</div>
  		 	</div><!-- /.col-md-4 -->
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[u]</strong></span>
-    			<input type="text" class="form-control">
+    			<input type="text" class="form-control" name="sessao7" id="input_u">
       		<span class="input-group-addon" style="line-height: 0;">
-        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> NOR</label>
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-10ucb"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
-          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp"> RED</label>
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-10ucb"> RED</label>
       		</span> 
     		</div>
  		 	</div><!-- /.col-md-4 -->
@@ -1973,20 +1973,20 @@
 
 
 		<!-- LINHA 7.11 (S_7_11, Z_7_11, RSZ_7_11) -->
-		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-13"> 
+		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-13"> 
   		<div class="col-md-9">
     		<label>RELAÇÃO S/Z - = 1 (normal)  /  > 1,1 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  < 0,9 (sugestivo de hipercinesia laringea) </label>
  		 	</div><!-- /.col-md-9 -->
 		</div><!-- /.row -->
-		<div class="collapse collapse_nfpa9-0 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
+		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
   		<div class="col-md-6">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[s]</strong></span>
-    			<input type="text" class="form-control">
+    			<input type="text" class="form-control" id="input_s" onblur="onblur_calc_sz()" name="sessao7">
     			<span class="input-group-addon"><strong>[z]</strong></span>
-					<input type="text" class="form-control">
+					<input type="text" class="form-control" id="input_z" onblur="onblur_calc_sz()" name="sessao7">
     			<span class="input-group-addon"><strong>Relação: s/z =</strong></span>
-					<input type="number" class="form-control" step=0.01>
+					<input type="number" class="form-control" step=0.01 id="input_sz" name="sessao7">
     		</div>
  		 	</div><!-- /.col-md-6 -->
 		</div><!-- /.row -->
@@ -1997,7 +1997,7 @@
 
 
 
-	  <!-- LINHA 7.12 (SOMENTE TEXTAREA colcar texto das obs aqui) -->
+	  <!-- LINHA 7.12 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
 		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs9-0">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -2019,7 +2019,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>FALA/AUDIÇÃO - </strong> FLUÊNCIA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-12" value="">SELECIONE...</option>
 							<option value="1">FLUENTE</option>
 				      <option value="2">DISFLUENTE</option>
@@ -2031,7 +2031,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">VELOCIDADE:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-13" value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">AUMENTADA</option>
@@ -2044,7 +2044,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ARTICULAÇÃO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-14" value="">SELECIONE...</option>
 							<option value="1">PRECISA</option>
 				      <option value="2">IMPRECISA</option>
@@ -2067,7 +2067,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">AUDIÇÃO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao8-2">
+			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-15" value="">SELECIONE...</option>
 							<option value="1">NÃO SE OBSERVA ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
 							<option value="2">OBESERVA-SE ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
@@ -2085,12 +2085,12 @@
 
 
 
-	  <!-- LINHA 7.15 (SOMENTE TEXTAREA colocar texto das obs aqui) -->
+	  <!-- LINHA 7.15 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
 		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs10-0">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
+			  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -2214,7 +2214,7 @@
 
 		<div class="row row fotter col-md-10 col-md-offset-1">
 			<button type="" onclick="start_insert()">insert function</button>
-			<button type="" onclick="testename()">teste name function</button>
+			<button type="" onclick="avaliacao_perceptivo(1)">teste name function</button>
 		</div>		
 	</body>
 		<script src="js/jquery.js"></script>
@@ -2232,6 +2232,7 @@
 		<script src="js/insert_files/insert_saude_geral.js"></script>
 		<script src="js/insert_files/insert_habitos.js"></script>
 		<script src="js/insert_files/insert_saude_vocal.js"></script>
+		<script src="js/insert_files/insert_avaliacao_perceptivo.js"></script>
 		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
 		<script src="js/scripts_identificacao/identificacao.js"></script>
 		<script src="js/scripts_finalidade/finalidade.js"></script>
@@ -2239,5 +2240,6 @@
 		<script src="js/scripts_saude_geral/saude_geral.js"></script>
 		<script src="js/scripts_habitos/habitos.js"></script>
 		<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
+		<script src="js/scripts_avaliacao_perceptivo/avaliacao_perceptivo.js"></script>
 </html>
 
