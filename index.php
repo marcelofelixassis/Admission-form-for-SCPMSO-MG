@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title> PROTOCOLO DE AVALIAÇÃO FONOAUDIOLOGICA PERIODICA DA VOZ DO PROFESSOR - SCMPSO/SEPLAG </title>
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-widht, initial-scale=1">
 
@@ -29,7 +30,7 @@
 	  	<div class="col-md-10 col-md-print-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">NOME:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao1">
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" style="text-transform: uppercase;" name="sessao1">
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-10 /// col-md-print-1 -->
 	  	<div class="col-md-2 col-md-print-2 col-md-print-offset-1">
@@ -74,7 +75,7 @@
 	  	<div class="col-md-3 col-md-offset-1 col-md-print-offset-3">
 	  		<div class="input-group input-group-sm input-group">
 	  			<span class="input-group-btn">
-        		<select class="btn cinza" name="sessao1">
+        		<select class="btn cinza" name="sessao1" id="cpfmasp">
           		<option value="1">CPF:</option>
           		<option value="2">MASP:</option>
         		</select>
@@ -141,7 +142,7 @@
 	  	<div class="col-md-2 col-md-offset-19 col-md-print-7 col-md-print-offset-4" id="visible_apfd2-0">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DIAS:</span>
-	  			<input type='text' class="form-control" id="inputsessao2" name="sessao2"/>
+	  			<input type='text' class="form-control" maxlength="3" id="inputsessao2" name="sessao2"/>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-2 col-md-offset-19 /// col-md-print-7 col-md-print-offset-4 -->
 		  <div class="col-md-2 col-md-offset-1 col-md-print-offset-5">
@@ -304,7 +305,7 @@
 	    </div><!-- /.col-md-5 -->
 			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oadu3-9">
 	    	<div class="input-group input-group-sm">
-	      	<form id="cboadu4-5-1">
+	      	<form class="adupv">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="3-9cb">CANTOR
     				</label>
@@ -352,7 +353,7 @@
 	    </div><!-- /.col-md-5 -->
 			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oada3-10">
 	    	<div class="input-group input-group-sm">
-	      	<form id="cboadu4-5-1">
+	      	<form class="adupv">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="3-10cb">CANTOR
     				</label>
@@ -410,7 +411,7 @@
 	    </div><!-- /.col-md-3 -->
 			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_dfl4-0">
 	    	<div class="input-group input-group-sm">
-	      	<form id="dflcb5-0">
+	      	<form id="dflcb4-0">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-0cb">LARINGITE
     				</label>
@@ -445,7 +446,7 @@
 	    </div><!-- /.col-md-3 -->
 			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_doa4-1">
 	    	<div class="input-group input-group-sm">
-	      	<form id="doacb5-1">
+	      	<form id="doacb4-1">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-1cb">PERDA AUDITIVA
     				</label>
@@ -483,7 +484,7 @@
 	    </div><!-- /col-md-3 /// col-md-print-6 -->
 			<div class="collapse col-md-9 col-md-print-8 col-md-print-offset-14" id="collapse_da4-2">
 	    	<div class="input-group input-group-sm">
-	      	<form id="dacb5-2">
+	      	<form id="dacb4-2">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-2cb">CHEIRO FORTE
     				</label>
@@ -527,7 +528,7 @@
 	    </div><!-- /.col-md-4 -->
 			<div class="collapse col-md-5 col-md-offset-31 col-md-print-offset-1" id="collapse_dnsf4-3">
 	    	<div class="input-group input-group-sm">
-	      	<form id="dnsfcb5-3">
+	      	<form id="dnsfcb4-3">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-3cb">SINUSITE
     				</label>
@@ -562,7 +563,7 @@
 	    </div><!-- /.col-md-5 -->
 			<div class="collapse col-md-17 col-md-offset-18 col-md-print-9 col-md-print-offset-12" id="collapse_sdrg4-4">
 	    	<div class="input-group input-group-sm">
-	      	<form id="sdrgcb5-4">
+	      	<form id="sdrgcb4-4">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-4cb">ASSINTOMÁTICO
     				</label>
@@ -606,7 +607,7 @@
 	    </div><!-- /.col-md-4 -->
 			<div class="collapse col-md-7 col-md-offset-30 col-md-print-offset-10" id="collapse_oasg4-5">
 	    	<div class="input-group input-group-sm">
-	      	<form id="oasgcb5-5">
+	      	<form id="oasgcb4-5">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-5cb">DEPRESSÃO
     				</label>
@@ -644,7 +645,7 @@
 	    </div><!-- /.col-md-3 -->
 			<div class="collapse col-md-8 col-md-offset-30 col-md-print-8 col-md-print-offset-5" id="collapse_fudm4-6">
 	    	<div class="input-group input-group-sm">
-	      	<form id="fudmcb5-6">
+	      	<form id="fudmcb4-6">
     				<label class="checkbox-inline">
       				<input type="checkbox" value="1" name="4-6cb">ANTICONCEPCIONAL
     				</label>
@@ -2015,7 +2016,7 @@
 
 		<!-- LINHA 7.13 (LAF_7_13, VEL_7_13, ART_7_13) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
-		  <div class="col-md-3">
+		  <div class="col-md-4">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>FALA/AUDIÇÃO - </strong> FLUÊNCIA:</span>
 		  		<span class="input-group-btn">
@@ -2026,8 +2027,8 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
-		  <div class="col-md-3 col-md-offset-34 col-md-print-offset-12">
+		  </div><!-- /.col-md-4 -->	
+		  <div class="col-md-4 col-md-offset-34 col-md-print-offset-10">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">VELOCIDADE:</span>
 		  		<span class="input-group-btn">
@@ -2039,8 +2040,8 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-34 /// col-md-print-offset-12 -->	
-		  <div class="col-md-3 col-md-print-offset-27">
+		  </div><!-- /.col-md-4 col-md-offset-34 /// col-md-print-offset-10 -->	
+		  <div class="col-md-2 col-md-offset-44 col-md-print-offset-6">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ARTICULAÇÃO:</span>
 		  		<span class="input-group-btn">
@@ -2053,7 +2054,7 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 /// col-md-print-offset-27 -->	
+		  </div><!-- /.col-md-2 col-md-offset-44 /// col-md-print-offset-6 -->	
 		</div><!-- /.row -->
 
 
@@ -2076,7 +2077,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-5 -->
 			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs10-0">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs7-14">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
 		</div><!-- /.row -->
 
@@ -2086,7 +2087,7 @@
 
 
 	  <!-- LINHA 7.15 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
-		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs10-0">
+		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs7-14">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
@@ -2113,12 +2114,13 @@
 
 
 
+		<!-- LINHA 8.0 (SFU_8_0) -->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">SOFTWARE UTILIZADO:</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" id="spfu" onblur="onblur_spfu()">
+	        	<select class="btn" id="spfu" name="sessao8" onblur="onblur_spfu()">
 							<option value="1">GRAM</option>
 			        <option value="2">PRAAT</option>
 			        <option value="3">OUTRO</option>
@@ -2138,7 +2140,7 @@
 
 
 
-
+		<!-- LINHA 8.0 (FDF_8_1, QDF_8_1, RUI_8_1, QDS_8_1, FDI_8_1, SBH_8_1, AVB_8_1, AVS_8_1) -->
 		<div class="row row col-md-10 col-md-offset-1">
 			<div class="col-md-6">
 				<table class="table table-striped table-print" style="border-style: solid; border-color: black; border-width: 1px; font-size: 12px;">
@@ -2151,56 +2153,60 @@
 	  			<tbody>
 				    <tr>
 				      <td scope="row">Flutuações de frequência</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Quebras de frequência</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Ruído</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Quebras de sonoridade</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Flutuações de intensidade</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Sub-harmônicos</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Ataque vocal: Brusco</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Ataque vocal: Soproso</td>
-				      <td style="text-align: center;"><input type="checkbox"></td>
+				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
 				    </tr>
 	  			</tbody>
 				</table>
-			</div>
+			</div><!-- /.col-md-6 -->	
 			<div class="col-md-6">
-		  	<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs11-0">OBSERVAÇÕES</button>
-		  	<div class="collapse form-group" id="obs11-0">
+		  	<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-1">OBSERVAÇÕES</button>
+		  	<div class="collapse form-group" id="obs8-1">
 			    <div style="padding-right: 0.5%; padding-left: 0.5%; margin-top: 2%;">
 			    	<label for="txtareaobs" style="margin-left: 0.3%;">Observações:</label>
-				  	<textarea class="form-control" rows="5" id="txtareaobs" name="sessao6-5"></textarea>
+				  	<textarea class="form-control" rows="5" id="txtareaobs"></textarea>
 			    </div>
 				</div>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->		
-		</div>
+			</div><!-- /.col-md-6 -->		
+		</div><!-- /.row -->		
 
 
 
 
 
+		<!--######################################################################################################################
+		##################################################      SESSAO 9     #####################################################
+		##########################################################################################################################
+		##########################################################################################################################-->
 
-		<!--INICIO CABEÇALHO /// SESSÃO 7-->	
+		<!--INICIO CABEÇALHO /// SESSÃO 9-->	
 		<div class="row row col-md-10 col-md-offset-1">
 			<h6 style="page-break-after: always;"></h6>
 			<img src="imagens/cabecalho9.png" class="col-md-12">
@@ -2214,7 +2220,7 @@
 
 		<div class="row row fotter col-md-10 col-md-offset-1">
 			<button type="" onclick="start_insert()">insert function</button>
-			<button type="" onclick="avaliacao_perceptivo(1)">teste name function</button>
+			<button type="" onclick="identificacao()">teste name function</button>
 		</div>		
 	</body>
 		<script src="js/jquery.js"></script>
@@ -2222,8 +2228,10 @@
 		<!-- FUNÇÕES DE DATA -->
 		<script src="js/jquery.datetimepicker.full.min.js"></script>
 		<script src="js/date.js"></script>
+
 		<!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
 		<script src="js/formulario_config.js"></script>
+
 		<!-- SCRIPTS DE INSERT PARA CADA SESSAO -->
 		<script src="js/insert_files/insert_start.js"></script>
 		<script src="js/insert_files/insert_identificacao.js"></script>
@@ -2233,6 +2241,8 @@
 		<script src="js/insert_files/insert_habitos.js"></script>
 		<script src="js/insert_files/insert_saude_vocal.js"></script>
 		<script src="js/insert_files/insert_avaliacao_perceptivo.js"></script>
+		<script src="js/insert_files/insert_avaliacao_espectrografica.js"></script>
+
 		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
 		<script src="js/scripts_identificacao/identificacao.js"></script>
 		<script src="js/scripts_finalidade/finalidade.js"></script>
@@ -2241,5 +2251,5 @@
 		<script src="js/scripts_habitos/habitos.js"></script>
 		<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
 		<script src="js/scripts_avaliacao_perceptivo/avaliacao_perceptivo.js"></script>
+		<script src="js/scripts_avaliacao_espectrografica/avaliacao_espectrografica.js"></script>
 </html>
-

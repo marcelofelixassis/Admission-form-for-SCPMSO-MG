@@ -18,6 +18,7 @@ function saude_vocal(id_da_finalidade){
 			var json = JSON.parse(response);
 			if(json['success']){
 				alert("fase de saude vocal concluida com sucesso!");
+				avaliacao_perceptivo(id_da_finalidade);
 			}else{
 				alert("Erro na inserção de dados de saude vocal");
 			}

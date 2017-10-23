@@ -6,7 +6,6 @@ function avaliacao_perceptivo(id_da_finalidade){
 	var sessao = document.getElementsByName("sessao7");
 	for(var i = 0; i < sessao.length; i++){
 		vet[i] = sessao[i].value;
-		console.log(i+" = "+sessao[i].value);
 	}
 
 	var vetrb = new Array();
@@ -29,12 +28,6 @@ function avaliacao_perceptivo(id_da_finalidade){
 	vetrb.push(getradiobuttons(sessao))
 
 	vet.push(vetrb);
-	
-	for(var i = 0; i < sessao.length; i++){
-		if(sessao[i].checked){
-			console.log(sessao[i].value);
-		}
-	}
 
 	var vetcb = new Array();
 	vetcb.push(getcheckboxs(document.getElementsByName("7-10acb")));
@@ -44,6 +37,8 @@ function avaliacao_perceptivo(id_da_finalidade){
 	vet.push(vetcb);
 	vet.push(id_da_finalidade);
 
+	console.log(vet);
+
 	$.ajax({
 		type : "GET",
 		url : url+"avaliacao_perceptivo.php?data="+JSON.stringify(vet),
@@ -52,7 +47,7 @@ function avaliacao_perceptivo(id_da_finalidade){
 			var json = JSON.parse(response);
 			if(json['success']){
 				alert("fase de avaliacao perceptivo concluida com sucesso!");
-				//complementares(json['id']);
+				avalicao_espectrografica(id_da_finalidade);
 			}else{
 				alert("Erro na inserção de dados de avaliacao perceptivo");
 			}
