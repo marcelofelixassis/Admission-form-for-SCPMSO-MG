@@ -727,7 +727,7 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3-->
 	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
 		</div><!-- /.row -->
 
@@ -971,7 +971,7 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
 	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs5-5">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs5-5">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
 	  </div><!-- /.row -->
 
@@ -1342,7 +1342,7 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
 	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs6-8">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-8">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
 	  </div><!-- /.row -->
 
@@ -1393,7 +1393,7 @@
 			  </div><!-- /input-group -->
 			</div><!-- /.col-md-3 col-md-offset-35 /// col-md-print-offset-10 -->	
 			 	    <div class="collapse col-md-1 col-md-offset-34 col-md-print-offset-2 collapse_civo6-10">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-34 /// col-md-print-offset-2 -->		 
 		</div><!-- /.row -->
 
@@ -1833,7 +1833,7 @@
 			  </div><!-- /input-group -->
 			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->	
 			<div class="col-md-1 col-md-offset-42">
-				<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-3">OBSERVAÇÕES</button>	
+				<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs8-3">OBSERVAÇÕES</button>	
 			</div><!-- /.col-md-1 col-md-offset-42 -->			
 		</div><!-- /.row -->
 
@@ -1874,7 +1874,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-6 -->
 			<div class="col-md-1 col-md-offset-43">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-4">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs8-4">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-43 -->			
 		</div><!-- /.row -->
 
@@ -1914,7 +1914,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-5 -->
 			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs9-0">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs9-0">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
 		</div><!-- /.row -->
 
@@ -2077,7 +2077,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-5 -->
 			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs7-14">OBSERVAÇÕES</button>
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs7-14">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
 		</div><!-- /.row -->
 
@@ -2145,7 +2145,7 @@
 			<div class="col-md-6">
 				<table class="table table-striped table-print" style="border-style: solid; border-color: black; border-width: 1px; font-size: 12px;">
 	  			<thead>
-	    			<tr class="bg-primary">
+	    			<tr class="bg-danger">
 				      <td><strong>PARÂMETROS VOCAIS ACÚSTICOS</strong>></td>
 				      <td style="text-align: center;"><strong>SUSTENTAÇÃO DA VOGAL [a]</strong>></td>
 				    </tr>
@@ -2187,7 +2187,7 @@
 				</table>
 			</div><!-- /.col-md-6 -->	
 			<div class="col-md-6">
-		  	<button type="button" class="btn btn-primary btn-observacao" data-toggle="collapse" data-target="#obs8-1">OBSERVAÇÕES</button>
+		  	<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs8-1">OBSERVAÇÕES</button>
 		  	<div class="collapse form-group" id="obs8-1">
 			    <div style="padding-right: 0.5%; padding-left: 0.5%; margin-top: 2%;">
 			    	<label for="txtareaobs" style="margin-left: 0.3%;">Observações:</label>
