@@ -17,14 +17,15 @@ function saude_vocal(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de saude vocal concluida com sucesso!");
 				avaliacao_perceptivo(id_da_finalidade);
+				loading(8, true);
 			}else{
-				alert("Erro na inserção de dados de saude vocal");
+				loading(7, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+    		console.log(e);
+    		loading(7, false);
 		} 
 	});	
 }

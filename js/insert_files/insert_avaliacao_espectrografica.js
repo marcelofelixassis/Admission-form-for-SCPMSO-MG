@@ -28,14 +28,14 @@ function avalicao_espectrografica(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de avaliacao espectrografica concluida com sucesso!");
-				//complementares(json['id']);
+				loading(10, true);
 			}else{
-				alert("Erro na inserção de dados de avaliacao espectrografica");
+				loading(9, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+    		console.log(e);
+    		loading(9, false);
 		} 
 	});
 

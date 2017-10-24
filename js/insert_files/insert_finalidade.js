@@ -16,14 +16,15 @@ function finalidade(id_da_pessoa){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de finalidade concluida com sucesso!");
 				complementares(json['id']);
+				loading(3, true);
 			}else{
-				alert("Erro na inserção de dados de finalidade");
+				loading(2, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+			console.log(e);
+    		loading(2, false);
 		} 
 	});
 }

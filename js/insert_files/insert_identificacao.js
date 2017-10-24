@@ -1,6 +1,8 @@
 // 1º FASE >>> FASE DE INSERTS E VERIFICAÇÕES NA TABELA DE IDENTIFICAÇÃO
 function identificacao(){
 	if(verification()){
+	    $("#loading_modal").modal();
+		loading(1, true);
 		var sessao = document.getElementsByName("sessao1");
 		var vet = new Array();
 		for(var i = 0; i < sessao.length; i++){
@@ -14,18 +16,19 @@ function identificacao(){
 			success: function (response) {
 				var json = JSON.parse(response);
 				if(json['success']){
-					alert("fase de identificação concluida com sucesso!");
 					finalidade(json['id']);
+					loading(2, true);
 				}else{
-					alert("Erro na inserção de dados de identificação");
+					loading(1, false);
 				}
 			},
 			error: function (e) {
-				//escrever aquiiiiiiiii
+				console.log(e);
+				loading(1, false);
 			} 
 		});	
 	}else{
-		alert("É preciso preencher todos os campos de Identificação Do(a) Periciando(a)")
+		alert("Identificação incompleta!")
 	}
 }
 

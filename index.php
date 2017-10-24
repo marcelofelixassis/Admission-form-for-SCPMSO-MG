@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/loading.css">
 		<link rel="stylesheet" href="css/jquery.datetimepicker.css">
 	</head>
 
@@ -1526,8 +1527,8 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">GRAU GERAL DA DISFONIA:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default">
-														<input type="radio" autocomplete="off" value="0" name="7-1grb">0
+				       						<label class="btn btn-default active">
+														<input type="radio" autocomplete="off" value="0" name="7-1grb" checked="checked">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
@@ -1552,8 +1553,8 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">RUGOSIDADE:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default">
-														<input type="radio" value="0" name="7-1srb" autocomplete="off">0
+			       							<label class="btn btn-default active">
+														<input type="radio" value="0" name="7-1srb" autocomplete="off" checked="checked">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
@@ -1580,8 +1581,8 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">SOPROSIDADE:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default">
-														<input type="radio" value="0" name="7-1trb" autocomplete="off">0
+				       						<label class="btn btn-default active">
+														<input type="radio" value="0" name="7-1trb" autocomplete="off" checked="checked">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
@@ -1606,8 +1607,8 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">ASTENIA:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default">
-														<input type="radio" value="0" name="7-1rrb" autocomplete="off">0
+			       							<label class="btn btn-default active">
+														<input type="radio" value="0" name="7-1rrb" autocomplete="off" checked="checked">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
@@ -1634,13 +1635,13 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">TENSÃO:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default">
-														<input type="radio" value="0" name="7-1arb" autocomplete="off">0
+				       						<label class="btn btn-default active">
+														<input type="radio" value="0" name="7-1arb" autocomplete="off" checked="checked">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
 													<label class="btn btn-default">
-														<input type="radio" value="1" name="7-1arb" id="option1" autocomplete="off">1
+														<input type="radio" value="1" name="7-1arb" autocomplete="off">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
@@ -1660,8 +1661,8 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">INSTABILIDADE:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default">
-														<input type="radio" value="0" name="7-1irb" autocomplete="off">0
+			       							<label class="btn btn-default active">
+														<input type="radio" value="0" name="7-1irb" autocomplete="off" checked="checked">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
@@ -2146,8 +2147,8 @@
 				<table class="table table-striped table-print" style="border-style: solid; border-color: black; border-width: 1px; font-size: 12px;">
 	  			<thead>
 	    			<tr class="bg-danger">
-				      <td><strong>PARÂMETROS VOCAIS ACÚSTICOS</strong>></td>
-				      <td style="text-align: center;"><strong>SUSTENTAÇÃO DA VOGAL [a]</strong>></td>
+				      <td><strong>PARÂMETROS VOCAIS ACÚSTICOS</strong></td>
+				      <td style="text-align: center;"><strong>SUSTENTAÇÃO DA VOGAL [a]</strong></td>
 				    </tr>
 	  			</thead>
 	  			<tbody>
@@ -2214,14 +2215,68 @@
 		
 		
 		
-		
-		
-			
-
+	
 		<div class="row row fotter col-md-10 col-md-offset-1">
-			<button type="" onclick="start_insert()">insert function</button>
-			<button type="" onclick="identificacao()">teste name function</button>
+			<button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
+			<button type="" onclick="start_insert()">teste name function</button>
+			<button type="button" class="btn btn-info" data-toggle="modal" data-target="#loading_modal">Open Large Modal</button>
+			
 		</div>		
+
+
+
+
+		<div class="modal fade" id="loading_modal" role="dialog">
+			<div class="progress">
+			  <div class="circle">
+			    <span class="label">1</span>
+			    <span class="title">Identificação</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">2</span>
+			    <span class="title">Finalidade</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">3</span>
+			    <span class="title">Complem.</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">3</span>
+			    <span class="title">Cargos</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">4</span>
+			    <span class="title">Saú.Geral</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">5</span>
+			    <span class="title">Háb.Vocais</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">6</span>
+			    <span class="title">Saú.Vocal</span>
+			  </div>
+			  <span class="bar"></span>
+			  <div class="circle">
+			    <span class="label">7</span>
+			    <span class="title">Perceptivo</span>
+			  </div>
+			  <span class="bar"></span>
+				<div class="circle">
+					<span class="label">8</span>
+					<span class="title">Espectro.</span>
+				</div>
+			</div>
+  	</div>
+
+
+
 	</body>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -2252,4 +2307,7 @@
 		<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
 		<script src="js/scripts_avaliacao_perceptivo/avaliacao_perceptivo.js"></script>
 		<script src="js/scripts_avaliacao_espectrografica/avaliacao_espectrografica.js"></script>
+
+		<!-- FUNÇÃO DE LOADING -->
+		<script src="js/loading_script/loading.js"></script>
 </html>

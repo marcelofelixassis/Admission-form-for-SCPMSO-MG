@@ -8,9 +8,6 @@ function start_insert(){
 }
 
 
-
-
-
 function testename(){
 	var sessao = document.getElementsByName("sessao6");
 	var vet = new Array();

@@ -16,14 +16,15 @@ function habitos(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de habitos concluida com sucesso!");
 				saude_vocal(id_da_finalidade);
+				loading(7, true);
 			}else{
-				alert("Erro na inserção de dados de habitos");
+				loading(6, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+			loading(6, false);
+    		console.log(e);
 		} 
 	});	
 }

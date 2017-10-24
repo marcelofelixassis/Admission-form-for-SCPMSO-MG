@@ -46,14 +46,15 @@ function avaliacao_perceptivo(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de avaliacao perceptivo concluida com sucesso!");
 				avalicao_espectrografica(id_da_finalidade);
+				loading(9, true);
 			}else{
-				alert("Erro na inserção de dados de avaliacao perceptivo");
+				loading(8, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+			console.log(e);
+			loading(8, false);
 		} 
 	});
 }

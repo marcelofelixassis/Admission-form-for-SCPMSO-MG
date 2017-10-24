@@ -45,14 +45,15 @@ function complementares(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de complementares concluida com sucesso!");
 				cargos_atuais_anteriores(id_da_finalidade, json['id'], sessao[0].value, sessao[1].value);
+				loading(4, true);
 			}else{
-				alert("Erro na inserção de dados de complementares");
+				loading(3, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+			console.log(e);
+    		loading(3, false);
 		} 
 	});	
 }
@@ -105,8 +106,10 @@ function cargos_atuais_anteriores(id_da_finalidade, id_da_complementares, sessao
 			break;
 		}
 		saude_geral(id_da_finalidade);
+		loading(5, true);
 	}else{
 		saude_geral(id_da_finalidade);
+		loading(5, true);
 	}	
 }
 
@@ -130,13 +133,13 @@ function cargos_atuais_1(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 1º cargo atual com sucesso!");							
+				console.log("adicionado 1º cargo atual com sucesso!");							
 			}else{
-				alert("Erro na inserção do 1º cargo atual");
+				console.log("Erro na inserção do 1º cargo atual");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }
@@ -157,13 +160,13 @@ function cargos_atuais_2(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 2º cargo atual com sucesso!");							
+				console.log("adicionado 2º cargo atual com sucesso!");							
 			}else{
-				alert("Erro na inserção do 2º cargo atual");
+				console.log("Erro na inserção do 2º cargo atual");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }
@@ -184,13 +187,13 @@ function cargos_atuais_3(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 3º cargo atual com sucesso!");							
+				console.log("adicionado 3º cargo atual com sucesso!");							
 			}else{
-				alert("Erro na inserção do 3º cargo atual");
+				console.log("Erro na inserção do 3º cargo atual");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }
@@ -218,13 +221,13 @@ function cargos_anteriores_1(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 1º cargo anterior com sucesso!");							
+				console.log("adicionado 1º cargo anterior com sucesso!");							
 			}else{
-				alert("Erro na inserção do 1º cargo anterior");
+				console.log("Erro na inserção do 1º cargo anterior");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }
@@ -245,13 +248,13 @@ function cargos_anteriores_2(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 2º cargo anterior com sucesso!");							
+				console.log("adicionado 2º cargo anterior com sucesso!");							
 			}else{
-				alert("Erro na inserção do 2º cargo anterior");
+				console.log("Erro na inserção do 2º cargo anterior");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }
@@ -272,13 +275,13 @@ function cargos_anteriores_3(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 3º cargo anterior com sucesso!");							
+				console.log("adicionado 3º cargo anterior com sucesso!");							
 			}else{
-				alert("Erro na inserção do 3º cargo anterior");
+				console.log("Erro na inserção do 3º cargo anterior");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }
@@ -299,13 +302,13 @@ function cargos_anteriores_4(id_da_complementares){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("adicionado 4º cargo anterior com sucesso!");							
+				console.log("adicionado 4º cargo anterior com sucesso!");							
 			}else{
-				alert("Erro na inserção do 4º cargo anterior");
+				console.log("Erro na inserção do 4º cargo anterior");
 			}
 		},
 		error: function (e) {
-			//escrever aquiiiiiiiii
+			console.log(e);
 		} 
 	});		
 }

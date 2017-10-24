@@ -24,14 +24,15 @@ function saude_geral(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				alert("fase de saude geral concluida com sucesso!");
 				habitos(id_da_finalidade);
+				loading(6, true);
 			}else{
-				alert("Erro na inserção de dados de saude geral");
+				loading(5, false);
 			}
 		},
 		error: function (e) {
-    		//escrever aquiiiiiiiii
+    		console.log(e);
+    		loading(5, false);
 		} 
 	});	
 }
