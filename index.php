@@ -228,19 +228,22 @@
 
 		<!-- LETRA A /// LINHA 3.0 (PQCCP3-0) -->		
 		<div class="row col-md-10 col-md-offset-1">
-	  	<div class="col-md-3">
-	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
-	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3">
-					  	<option value="0">NENHUM</option>
-					  	<option value="1">UM CARGO</option>
-					  	<option value="2">DOIS CARGOS</option>
-					  	<option value="3">TRÊS CARGOS</option>
-	        	</select>
-      		</span>
-	    	</div><!-- /input-group -->
-	  	</div><!-- /.col-md-3 -->
+		  	<div class="col-md-3">
+		    	<div class="input-group input-group-sm">
+		      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
+		      	<span class="input-group-btn">
+		        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3">
+						  	<option value="0">NENHUM</option>
+						  	<option value="1">UM CARGO</option>
+						  	<option value="2">DOIS CARGOS</option>
+						  	<option value="3">TRÊS CARGOS</option>
+		        	</select>
+	      		</span>
+		    	</div><!-- /input-group -->
+		  	</div><!-- /.col-md-3 -->
+		  	<div class="col-md-1 col-md-offset-20">
+		  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs3-11">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
 		</div><!-- /.row -->
 
 
@@ -380,6 +383,21 @@
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
 	  </div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 3.11 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs3-11">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+		    </div>
+			</div>		
+		</div>
 
 
 
@@ -716,19 +734,19 @@
 
 		<!-- LETRA B.1 /// LINHA 4.8 (TIRE4.8) -->	
 		<div class="row row col-md-10 col-md-offset-1">
-	  	<div class="col-md-3">
-	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">TIREOIDECTOMIA?</span>
-	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao4">
-							 <option value="0">NÃO</option>
-			         <option value="1">SIM</option>
-	        	</select>
-      		</span>
-	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-3-->
-	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
+		  	<div class="col-md-3">
+		    	<div class="input-group input-group-sm">
+		      	<span class="input-group-addon" id="basic-addon">TIREOIDECTOMIA?</span>
+		  			<span class="input-group-btn">
+		        	<select class="btn" name="sessao4">
+								 <option value="0">NÃO</option>
+				         <option value="1">SIM</option>
+		        	</select>
+	      		</span>
+		    	</div><!-- /input-group -->
+		    </div><!-- /.col-md-3-->
+		    <div class="col-md-1 col-md-offset-20">
+		  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
 		</div><!-- /.row -->
 
@@ -743,7 +761,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -971,7 +989,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
+	    <div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs5-5">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
 	  </div><!-- /.row -->
@@ -986,7 +1004,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -1021,6 +1039,9 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
+	    <div class="col-md-1 col-md-offset-37">
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-34 /// col-md-print-offset-2 -->
 	  </div><!-- /.row -->
 
 
@@ -1342,25 +1363,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-	    <div class="col-md-1 col-md-offset-20 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-8">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
 	  </div><!-- /.row -->
-
-
-
-
-
-
-	  <!-- LINHA 6.9 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-8" style="margin-bottom: -0.8%;">
-	    <div class="form-group">
-	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
-	    </div>
-			</div>		
-		</div>
 
 
 
@@ -1392,27 +1395,8 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-35 /// col-md-print-offset-10 -->	
-			 	    <div class="collapse col-md-1 col-md-offset-34 col-md-print-offset-2 collapse_civo6-10">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-34 /// col-md-print-offset-2 -->		 
+			</div><!-- /.col-md-3 col-md-offset-35 /// col-md-print-offset-10 -->			 
 		</div><!-- /.row -->
-
-
-
-
-
-
-
-	  <!-- LINHA 6.11 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-10" style="margin-bottom: -0.8%;">
-	    <div class="form-group">
-	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
-	    </div>
-			</div>		
-		</div>
 
 
 
@@ -1461,6 +1445,20 @@
 			</div><!-- /.col-md-3 col-md-offset-38 /// col-md-print-offset-24 -->		 
 		</div><!-- /.row -->
 
+
+
+
+
+
+		<!-- LINHA 6.11 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-10">
+	    <div class="form-group">
+	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+	    	<label for="txtareaobs">Observações:</label>
+		  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+	    </div>
+			</div>		
+		</div>
 
 
 
@@ -1832,27 +1830,8 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->	
-			<div class="col-md-1 col-md-offset-42">
-				<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs8-3">OBSERVAÇÕES</button>	
-			</div><!-- /.col-md-1 col-md-offset-42 -->			
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->			
 		</div><!-- /.row -->
-
-
-
-
-
-
-
-	  <!-- LINHA 7.6 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs8-3">
-		  <div class="col-md-12 inputobs">
-		    <div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">OBS:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="">
-		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
-		</div>
 
 
 
@@ -1873,27 +1852,8 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-6 -->
-			<div class="col-md-1 col-md-offset-43">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs8-4">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-43 -->			
+		  </div><!-- /.col-md-6 -->		
 		</div><!-- /.row -->
-
-
-
-
-
-
-
-	  <!-- LINHA 7.8 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
-		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs8-4">
-	    <div class="form-group">
-	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="2" id="txtareaobs" name="sessao6-5"></textarea>
-	    </div>
-			</div>		
-		</div>
 
 
 
@@ -1913,10 +1873,7 @@
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-5 -->
-			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs9-0">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
+		  </div><!-- /.col-md-5 -->		
 		</div><!-- /.row -->
 
 
@@ -1992,23 +1949,6 @@
     		</div>
  		 	</div><!-- /.col-md-6 -->
 		</div><!-- /.row -->
-
-
-
-
-
-
-
-	  <!-- LINHA 7.12 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
-		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs9-0">
-	    <div class="form-group">
-	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
-	    </div>
-			</div>		
-		</div>
-
 
 
 
@@ -2092,7 +2032,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="2" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -2217,9 +2157,9 @@
 		
 	
 		<div class="row row fotter col-md-10 col-md-offset-1">
-			<button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
-			<button type="" onclick="start_insert()">teste name function</button>
-			<button type="button" class="btn btn-info" data-toggle="modal" data-target="#loading_modal">Open Large Modal</button>
+			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
+			<button type="" onclick="start_insert()">teste name function</button> -->
+			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
 			
 		</div>		
 
