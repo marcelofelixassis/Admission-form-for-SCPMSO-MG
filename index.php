@@ -136,6 +136,7 @@
 				  		<option value="2">DESIGNAÇÃO</option>
 				  		<option value="3">RECURSO</option>
 				  		<option value="4">RETORNO</option>
+				  		<option value="5">REAVALIAÇÃO</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -178,7 +179,7 @@
 
 
 
-		<!--LINHA 2.1 (AS2-1, AP2-1)-->
+		<!--LINHA 2.1 (AS2-1, ORG2-1)-->
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
@@ -194,20 +195,62 @@
       		</span>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-4 -->
-	  	<div class="col-md-4 col-md-offset-40 col-md-print-offset-26">
+	  	<div class="col-md-2 col-md-offset-45 col-md-print-offset-26">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">AULAS PARA:</span>
+	      	<span class="input-group-addon" id="basic-addon">ORGÃO:</span>
 	      	<span class="input-group-btn">
 	        	<select class="btn" name="sessao2">
 	        		<option id="setselect2-4" value="">SELECIONE...</option>
-							<option value="1">SERIES INICIAIS DO ENSINO FUNDAMENTAL</option>
-	  					<option value="2">SERIES FINAIS DO ENSINO FUNDAMENTAL</option>
-	  					<option value="3">ENSINO MÉDIO</option>
+							<option value="1">SEE</option>
+	  					<option value="2">UNIMONTES</option>
+	  					<option value="3">UEMG</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-4 col-md-offset-1 -->
+	  	</div><!-- /col-md-2 col-md-offset-45 -->
 		</div><!-- /.row -->
+
+
+
+
+
+		<!--LINHA 2.2 (AP2-1)-->
+		<div class="row row col-md-10 col-md-offset-1"> 
+			<div class="col-md-3">
+	  		<div class="input-group input-group-sm">
+	  			<span class="input-group-addon">AULAS PARA:</span>
+	    		<span class="input-group-addon" style="line-height: 0;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="2-1cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
+	    		</span>
+	        <span class="input-group-addon" style="line-height: 0;">
+	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="2-1cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
+	    		</span> 
+	    		<span class="input-group-addon" style="line-height: 0;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="2-1cb"> ENSINO MÉDIO</label>
+	    		</span>
+	        <span class="input-group-addon" style="line-height: 0;">
+	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="2-1cb"> ENSINO SUPERIOR</label>
+	    		</span> 
+	  		</div>
+			</div><!-- /.col-md-2 -->
+			<div class="col-md-1 col-md-offset-20">
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs2-3">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
+		</div>
+
+
+
+
+
+		<!-- LINHA 2.3 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs2-3">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+		    </div>
+			</div>		
+		</div>
 
 
 
@@ -228,21 +271,21 @@
 
 		<!-- LETRA A /// LINHA 3.0 (PQCCP3-0) -->		
 		<div class="row col-md-10 col-md-offset-1">
-		  	<div class="col-md-3">
-		    	<div class="input-group input-group-sm">
-		      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
-		      	<span class="input-group-btn">
-		        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3">
-						  	<option value="0">NENHUM</option>
-						  	<option value="1">UM CARGO</option>
-						  	<option value="2">DOIS CARGOS</option>
-						  	<option value="3">TRÊS CARGOS</option>
-		        	</select>
-	      		</span>
-		    	</div><!-- /input-group -->
-		  	</div><!-- /.col-md-3 -->
-		  	<div class="col-md-1 col-md-offset-20">
-		  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs3-11">OBSERVAÇÕES</button>
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
+	      	<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3">
+					  	<option value="0">NENHUM</option>
+					  	<option value="1">UM CARGO</option>
+					  	<option value="2">DOIS CARGOS</option>
+					  	<option value="3">TRÊS CARGOS</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-3 -->
+	  	<div class="col-md-1 col-md-offset-20">
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs3-11">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
 		</div><!-- /.row -->
 

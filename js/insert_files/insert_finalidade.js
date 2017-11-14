@@ -8,7 +8,9 @@ function finalidade(id_da_pessoa){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
-	vet[sessao.length] = id_da_pessoa;
+	vet.push(getcheckboxs(document.getElementsByName("2-1cb")));
+	vet[sessao.length+1] = id_da_pessoa;
+	console.log(vet);
 	$.ajax({
 		type : "GET",
 		url : url+"finalidade.php?data="+JSON.stringify(vet),

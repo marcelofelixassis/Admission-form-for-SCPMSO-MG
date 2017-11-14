@@ -19,17 +19,18 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO finalidade(`fk_pessoa`, `dt_2_0`, `apfd_2_0`, `dias_2_0`, `ad_2_0`, `as_2_1`, `ap_2_1`) 
-	VALUES (:fkpessoa , :dt, :apfd, :dias, :ad, :as2 , :ap)";
+	$sql = "INSERT INTO finalidade(`fk_pessoa`, `dt_2_0`, `apfd_2_0`, `dias_2_0`, `ad_2_0`, `as_2_1`, `org_2_1`, `ap_2_1`) 
+	VALUES (:fkpessoa , :dt, :apfd, :dias, :ad, :as2 , :org, :ap)";
 
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':fkpessoa', $myvar[6] );
+	$stmt->bindParam( ':fkpessoa', $myvar[7] );
 	$stmt->bindParam( ':dt', $myvar[0] );
 	$stmt->bindParam( ':apfd', $myvar[1] );
 	$stmt->bindParam( ':dias', $myvar[2] );
 	$stmt->bindParam( ':ad', $myvar[3] );
 	$stmt->bindParam( ':as2', $myvar[4] );
-	$stmt->bindParam( ':ap', $myvar[5] );
+	$stmt->bindParam( ':org', $myvar[5] );
+	$stmt->bindParam( ':ap', $myvar[6] );
 		
 	$result = $stmt->execute();
 		
