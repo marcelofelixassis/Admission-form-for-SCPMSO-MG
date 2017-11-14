@@ -111,3 +111,36 @@ function onblur_oada310(){
 		clearcheckbox(document.getElementsByName("3-10cb"));	
 	}	
 }
+
+
+// LINHA 3.1.5 -- FIZ ESSE COLLAPSE NA PRIMEIRA FASE DE CORREÇÕES
+function onblur_jtlp315(){
+	var x = document.getElementById("jtlp3-1-5").value;
+	if(x == 1){	
+  		$('.collapse_jtlp3-1-5').collapse('show');
+	}else{
+		$('.collapse_jtlp3-1-5').collapse('hide');
+	}	
+}
+
+
+// LINHA 3.2.5 -- FIZ ESSE COLLAPSE NA PRIMEIRA FASE DE CORREÇÕES
+function onblur_jtlp325(){
+	var x = document.getElementById("jtlp3-2-5").value;
+	if(x == 1){	
+  		$('.collapse_jtlp3-2-5').collapse('show');
+	}else{
+		$('.collapse_jtlp3-2-5').collapse('hide');
+	}	
+}
+
+
+// LINHA 3.3.5 -- FIZ ESSE COLLAPSE NA PRIMEIRA FASE DE CORREÇÕES
+function onblur_jtlp335(){
+	var x = document.getElementById("jtlp3-3-5").value;
+	if(x == 1){	
+  		$('.collapse_jtlp3-3-5').collapse('show');
+	}else{
+		$('.collapse_jtlp3-3-5').collapse('hide');
+	}	
+}

@@ -232,7 +232,7 @@
 	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="2-1cb"> ENSINO SUPERIOR</label>
 	    		</span> 
 	  		</div>
-			</div><!-- /.col-md-2 -->
+			</div><!-- /.col-md-3 -->
 			<div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs2-3">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
@@ -2203,6 +2203,7 @@
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
+			<button type="button" class="btn btn-info" onclick="complementares('10')">AQUI TESTE</button>
 			
 		</div>		
 

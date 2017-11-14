@@ -124,6 +124,7 @@ function cargos_atuais_1(id_da_complementares){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
+	vet.push(getcheckboxs(document.getElementsByName("3-1-2cb")));
 	vet.push(id_da_complementares);
 	vet.push(1);
 	$.ajax({
@@ -151,6 +152,7 @@ function cargos_atuais_2(id_da_complementares){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
+	vet.push(getcheckboxs(document.getElementsByName("3-2-2cb")));
 	vet.push(id_da_complementares);
 	vet.push(2);
 	$.ajax({
@@ -178,6 +180,7 @@ function cargos_atuais_3(id_da_complementares){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
+	vet.push(getcheckboxs(document.getElementsByName("3-3-2cb")));
 	vet.push(id_da_complementares);
 	vet.push(3);
 	$.ajax({

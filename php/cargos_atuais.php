@@ -33,13 +33,13 @@
 	$stmt->bindParam( ':efet', $myvar[1] );
 	$stmt->bindParam( ':tdr', $myvar[2] );
 	$stmt->bindParam( ':ad', $myvar[3] );
-	$stmt->bindParam( ':ap', $myvar[4] );
-	$stmt->bindParam( ':ass', $myvar[5] );
+	$stmt->bindParam( ':ap', $myvar[10] );
+	$stmt->bindParam( ':ass', $myvar[4] );
 	$stmt->bindParam( ':ndl', $myvar[6] );
 	$stmt->bindParam( ':nddda', $myvar[7] );
 	$stmt->bindParam( ':idpl', $myvar[8] );
 	$stmt->bindParam( ':tdpl', $myvar[9] );
-	$stmt->bindParam( ':jtlp', $myvar[10] );
+	$stmt->bindParam( ':jtlp', $myvar[5] );
 		
 	$result = $stmt->execute();
 		

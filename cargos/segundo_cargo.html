@@ -7,7 +7,7 @@
 
 <!-- SEGUNDO CARGO /// SUBSESSÃO 3.2-->
 <div class="panel-group">
-  	<div class="panel panel-default">
+  	<div class="panel panel-danger">
     	<div class="panel-heading">SEGUNDO CARGO</div>
       	<div class="panel-body">
       	
@@ -21,6 +21,7 @@
 								<option value="1">ESTADO</option>
 			  					<option value="2">MUNICÍPIO</option>
 			  					<option value="3">PARTICULAR</option>
+			  					<option value="4">FEDERAL</option>
 			        		</select>
 		      			</span>
 		    		</div><!-- /input-group -->
@@ -45,7 +46,7 @@
 			  						<option value="3">DE 6 A 10 ANOS</option>
 			  						<option value="4">DE 11 A 15 ANOS</option>
 			  						<option value="5">DE 16 A 20 ANOS</option>
-			  						<option value="6">DE 20 A 25 ANOS</option>
+			  						<option value="6">DE 21 A 25 ANOS</option>
 			  						<option value="7">DE 26 A 30 ANOS</option>
 			  						<option value="8">MAIS DE 30</option>
 			        		</select>
@@ -83,21 +84,9 @@
 
 
 
-			<!-- LINHA 3.2.2 (AP3-2-2, AS3-2-2) -->
+			<!-- LINHA 3.2.2 (AS3-2-2) -->
 			<div class="row">
-		  		<div class="col-md-3">
-		    		<div class="input-group input-group-sm">
-			      		<span class="input-group-addon" id="basic-addon">AULAS PARA:</span>
-			      		<span class="input-group-btn">
-			        		<select class="btn" name="sessao3-2">
-								<option value="1">SERIES INICIAIS DO ENSINO FUNDAMENTAL</option>
-			  					<option value="2">SERIES FINAIS DO ENSINO FUNDAMENTAL</option>
-			  					<option value="3">ENSINO MÉDIO</option>
-			        		</select>
-		      			</span>
-		    		</div><!-- /input-group -->
-				</div><!-- /.col-md-3 -->
-				<div class="col-md-3 col-md-offset-16 col-md-print-offset-8">
+				<div class="col-md-3">
 		    		<div class="input-group input-group-sm">
 			      		<span class="input-group-addon" id="basic-addon">AULAS SEMANAIS:</span>
 			      		<span class="input-group-btn">
@@ -117,8 +106,54 @@
 
 
 
-			<!-- LINHA 3.2.3 (NDL3-2-3, NDDDA3-2-3) -->
+			<!--LINHA 3.2.2 (AP3-2-2)-->
+			<div class="row"> 
+				<div class="col-md-3">
+		  		<div class="input-group input-group-sm">
+		  			<span class="input-group-addon">AULAS PARA:</span>
+		    		<span class="input-group-addon" style="line-height: 0;">
+		      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="3-2-2cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
+		    		</span>
+		        <span class="input-group-addon" style="line-height: 0;">
+		        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="3-2-2cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
+		    		</span> 
+		    		<span class="input-group-addon" style="line-height: 0;">
+		      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="3-2-2cb"> ENSINO MÉDIO</label>
+		    		</span>
+		        <span class="input-group-addon" style="line-height: 0;">
+		        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="3-2-2cb"> ENSINO SUPERIOR</label>
+		    		</span> 
+		  		</div>
+				</div><!-- /.col-md-3 -->
+			</div>
+
+
+          
+
+
+
+			<!-- LINHA 3.2.5 (JTLP3-2-5) -->
 			<div class="row">
+		  		<div class="col-md-10">
+		    		<div class="input-group input-group-sm">
+			      		<span class="input-group-addon" id="basic-addon">JÁ TEVE LICENÇA PARA TRATAMENTO DE SAÚDE OU OUTRO TIPO DE AFASTAMENTO POR VOZ NESTE CARGO ?</span>
+			  				<span class="input-group-btn">
+			        		<select class="btn" onblur="onblur_jtlp325()" id="jtlp3-2-5" name="sessao3-2">
+								<option value="0">NÃO</option>
+					          	<option value="1">SIM</option>
+			        		</select>
+		      			</span>
+		    		</div><!-- /input-group -->
+		    	</div><!-- /.col-md-10 -->
+			</div><!-- /.row -->
+
+
+
+
+
+
+			<!-- LINHA 3.2.3 (NDL3-2-3, NDDDA3-2-3) -->
+			<div class="row collapse collapse_jtlp3-2-5">
 		  		<div class="col-md-2">
 		    		<div class="input-group input-group-sm">
 			      		<span class="input-group-addon" id="basic-addon">Nº DE LICENÇAS/AFASTAMENTOS:</span>
@@ -160,7 +195,7 @@
 
 
 			<!-- LINHA 3.2.4 (IDPL3-2-4, TDPL3-2-4) -->
-			<div class="row">
+			<div class="row collapse collapse_jtlp3-2-5">
 		  		<div class="col-md-14">
 		    		<div class="input-group input-group-sm">
 		      			<span class="input-group-addon idpl324" id="basic-addon">INÍCIO DA PRIMEIRA LICENÇA/AFASTAMENTO:</span>
@@ -173,26 +208,6 @@
 			  			<input type='text' class="form-control date" id="tdpl3-2-4" name="sessao3-2"/>
 			    	</div><!-- /input-group -->
 			  	</div><!-- /.col-md-6 col-md-offset-18 /// col-md-print-offset-10 -->
-			</div><!-- /.row -->
-
-
-
-
-
-
-			<!-- LINHA 3.2.5 (JTLP3-2-5) -->
-			<div class="row">
-		  		<div class="col-md-10">
-		    		<div class="input-group input-group-sm">
-			      		<span class="input-group-addon" id="basic-addon">JÁ TEVE LICENÇA PARA TRATAMENTO DE SAÚDE OU OUTRO TIPO DE AFASTAMENTO POR VOZ NESTE CARGO ?</span>
-			  				<span class="input-group-btn">
-			        		<select class="btn" name="sessao3-2">
-								<option value="0">NÃO</option>
-					          	<option value="1">SIM</option>
-			        		</select>
-		      			</span>
-		    		</div><!-- /input-group -->
-		    	</div><!-- /.col-md-10 -->
 			</div><!-- /.row -->
 		</div>
   	</div>
