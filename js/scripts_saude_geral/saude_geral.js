@@ -59,6 +59,7 @@ function onblur_oasg45(){
 	var x = document.getElementById("oasg4-5").value;
 	if(x == 1){	
   		$('#collapse_oasg4-5').collapse('show');
+  		document.getElementById("oasg4-5").style.height = "30px";
 	}else{
 		$('#collapse_oasg4-5').collapse('hide');
 		clearcheckbox(document.getElementsByName("4-5cb"));	
@@ -69,11 +70,12 @@ function onblur_oasg45(){
 function onblur_fudm46(){
 	var x = document.getElementById("fudm4-6").value;
 	if(x == 1){	
-  		$('#collapse_fudm4-6').collapse('show');
+  		$('.collapse_fudm4-6').collapse('show');
   		document.getElementById("fudm4-6").style.height = "30px";
 	}else{
-		$('#collapse_fudm4-6').collapse('hide');
+		$('.collapse_fudm4-6').collapse('hide');
 		clearcheckbox(document.getElementsByName("4-6cb"));	
+		document.getElementById("input_ndm4-6").value = "";
 	}
 }
 

@@ -120,6 +120,11 @@ function onblur_jtlp315(){
   		$('.collapse_jtlp3-1-5').collapse('show');
 	}else{
 		$('.collapse_jtlp3-1-5').collapse('hide');
+		//LINHA 3.1.3 (NDL3-1-3, NDDDA3-1-3)
+		document.getElementById("setselect3-1-4").selected = "true";
+		document.getElementById("setselect3-1-5").selected = "true";
+		document.getElementById("idpl3-1-4").value = "";
+		document.getElementById("tdpl3-1-4").value = "";	
 	}	
 }
 
@@ -131,6 +136,11 @@ function onblur_jtlp325(){
   		$('.collapse_jtlp3-2-5').collapse('show');
 	}else{
 		$('.collapse_jtlp3-2-5').collapse('hide');
+		//LINHA 3.1.3 (NDL3-1-3, NDDDA3-2-3)
+		document.getElementById("setselect3-2-4").selected = "true";
+		document.getElementById("setselect3-2-5").selected = "true";
+		document.getElementById("idpl3-2-4").value = "";
+		document.getElementById("tdpl3-2-4").value = "";
 	}	
 }
 
@@ -142,5 +152,13 @@ function onblur_jtlp335(){
   		$('.collapse_jtlp3-3-5').collapse('show');
 	}else{
 		$('.collapse_jtlp3-3-5').collapse('hide');
+		//LINHA 3.1.3 (NDL3-1-3, NDDDA3-3-3)
+		document.getElementById("setselect3-3-4").selected = "true";
+		document.getElementById("setselect3-3-5").selected = "true";
+		document.getElementById("idpl3-3-4").value = "";
+		document.getElementById("tdpl3-3-4").value = "";
 	}	
 }
+
+
+

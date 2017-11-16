@@ -42,7 +42,8 @@
 			    		<span class="input-group-addon" id="basic-addon">TEMPO DE REGÊNCIA:</span>
 			      		<span class="input-group-btn">
 			        		<select class="btn" name="sessao3-1">
-									<option value="1">ATÉ 1 ANO</option>
+			        			<option id="setselect3-1-1" value="">SELECIONE...</option>
+										<option value="1">ATÉ 1 ANO</option>
 			  						<option value="2">DE 2 A 5 ANOS</option>
 			  						<option value="3">DE 6 A 10 ANOS</option>
 			  						<option value="4">DE 11 A 15 ANOS</option>
@@ -59,21 +60,22 @@
 			      		<span class="input-group-addon" id="basic-addon">AULAS DE:</span>
 			      		<span class="input-group-btn">
 			        		<select class="btn" name="sessao3-1">
+			        			<option id="setselect3-1-2" value="">SELECIONE...</option>
 			        			<option value="1">REGENTE DE TURMA</option>
 			        			<option value="2">PORTUGUES</option>
-					          	<option value="3">MATEMÁTICA</option>
-					          	<option value="4">QUIMICA</option>
-		                		<option value="5">FISICA</option>
-					          	<option value="6">LINGUA ESTRANGEIRA</option>
-					          	<option value="7">EDUCAÇÃO FÍSICA</option>
-		                		<option value="8">HISTORIA</option>
-					          	<option value="9">ARTES</option>
-					          	<option value="10">ENSINO RELIGIOSO</option>
-		                		<option value="11">GEOGRAFIA</option>
-					          	<option value="12">CIÊNCIAS/BIOLOGIA</option>
-					          	<option value="13">FILOSOFIA</option>
-		                		<option value="14">SOCIOLOGIA</option>
-					          	<option value="15">OUTRA</option>
+					          <option value="3">MATEMÁTICA</option>
+					          <option value="4">QUIMICA</option>
+		                <option value="5">FISICA</option>
+					          <option value="6">LINGUA ESTRANGEIRA</option>
+					          <option value="7">EDUCAÇÃO FÍSICA</option>
+		                <option value="8">HISTORIA</option>
+					          <option value="9">ARTES</option>
+					          <option value="10">ENSINO RELIGIOSO</option>
+		                <option value="11">GEOGRAFIA</option>
+					          <option value="12">CIÊNCIAS/BIOLOGIA</option>
+					          <option value="13">FILOSOFIA</option>
+		                <option value="14">SOCIOLOGIA</option>
+					          <option value="15">OUTRA</option>
 			        		</select>
 		      			</span>
 		    		</div><!-- /input-group -->
@@ -92,10 +94,11 @@
 			      		<span class="input-group-addon" id="basic-addon">AULAS SEMANAIS:</span>
 			      		<span class="input-group-btn">
 			        		<select class="btn" name="sessao3-1">
-								<option value="1">ATÉ 5 AULAS/SEMANAIS</option>
-			  					<option value="2">DE 6 A 10 AULAS/SEMANAIS </option>
-			  					<option value="3">DE 11 A 20 AULAS/SEMANAIS</option>
-			  					<option value="4">MAIS DE 20 AULAS/SEMANAIS</option>
+			        			<option id="setselect3-1-3" value="">SELECIONE...</option>
+										<option value="1">ATÉ 5 AULAS/SEMANAIS</option>
+			  						<option value="2">DE 6 A 10 AULAS/SEMANAIS </option>
+			  						<option value="3">DE 11 A 20 AULAS/SEMANAIS</option>
+			  						<option value="4">MAIS DE 20 AULAS/SEMANAIS</option>
 			        		</select>
 		      			</span>
 		    		</div><!-- /input-group -->
@@ -140,7 +143,7 @@
 				    	<span class="input-group-addon" id="basic-addon">JÁ TEVE LICENÇA PARA TRATAMENTO DE SAÚDE OU OUTRO TIPO DE AFASTAMENTO POR VOZ NESTE CARGO ?</span>
 				  		<span class="input-group-btn">
 				        	<select class="btn" onblur="onblur_jtlp315()" id="jtlp3-1-5" name="sessao3-1">
-								<option value="0">NÃO</option>
+										<option value="0">NÃO</option>
 						        <option value="1">SIM</option>
 				        	</select>
 			      		</span>
@@ -160,17 +163,19 @@
 			      		<span class="input-group-addon" id="basic-addon">Nº DE LICENÇAS/AFASTAMENTOS:</span>
 			      		<span class="input-group-btn">
 			        		<select class="btn" name="sessao3-1">
-								<option value="1">1</option>
-					          	<option value="2">2</option>
-					          	<option value="3">3</option>
-		                		<option value="4">4</option>
-					          	<option value="5">5</option>
-					          	<option value="6">6</option>
-		                		<option value="7">7</option>
-					          	<option value="8">8</option>
-					          	<option value="9">9</option>
-		                		<option value="10">10</option>
-					          	<option value="11">MAIS DE 10</option>
+		        				<option id="setselect3-1-4" value="">SELECIONE...</option>
+										<option value="1">1</option>
+				          	<option value="2">2</option>
+				          	<option value="3">3</option>
+	                	<option value="4">4</option>
+				          	<option value="5">5</option>
+				          	<option value="6">6</option>
+	                	<option value="7">7</option>
+				          	<option value="8">8</option>
+				          	<option value="9">9</option>
+	                	<option value="10">10</option>
+				          	<option value="11">MAIS DE 10</option>
+				          	<option value="12">NÃO SOUBE INFOR.</option>
 			        		</select>
 		      			</span>
 		    		</div><!-- /input-group -->
@@ -180,10 +185,12 @@
 			      		<span class="input-group-addon" id="basic-addon">Nº DE DIAS DE AFASTAMENTO:</span>
 			      		<span class="input-group-btn">
 			        		<select class="btn" name="sessao3-1">
-								<option value="1">ATÉ 15 DIAS DE LICENÇA/AFASTAMENTO</option>
-					          	<option value="2">DE 16 A 30 DIAS DE LICENÇA/AFASTAMENTO</option>
-					          	<option value="3">DE 31 A 60 DIAS DE LICENÇA/AFASTAMENTO</option>
-		                		<option value="4">MAIS DE 60 DIAS DE LICENÇA/AFASTAMENTO</option>
+		        				<option id="setselect3-1-5" value="">SELECIONE...</option>
+										<option value="1">ATÉ 15 DIAS DE LICENÇA/AFASTAMENTO</option>
+				          	<option value="2">DE 16 A 30 DIAS DE LICENÇA/AFASTAMENTO</option>
+				          	<option value="3">DE 31 A 60 DIAS DE LICENÇA/AFASTAMENTO</option>
+	                	<option value="4">MAIS DE 60 DIAS DE LICENÇA/AFASTAMENTO</option>
+	                	<option value="5">NÃO SOUBE INFORMAR</option>
 			        		</select>
 		      			</span>
 		    		</div><!-- /input-group -->
