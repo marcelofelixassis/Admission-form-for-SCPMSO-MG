@@ -849,8 +849,8 @@
 
 
 		<!--LINHA 5.0 (TABA5-0, HQT5-0, QCD5-0)-->
-		<div class="row row col-md-10 col-md-offset-1">
-	  	<div class="col-md-3">
+		<div class="row row col-md-10 col-md-offset-1 collapse" id="collapse_taba5-0_taba">
+	  	<div class="col-md-2">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">TABAGISTA?</span>
 	  			<span class="input-group-btn">
@@ -861,7 +861,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-		  <div class="collapse col-md-3 col-md-offset-21 col-md-print-offset-15 collapse_taba5-0">
+		  <div class="collapse col-md-3 col-md-offset-46 col-md-print-offset-10 collapse_taba5-0">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
 		  		<span class="input-group-btn">
@@ -872,13 +872,14 @@
 							<option value="3">6 A 10 ANOS</option>
 				      <option value="4">11 A 15 ANOS</option>
 							<option value="5">MAIS DE 15 ANOS</option>
+							<option value="6">NÃO SOUBE INFORMAR</option>
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
-		   </div><!-- /.col-md-3 col-md-offset-21 col-md-print-offset-15 -->
-		   <div class="collapse col-md-2 col-md-offset-1 col-md-print-offset-17 collapse_taba5-0">
+		   </div><!-- /.col-md-3 col-md-offset-46 col-md-print-offset-15 -->
+		   <div class="collapse col-md-2 col-md-offset-41 col-md-print-offset-7 collapse_taba5-0">
 		    <div class="input-group input-group-sm">
-		      <span class="input-group-addon" id="basic-addon">QUANTOS CIGAROS/DIA?</span>
+		      <span class="input-group-addon" id="basic-addon">QUANTOS CIGARROS/DIA?</span>
 		  		<span class="input-group-btn">
 		        <select class="btn" name="sessao5">
 		        	<option id="setselect5-2" value="">SELECIONE...</option>
@@ -886,10 +887,11 @@
 				      <option value="2">11 A 20</option>
 							<option value="3">21 A 30</option>
 				      <option value="4">31 OU MAIS</option>
+				      <option value="5">NÃO SOUBE INFORMAR</option>
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-2 col-md-offset-1 /// 3 col-md-print-offset-17 -->
+		  </div><!-- /.col-md-2 col-md-offset-41 /// col-md-print-offset-7 -->
 		</div><!-- /.row -->
 
 
@@ -898,19 +900,19 @@
 
 
 		<!--LINHA 5.1 (EXTABA5-1, FPQT5-1, PHQT5-1)-->
-		<div class="row row col-md-10 col-md-offset-1">
-	  	<div class="col-md-3">
+		<div class="row row col-md-10 col-md-offset-1 collapse" id="collapse_taba5-0_extaba">
+	  	<div class="col-md-2">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EX-TABAGISTA?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" onblur="onblur_extaba51()" id="extaba5-1" name="sessao5">
-							<option value="0">NÃO</option>
+							<option value="0" id="setnao5-1">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-3 -->
-	    <div class="collapse col-md-3 col-md-offset-18 col-md-print-offset-15 collapse_extaba5-1">
+	    </div><!-- /.col-md-2 -->
+	    <div class="collapse col-md-3 col-md-offset-41 col-md-print-offset-26 collapse_extaba5-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">POR QUANTO TEMPO?</span>
 	  			<span class="input-group-btn">
@@ -921,10 +923,11 @@
 							<option value="3">6 A 10 ANOS</option>
 				      <option value="4">11 A 15 ANOS</option>
 							<option value="5">MAIS DE 15 ANOS</option>
+							<option value="6">NÃO SOUBE INFOR.</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-3 col-md-offset-18 /// col-md-print-offset-15 -->
+	    </div><!-- /.col-md-3 col-md-offset-41 /// col-md-print-offset-26 -->
 	    <div class="collapse col-md-3 col-md-offset-21 col-md-print-offset-16 collapse_extaba5-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">PAROU HÁ QUANTO TEMPO?</span>
@@ -935,6 +938,7 @@
 				      <option value="2">2 A 5 ANOS</option>
 							<option value="3">6 A 10 ANOS</option>
 							<option value="4">MAIS DE 10 ANOS</option>
+							<option value="5">NÃO SOUBE INFOR.</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -966,7 +970,7 @@
       				<input type="checkbox" value="1" name="5-2cb">MACONHA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="5-2cb">COCAINA
+      				<input type="checkbox" value="2" name="5-2cb">COCAÍNA
     				</label>
     				<label class="checkbox-inline">
       				<input type="checkbox" value="3" name="5-2cb">CRACK
@@ -991,7 +995,7 @@
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-2">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">ETLISTA?</span>
+	      	<span class="input-group-addon" id="basic-addon">ETILISTA?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" onblur="onblur_etil53()" id="etil5-3" name="sessao5">
 							<option value="0">NÃO</option>
@@ -1024,6 +1028,7 @@
 			        <option value="4">3 A 4 VEZES POR SEMANA</option>
 			        <option value="5">QUASE TODOS OS DIAS</option>
 			        <option value="6">UMA VEZ POR DIA OU MAIS</option>
+			        <option value="7">NÃO SOUBE INFORMAR</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -1039,7 +1044,7 @@
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">OUTROS HABITOS VOCAIS INADEQUADOS?</span>
+	      	<span class="input-group-addon" id="basic-addon">OUTROS HÁBITOS VOCAIS INADEQUADOS?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" name="sessao5">
 	        		<option value="0">NENHUM</option>

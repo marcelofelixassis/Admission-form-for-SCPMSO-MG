@@ -1,8 +1,3 @@
-window.onload = function() {
-	document.getElementById("visible_apfd2-0").style.visibility = "hidden";
-}
-
-
 function clearcheckbox(x){
 	for (i = 0; i < x.length; i++){
       	x[i].checked = false;
@@ -17,20 +12,6 @@ function getradiobuttons(radios){
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 function mascara(o,f){
@@ -57,7 +38,6 @@ function cpf(v){
     	return v
 
     }
-   
 }
 
 

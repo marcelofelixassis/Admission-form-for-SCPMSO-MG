@@ -1,10 +1,21 @@
+window.onload = function() {
+	$('#collapse_taba5-0_extaba').collapse('show');
+	$('#collapse_taba5-0_taba').collapse('show');
+}
+
 //LINHA 5.0 (TABA5-0, HQT5-0, QCD5-0)
 function onblur_taba50(){
 	var x = document.getElementById("taba5-0").value;
 	if(x == 1){	
   		$('.collapse_taba5-0').collapse('show');
+  		$('#collapse_taba5-0_extaba').collapse('hide');
+  		$('.collapse_extaba5-1').collapse('hide');	
+  		document.getElementById("setnao5-1").selected = "true";
+		document.getElementById("setselect5-3").selected = "true";
+		document.getElementById("setselect5-4").selected = "true";
 	}else{
 		$('.collapse_taba5-0').collapse('hide');
+		$('#collapse_taba5-0_extaba').collapse('show');
 		document.getElementById("setselect5-1").selected = "true";
 		document.getElementById("setselect5-2").selected = "true";	
 	}
@@ -15,8 +26,13 @@ function onblur_extaba51(){
 	var x = document.getElementById("extaba5-1").value;
 	if(x == 1){	
   		$('.collapse_extaba5-1').collapse('show');
+  		$('#collapse_taba5-0_taba').collapse('hide');
+  		$('.collapse_taba5-0').collapse('hide');
+  		document.getElementById("setselect5-1").selected = "true";
+		document.getElementById("setselect5-2").selected = "true";
 	}else{
-		$('.collapse_extaba5-1').collapse('hide');	
+		$('.collapse_extaba5-1').collapse('hide');
+		$('#collapse_taba5-0_taba').collapse('show');	
 		document.getElementById("setselect5-3").selected = "true";
 		document.getElementById("setselect5-4").selected = "true";	
 	}	
@@ -45,3 +61,6 @@ function onblur_etil53(){
 		document.getElementById("setselect5-6").selected = "true";	
 	}	
 }
+
+
+

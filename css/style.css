@@ -568,7 +568,7 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-offset-17 {
-    margin-left: 15.5%;
+    margin-left: 14.5%;
   }
 
   .col-md-print-offset-18 {
@@ -605,6 +605,10 @@ form#fudmcb4-6 {
 
   .col-md-print-offset-26 {
     margin-left: 42.5%;
+  }
+
+  .col-md-print-offset-26 {
+    margin-left: 7%;
   }
 }
 
