@@ -63,4 +63,13 @@ function onblur_etil53(){
 }
 
 
-
+//LINHA 5.4 (OHVI5-4, CB_OHVI5-4) -> COLLAPSE PARA CHECKBOX ADICIONADO NA PRIMEIRA FASE DE ALTERAÇÕES
+function onblur_ohvi54(){
+	var x = document.getElementById("ohvi5-4").value;
+	if(x == 1){	
+  		$('#collapse_ohvi5-4').collapse('show');
+	}else{
+		$('#collapse_ohvi5-4').collapse('hide');
+		clearcheckbox(document.getElementsByName("5-4cb"));
+	}		
+}

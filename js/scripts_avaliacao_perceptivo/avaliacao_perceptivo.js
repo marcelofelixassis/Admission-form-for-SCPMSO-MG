@@ -27,3 +27,29 @@ function onblur_calc_sz(){
 }
 
 
+//LINHA 7.1 (GGDD_7_1, SPR_7_1, TNS_7_1, RUG_7_1, AST_7_1, INST_7_1)
+//FUNÇÕES PARA PREENCHEMENTO AUTOMATICO -- FIZ ISSO NA PRIMEIRA FASE DE CORREÇÕES
+
+function letra_g(n){
+	document.getElementById("inp_letra_g").innerHTML = n;
+}
+
+function letra_r(n){
+	document.getElementById("inp_letra_r").innerHTML = n;
+}
+
+function letra_b(n){
+	document.getElementById("inp_letra_b").innerHTML = n;
+}
+
+function letra_a(n){
+	document.getElementById("inp_letra_a").innerHTML = n;
+}
+
+function letra_s(n){
+	document.getElementById("inp_letra_s").innerHTML = n;
+}
+
+function letra_i(n){
+	document.getElementById("inp_letra_i").innerHTML = n;
+}

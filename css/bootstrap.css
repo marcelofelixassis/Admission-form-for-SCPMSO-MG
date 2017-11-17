@@ -2147,7 +2147,7 @@ pre code {
     margin-left: 0.51%;
   }
   .col-md-offset-32 {
-    margin-left: 23%;
+    margin-left: 21.6%;
   }
   .col-md-offset-33 {
     margin-left: 35.8%;
@@ -2190,6 +2190,9 @@ pre code {
   }
   .col-md-offset-46 {
     margin-left: 12.2%;
+  }
+  .col-md-offset-47 {
+    margin-left: 3.2%;
   }
 }
 @media (min-width: 1200px) {

@@ -15,11 +15,11 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO habitos(`fk_finalidade`, `taba_5_0`, `hqt_5_0`, `qcd_5_0`, `extaba_5_1`, `fpqt_5_1`, `phqt_5_1`, `dril_5_2`, `cb_dril_5_2`, `otr_5_2`, `etil_5_3`, `qtb_5_3`, `qaf_5_3`, `ohvi_5_4`) 
-	VALUES (:fkfinalidade, :taba, :hqt, :qcd, :extaba, :fpqt, :phqt, :dril, :cb_dril, :otr, :etil, :qtb, :qaf, :ohvi)";
+	$sql = "INSERT INTO habitos(`fk_finalidade`, `taba_5_0`, `hqt_5_0`, `qcd_5_0`, `extaba_5_1`, `fpqt_5_1`, `phqt_5_1`, `dril_5_2`, `cb_dril_5_2`, `otr_5_2`, `etil_5_3`, `qtb_5_3`, `qaf_5_3`, `ohvi_5_4`, `cb_ohvi_5_4`) 
+	VALUES (:fkfinalidade, :taba, :hqt, :qcd, :extaba, :fpqt, :phqt, :dril, :cb_dril, :otr, :etil, :qtb, :qaf, :ohvi, :cb_ohvi)";
 
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':fkfinalidade', $myvar[13] );
+	$stmt->bindParam( ':fkfinalidade', $myvar[14] );
 	$stmt->bindParam( ':taba', $myvar[0] );
 	$stmt->bindParam( ':hqt', $myvar[1] );
 	$stmt->bindParam( ':qcd', $myvar[2] );
@@ -33,6 +33,7 @@
 	$stmt->bindParam( ':qtb', $myvar[9] );
 	$stmt->bindParam( ':qaf', $myvar[10] );
 	$stmt->bindParam( ':ohvi', $myvar[11] );
+	$stmt->bindParam( ':cb_ohvi', $myvar[13] );
 
 	$result = $stmt->execute();
 		
