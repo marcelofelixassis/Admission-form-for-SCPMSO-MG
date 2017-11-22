@@ -42,27 +42,6 @@ function cpf(v){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function testename2(){
 	var vet = new Array();
 	var sessao = document.getElementsByName("sessao7");
@@ -108,8 +87,3 @@ function testename2(){
 	var json = JSON.stringify(vet);
 	console.log(json);
 }
-
-
-
-
-

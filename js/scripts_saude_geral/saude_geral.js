@@ -47,7 +47,7 @@ function onblur_sdrg44(){
 	var x = document.getElementById("sdrg4-4").value;
 	if(x == 1){	
   		$('#collapse_sdrg4-4').collapse('show');
-  		document.getElementById("sdrg4-4").style.height = "30px";
+  		document.getElementById("sdrg4-4").style.height = "42px";
 	}else{
 		$('#collapse_sdrg4-4').collapse('hide');	
 		clearcheckbox(document.getElementsByName("4-4cb"));

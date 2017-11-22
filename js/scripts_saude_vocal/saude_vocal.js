@@ -33,6 +33,7 @@ function onblur_etfo65(){
 		document.getElementById("setselect6-4").selected = "true";
 		document.getElementById("setselect6-5").selected = "true";
 		document.getElementById("setselect6-6").selected = "true";	
+		document.getElementById("setselect6-8id").selected = "true";
 	}	
 }
 
@@ -68,5 +69,24 @@ function onblur_fudm612(){
 		$('.collapse_fudm6-12').collapse('hide');	
 		document.getElementById("setselect6-10").selected = "true";
 		document.getElementById("setselect6-11").selected = "true";
+	}	
+}
+
+function onblur_tf67(){
+	var x = document.getElementById("tf6-7").value;
+	if(x == 1){	
+  		$('.collapse_tf6-7').collapse('show');
+	}else{
+		$('.collapse_tf6-7').collapse('hide');	
+		$('.collapse_tfjr6-7').collapse('hide');
+		document.getElementById("setselect6-7").selected = "true";
+		document.getElementById("setselect6-8").selected = "true";
+		document.getElementById("setselect6-7id").selected = "true";
+		$('.collapse_etfo6-5').collapse('hide');	
+		document.getElementById("setselect6-4").selected = "true";
+		document.getElementById("setselect6-5").selected = "true";
+		document.getElementById("setselect6-6").selected = "true";
+		document.getElementById("setselect6-8id").selected = "true";
+		document.getElementById("setselect6-4id").selected = "true";	
 	}	
 }
