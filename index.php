@@ -1479,10 +1479,8 @@
 			      <select class="btn" name="sessao6">
 			      	<option id="setselect6-6" value="">SELECIONE...</option>
 							<option value="1">TRATAMENTO CONTÍNUO</option>
-				      <option value="2">ATÉ 4 SESSÕES</option>
-							<option value="3">5 A 8 SESSÕES</option>
-							<option value="4">9 A 12 SESSÕES</option>
-							<option value="5">NÃO SOUBE INFORMAR</option>
+				      <option value="2">TRATAMENTO COM INTERRUPÇÕES</option>
+							<option value="3">NÃO SOUBE INFORMAR</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
@@ -1528,7 +1526,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse col-md-3 col-md-offset-35 col-md-print-offset-10 collapse_civo6-10">
+		  <div class="collapse col-md-3 col-md-offset-1 col-md-print-offset-10 collapse_civo6-10">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
@@ -1541,7 +1539,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-35 /// col-md-print-offset-10 -->			 
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-10 -->			 
 		</div><!-- /.row -->
 
 
@@ -1632,7 +1630,7 @@
 			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-1" value="">SELECIONE...</option>
 							<option value="1">NEUTRA</option>
-				      <option value="2">DISFONICA</option>
+				      <option value="2">DISFÔNICA</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -1663,7 +1661,7 @@
 			<div class="panel-group">
 			  <div class="col-md-12">
 	    		<div class="panel panel-default">
-	      		<div class="panel-heading">CARACTERÍSTICAS DA DISFONIA (GRBASI, 1981) - CLASSIFICAÇÃO FINAL:</div>
+	      		<div class="panel-heading">CARACTERÍSTICAS DA DISFONIA - ESCALA GRBASI (HIRANO, 1981) - CLASSIFICAÇÃO FINAL:</div>
 	      		<div class="panel-body">
 		      		<div class="row">
 		      			<div class="col-md-9">
@@ -2120,7 +2118,7 @@
 		<!-- LINHA 7.11 (S_7_11, Z_7_11, RSZ_7_11) -->
 		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-13"> 
   		<div class="col-md-9">
-    		<label>RELAÇÃO S/Z - = 1 (normal)  / &#8805 1,2 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  &#8804 0,8 (sugestivo de hipercinesia laringea) </label>
+    		<label>RELAÇÃO S/Z - = 1 (normal)  / &#8805 1,2 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  &#8804 0,8 (sugestivo de hipercinesia laríngea) </label>
  		 	</div><!-- /.col-md-9 -->
 		</div><!-- /.row -->
 		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
@@ -2150,7 +2148,7 @@
 			      	<option id="setselect7-12" value="">SELECIONE...</option>
 			      	<option value="1">NORMAL</option>
 							<option value="2">SUGESTIVO DE PATOLOGIA VOCAL E/OU FALTA DE COAPTAÇÃO GLÓTICA</option>
-				      <option value="3">SUGESTIVO DE HIPERCINESIA LARINGEA</option>
+				      <option value="3">SUGESTIVO DE HIPERCINESIA LARÍNGEA</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -2199,6 +2197,7 @@
 				      <option value="2">IMPRECISA</option>
 				      <option value="3">TRAVADA</option>
 				      <option value="4">EXAGERADA</option>
+				      <option value="5">OUTRA</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -2219,7 +2218,7 @@
 			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-15" value="">SELECIONE...</option>
 							<option value="1">NÃO SE OBSERVA ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
-							<option value="2">OBESERVA-SE ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
+							<option value="2">OBSERVA-SE ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
