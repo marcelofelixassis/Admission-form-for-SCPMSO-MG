@@ -10,10 +10,7 @@ function onblur_tmdf79(){
 		clearcheckbox(document.getElementsByName("7-10ucb"));
 		document.getElementById("input_a").value = "";		
 		document.getElementById("input_i").value = "";	
-		document.getElementById("input_u").value = "";	
-		document.getElementById("input_s").value = "";	
-		document.getElementById("input_z").value = "";	
-		document.getElementById("input_sz").value = "";		
+		document.getElementById("input_u").value = "";		
 	}		
 }
 
@@ -52,4 +49,17 @@ function letra_s(n){
 
 function letra_i(n){
 	document.getElementById("inp_letra_i").innerHTML = n;
+}
+
+function onblur_epasz79(){
+	var x = document.getElementById("epasz7-9").value;
+	if(x == 1){	
+  		$('.collapse_epasz7-9').collapse('show');
+	}else{
+		$('.collapse_epasz7-9').collapse('hide');
+		document.getElementById("setselect7-12").selected = "true";
+		document.getElementById("input_s").value = "";	
+		document.getElementById("input_z").value = "";	
+		document.getElementById("input_sz").value = "";		
+	}		
 }

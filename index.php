@@ -1136,7 +1136,7 @@
 	    </div><!-- /.col-md-5 -->
 	    <div class="col-md-1 col-md-offset-37">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-34 /// col-md-print-offset-2 -->
+			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->
 	  </div><!-- /.row -->
 
 
@@ -1481,6 +1481,7 @@
 							<option value="1">TRATAMENTO CONTÍNUO</option>
 				      <option value="2">TRATAMENTO COM INTERRUPÇÕES</option>
 							<option value="3">NÃO SOUBE INFORMAR</option>
+							<option value="4">OUTRA</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
@@ -2038,11 +2039,24 @@
 
 
 
-		<!-- LINHA 7.9 (TMDF_7_9) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
-		  <div class="col-md-5">
+		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
-		      <span class="input-group-addon" id="basic-addon"><strong>TEMPO MÁXIMO DE FONAÇÃO (TMF) - </strong> É POSSÍVEL AVALIAR?</span>
+		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>TEMPO MÁXIMO DE FONAÇÃO (TMF)</strong></span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-4 -->	
+		</div>
+
+
+
+
+
+
+		<!-- LINHA 7.9 (TMDF_7_9) -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-4">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR VOGAIS?</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao7" id="tmdf7-9" onblur="onblur_tmdf79()">
 							<option value="0">NAO</option>
@@ -2115,13 +2129,33 @@
 
 
 
+		<!-- LINHA 7.9 (TMDF_7_9) -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-4">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR RELAÇÃO S/Z?</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao7" id="epasz7-9" onblur="onblur_epasz79()">
+							<option value="0">NAO</option>
+				      <option value="1">SIM</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-5 -->		
+		</div><!-- /.row -->
+
+
+
+
+
+
 		<!-- LINHA 7.11 (S_7_11, Z_7_11, RSZ_7_11) -->
-		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-13"> 
+		<div class="collapse collapse_epasz7-9 row row col-md-10 col-md-offset-13"> 
   		<div class="col-md-9">
     		<label>RELAÇÃO S/Z - = 1 (normal)  / &#8805 1,2 (sugestivo de patologia vocal e/ou falta de coaptação glótica)  /  &#8804 0,8 (sugestivo de hipercinesia laríngea) </label>
  		 	</div><!-- /.col-md-9 -->
 		</div><!-- /.row -->
-		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
+		<div class="collapse collapse_epasz7-9 row row col-md-10 col-md-offset-1" style="margin-top: -0.6%;"> 
   		<div class="col-md-6">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[s]</strong></span>
@@ -2139,7 +2173,7 @@
 
 
 
-		<div class="collapse collapse_tmdf7-9 row row col-md-10 col-md-offset-1">
+		<div class="collapse collapse_epasz7-9 row row col-md-10 col-md-offset-1">
 		  <div class="col-md-6">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESULTADO:</span>
@@ -2160,11 +2194,24 @@
 
 
 
-		<!-- LINHA 7.13 (LAF_7_13, VEL_7_13, ART_7_13) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
-		  <div class="col-md-4">
+		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
-		      <span class="input-group-addon" id="basic-addon"><strong>FALA/AUDIÇÃO - </strong> FLUÊNCIA:</span>
+		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>OUTROS ASPECTOS</strong></span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-4 -->	
+		</div>
+
+
+
+
+
+
+		<!-- LINHA 7.13 (LAF_7_13, VEL_7_13, ART_7_13) -->
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">FLUÊNCIA:</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao7">
 			      	<option id="setselect7-12" value="">SELECIONE...</option>
@@ -2174,7 +2221,10 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 -->	
-		  <div class="col-md-4 col-md-offset-34 col-md-print-offset-10">
+		</div>
+
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">VELOCIDADE:</span>
 		  		<span class="input-group-btn">
@@ -2187,7 +2237,10 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 col-md-offset-34 /// col-md-print-offset-10 -->	
-		  <div class="col-md-2 col-md-offset-44 col-md-print-offset-6">
+		</div>
+
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ARTICULAÇÃO:</span>
 		  		<span class="input-group-btn">
@@ -2198,6 +2251,22 @@
 				      <option value="3">TRAVADA</option>
 				      <option value="4">EXAGERADA</option>
 				      <option value="5">OUTRA</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-2 col-md-offset-44 /// col-md-print-offset-6 -->	
+		</div>
+
+		<div class="row row col-md-10 col-md-offset-1">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">DISTÚRBIO FONÉTICO:</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao7">
+			      	<option id="setselect7-14" value="">SELECIONE...</option>
+							<option value="1">CECEIO ANTERIOR</option>
+				      <option value="2">CECEIO LATERAL</option>
+				      <option value="3">OUTRO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -2265,7 +2334,7 @@
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">SOFTWARE UTILIZADO:</span>
+	      	<span class="input-group-addon" id="basic-addon"><i>SOFTWARE</i> UTILIZADO:</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" id="spfu" name="sessao8" onblur="onblur_spfu()">
 							<option value="1">GRAM</option>
