@@ -2056,7 +2056,7 @@
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-4">
 		    <div class="input-group input-group-sm">
-		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR VOGAIS?</span>
+		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR AS VOGAIS?</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao7" id="tmdf7-9" onblur="onblur_tmdf79()">
 							<option value="0">NAO</option>
@@ -2133,7 +2133,7 @@
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-4">
 		    <div class="input-group input-group-sm">
-		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR RELAÇÃO S/Z?</span>
+		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR A RELAÇÃO S/Z?</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao7" id="epasz7-9" onblur="onblur_epasz79()">
 							<option value="0">NAO</option>
@@ -2197,7 +2197,7 @@
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
-		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>OUTROS ASPECTOS</strong></span>
+		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>OUTROS ASPECTOS DA COMUNICAÇÃO</strong></span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 -->	
 		</div>
