@@ -26,7 +26,7 @@
 
 
 
-		<!-- NAME = SESSAO1 || LINHA 1.0 (NOME1-0, SEXO1-0)-->
+		<!-- NAME = SESSAO1 || LINHA 1.0 (NOME_1_0, SEXO_1_0)-->
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-10 col-md-print-1">
 	    	<div class="input-group input-group-sm">
@@ -38,7 +38,7 @@
 	    	<div class="input-group input-group-sm">
 	    		<span class="input-group-addon" id="basic-addon">SEXO:</span>  
 	    		<div class="form-group form-group-sm">
-		      	<select class="form-control selectcss" name="sessao1">
+		      	<select class="form-control" name="sessao1">
 		        	<option value="1">F</option>
 		        	<option value="2">M</option>
 		      	</select>
@@ -52,7 +52,7 @@
 
 
 
-		<!-- LINHA 1.1 (DT1-1, EC1-1, CPFMASPN1-1, CPFMASPN1-1)-->
+		<!-- LINHA 1.1 (DT_1_1, EC_1_1, CPF_1_1, MASP_1_1)-->
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3 col-md-print-3">
 	    	<div class="input-group input-group-sm">
@@ -65,6 +65,7 @@
 	    		<span class="input-group-addon" id="basic-addon">ESTADO CIVIL:</span>  
 	    		<span class="input-group-btn">
 		      	<select class="btn" name="sessao1">
+		      		<option value="">SELECIONE...</option>
 		        	<option value="1">SOLTEIRO</option>
 		        	<option value="2">CASADO/UNIÃO ESTÁVEL</option>
 		        	<option value="3">VIÚVO</option>
@@ -91,7 +92,7 @@
 
 
 
-		<!-- LINHA 1.2 (DT2-0)    INSERIDO NA TABELA DE FINALIDADES-->
+		<!-- LINHA 1.2 (DT_2_0)    INSERIDO NA TABELA DE FINALIDADES-->
 	  <div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-2 col-md-print-6">
 	    	<div class="input-group input-group-sm">
@@ -111,6 +112,7 @@
 
 
 		
+
 		<!--######################################################################################################################
 		##################################################      SESSAO 2     #####################################################
 		##########################################################################################################################
@@ -124,7 +126,7 @@
 
 	
 
-		<!--LINHA 2.0 (APFD2-0, DIAS2-0, AD2-0)-->
+		<!--LINHA 2.0 (APFD_2_0, DIAS_2_0, AD_2_0)-->
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
@@ -179,7 +181,7 @@
 
 
 
-		<!--LINHA 2.1 (AS2-1, ORG2-1)-->
+		<!--LINHA 2.1 (AS_2_1, ORG_2_1)-->
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
@@ -207,14 +209,15 @@
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-2 col-md-offset-45 -->
+	  	</div><!-- /col-md-2 col-md-offset-45 /// col-md-print-offset-26 -->
 		</div><!-- /.row -->
 
 
 
 
 
-		<!--LINHA 2.2 (AP2-1)-->
+
+		<!--LINHA 2.2 (AP_2_2)-->
 		<div class="row row col-md-10 col-md-offset-1"> 
 			<div class="col-md-3">
 	  		<div class="input-group input-group-sm">
@@ -233,16 +236,18 @@
 	    		</span> 
 	  		</div>
 			</div><!-- /.col-md-3 -->
+			<!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 			<div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs2-3">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
-		</div>
+			</div><!-- /.col-md-1 col-md-offset-20-->
+		</div><!-- /.row -->>
 
 
 
 
 
-		<!-- LINHA 2.3 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs2-3">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -251,6 +256,7 @@
 		    </div>
 			</div>		
 		</div>
+
 
 
 
@@ -1327,7 +1333,10 @@
 	     				<input type="checkbox" value="9" name="6-4cb">FENDA GLÓTICA
 	   				</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="10" name="6-4cb">NÃO SOUBE INFORMAR
+	     				<input type="checkbox" value="10" name="6-4cb">OUTRA(S)
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="11" name="6-4cb">NÃO SOUBE INFORMAR
 	   				</label>
 	 				</form>
 	    	</div><!-- /input-group -->
@@ -2435,7 +2444,7 @@
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="teste()">AQUI TESTE</button>
+			<button type="button" class="btn btn-info" onclick="identificacao()">AQUI TESTE</button>
 			
 		</div>		
 
