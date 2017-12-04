@@ -1,4 +1,4 @@
-//LETRA A /// LINHA 6.0 (SINP6-0)
+//LETRA A /// LINHA 6.0 (SINP_6_0)
 function onblur_sipr60(){
 	var x = document.getElementById("sipr6-0").value;
 	if(x == 2){	
@@ -11,7 +11,7 @@ function onblur_sipr60(){
 	}
 }
 
-//LETRA C /// LINHA 6.3 (PSLC6-3, QND6-3)
+//LETRA C /// LINHA 6.3 (PSLC_6_3, QND_6_3)
 function onblur_pslc63(){
 	var x = document.getElementById("pslc6-3").value;
 	if(x == 1){	

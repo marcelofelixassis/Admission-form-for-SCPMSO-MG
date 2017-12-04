@@ -42,7 +42,7 @@ function onblur_doa43(){
 	}
 }
 
-//LINHA 4.4 (SDRG4-4, CB_SDRG4-4)
+//LINHA 4.4 (SDRG_4_4, CB_SDRG_4_4)
 function onblur_sdrg44(){
 	var x = document.getElementById("sdrg4-4").value;
 	if(x == 1){	
@@ -54,7 +54,7 @@ function onblur_sdrg44(){
 	}
 }
 
-//LINHA 4.5 (OASG4-5, CB_OASG4-5)
+//LINHA 4.5 (OASG_4_5, CB_OASG_4_5)
 function onblur_oasg45(){
 	var x = document.getElementById("oasg4-5").value;
 	if(x == 1){	
@@ -66,7 +66,7 @@ function onblur_oasg45(){
 	}
 }
 
-//LETRA A /// LINHA 4.6 (FUDM4-6, CB_FUDM4-6)
+//LETRA A /// LINHA 4.6 (FUDM_4_6, CB_FUDM_4_6)
 function onblur_fudm46(){
 	var x = document.getElementById("fudm4-6").value;
 	if(x == 1){	
@@ -79,7 +79,7 @@ function onblur_fudm46(){
 	}
 }
 
-//LETRA B /// LINHA 4.7 (CCAG4.7)	
+//LETRA B /// LINHA 4.7 (CCAG_4_7)	
 function onblur_ccag47(){
 	var x = document.getElementById("ccag4-7").value;
 	if(x == 1){	

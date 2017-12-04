@@ -499,6 +499,10 @@ form#fudmcb4-6 {
     width: 58.6%; 
   }
 
+  .col-md-print-11 {
+    width: 27%; 
+  }
+
   .col-md-print-offset-1 {
   	margin-left: 6.8%;
   }

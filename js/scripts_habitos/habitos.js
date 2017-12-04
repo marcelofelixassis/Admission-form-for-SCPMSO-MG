@@ -3,7 +3,7 @@ window.onload = function() {
 	$('#collapse_taba5-0_taba').collapse('show');
 }
 
-//LINHA 5.0 (TABA5-0, HQT5-0, QCD5-0)
+//LINHA 5.0 (TABA_5_0, HQT_5_0, QCD_5_0)
 function onblur_taba50(){
 	var x = document.getElementById("taba5-0").value;
 	if(x == 1){	
@@ -21,7 +21,7 @@ function onblur_taba50(){
 	}
 }
 
-//LINHA 5.1 (EXTABA5-1, FPQT5-1, PHQT5-1)
+//LINHA 5.1 (EXTABA_5_1, FPQT_5_1, PHQT_5_1)
 function onblur_extaba51(){
 	var x = document.getElementById("extaba5-1").value;
 	if(x == 1){	
@@ -38,7 +38,7 @@ function onblur_extaba51(){
 	}	
 }
 
-//LINHA 5.2 (DRIL5-2, CB_DRIL5-2, OTR5-2)
+//LINHA 5.2 (DRIL_5_2, CB_DRIL_5_2, OTR_5_2)
 function onblur_dril52(){
 	var x = document.getElementById("dril5-2").value;
 	if(x == 1){	
@@ -50,20 +50,20 @@ function onblur_dril52(){
 	}	
 }
 
-//LINHA 5.3 (ETIL5-3, QTB5-3, QAF5-3)
+//LINHA 5.3 (ETIL_5_3, QTB_5_3, QAF_5_3)
 function onblur_etil53(){
 	var x = document.getElementById("etil5-3").value;
 	if(x == 1){	
   		$('.collapse_etil5-3').collapse('show');
 	}else{
 		$('.collapse_etil5-3').collapse('hide');
-		document.getElementById("setselect5-5").selected = "true";
+		clearcheckbox(document.getElementsByName("5-3cb"));
 		document.getElementById("setselect5-6").selected = "true";	
 	}	
 }
 
 
-//LINHA 5.4 (OHVI5-4, CB_OHVI5-4) -> COLLAPSE PARA CHECKBOX ADICIONADO NA PRIMEIRA FASE DE ALTERAÇÕES
+//LINHA 5.4 (OHVI_5_4, CB_OHVI_5_4) -> COLLAPSE PARA CHECKBOX ADICIONADO NA PRIMEIRA FASE DE ALTERAÇÕES
 function onblur_ohvi54(){
 	var x = document.getElementById("ohvi5-4").value;
 	if(x == 1){	

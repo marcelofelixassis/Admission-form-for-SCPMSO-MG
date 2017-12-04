@@ -702,7 +702,7 @@
 
 
 
-	  <!-- LETRA A /// LINHA 4.6 (FUDM4-6, CB_FUDM4-6) -->			
+	  <!-- LETRA A /// LINHA 4.6 (FUDM_4_6, CB_FUDM_4_6) -->			
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -771,7 +771,7 @@
 
 
 
-	  <!-- LETRA B /// LINHA 4.7 (CCAG4.7)-->		
+	  <!-- LETRA B /// LINHA 4.7 (CCAG_4_7)-->		
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
@@ -799,7 +799,7 @@
 
 
 
-		<!-- LETRA B.1 /// LINHA 4.8 (TIRE4.8) -->	
+		<!-- LETRA B.1 /// LINHA 4.8 (TIRE_4_8) -->	
 		<div class="row row col-md-10 col-md-offset-1">
 		  	<div class="col-md-3">
 		    	<div class="input-group input-group-sm">
@@ -851,7 +851,7 @@
 
 
 
-		<!--LINHA 5.0 (TABA5-0, HQT5-0, QCD5-0)-->
+		<!--LINHA 5.0 (TABA_5_0, HQT_5_0, QCD_5_0)-->
 		<div class="row row col-md-10 col-md-offset-1 collapse" id="collapse_taba5-0_taba">
 	  	<div class="col-md-2">
 	    	<div class="input-group input-group-sm">
@@ -994,7 +994,7 @@
 
 
 
-		<!--LINHA 5.3 (ETIL5-3, QTB5-3, QAF5-3)-->
+		<!--LINHA 5.3 (ETIL_5_3, CB_QTB_5_3, QAF_5_3)-->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-2">
 	    	<div class="input-group input-group-sm">
@@ -1007,7 +1007,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-2 -->
-	    <div class="collapse col-md-3 col-md-offset-13 col-md-print-offset-1 collapse_etil5-3" style="padding-top: 0.7%;">
+	    <div class="collapse col-md-4 col-md-offset-13 col-md-print-offset-2 collapse_etil5-3" style="padding-top: 0.7%;">
 	    	<div class="input-group input-group-sm">
 	      	<form>
     				<label class="checkbox-inline">
@@ -1018,8 +1018,8 @@
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-3 col-md-offset-13 col-md-print-offset-1 -->
-	    <div class="collapse col-md-3 col-md-offset-29 col-md-print-offset-12 collapse_etil5-3">
+	    </div><!-- /.col-md-4 col-md-offset-13 /// col-md-print-offset-2 -->
+	    <div class="collapse col-md-3 col-md-offset-22 collapse_etil5-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL A FREQUÊNCIA?</span>
 	  			<span class="input-group-btn">
@@ -1035,7 +1035,7 @@
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-3 col-md-offset-29 col-md-print-offset-12 -->
+	    </div><!-- /.col-md-3 col-md-offset-22 -->
 		</div><!-- /.row -->
 
 
@@ -2444,7 +2444,7 @@
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="saude_geral('1')">AQUI TESTE</button>
+			<button type="button" class="btn btn-info" onclick="habitos('1')">AQUI TESTE</button>
 			
 		</div>		
 

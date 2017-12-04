@@ -7,9 +7,10 @@ function habitos(id_da_finalidade){
 		console.log(i+" = "+sessao[i].value);
 	}
 	vet.push(getcheckboxs(document.getElementsByName("5-2cb")));
+	vet.push(getcheckboxs(document.getElementsByName("5-3cb")));
 	vet.push(getcheckboxs(document.getElementsByName("5-4cb")));
 	vet.push(id_da_finalidade);
-
+	
 	$.ajax({
 		type : "GET",
 		url : url+"habitos.php?data="+JSON.stringify(vet),
