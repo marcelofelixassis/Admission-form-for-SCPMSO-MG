@@ -1,6 +1,6 @@
 // 3° FASE >>> FASE DE INSERTS NA TABELA DE COMPLEMENTARES
 function complementares(id_da_finalidade){
-	console.log("----------------------- o id retornado é "+id_da_finalidade);	
+	console.log("o id retornado é "+id_da_finalidade);	//pega todos os resultados dos campos com name = sessao3 e coloca no vetor vet
 	var sessao = document.getElementsByName("sessao3");
 	var vet = new Array();
 	for(var i = 0; i < sessao.length; i++){
@@ -9,35 +9,22 @@ function complementares(id_da_finalidade){
 	}
 
 
-	if(sessao[2]){
-		var sessao39cb = document.getElementsByName("3-9cb");
-		var aux = new Array();
-			for(var i = 0; i < sessao39cb.length; i++){
-			if (sessao39cb[i].checked){
-				aux.push(sessao39cb[i].value);
-			}
-		}
-		vet.push(aux.toString());
+	if(sessao[2]){ //verifica se foi marcado sim ou nao no select 'atividades para uso... (anterior)'
+		vet.push(getcheckboxs(document.getElementsByName("3-9cb"))); // getcheckboxs retorna os cb marcados de um grupo de checkbox, e os add no vetor vet 
 	}else{
-		vet.push("");
+		vet.push(""); //caso marque 'nao' no select ele preenche com um valor vazio
 	}
 
 
-	if(sessao[3]){
-		var sessao310cb = document.getElementsByName("3-10cb");
-		var aux = new Array();
-			for(var i = 0; i < sessao310cb.length; i++){
-			if (sessao310cb[i].checked){
-				aux.push(sessao310cb[i].value);
-			}
-		}
-		vet.push(aux.toString());
+	if(sessao[3]){ //verifica se foi marcado sim ou nao no select 'atividades para uso... (atual)'
+		vet.push(getcheckboxs(document.getElementsByName("3-10cb"))); // getcheckboxs retorna os cb marcados de um grupo de checkbox, e os add no vetor vet
 	}else{
-		vet.push("");
+		vet.push(""); //caso marque 'nao' no select ele preenche com um valor vazio
 	}
 
+	vet.push(id_da_finalidade); //add ao vetor vet o id da finalidade para o relacionamento no bd
 
-	vet.push(id_da_finalidade);
+	console.log(JSON.stringify(vet));
 	$.ajax({
 		type : "GET",
 		url : url+"complementares.php?data="+JSON.stringify(vet),
@@ -45,7 +32,8 @@ function complementares(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
-				cargos_atuais_anteriores(id_da_finalidade, json['id'], sessao[0].value, sessao[1].value);
+				console.log(json);
+				cargos_atuais_anteriores(id_da_finalidade, json['id'], sessao[0].value, sessao[1].value); //chama a funcao que é responsavel por inserir no banco os cargos atuais e anteriores
 				loading(4, true);
 			}else{
 				loading(3, false);
@@ -61,11 +49,10 @@ function complementares(id_da_finalidade){
 
 
 function cargos_atuais_anteriores(id_da_finalidade, id_da_complementares, sessao_atuais, sessao_anteriores){
-	if(sessao_atuais > 0){
-		console.log(sessao_atuais);
+	if(sessao_atuais > 0){ //verifica quantos cargos o usuario selecionou e faz um switch para chamar o numero exato de metodos de preenchimento de cargos anteriores
 		switch(sessao_atuais){
 			case "1":
-				cargos_atuais_1(id_da_complementares);
+				cargos_atuais_1(id_da_complementares); //passando como parametro o id de complementares para preencher a fk
 			break;
 
 			case "2":
@@ -81,7 +68,7 @@ function cargos_atuais_anteriores(id_da_finalidade, id_da_complementares, sessao
 		}
 	}
 
-	if(sessao_anteriores > 0){
+	if(sessao_anteriores > 0){ //verifica quantos cargos anteriores o usuario selecionou
 		switch(sessao_anteriores){
 			case "1":
 				cargos_anteriores_1(id_da_complementares);
@@ -105,7 +92,7 @@ function cargos_atuais_anteriores(id_da_finalidade, id_da_complementares, sessao
 				cargos_anteriores_4(id_da_complementares);
 			break;
 		}
-		saude_geral(id_da_finalidade);
+		saude_geral(id_da_finalidade); //chama o proximo arquivo de inserir dados
 		loading(5, true);
 	}else{
 		saude_geral(id_da_finalidade);
@@ -115,7 +102,10 @@ function cargos_atuais_anteriores(id_da_finalidade, id_da_complementares, sessao
 
 
 
-
+/*
+*
+* METODOS DE INSERIR CARGOS ATUAIS
+*/
 
 function cargos_atuais_1(id_da_complementares){
 	var sessao = document.getElementsByName("sessao3-1");
@@ -124,9 +114,9 @@ function cargos_atuais_1(id_da_complementares){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
-	vet.push(getcheckboxs(document.getElementsByName("3-1-2cb")));
+	vet.push(getcheckboxs(document.getElementsByName("3-1-3cb")));
 	vet.push(id_da_complementares);
-	vet.push(1);
+	vet.push(1); // NUMERO 1
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_atuais.php?data="+JSON.stringify(vet),
@@ -152,9 +142,9 @@ function cargos_atuais_2(id_da_complementares){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
-	vet.push(getcheckboxs(document.getElementsByName("3-2-2cb")));
+	vet.push(getcheckboxs(document.getElementsByName("3-2-3cb")));
 	vet.push(id_da_complementares);
-	vet.push(2);
+	vet.push(2); // NUMERO 1
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_atuais.php?data="+JSON.stringify(vet),
@@ -180,9 +170,9 @@ function cargos_atuais_3(id_da_complementares){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
-	vet.push(getcheckboxs(document.getElementsByName("3-3-2cb")));
+	vet.push(getcheckboxs(document.getElementsByName("3-3-3cb")));
 	vet.push(id_da_complementares);
-	vet.push(3);
+	vet.push(3); // NUMERO 3
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_atuais.php?data="+JSON.stringify(vet),
@@ -205,7 +195,10 @@ function cargos_atuais_3(id_da_complementares){
 
 
 
-
+/*
+*
+*METODOS DE INSERIR CARGOS ANTERIORES
+*/
 
 
 function cargos_anteriores_1(id_da_complementares){
@@ -216,7 +209,7 @@ function cargos_anteriores_1(id_da_complementares){
 		console.log(i+" = "+sessao[i].value);
 	}
 	vet.push(id_da_complementares);
-	vet.push(1);
+	vet.push(1); // NUMERO 1
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_anteriores.php?data="+JSON.stringify(vet),
@@ -243,7 +236,7 @@ function cargos_anteriores_2(id_da_complementares){
 		console.log(i+" = "+sessao[i].value);
 	}
 	vet.push(id_da_complementares);
-	vet.push(2);
+	vet.push(2); // NUMERO 2
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_anteriores.php?data="+JSON.stringify(vet),
@@ -270,7 +263,7 @@ function cargos_anteriores_3(id_da_complementares){
 		console.log(i+" = "+sessao[i].value);
 	}
 	vet.push(id_da_complementares);
-	vet.push(3);
+	vet.push(3); // NUMERO 3
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_anteriores.php?data="+JSON.stringify(vet),
@@ -297,7 +290,7 @@ function cargos_anteriores_4(id_da_complementares){
 		console.log(i+" = "+sessao[i].value);
 	}
 	vet.push(id_da_complementares);
-	vet.push(4);
+	vet.push(4); // NUMERO 4
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_anteriores.php?data="+JSON.stringify(vet),
@@ -315,8 +308,3 @@ function cargos_anteriores_4(id_da_complementares){
 		} 
 	});		
 }
-
-
-
-
-

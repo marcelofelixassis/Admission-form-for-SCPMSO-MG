@@ -1,43 +1,43 @@
-//LINHA 4.0 (DFL4-0, CB_DFL4-0)
-function onblur_dfl40(){
-	var x = document.getElementById("dfl4-0").value;
+//LINHA 4.0 (DNSF_4_0, CB_DNSF_4_0)
+function onblur_dnsf40(){
+	var x = document.getElementById("dnsf4-0").value;
 	if(x == 1){	
-  		$('#collapse_dfl4-0').collapse('show');
+  		$('#collapse_dnsf4-0').collapse('show');
 	}else{
-		$('#collapse_dfl4-0').collapse('hide');	
-		clearcheckbox(document.getElementsByName("4-0cb"));
+		$('#collapse_dnsf4-0').collapse('hide');
+		clearcheckbox(document.getElementsByName("4-0cb"));	
 	}
 }
 
-//LINHA 4.1 (DOA4-1, CB_DOA4-1)
-function onblur_doa41(){
-	var x = document.getElementById("doa4-1").value;
+//LINHA 4.1 (DA_4_1, CB_DA_4_1)
+function onblur_da41(){
+	var x = document.getElementById("da4-1").value;
 	if(x == 1){	
-  		$('#collapse_doa4-1').collapse('show');
+  		$('#collapse_da4-1').collapse('show');
 	}else{
-		$('#collapse_doa4-1').collapse('hide');
-		clearcheckbox(document.getElementsByName("4-1cb"));	
+		$('#collapse_da4-1').collapse('hide');	
+		clearcheckbox(document.getElementsByName("4-1cb"));
 	}
 }
 
-//LINHA 4.2 (DA4-2, CB_DA4-2)
-function onblur_da42(){
-	var x = document.getElementById("da4-2").value;
+//LINHA 4.2 (DFL_4_2, CB_DFL_4_2)
+function onblur_dfl42(){
+	var x = document.getElementById("dfl4-2").value;
 	if(x == 1){	
-  		$('#collapse_da4-2').collapse('show');
+  		$('#collapse_dfl4-2').collapse('show');
 	}else{
-		$('#collapse_da4-2').collapse('hide');	
+		$('#collapse_dfl4-2').collapse('hide');	
 		clearcheckbox(document.getElementsByName("4-2cb"));
 	}
 }
 
-//LINHA 4.3 (DNSF4-3, CB_DNSF4-3)
-function onblur_dnsf43(){
-	var x = document.getElementById("dnsf4-3").value;
+//LINHA 4.3 (DOA_4_3, CB_DOA_4_3)
+function onblur_doa43(){
+	var x = document.getElementById("doa4-3").value;
 	if(x == 1){	
-  		$('#collapse_dnsf4-3').collapse('show');
+  		$('#collapse_doa4-3').collapse('show');
 	}else{
-		$('#collapse_dnsf4-3').collapse('hide');
+		$('#collapse_doa4-3').collapse('hide');
 		clearcheckbox(document.getElementsByName("4-3cb"));	
 	}
 }

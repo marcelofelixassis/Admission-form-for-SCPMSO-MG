@@ -146,7 +146,7 @@
 	  	<div class="col-md-2 col-md-offset-19 col-md-print-7 col-md-print-offset-4" id="visible_apfd2-0" style="visibility: hidden;">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DIAS:</span>
-	  			<input type='text' class="form-control" maxlength="3" id="inputsessao2" name="sessao2"/>
+	  			<input type='text' class="form-control" maxlength="3" id="dias2-0" name="sessao2"/>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-2 col-md-offset-19 /// col-md-print-7 col-md-print-offset-4 -->
 		  <div class="col-md-2 col-md-offset-1 col-md-print-offset-5">
@@ -223,16 +223,16 @@
 	  		<div class="input-group input-group-sm">
 	  			<span class="input-group-addon">AULAS PARA:</span>
 	    		<span class="input-group-addon" style="line-height: 0;">
-	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="2-1cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="2-2cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
 	    		</span>
 	        <span class="input-group-addon" style="line-height: 0;">
-	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="2-1cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
+	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="2-2cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
 	    		</span> 
 	    		<span class="input-group-addon" style="line-height: 0;">
-	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="2-1cb"> ENSINO MÉDIO</label>
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="2-2cb"> ENSINO MÉDIO</label>
 	    		</span>
 	        <span class="input-group-addon" style="line-height: 0;">
-	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="2-1cb"> ENSINO SUPERIOR</label>
+	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="2-2cb"> ENSINO SUPERIOR</label>
 	    		</span> 
 	  		</div>
 			</div><!-- /.col-md-3 -->
@@ -240,7 +240,7 @@
 			<div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs2-3">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20-->
-		</div><!-- /.row -->>
+		</div><!-- /.row -->
 
 
 
@@ -255,7 +255,7 @@
 			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
 		    </div>
 			</div>		
-		</div>
+		</div><!--/.row -->
 
 
 
@@ -275,7 +275,7 @@
 
 
 
-		<!-- LETRA A /// LINHA 3.0 (PQCCP3-0) -->		
+		<!-- LETRA A /// LINHA 3.0 (PQCCP_3_0) -->		
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -290,9 +290,10 @@
       		</span>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-3 -->
+	  	<!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	  	<div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs3-11">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
+			</div><!-- /.col-md-1 col-md-offset-20 -->
 		</div><!-- /.row -->
 
 
@@ -301,8 +302,7 @@
 
 
 		<!-- INICIO CONTEINER -->
-		<!-- CONTEINER DE CARGOS /// PAGINAS primeiro_cargo.html = 3.1,
-		segundo_cargo.html = 3.2, terceiro_cargo.html = 3.3 -->
+		<!-- CONTEINER DE CARGOS /// PAGINAS primeiro_cargo.html = 3.1, segundo_cargo.html = 3.2, terceiro_cargo.html = 3.3 -->
 		<div id="collapse_cargos" class="col-md-16 col-md-offset-13"></div>
 
 
@@ -310,7 +310,7 @@
 
 
 
-		<!-- LETRA B /// LINHA 3.4 (JACP3-4) -->	
+		<!-- LETRA B /// LINHA 3.4 (JACP_3_4) -->	
 		<div class="row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -343,67 +343,20 @@
 
 
 
-		<!-- LETRA C /// LINHA 3.10 (OADA3-10, CB_OADA3-10) -->
+		<!-- LETRA C /// LINHA 3.9 (OADA_3_9, CB_OADA_3_9) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oada310()" id="oada3-10" name="sessao3">
+	        	<select class="btn" onblur="onblur_oada39()" id="oada3-9" name="sessao3">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oada3-10">
-	    	<div class="input-group input-group-sm">
-	      	<form class="adupv">
-    				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="3-10cb">CANTOR
-    				</label>
-    				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="3-10cb">VENDEDOR
-    				</label>
-    				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="3-10cb">REPÓRTER
-    				</label>
-        		<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="3-10cb">ADVOGADO
-    				</label>
-        		<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="3-10cb">PADRE/PASTOR
-    				</label>
-        		<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="3-10cb">ATOR/ATRIZ
-    				</label>
-        		<label class="checkbox-inline">
-      				<input type="checkbox" value="7" name="3-10cb">TELEMARKETING
-    				</label>
-  				</form>
-	    	</div><!-- /input-group -->
-	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
-	  </div><!-- /.row -->
-
-
-
-
-
-
-		<!-- LETRA D /// LINHA 3.9 (OADU3-9, CB_OADU3-9) -->
-		<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
-	  	<div class="col-md-5">
-	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon"><strong>d) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ATUAL)?</span>
-	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oadu39()" id="oadu3-9" name="sessao3">
-							<option value="0">NÃO</option>
-			        <option value="1">SIM</option>
-	        	</select>
-      		</span>
-	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-5 -->
-			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oadu3-9">
+			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oada3-9">
 	    	<div class="input-group input-group-sm">
 	      	<form class="adupv">
     				<label class="checkbox-inline">
@@ -430,6 +383,53 @@
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
+	  </div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LETRA D /// LINHA 3.10 (OADU_3_10, CB_OADU_3_10) -->
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon"><strong>d) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ATUAL)?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_oadu310()" id="oadu3-10" name="sessao3">
+							<option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-5 -->
+			<div class="collapse col-md-6 col-md-print-offset-1" id="collapse_oadu3-10">
+	    	<div class="input-group input-group-sm">
+	      	<form class="adupv">
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="1" name="3-10cb">CANTOR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="2" name="3-10cb">VENDEDOR
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="3" name="3-10cb">REPÓRTER
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="3-10cb">ADVOGADO
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="3-10cb">PADRE/PASTOR
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="3-10cb">ATOR/ATRIZ
+    				</label>
+        		<label class="checkbox-inline">
+      				<input type="checkbox" value="7" name="3-10cb">TELEMARKETING
+    				</label>
+  				</form>
+	    	</div><!-- /input-group -->
+	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
 	  </div><!-- /.row -->  
 
 
@@ -437,7 +437,7 @@
 
 
 
-		<!-- LINHA 3.11 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs3-11">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -446,6 +446,8 @@
 		    </div>
 			</div>		
 		</div>
+
+
 
 
 
@@ -463,30 +465,30 @@
 
 
 
-	  <!-- LINHA 4.3 (DNSF4-3, CB_DNSF4-3) -->			
+		<!-- LINHA 4.0 (DNSF_4_0, CB_DNSF_4_0) -->			
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS NASAIS E DOS SEIOS DA FACE?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dnsf43()" id="dnsf4-3" name="sessao4">
+	        	<select class="btn" onblur="onblur_dnsf40()" id="dnsf4-0" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->
-			<div class="collapse col-md-5 col-md-offset-31 col-md-print-offset-1" id="collapse_dnsf4-3">
+			<div class="collapse col-md-5 col-md-offset-31 col-md-print-offset-1" id="collapse_dnsf4-0">
 	    	<div class="input-group input-group-sm">
-	      	<form id="dnsfcb4-3">
+	      	<form id="dnsfcb4-0">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-3cb">SINUSITE
+      				<input type="checkbox" value="1" name="4-0cb">SINUSITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-3cb">DESVIO DE SEPTO
+      				<input type="checkbox" value="2" name="4-0cb">DESVIO DE SEPTO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-3cb">RINITE
+      				<input type="checkbox" value="3" name="4-0cb">RINITE
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -498,39 +500,39 @@
 
 
 
-	  <!-- LINHA 4.2 (DA4-2, CB_DA4-2) -->			
+	  <!-- LINHA 4.1 (DA_4_1, CB_DA_4_1) -->		
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3 col-md-print-6">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS ALÉRGICOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" id="da4-2" onblur="onblur_da42()" name="sessao4">
+	        	<select class="btn" onblur="onblur_da41()" id="da4-1" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-3 /// col-md-print-6 -->
-			<div class="collapse col-md-9 col-md-print-8 col-md-print-offset-14" id="collapse_da4-2">
+			<div class="collapse col-md-9 col-md-print-8 col-md-print-offset-14" id="collapse_da4-1">
 	    	<div class="input-group input-group-sm">
-	      	<form id="dacb4-2">
+	      	<form id="dacb4-1">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-2cb">CHEIRO FORTE
+      				<input type="checkbox" value="1" name="4-1cb">CHEIRO FORTE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-2cb">POEIRA
+      				<input type="checkbox" value="2" name="4-1cb">POEIRA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-2cb">MOFO
+      				<input type="checkbox" value="3" name="4-1cb">MOFO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-2cb">PÓ DE GIZ
+      				<input type="checkbox" value="4" name="4-1cb">PÓ DE GIZ
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="4-2cb">ALIMENTAR
+      				<input type="checkbox" value="5" name="4-1cb">ALIMENTAR
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="4-2cb">MEDICAÇÃO
+      				<input type="checkbox" value="6" name="4-1cb">MEDICAÇÃO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -542,30 +544,30 @@
 
 
 
-		<!-- LINHA 4.0 (DFL4-0, CB_DFL4-0) -->	
+	  <!-- LINHA 4.2 (DFL_4_2, CB_DFL_4_2) -->	
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS FARÍNGEOS/LARÍNGEOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dfl40()" id="dfl4-0" name="sessao4">
+	        	<select class="btn" onblur="onblur_dfl42()" id="dfl4-2" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_dfl4-0">
+			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_dfl4-2">
 	    	<div class="input-group input-group-sm">
-	      	<form id="dflcb4-0">
+	      	<form id="dflcb4-2">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-0cb">LARINGITE
+      				<input type="checkbox" value="1" name="4-2cb">LARINGITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-0cb">AMIGDALITE
+      				<input type="checkbox" value="2" name="4-2cb">AMIGDALITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-0cb">FARINGITE
+      				<input type="checkbox" value="3" name="4-2cb">FARINGITE
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -577,33 +579,33 @@
 
 
 
-	  <!-- LINHA 4.1 (DOA4-1, CB_DOA4-1) -->			
+	  <!-- LINHA 4.3 (DOA_4_3, CB_DOA_4_3) -->		
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS OTOLÓGICOS/AUDITIVOS?</span>                                                     
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_doa41()" id="doa4-1" name="sessao4">
+	        	<select class="btn" onblur="onblur_doa43()" id="doa4-3" name="sessao4">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_doa4-1">
+			<div class="collapse col-md-7 col-md-offset-22 col-md-print-offset-11" id="collapse_doa4-3">
 	    	<div class="input-group input-group-sm">
-	      	<form id="doacb4-1">
+	      	<form id="doacb4-3">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-1cb">PERDA AUDITIVA
+      				<input type="checkbox" value="1" name="4-3cb">PERDA AUDITIVA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-1cb">OTITE
+      				<input type="checkbox" value="2" name="4-3cb">OTITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-1cb">VERTIGEM/TONTURA
+      				<input type="checkbox" value="3" name="4-3cb">VERTIGEM/TONTURA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-1cb">ZUMBIDO
+      				<input type="checkbox" value="4" name="4-3cb">ZUMBIDO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -615,7 +617,7 @@
 
 
 
-	  <!-- LINHA 4.4 (SDRG4-4, CB_SDRG4-4) -->			
+	  <!-- LINHA 4.4 (SDRG_4_4, CB_SDRG_4_4) -->			
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
@@ -659,7 +661,7 @@
 
 
 
-	  <!-- LINHA 4.5 (OASG4-5, CB_OASG4-5) -->			
+	  <!-- LINHA 4.5 (OASG_4_5, CB_OASG_4_5) -->			
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
@@ -753,7 +755,7 @@
 
 
 
-	  <!-- ESSES DADOS NÃO SERAM INCLUSOS NO BANCO, SENDO ASSIM NÃO POSSUEM ID/IDENTIFICAÇÃO /// ficará no final do dicionário-->
+	  <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	  <div class="row row col-md-10 col-md-offset-1">
 	    <div class="collapse col-md-12 collapse_fudm4-6">
 	    	<div class="input-group input-group-sm">
@@ -762,8 +764,7 @@
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
 		</div><!-- /.row -->
-		<!-- FINALIZADO PARTE QUE NÃO SERA INCLUSSA NO BANCO -->
-
+		
 
 
 
@@ -783,9 +784,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->
-
-
-	    <!-- ESSES DADOS NÃO SERAM INCLUSOS NO BANCO, SENDO ASSIM NÃO POSSUEM ID/IDENTIFICAÇÃO /// ficará no final do dicionário-->
+	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag4-7">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
@@ -793,7 +792,7 @@
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
 		</div><!-- /.row -->
-		<!-- FINALIZADO PARTE QUE NÃO SERA INCLUSSA NO BANCO -->
+		
 
 
 
@@ -813,6 +812,7 @@
 	      		</span>
 		    	</div><!-- /input-group -->
 		    </div><!-- /.col-md-3-->
+		    <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		    <div class="col-md-1 col-md-offset-20">
 		  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
 			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
@@ -824,7 +824,7 @@
 
 
 
-		<!-- LINHA 4.9 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs4-8">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -2444,7 +2444,7 @@
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="identificacao()">AQUI TESTE</button>
+			<button type="button" class="btn btn-info" onclick="saude_geral('1')">AQUI TESTE</button>
 			
 		</div>		
 

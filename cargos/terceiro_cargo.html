@@ -13,6 +13,7 @@
 	    	
 
     	<!-- LINHA 3.3.1 (EST3-3-1, EFET3-3-1, TDR3-3-1, AD3-3-1) -->
+    	<!--             (EST, EFET, TDR, AD) -->
     	<div class="row">
 	  		<div class="col-md-2 col-md-print-7">
 	    		<div class="input-group input-group-sm">
@@ -87,7 +88,8 @@
 
 
 
-			<!-- LINHA 3.3.2 (AP3-3-2, AS3-3-2) -->
+			<!-- LINHA 3.3.2 (AS3-3-2) -->
+			<!--             (AS) -->
 			<div class="row">
 				<div class="col-md-3">
 		    		<div class="input-group input-group-sm">
@@ -110,22 +112,23 @@
 
 
 
-			<!--LINHA 3.3.2 (AP3-3-2)-->
+			<!--LINHA 3.3.3 (AP3-3-3)-->
+			<!--            (AP) -->
 			<div class="row"> 
 				<div class="col-md-3">
 		  		<div class="input-group input-group-sm">
 		  			<span class="input-group-addon">AULAS PARA:</span>
 		    		<span class="input-group-addon" style="line-height: 0;">
-		      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="3-3-2cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
+		      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="3-3-3cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
 		    		</span>
 		        <span class="input-group-addon" style="line-height: 0;">
-		        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="3-3-2cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
+		        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="3-3-3cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
 		    		</span> 
 		    		<span class="input-group-addon" style="line-height: 0;">
-		      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="3-3-2cb"> ENSINO MÉDIO</label>
+		      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="3-3-3cb"> ENSINO MÉDIO</label>
 		    		</span>
 		        <span class="input-group-addon" style="line-height: 0;">
-		        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="3-3-2cb"> ENSINO SUPERIOR</label>
+		        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="3-3-3cb"> ENSINO SUPERIOR</label>
 		    		</span> 
 		  		</div>
 				</div><!-- /.col-md-3 -->
@@ -134,13 +137,14 @@
 
 
 
-			<!-- LINHA 3.3.5 (JTLP3-3-5) -->
+			<!-- LINHA 3.3.4 (JTLP3-3-4) -->
+			<!--             (JTLP) -->
 			<div class="row">
 	  		<div class="col-md-10">
 	    		<div class="input-group input-group-sm">
 		      		<span class="input-group-addon" id="basic-addon">JÁ TEVE LICENÇA PARA TRATAMENTO DE SAÚDE OU OUTRO TIPO DE AFASTAMENTO POR VOZ NESTE CARGO ?</span>
 		  				<span class="input-group-btn">
-		        		<select class="btn" onblur="onblur_jtlp335()" id="jtlp3-3-5" name="sessao3-3">
+		        		<select class="btn" onblur="onblur_jtlp334()" id="jtlp3-3-4" name="sessao3-3">
 									<option value="0">NÃO</option>
 				          <option value="1">SIM</option>
 		        		</select>
@@ -154,8 +158,9 @@
 
 
 
-			<!-- LINHA 3.3.3 (NDL3-3-3, NDDDA3-3-3) -->
-			<div class="row collapse collapse_jtlp3-3-5">
+			<!-- LINHA 3.3.5 (NDL3-3-5, NDDDA3-3-5) -->
+			<!--             (NDL, NDDDA) -->
+			<div class="row collapse collapse_jtlp3-3-4">
 	  		<div class="col-md-2">
 	    		<div class="input-group input-group-sm">
 		      		<span class="input-group-addon" id="basic-addon">Nº DE LICENÇAS/AFASTAMENTOS:</span>
@@ -200,18 +205,19 @@
 
 
 
-			<!-- LINHA 3.3.4 (IDPL3-3-4, TDPL3-3-4) -->
-			<div class="row collapse collapse_jtlp3-3-5">
+			<!-- LINHA 3.3.6 (IDPL3-3-6, TDPL3-3-6) -->
+			<!--             (IDPL, TDPL) -->
+			<div class="row collapse collapse_jtlp3-3-4">
 	  		<div class="col-md-14">
 	    		<div class="input-group input-group-sm">
-	      			<span class="input-group-addon idpl334" id="basic-addon">INÍCIO DA PRIMEIRA LICENÇA/AFASTAMENTO:</span>
-	  				<input type='text' class="form-control date" id="idpl3-3-4" name="sessao3-3"/>
+	      			<span class="input-group-addon" id="basic-addon" onclick="nao_soube_info(3, 1)">INÍCIO DA PRIMEIRA LICENÇA/AFASTAMENTO:</span>
+	  				<input type='text' class="form-control date" id="idpl3-3-6" name="sessao3-3"/>
 	    		</div><!-- /input-group -->
 	  		</div><!-- /.col-md-14 -->
 	  		<div class="col-md-6 col-md-offset-18 col-md-print-offset-10">
 		    	<div class="input-group input-group-sm">
-		      		<span class="input-group-addon tdpl334" id="basic-addon">TÉRMINO DA PRIMEIRA LICENÇA/AFASTAMENTO:</span>
-		  			<input type='text' class="form-control date" id="tdpl3-3-4" name="sessao3-3"/>
+		      		<span class="input-group-addon" id="basic-addon" onclick="nao_soube_info(3, 2)">TÉRMINO DA PRIMEIRA LICENÇA/AFASTAMENTO:</span>
+		  			<input type='text' class="form-control date" id="tdpl3-3-6" name="sessao3-3"/>
 		    	</div><!-- /input-group -->
 		  	</div><!-- /col-md-6 col-md-offset-18 /// col-md-print-offset-10 -->
 			</div><!-- /.row -->

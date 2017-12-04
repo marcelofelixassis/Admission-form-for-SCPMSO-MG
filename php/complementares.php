@@ -15,17 +15,18 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO complementares(`fk_finalidade`, `pqccp_3_0`, `jacp_3_4`, `oadu_3_9`, `cb_oadu_3_9`, `oada_3_10`, `cb_oada_3_10`) 
-	VALUES (:fkpessoa , :pqccp, :jacp, :oadu, :cb_oadu, :oada , :cb_oada)";
+	$sql = "INSERT INTO complementares(`fk_finalidade`, `pqccp_3_0`, `jacp_3_4`, `oada_3_9`, `cb_oada_3_9`, `oadu_3_10`, `cb_oadu_3_10`) 
+	VALUES (:fkpessoa , :pqccp, :jacp, :oada , :cb_oada, :oadu, :cb_oadu)";
 
 	$stmt = $PDO->prepare( $sql );
 	$stmt->bindParam( ':fkpessoa', $myvar[6] );
 	$stmt->bindParam( ':pqccp', $myvar[0] );
 	$stmt->bindParam( ':jacp', $myvar[1] );
-	$stmt->bindParam( ':oadu', $myvar[2] );
-	$stmt->bindParam( ':cb_oadu', $myvar[4] );
-	$stmt->bindParam( ':oada', $myvar[3] );
-	$stmt->bindParam( ':cb_oada', $myvar[5] );
+	$stmt->bindParam( ':oada', $myvar[2] );
+	$stmt->bindParam( ':cb_oada', $myvar[4] );
+	$stmt->bindParam( ':oadu', $myvar[3] );
+	$stmt->bindParam( ':cb_oadu', $myvar[5] );
+	
 		
 	$result = $stmt->execute();
 		

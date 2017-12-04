@@ -16,7 +16,7 @@ function identificacao(){
 			success: function (response) {
 				var json = JSON.parse(response);
 				if(json['success']){
-					//finalidade(json['id']);
+					finalidade(json['id']);
 					loading(2, true);
 				}else{
 					loading(1, false); //FALSE = TEVE ERROS

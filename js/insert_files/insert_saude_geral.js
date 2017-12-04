@@ -6,16 +6,14 @@ function saude_geral(id_da_finalidade){
 		vet[i] = sessao[i].value;
 		console.log(i+" = "+sessao[i].value);
 	}
-	vet.push(getcheckboxs(document.getElementsByName("4-0cb")));
-	vet.push(getcheckboxs(document.getElementsByName("4-1cb")));
+	vet.push(getcheckboxs(document.getElementsByName("4-0cb"))); 
+	vet.push(getcheckboxs(document.getElementsByName("4-1cb"))); 
 	vet.push(getcheckboxs(document.getElementsByName("4-2cb")));
-	vet.push(getcheckboxs(document.getElementsByName("4-3cb")));
+	vet.push(getcheckboxs(document.getElementsByName("4-3cb"))); // metodo para pegar checkbox q estao marcados dando um grupo de cb
 	vet.push(getcheckboxs(document.getElementsByName("4-4cb")));
 	vet.push(getcheckboxs(document.getElementsByName("4-5cb")));
 	vet.push(getcheckboxs(document.getElementsByName("4-6cb")));
-	vet.push(id_da_finalidade);
-
-	console.log(JSON.stringify(vet));
+	vet.push(id_da_finalidade); // add ao final do array o id da finalidade para usarmos como fk
 
 	$.ajax({
 		type : "GET",
@@ -37,6 +35,7 @@ function saude_geral(id_da_finalidade){
 	});	
 }
 
+//pegar cb marcados
 function getcheckboxs(elemento){
 	var union = new Array();
 	for(var i = 0; i < elemento.length; i++){

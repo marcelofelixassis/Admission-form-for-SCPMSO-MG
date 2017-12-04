@@ -15,21 +15,22 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO saude_geral(`fk_finalidade`, `dfl_4_0`, `cb_dfl_4_0`, `doa_4_1`, `cb_doa_4_1`, `da_4_2`, `cb_da_4_2`, 
-	`dnsf_4_3`, `cb_dnsf_4_3`, `sdrg_4_4`, `cb_sdrg_4_4`, `oasg_4_5`, `cb_oasg_4_5`, `fudm_4_6`, `cb_fudm_4_6`, `ccag_4_7`, 
+	$sql = "INSERT INTO saude_geral(`fk_finalidade`, `dnsf_4_0`, `cb_dnsf_4_0`, `da_4_1`, `cb_da_4_1`, `dfl_4_2`, `cb_dfl_4_2`, 
+	`doa_4_3`, `cb_doa_4_3`, `sdrg_4_4`, `cb_sdrg_4_4`, `oasg_4_5`, `cb_oasg_4_5`, `fudm_4_6`, `cb_fudm_4_6`, `ccag_4_7`, 
 	`tire_4_8`) 
-	VALUES (:fkfinalidade, :dfl, :cb_dfl, :doa, :cb_doa, :da, :cb_da, :dnsf, :cb_dnsf, :sdrg, :cb_sdrg, :oasg, :cb_oasg, :fudm, :cb_fudm, :ccag, :tire)";
+	VALUES (:fkfinalidade, :dnsf, :cb_dnsf, :da, :cb_da, :dfl, :cb_dfl, :doa, :cb_doa, :sdrg, :cb_sdrg, :oasg, :cb_oasg, :fudm, :cb_fudm, :ccag, :tire)";
+
 
 	$stmt = $PDO->prepare( $sql );
 	$stmt->bindParam( ':fkfinalidade', $myvar[16] );
-	$stmt->bindParam( ':dfl', $myvar[0] );
-	$stmt->bindParam( ':cb_dfl', $myvar[9] );
-	$stmt->bindParam( ':doa', $myvar[1] );
-	$stmt->bindParam( ':cb_doa', $myvar[10] );
-	$stmt->bindParam( ':da', $myvar[2] );
-	$stmt->bindParam( ':cb_da', $myvar[11] );
-	$stmt->bindParam( ':dnsf', $myvar[3] );
-	$stmt->bindParam( ':cb_dnsf', $myvar[12] );
+	$stmt->bindParam( ':dnsf', $myvar[0] );
+	$stmt->bindParam( ':cb_dnsf', $myvar[9] );
+	$stmt->bindParam( ':da', $myvar[1] );
+	$stmt->bindParam( ':cb_da', $myvar[10] );
+	$stmt->bindParam( ':dfl', $myvar[2] );
+	$stmt->bindParam( ':cb_dfl', $myvar[11] );
+	$stmt->bindParam( ':doa', $myvar[3] );
+	$stmt->bindParam( ':cb_doa', $myvar[12] );
 	$stmt->bindParam( ':sdrg', $myvar[4] );
 	$stmt->bindParam( ':cb_sdrg', $myvar[13] );
 	$stmt->bindParam( ':oasg', $myvar[5] );
