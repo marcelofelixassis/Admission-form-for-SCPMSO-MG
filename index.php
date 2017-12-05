@@ -863,7 +863,7 @@
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-3 -->
+	    </div><!-- /.col-md-2 -->
 		  <div class="collapse col-md-3 col-md-offset-46 col-md-print-offset-10 collapse_taba5-0">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
@@ -879,7 +879,7 @@
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
-		   </div><!-- /.col-md-3 col-md-offset-46 col-md-print-offset-15 -->
+		   </div><!-- /.col-md-3 col-md-offset-46 col-md-print-offset-10 -->
 		   <div class="collapse col-md-2 col-md-offset-41 col-md-print-offset-7 collapse_taba5-0">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANTOS CIGARROS/DIA?</span>
@@ -902,7 +902,7 @@
 
 
 
-		<!--LINHA 5.1 (EXTABA5-1, FPQT5-1, PHQT5-1)-->
+		<!--LINHA 5.1 (EXTABA_5_1, FPQT_5_1, PHQT_5_1)-->
 		<div class="row row col-md-10 col-md-offset-1 collapse" id="collapse_taba5-0_extaba">
 	  	<div class="col-md-2">
 	    	<div class="input-group input-group-sm">
@@ -953,7 +953,7 @@
 
 
 
-		<!--LINHA 5.2 (DRIL5-2, CB_DRIL5-2, OTR5-2)-->
+		<!--LINHA 5.2 (DRIL_5_2, CB_DRIL_5_2, OTR_5_2)-->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -1043,7 +1043,7 @@
 
 
 
-		<!--LINHA 5.4 (OHVI5-4)-->
+		<!--LINHA 5.4 (OHVI_5_4)-->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -1056,15 +1056,16 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
+	    <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	    <div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs5-5">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-offset-20 col-md-print-offset-2 -->
+			</div><!-- /.col-md-3 -->
 	  </div><!-- /.row -->
 
 
 
 
-	  <!--LINHA 5.4 (CB_OHVI5-4)-->		
+	  <!--LINHA 5.4 (CB_OHVI_5_4)-->		
 		<div class="collapse row row col-md-10 col-md-offset-1" id="collapse_ohvi5-4">
 			<div class="col-md-12">
 	    	<div class="input-group input-group-sm">
@@ -1092,7 +1093,7 @@
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
-	    </div><!-- /col-md- col-md-offset-30 /// col-md-print-8 col-md-print-offset-5 -->	  
+	    </div><!-- /.col-md-12 -->	  
 	  </div><!-- /.row -->
 
 
@@ -1100,7 +1101,7 @@
 
 
 
-	  <!-- LINHA 5.5 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+	  <!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs5-5">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -1127,7 +1128,7 @@
 
 
 
-		<!-- LETRA A /// LINHA 6.0 (SINP6-0) -->		
+		<!-- LETRA A /// LINHA 6.0 (SINP_6_0) -->		
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
@@ -1140,9 +1141,10 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
+	    <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	    <div class="col-md-1 col-md-offset-37">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->
+			</div><!-- /.col-md-1 col-md-offset-37 -->
 	  </div><!-- /.row -->
 
 
@@ -1150,7 +1152,7 @@
 
 
 
-		<!-- LINHA 6.1 (CB_SINP6-1) -->
+		<!-- LINHA 6.1 (CB_SINP_6_1) -->
 	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr6-0">
 			<div class="col-md-12">
 		   	<div class="input-group input-group-sm">
@@ -1222,8 +1224,7 @@
 
 
 
-
-		<!-- LETRA A.1 /// LINHA 6.2 (SPQT6-2, CFMP6-2) -->
+		<!-- LETRA A.1 /// LINHA 6.2 (SPQT_6_2, CFMP_6_2) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_sipr6-0" style="margin-top: 1.5%;">
 		  <div class="col-md-5">
 		    <div class="input-group input-group-sm">
@@ -1263,7 +1264,7 @@
 
 
 
-		<!-- LETRA B /// LINHA 6.3 (PSLC6-3, QND6-3) -->
+		<!-- LETRA B /// LINHA 6.3 (PSLC_6_3, QND_6_3) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-4">
 		    <div class="input-group input-group-sm">
@@ -1300,7 +1301,7 @@
 
 
 
-		<!-- LINHA 6.4 (CB_PSLC6-4) -->
+		<!-- LINHA 6.4 (CB_PSLC_6_4) -->
 	  <div class="row row collapse col-md-10 col-md-offset-1 collapse_pslc6-3">
 			<div class="col-md-12">
 		   	<div class="input-group input-group-sm">
@@ -1349,7 +1350,7 @@
 
 
 
-		<!--LINHA 6.8 (ALFA6-8) -->
+		<!--LETRA C /// LINHA 6.5 (ALFA_6_5) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -1370,7 +1371,7 @@
 
 
 
-		<!-- LETRA D.2 /// LINHA 6.7 (TFJR6-7, QND6-7) -->
+		<!-- LETRA C.1 /// LINHA 6.6 (TFJR_6_6, QND_6_6) -->
 		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tf6-7">
 		  <div class="col-md-4">
 		    <div class="input-group input-group-sm">
@@ -1405,7 +1406,7 @@
 
 
 
-		<!--LINHA 6.8 (ALFA6-8) -->
+		<!--LINHA 6.7 (ALFA_6_7) -->
 		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tfjr6-7">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -1425,7 +1426,7 @@
 
 
 
-		<!-- LETRA D.1 /// LINHA 6.5 (ETFO6-5, NDSE6-5) -->
+		<!-- LETRA C.2 /// LINHA 6.8 (ETFO_6_8, NDSE_6_8) -->
 		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tf6-7" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
@@ -1463,7 +1464,7 @@
 
 
 
-		<!--LINHA 6.6 (FRSE6-6, FDFO6-6) -->
+		<!--LINHA 6.9 (FRSE_6_9, FDFO_6_9) -->
 		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-5">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
@@ -1502,7 +1503,7 @@
 
 
 
-		<!--LINHA ADICIONADA NA PRIMEIRA FASE DE CORREÇÕES -->
+		<!--LINHA 6.10 (LFEA_6_10) -->
 		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-5">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -1523,7 +1524,7 @@
 
 
 
-		<!-- LETRA E /// LINHA 6.10 (CRVC6-10, QND6-10) -->
+		<!-- LETRA D /// LINHA 6.11 (CRVC_6_11, QND_6_11) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
@@ -1557,7 +1558,7 @@
 
 
 
-		<!--LETRA F /// LINHA 6.12 (FUDM6-12, HQNT6-12, OQMD6-12) -->
+		<!--LETRA E /// LINHA 6.12 (FUDM_6_12, HQNT_6_12, OQMD_6_12) -->
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
@@ -1605,7 +1606,7 @@
 
 
 
-		<!-- LINHA 6.11 (OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS) -->
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-10">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
@@ -1623,7 +1624,7 @@
 		##########################################################################################################################
 		##########################################################################################################################-->
 
-		<!--INICIO CABEÇALHO /// SESSÃO 7-->	  
+		<!--INICIO CABEÇALHO -->	  
 		<img src="imagens/cabecalho7.png" class="col-md-10 col-md-offset-1">
 
 
