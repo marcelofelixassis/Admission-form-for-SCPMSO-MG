@@ -1356,7 +1356,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>TRATAMENTO FONOTERÁPICO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_tf67()" id="tf6-7" name="sessao6">
+	        	<select class="btn" onblur="onblur_tf65()" id="tf6-5" name="sessao6">
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
 	        	</select>
@@ -1372,19 +1372,19 @@
 
 
 		<!-- LETRA C.1 /// LINHA 6.6 (TFJR_6_6, QND_6_6) -->
-		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tf6-7">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tf6-5">
 		  <div class="col-md-4">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c.1) </strong>TRATAMENTO FONOTERÁPICO JÁ REALIZADO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_tfjr67()" id="tfjr6-7" name="sessao6">
+			      <select class="btn" onblur="onblur_tfjr66()" id="tfjr6-6" name="sessao6">
 							<option id="setselect6-7id" value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 -->
-		  <div class="collapse col-md-2 col-md-offset-16 col-md-print-offset-8 collapse_tfjr6-7">
+		  <div class="collapse col-md-2 col-md-offset-16 col-md-print-offset-8 collapse_tfjr6-6">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
@@ -1407,7 +1407,7 @@
 
 
 		<!--LINHA 6.7 (ALFA_6_7) -->
-		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tfjr6-7">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tfjr6-6">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
@@ -1427,19 +1427,19 @@
 
 
 		<!-- LETRA C.2 /// LINHA 6.8 (ETFO_6_8, NDSE_6_8) -->
-		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tf6-7" style="margin-top: 1.5%;">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_tf6-5" style="margin-top: 1.5%;">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c.2) </strong>EM TRATAMENTO FONOTERÁPICO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_etfo65()" id="etfo6-5" name="sessao6">
+			      <select class="btn" onblur="onblur_etfo68()" id="etfo6-8" name="sessao6">
 							<option id="setselect6-4id" value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse col-md-3 col-md-offset-37 col-md-print-offset-20 collapse_etfo6-5">
+		  <div class="collapse col-md-3 col-md-offset-37 col-md-print-offset-20 collapse_etfo6-8">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">Nº DE SESSÕES?</span>
 		  		<span class="input-group-btn">
@@ -1465,7 +1465,7 @@
 
 
 		<!--LINHA 6.9 (FRSE_6_9, FDFO_6_9) -->
-		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-5">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-8">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA SEMANAL:</span>
@@ -1504,7 +1504,7 @@
 
 
 		<!--LINHA 6.10 (LFEA_6_10) -->
-		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-5">
+		<div class="collapse row row col-md-10 col-md-offset-1 collapse_etfo6-8">
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
@@ -1530,14 +1530,14 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>d) </strong>CIRUGIA(S) VOCAL(IS)?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_civo610()" id="civo6-10" name="sessao6">
+			      <select class="btn" onblur="onblur_civo611()" id="civo6-11" name="sessao6">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse col-md-3 col-md-offset-1 col-md-print-offset-10 collapse_civo6-10">
+		  <div class="collapse col-md-3 col-md-offset-1 col-md-print-offset-10 collapse_civo6-11">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
@@ -2445,7 +2445,7 @@
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="habitos('1')">AQUI TESTE</button>
+			<button type="button" class="btn btn-info" onclick="saude_vocal('1')">AQUI TESTE</button>
 			
 		</div>		
 

@@ -10,22 +10,24 @@ function saude_vocal(id_da_finalidade){
 	vet.push(getcheckboxs(document.getElementsByName("6-4cb")));
 	vet.push(id_da_finalidade);
 
-	$.ajax({
-		type : "GET",
-		url : url+"saude_vocal.php?data="+JSON.stringify(vet),
-		contentType: content,
-		success: function (response) {
-			var json = JSON.parse(response);
-			if(json['success']){
-				avaliacao_perceptivo(id_da_finalidade);
-				loading(8, true);
-			}else{
-				loading(7, false);
-			}
-		},
-		error: function (e) {
-    		console.log(e);
-    		loading(7, false);
-		} 
-	});	
+	console.log(vet);
+
+	// $.ajax({
+	// 	type : "GET",
+	// 	url : url+"saude_vocal.php?data="+JSON.stringify(vet),
+	// 	contentType: content,
+	// 	success: function (response) {
+	// 		var json = JSON.parse(response);
+	// 		if(json['success']){
+	// 			avaliacao_perceptivo(id_da_finalidade);
+	// 			loading(8, true);
+	// 		}else{
+	// 			loading(7, false);
+	// 		}
+	// 	},
+	// 	error: function (e) {
+    // 		console.log(e);
+    // 		loading(7, false);
+	// 	} 
+	// });	
 }
