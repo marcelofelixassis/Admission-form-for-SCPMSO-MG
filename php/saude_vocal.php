@@ -15,31 +15,34 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO saude_vocal(`fk_finalidade`, `sinp_6_0`, `cb_sinp_6_0`, `spqt_6_2`, `cfmp_6_2`, `pslc_6_3`, `qnd_6_3`, `cb_pslc_6_4`, `etfo_6_5`, `ndse_6_5`, `frse_6_6`, `fdfo_6_6`, `tfjr_6_7`, `qnd_6_7`, `alfa_6_8`, `crvc_6_10`, `qnd_6_10`, `fudm_6_12`, `hqnt_6_12`, `oqmd_6_12`) 
-	VALUES (:fkfinalidade, :sinp, :cb_sinp, :spqt, :cfmp, :pslc, :qnd, :cb_pslc, :etfo, :ndse, :frse, :fdfo, :tfjr, :qnd1,
-	 :alfa, :crvc, :qnd2, :fudm, :hqnt, :oqmd)";
+	$sql = "INSERT INTO saude_vocal(`fk_finalidade`, `sinp_6_0`, `cb_sinp_6_1`, `spqt_6_2`, `cfmp_6_2`, `pslc_6_3`, `qnd_6_3`, `cb_pslc_6_4`, `alfa_6_5`, `tfjr_6_6`, `qnd_6_6`, `alfa_6_7`, `etfo_6_8`, `ndse_6_8`, `frse_6_9`, 
+	`fdfo_6_9`, `lfea_6_10`, `crvc_6_11`, `qnd_6_11`, `fudm_6_12`, `hqnt_6_12`, `oqmd_6_12`) 
+	VALUES (:fkfinalidade, :sinp, :cb_sinp, :spqt, :cfmp, :pslc, :qnd, :cb_pslc, :alfa, :tfjr, :qnd2, :alfa2, :etfo, :ndse, :frse, :fdfo, :lfea, :crvc, :qnd3, :fudm, :hqnt, :oqmd)";
 
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':fkfinalidade', $myvar[19] );
+	$stmt->bindParam( ':fkfinalidade', $myvar[21] );
 	$stmt->bindParam( ':sinp', $myvar[0] );
-	$stmt->bindParam( ':cb_sinp', $myvar[17] );
+	$stmt->bindParam( ':cb_sinp', $myvar[19] );
 	$stmt->bindParam( ':spqt', $myvar[1] );
 	$stmt->bindParam( ':cfmp', $myvar[2] );
 	$stmt->bindParam( ':pslc', $myvar[3] );
 	$stmt->bindParam( ':qnd', $myvar[4] );
-	$stmt->bindParam( ':cb_pslc', $myvar[18] );
-	$stmt->bindParam( ':etfo', $myvar[5] );
-	$stmt->bindParam( ':ndse', $myvar[6] );
-	$stmt->bindParam( ':frse', $myvar[7] );
-	$stmt->bindParam( ':fdfo', $myvar[8] );
-	$stmt->bindParam( ':tfjr', $myvar[9] );
-	$stmt->bindParam( ':qnd1', $myvar[10] );
-	$stmt->bindParam( ':alfa', $myvar[11] );
-	$stmt->bindParam( ':crvc', $myvar[12] );
-	$stmt->bindParam( ':qnd2', $myvar[13] );
-	$stmt->bindParam( ':fudm', $myvar[14] );
-	$stmt->bindParam( ':hqnt', $myvar[15] );
-	$stmt->bindParam( ':oqmd', $myvar[16] );
+	$stmt->bindParam( ':cb_pslc', $myvar[20] );
+	$stmt->bindParam( ':alfa', $myvar[5] );
+	$stmt->bindParam( ':tfjr', $myvar[6] );
+	$stmt->bindParam( ':qnd2', $myvar[7] );
+	$stmt->bindParam( ':alfa2', $myvar[8] );
+	$stmt->bindParam( ':etfo', $myvar[9] );
+	$stmt->bindParam( ':ndse', $myvar[10] );
+	$stmt->bindParam( ':frse', $myvar[11] );
+	$stmt->bindParam( ':fdfo', $myvar[12] );
+	$stmt->bindParam( ':lfea', $myvar[13] );
+	$stmt->bindParam( ':crvc', $myvar[14] );
+	$stmt->bindParam( ':qnd3', $myvar[15] );
+
+	$stmt->bindParam( ':fudm', $myvar[16] );
+	$stmt->bindParam( ':hqnt', $myvar[17] );
+	$stmt->bindParam( ':oqmd', $myvar[18] );
 
 	$result = $stmt->execute();
 		

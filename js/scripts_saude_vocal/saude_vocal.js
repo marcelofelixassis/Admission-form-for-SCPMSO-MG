@@ -29,12 +29,14 @@ function onblur_tf65(){
 	if(x == 1){	
   		$('.collapse_tf6-5').collapse('show');
 	}else{
-		$('.collapse_tf6-5').collapse('hide');	
-		$('.collapse_tfjr6-7').collapse('hide');
+		$('.collapse_tf6-5').collapse('hide');
+
+		$('.collapse_tfjr6-6').collapse('hide');
 		document.getElementById("setselect6-7").selected = "true";
 		document.getElementById("setselect6-8").selected = "true";
 		document.getElementById("setselect6-7id").selected = "true";
-		$('.collapse_etfo6-5').collapse('hide');	
+
+		$('.collapse_etfo6-8').collapse('hide');	
 		document.getElementById("setselect6-4").selected = "true";
 		document.getElementById("setselect6-5").selected = "true";
 		document.getElementById("setselect6-6").selected = "true";

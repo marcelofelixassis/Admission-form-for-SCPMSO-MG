@@ -1509,7 +1509,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn">
+	        	<select class="btn" name="sessao6">
 	        		<option id="setselect6-8id" value="">SELECIONE...</option>
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
