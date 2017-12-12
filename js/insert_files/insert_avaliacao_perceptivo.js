@@ -30,9 +30,9 @@ function avaliacao_perceptivo(id_da_finalidade){
 	vet.push(vetrb);
 
 	var vetcb = new Array();
-	vetcb.push(getcheckboxs(document.getElementsByName("7-10acb")));
-	vetcb.push(getcheckboxs(document.getElementsByName("7-10icb")));
-	vetcb.push(getcheckboxs(document.getElementsByName("7-10ucb")));
+	vetcb.push(getcheckboxs(document.getElementsByName("7-8acb")));
+	vetcb.push(getcheckboxs(document.getElementsByName("7-8icb")));
+	vetcb.push(getcheckboxs(document.getElementsByName("7-8ucb")));
 
 	vet.push(vetcb);
 	vet.push(id_da_finalidade);

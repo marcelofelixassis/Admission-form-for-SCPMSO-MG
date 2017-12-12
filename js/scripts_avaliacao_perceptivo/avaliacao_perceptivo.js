@@ -1,13 +1,13 @@
-//LINHA 7.9 (TMDF_7_9)
-function onblur_tmdf79(){
-	var x = document.getElementById("tmdf7-9").value;
+// LINHA 7.7 (TMDF_7_7)
+function onblur_tmdf77(){
+	var x = document.getElementById("tmdf7-7").value;
 	if(x == 1){	
-  		$('.collapse_tmdf7-9').collapse('show');
+  		$('.collapse_tmdf7-7').collapse('show');
 	}else{
-		$('.collapse_tmdf7-9').collapse('hide');
-		clearcheckbox(document.getElementsByName("7-10acb"));	
-		clearcheckbox(document.getElementsByName("7-10icb"));	
-		clearcheckbox(document.getElementsByName("7-10ucb"));
+		$('.collapse_tmdf7-7').collapse('hide');
+		clearcheckbox(document.getElementsByName("7-8acb"));	
+		clearcheckbox(document.getElementsByName("7-8icb"));	
+		clearcheckbox(document.getElementsByName("7-8ucb"));
 		document.getElementById("input_a").value = "";		
 		document.getElementById("input_i").value = "";	
 		document.getElementById("input_u").value = "";		
@@ -22,7 +22,6 @@ function onblur_calc_sz(){
 	var numero2 = parseFloat(z.replace(',', '.'));
 	document.getElementById("input_sz").value = (parseFloat(numero1) / parseFloat(numero2)).toFixed(2);
 }
-
 
 //LINHA 7.1 (GGDD_7_1, SPR_7_1, TNS_7_1, RUG_7_1, AST_7_1, INST_7_1)
 //FUNÇÕES PARA PREENCHEMENTO AUTOMATICO -- FIZ ISSO NA PRIMEIRA FASE DE CORREÇÕES
@@ -51,6 +50,7 @@ function letra_i(n){
 	document.getElementById("inp_letra_i").innerHTML = n;
 }
 
+//LINHA 7.9 (TMDF_7_9)
 function onblur_epasz79(){
 	var x = document.getElementById("epasz7-9").value;
 	if(x == 1){	
