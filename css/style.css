@@ -90,6 +90,10 @@ form#fudmcb4-6 {
 	margin-top: 0.3%;
 }
 
+form#sdrgcb4-4 {
+    margin-top: 1%;
+  }
+
 /**********************/
 
 .fotter{
@@ -132,7 +136,8 @@ form#fudmcb4-6 {
   }
 
   button.btn-observacao {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    display: none;
   }
 
   textarea{
@@ -164,11 +169,15 @@ form#fudmcb4-6 {
   }
 
   form#doacb4-3 {
-    margin-top: 2%;
+    margin-top: 3px;
   }
 
+  form#dflcb4-2 {
+  margin-top: 3px;
+}
+
   form#dacb4-1 {
-    margin-top: 1%;
+    margin-top: 0.4%;
   }
 
   form#dnsfcb4-0 {
@@ -176,10 +185,12 @@ form#fudmcb4-6 {
   }
 
   form#sdrgcb4-4 {
+    padding-left: 5px;
     margin-top: 0.3%;
   }
 
   form#oasgcb4-5 {
+    padding-left: 7px;
     margin-top: 0.3%;
   }
 
@@ -189,6 +200,14 @@ form#fudmcb4-6 {
 
   form#ohvicb5-4 {
     margin-top: -2%;
+  }
+
+  #collapse_ohvi5-4 {
+    margin-top: 13px;
+  }
+
+  label#lbl_7_8 {
+    margin-top: 10px;
   }
 
  
@@ -476,7 +495,7 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-5 {
-  	width: 71.5%;
+  	width: 71.6%;
   }
 
   .col-md-print-6 {
@@ -503,6 +522,10 @@ form#fudmcb4-6 {
     width: 27%; 
   }
 
+  .col-md-print-12 {
+    width: 100%; 
+  }
+
   .col-md-print-offset-1 {
   	margin-left: 6.8%;
   }
@@ -516,7 +539,7 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-offset-4 {
-  	margin-left: 17.2%;
+  	margin-left: 20%;
   }
 
   .col-md-print-offset-5{
@@ -532,7 +555,7 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-offset-8 {
-  	margin-left: 34.5%;
+  	margin-left: 33.1%;
   }
 
   .col-md-print-offset-9 {
@@ -564,7 +587,7 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-offset-16 {
-    margin-left: 11.3%;
+    margin-left: 9.9%;
   }
 
   .col-md-print-offset-17 {
@@ -572,19 +595,19 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-offset-18 {
-    margin-left: 15.5%;
+    margin-left: 15%;
   }
 
   .col-md-print-offset-19 {
-    margin-left: 37%;
+    margin-left: 34%;
   }
 
   .col-md-print-offset-20 {
-    margin-left: 39.4%;
+    margin-left: 38%;
   }
 
   .col-md-print-offset-21 {
-    margin-left: 23.1%;
+    margin-left: 21%;
   }
 
   .col-md-print-offset-22 {
@@ -596,11 +619,11 @@ form#fudmcb4-6 {
   }
 
   .col-md-print-offset-24 {
-    margin-left: 13.2%;
+    margin-left: 11.7%;
   }
 
   .col-md-print-offset-25 {
-    margin-left: 24.7%;
+    margin-left: 23%;
   }
 
   .col-md-print-offset-26 {
@@ -610,5 +633,18 @@ form#fudmcb4-6 {
   .col-md-print-offset-26 {
     margin-left: 7%;
   }
+
+  .col-md-print-offset-27{
+    margin-left: 42%;
+  }
+
+  .col-md-print-offset-28{
+    margin-left: 5%;
+  }
+
+  .col-md-print-offset-29 {
+    margin-left: 15%;
+  }
+
 }
 

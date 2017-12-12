@@ -13,7 +13,8 @@ function onblur_dnsf40(){
 function onblur_da41(){
 	var x = document.getElementById("da4-1").value;
 	if(x == 1){	
-  		$('#collapse_da4-1').collapse('show');
+		  $('#collapse_da4-1').collapse('show');
+		  document.getElementById("da4-1").style.height = "30px";
 	}else{
 		$('#collapse_da4-1').collapse('hide');	
 		clearcheckbox(document.getElementsByName("4-1cb"));

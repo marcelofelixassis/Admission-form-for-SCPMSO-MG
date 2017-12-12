@@ -149,7 +149,7 @@
 	  			<input type='text' class="form-control" maxlength="3" id="dias2-0" name="sessao2"/>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-2 col-md-offset-19 /// col-md-print-7 col-md-print-offset-4 -->
-		  <div class="col-md-2 col-md-offset-1 col-md-print-offset-5">
+		  <div class="col-md-2 col-md-offset-1 col-md-print-offset-6">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">AULAS DE:</span>
 	      	<span class="input-group-btn">
@@ -173,7 +173,7 @@
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-2 col-md-offset-1 /// col-md-print-offset-5 -->
+	  	</div><!-- /col-md-2 col-md-offset-1 /// col-md-print-offset-6 -->
 		</div><!-- /.row -->
 
 
@@ -197,7 +197,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-4 -->
-	  	<div class="col-md-2 col-md-offset-45 col-md-print-offset-26">
+	  	<div class="col-md-2 col-md-offset-45 col-md-print-offset-27">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ÓRGÃO:</span>
 	      	<span class="input-group-btn">
@@ -209,7 +209,7 @@
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-2 col-md-offset-45 /// col-md-print-offset-26 -->
+	  	</div><!-- /col-md-2 col-md-offset-45 /// col-md-print-offset-27 -->
 		</div><!-- /.row -->
 
 
@@ -219,14 +219,14 @@
 
 		<!--LINHA 2.2 (AP_2_2)-->
 		<div class="row row col-md-10 col-md-offset-1"> 
-			<div class="col-md-3">
+			<div class="col-md-3 col-md-print-12">
 	  		<div class="input-group input-group-sm">
 	  			<span class="input-group-addon">AULAS PARA:</span>
 	    		<span class="input-group-addon" style="line-height: 0;">
-	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="2-2cb"> INICIAIS DO ENSINO FUNDAMENTAL</label>
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="1" name="2-2cb"> INICIAIS ENSINO FUNDAMENTAL</label>
 	    		</span>
 	        <span class="input-group-addon" style="line-height: 0;">
-	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="2-2cb"> FINAIS DO ENSINO FUNDAMENTAL</label>
+	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="2" name="2-2cb"> FINAIS  ENSINO FUNDAMENTAL</label>
 	    		</span> 
 	    		<span class="input-group-addon" style="line-height: 0;">
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="3" name="2-2cb"> ENSINO MÉDIO</label>
@@ -875,7 +875,7 @@
 							<option value="3">6 A 10 ANOS</option>
 				      <option value="4">11 A 15 ANOS</option>
 							<option value="5">MAIS DE 15 ANOS</option>
-							<option value="6">NÃO SOUBE INFORMAR</option>
+							<option value="6">NÃO SOUBE INFORM</option>
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
@@ -890,7 +890,7 @@
 				      <option value="2">11 A 20</option>
 							<option value="3">21 A 30</option>
 				      <option value="4">31 OU MAIS</option>
-				      <option value="5">NÃO SOUBE INFORMAR</option>
+				      <option value="5">NÃO SOUBE INFORM</option>
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
@@ -917,7 +917,7 @@
 	    </div><!-- /.col-md-2 -->
 	    <div class="collapse col-md-3 col-md-offset-41 col-md-print-offset-26 collapse_extaba5-1">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">POR QUANTO TEMPO?</span>
+	      	<span class="input-group-addon" id="basic-addon">QUANTO TEMPO?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" name="sessao5">
 	        		<option id="setselect5-3" value="">SELECIONE...</option>
@@ -926,7 +926,7 @@
 							<option value="3">6 A 10 ANOS</option>
 				      <option value="4">11 A 15 ANOS</option>
 							<option value="5">MAIS DE 15 ANOS</option>
-							<option value="6">NÃO SOUBE INFOR.</option>
+							<option value="6">NÃO SOUBE INFOR</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -941,7 +941,7 @@
 				      <option value="2">2 A 5 ANOS</option>
 							<option value="3">6 A 10 ANOS</option>
 							<option value="4">MAIS DE 10 ANOS</option>
-							<option value="5">NÃO SOUBE INFOR.</option>
+							<option value="5">NÃO SOUBE INFOR</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -1019,7 +1019,7 @@
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 col-md-offset-13 /// col-md-print-offset-2 -->
-	    <div class="collapse col-md-3 col-md-offset-22 collapse_etil5-3">
+	    <div class="collapse col-md-3 col-md-offset-22 col-md-print-offset-28 collapse_etil5-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL A FREQUÊNCIA?</span>
 	  			<span class="input-group-btn">
@@ -1238,7 +1238,7 @@
 				      <option value="4">2 A 3 ANOS</option>
 							<option value="5">3 A 4 ANOS</option>
 							<option value="6">MAIS DE 4 ANOS</option>
-							<option value="7">NÃO SOUBE INFORMAR</option>
+							<option value="7">NÃO SOUBE INFORM.</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -1252,7 +1252,7 @@
 							<option value="1">DE FORMA GRADUAL</option>
 				      <option value="2">DE FORMA BRUSCA</option>
 							<option value="3">INTERMITENTE</option>
-							<option value="4">NÃO SOUBE INFORMAR</option>
+							<option value="4">NÃO SOUBE INFORM.</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
@@ -1439,7 +1439,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="collapse col-md-3 col-md-offset-37 col-md-print-offset-20 collapse_etfo6-8">
+		  <div class="collapse col-md-3 col-md-offset-49 col-md-print-offset-20 collapse_etfo6-8">
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">Nº DE SESSÕES?</span>
 		  		<span class="input-group-btn">
@@ -1456,7 +1456,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-37 /// col-md-print-offset-20 -->
+			</div><!-- /.col-md-3 col-md-offset-49 /// col-md-print-offset-20 -->
 		</div><!-- /.row -->
 
 
@@ -1679,7 +1679,7 @@
 		      				<div class="row">
 			     					<div class="col-md-4">
 			      					<div class="input-group input-group-sm">
-				        				<span class="input-group-addon" id="basic-addon">GRAU GERAL DA DISFONIA:</span>
+				        				<span class="input-group-addon" id="basic-addon">G GERAL DA DISFONIA:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
 				       						<label class="btn btn-default active" onclick="letra_g(0)">	
 														<input type="radio" autocomplete="off" value="0" name="7-1grb" checked="checked">0
@@ -1899,7 +1899,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-29">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">CPFA <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
@@ -1910,7 +1910,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-29 -->		
 		</div><!-- /.row -->
 
 
@@ -1933,7 +1933,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-29">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
@@ -1945,7 +1945,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-29 -->		
 		</div><!-- /.row -->
 
 
@@ -1968,7 +1968,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-29">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">LOUDNESS <small>(sensação da intensidade vocal):</small></span>
 		  		<span class="input-group-btn">
@@ -1980,7 +1980,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->		
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-29 -->		
 		</div><!-- /.row -->
 
 
@@ -2003,7 +2003,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
-		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-11">
+		  <div class="col-md-3 col-md-offset-1 col-md-print-offset-29">
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">TENSÃO LARÍNGEA:</span>
 		  		<span class="input-group-btn">
@@ -2014,7 +2014,7 @@
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
-			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-11 -->			
+			</div><!-- /.col-md-3 col-md-offset-1 /// col-md-print-offset-29 -->			
 		</div><!-- /.row -->
 
 
@@ -2081,7 +2081,7 @@
 		<div class="collapse collapse_tmdf7-7 row row col-md-10 col-md-offset-13 vogais"> 
 			<div class="row">
 	  		<div class="col-md-4">
-	    		<label>VOGAIS - NORMAL(NOR)  / REDUZIDO(RED)</label>
+	    		<label id="lbl_7_8">VOGAIS - NORMAL(NOR)  / REDUZIDO(RED)</label>
 	 		 	</div><!-- /.col-md-4 -->
  		 	</div>
  		 	<div class="row">
