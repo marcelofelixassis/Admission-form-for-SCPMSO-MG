@@ -34,17 +34,17 @@
 	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao1" style="text-transform: uppercase;">
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-10 /// col-md-print-1 -->
-	  	<div class="col-md-2 col-md-print-2 col-md-print-offset-1">
+	  	<div class="col-md-1 col-md-offset-48 col-md-print-offset-14">
 	    	<div class="input-group input-group-sm">
 	    		<span class="input-group-addon" id="basic-addon">SEXO:</span>  
-	    		<div class="form-group form-group-sm">
-		      	<select class="form-control" name="sessao1">
+	    		<span class="input-group-btn">
+		      	<select class="btn" name="sessao1">
 		        	<option value="1">F</option>
 		        	<option value="2">M</option>
 		      	</select>
-	      	</div>
+	      	</span>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /.col-md-2 /// col-md-print-2 /// col-md-print-offset-1 -->
+	  	</div><!-- /.col-md-1 col-md-offset-48/// col-md-print-offset-14 -->
 		</div><!-- /.row -->
 
 
@@ -2289,7 +2289,8 @@
 			      	<option value="">SELECIONE...</option>
 							<option value="1">CECEIO ANTERIOR</option>
 				      <option value="2">CECEIO LATERAL</option>
-				      <option value="3">OUTRO</option>
+				      <option value="3">NÃO SE OBSERVA DISTÚRBIO FONÉTICO</option>
+				      <option value="4">OUTRO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -2380,6 +2381,7 @@
 
 
 
+
 		<!-- LINHA 8.0 (FDF_8_1, QDF_8_1, RUI_8_1, QDS_8_1, FDI_8_1, SBH_8_1, AVB_8_1, AVS_8_1) -->
 		<div class="row row col-md-10 col-md-offset-1">
 			<div class="col-md-6">
@@ -2441,6 +2443,7 @@
 
 
 
+
 		<!--######################################################################################################################
 		##################################################      SESSAO 9     #####################################################
 		##########################################################################################################################
@@ -2459,7 +2462,7 @@
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="avaliacao_perceptivo('1')">AQUI TESTE</button>
+			<button type="button" class="btn btn-info" onclick="avalicao_espectrografica('1')">AQUI TESTE</button>
 			
 		</div>		
 

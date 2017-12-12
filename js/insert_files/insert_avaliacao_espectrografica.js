@@ -19,7 +19,6 @@ function avalicao_espectrografica(id_da_finalidade){
 	}
 	vet.push(vetcb);
 	vet.push(id_da_finalidade);
-	console.log(vet);
 
 	$.ajax({
 		type : "GET",
