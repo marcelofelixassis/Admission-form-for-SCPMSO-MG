@@ -2454,7 +2454,86 @@
 			<h6 style="page-break-after: always;"></h6>
 			<img src="imagens/cabecalho9.png" class="col-md-12">
 		</div>  
-		
+
+
+
+
+
+		<!-- escrever ainda -->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">EXAME APRESENTADO:</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao9">
+							<option value="1">VIDEOLARINGOSCOPIA</option>
+			        <option value="2">VIDEOLARINGOESTROBOSCOPIA</option>
+			        <option value="3">FIBRONASOLARINGOSCOPIA</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+	    <div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DATA DO EXAME:</span>
+	  			<input type='text' class="form-control date" name="sessao1" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-3 /// col-md-print-3 -->
+	  	<div class="col-md-3 col-md-offset-1">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">MEDICO/CRM:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao1" style="text-transform: uppercase;">
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-10 /// col-md-print-1 -->
+	  </div>
+
+
+
+
+
+
+		<!-- escrever ainda -->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">TEM IMAGEM DO (A) PERICIANDO (A) GRAVADA?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao9">
+							<option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+	    <div class="col-md-5">
+	    	<div class="input-group input-group-sm" >
+	      	<span class="input-group-addon" id="basic-addon">LAUDO OTORRINOLARINGOLÓGICO EM ANEXO?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao9">
+							<option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+	  </div>
+
+
+
+
+
+	  <div class="row row col-md-10 col-md-offset-1">
+	  	<hr style="margin-top: 10px;">
+	  </div>
+
+
+
+
+
+
+	  
+
+
 		
 		
 	
@@ -2463,7 +2542,6 @@
 			<button type="" onclick="start_insert()">teste name function</button> -->
 			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
 			<button type="button" class="btn btn-info" onclick="avalicao_espectrografica('1')">AQUI TESTE</button>
-			
 		</div>		
 
 
