@@ -1,0 +1,29 @@
+body {
+  background-color: #465568;
+  padding: 0;
+  margin: 0;
+}
+
+.toolbar {
+  text-align: center;
+  height: 70px;
+  background-color: #323d4b;
+  color: white;
+  padding-top: 3px;
+}
+
+h3 {
+  margin-top: 4px;
+}
+
+.input-group-btn select {
+  border-color: #ccc;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.table-dark {
+  background-color: #323d4b;
+}
