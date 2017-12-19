@@ -153,7 +153,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">AULAS DE:</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" name="sessao2" disabled="true">
+	        	<select class="btn" name="sessao2" id="select_ad_2_0" disabled="true">
 	        		<option id="setselect2-2" value="">SELECIONE...</option>
 							<option value="1">REGENTE DE TURMA</option>
 							<option value="2">PORTUGUÊS</option>
@@ -187,7 +187,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">AULAS SEMANAIS:</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" name="sessao2" disabled="true">
+	        	<select class="btn" name="sessao2" id="select_as_2_1" disabled="true">
 	        		<option id="setselect2-3" value="">SELECIONE...</option>
 							<option value="1">ATÉ 5 AULAS/SEMANAIS</option>
 	  					<option value="2">DE 6 A 10 AULAS/SEMANAIS </option>
@@ -201,7 +201,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ÓRGÃO:</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" name="sessao2" disabled="true">
+	        	<select class="btn" name="sessao2" id="select_org_2_1" disabled="true">
 	        		<option id="setselect2-4" value="">SELECIONE...</option>
 							<option value="1">SEE</option>
 	  					<option value="2">UNIMONTES</option>
@@ -262,7 +262,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3">
+	        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3" disabled="true">
 					  	<option value="0">NENHUM</option>
 					  	<option value="1">UM CARGO</option>
 					  	<option value="2">DOIS CARGOS</option>
@@ -271,10 +271,6 @@
       		</span>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-3 -->
-	  	<!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-	  	<div class="col-md-1 col-md-offset-20">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs3-11">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-20 -->
 		</div><!-- /.row -->
 
 
@@ -297,7 +293,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>b) </strong>JÁ ATUOU COMO PROFESSOR(A)?</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_jacp34()" id="jacp3-4" name="sessao3">
+	        	<select class="btn" onblur="onblur_jacp34()" id="jacp3-4" name="sessao3" disabled="true">
 					  	<option value="0">NÃO</option>
 					  	<option value="1">SIM(1)</option>
 					  	<option value="2">SIM(2)</option>
@@ -330,7 +326,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oada39()" id="oada3-9" name="sessao3">
+	        	<select class="btn" onblur="onblur_oada39()" id="oada3-9" name="sessao3" disabled="true">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
@@ -341,25 +337,25 @@
 	    	<div class="input-group input-group-sm">
 	      	<form class="adupv">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="3-9cb">CANTOR
+      				<input type="checkbox" value="1" name="3-9cb" disabled="true">CANTOR
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="3-9cb">VENDEDOR
+      				<input type="checkbox" value="2" name="3-9cb" disabled="true">VENDEDOR
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="3-9cb">REPÓRTER
+      				<input type="checkbox" value="3" name="3-9cb" disabled="true">REPÓRTER
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="3-9cb">ADVOGADO
+      				<input type="checkbox" value="4" name="3-9cb" disabled="true">ADVOGADO
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="3-9cb">PADRE/PASTOR
+      				<input type="checkbox" value="5" name="3-9cb" disabled="true">PADRE/PASTOR
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="3-9cb">ATOR/ATRIZ
+      				<input type="checkbox" value="6" name="3-9cb" disabled="true">ATOR/ATRIZ
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="7" name="3-9cb">TELEMARKETING
+      				<input type="checkbox" value="7" name="3-9cb" disabled="true">TELEMARKETING
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -377,7 +373,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>d) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ATUAL)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oadu310()" id="oadu3-10" name="sessao3">
+	        	<select class="btn" onblur="onblur_oadu310()" id="oadu3-10" name="sessao3" disabled="true">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
@@ -388,45 +384,31 @@
 	    	<div class="input-group input-group-sm">
 	      	<form class="adupv">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="3-10cb">CANTOR
+      				<input type="checkbox" value="1" name="3-10cb" disabled="true">CANTOR
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="3-10cb">VENDEDOR
+      				<input type="checkbox" value="2" name="3-10cb" disabled="true">VENDEDOR
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="3-10cb">REPÓRTER
+      				<input type="checkbox" value="3" name="3-10cb" disabled="true">REPÓRTER
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="3-10cb">ADVOGADO
+      				<input type="checkbox" value="4" name="3-10cb" disabled="true">ADVOGADO
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="3-10cb">PADRE/PASTOR
+      				<input type="checkbox" value="5" name="3-10cb" disabled="true">PADRE/PASTOR
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="3-10cb">ATOR/ATRIZ
+      				<input type="checkbox" value="6" name="3-10cb" disabled="true">ATOR/ATRIZ
     				</label>
         		<label class="checkbox-inline">
-      				<input type="checkbox" value="7" name="3-10cb">TELEMARKETING
+      				<input type="checkbox" value="7" name="3-10cb" disabled="true">TELEMARKETING
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
 	  </div><!-- /.row -->  
 
-
-
-
-
-
-		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs3-11">
-	    <div class="form-group">
-		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
-		    </div>
-			</div>		
-		</div>
 
 
 
@@ -2593,6 +2575,7 @@
 		<script src="js/select_files/start_select.js"></script>
 		<script src="js/select_files/identificacao.js"></script>
 		<script src="js/select_files/finalidade.js"></script>
+		<script src="js/select_files/complementares.js"></script>
 
 		<!-- FUNÇÃO DE LOADING -->
 		<script src="js/loading_script/loading.js"></script>

@@ -20,3 +20,24 @@ function getUrlVars()
     identificacao = vars["id"];
     finalidade = vars["fi"];
 }
+
+function markcheckbox(stringToSplit, checkBoxGroup){
+    var x = stringToSplit.split(',');
+
+    for (let i = 0; i < checkBoxGroup.length; i++) {
+        for (let y = 0; y < x.length; y++) {
+            if(checkBoxGroup[i].value == x[y]){
+                checkBoxGroup[i].checked = true;
+            }
+        }
+    }
+}
+
+function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
+}
