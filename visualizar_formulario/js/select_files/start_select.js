@@ -4,6 +4,8 @@ var url = "http://10.16.90.76/visualizar_formulario/php/";
 var content = "application/json; charset=UTF-8";
 
 window.onload = function(){
+    $('#collapse_taba5-0_extaba').collapse('show');
+	$('#collapse_taba5-0_taba').collapse('show');
     getUrlVars();
     get_identificacao();
 }

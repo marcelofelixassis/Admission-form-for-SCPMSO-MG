@@ -434,7 +434,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS NASAIS E DOS SEIOS DA FACE?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dnsf40()" id="dnsf4-0" name="sessao4">
+	        	<select class="btn" onblur="onblur_dnsf40()" id="dnsf4-0" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -445,13 +445,13 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="dnsfcb4-0">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-0cb">SINUSITE
+      				<input type="checkbox" value="1" name="4-0cb" disabled="true">SINUSITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-0cb">DESVIO DE SEPTO
+      				<input type="checkbox" value="2" name="4-0cb" disabled="true">DESVIO DE SEPTO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-0cb">RINITE
+      				<input type="checkbox" value="3" name="4-0cb" disabled="true">RINITE
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -469,7 +469,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS ALÉRGICOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_da41()" id="da4-1" name="sessao4">
+	        	<select class="btn" onblur="onblur_da41()" id="da4-1" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -480,22 +480,22 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="dacb4-1">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-1cb">CHEIRO FORTE
+      				<input type="checkbox" value="1" name="4-1cb" disabled="true">CHEIRO FORTE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-1cb">POEIRA
+      				<input type="checkbox" value="2" name="4-1cb" disabled="true">POEIRA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-1cb">MOFO
+      				<input type="checkbox" value="3" name="4-1cb" disabled="true">MOFO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-1cb">PÓ DE GIZ
+      				<input type="checkbox" value="4" name="4-1cb" disabled="true">PÓ DE GIZ
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="4-1cb">ALIMENTAR
+      				<input type="checkbox" value="5" name="4-1cb" disabled="true">ALIMENTAR
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="4-1cb">MEDICAÇÃO
+      				<input type="checkbox" value="6" name="4-1cb" disabled="true">MEDICAÇÃO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -513,7 +513,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS FARÍNGEOS/LARÍNGEOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dfl42()" id="dfl4-2" name="sessao4">
+	        	<select class="btn" onblur="onblur_dfl42()" id="dfl4-2" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -524,13 +524,13 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="dflcb4-2">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-2cb">LARINGITE
+      				<input type="checkbox" value="1" name="4-2cb" disabled="true">LARINGITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-2cb">AMIGDALITE
+      				<input type="checkbox" value="2" name="4-2cb" disabled="true">AMIGDALITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-2cb">FARINGITE
+      				<input type="checkbox" value="3" name="4-2cb" disabled="true">FARINGITE
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -548,7 +548,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS OTOLÓGICOS/AUDITIVOS?</span>                                                     
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_doa43()" id="doa4-3" name="sessao4">
+	        	<select class="btn" onblur="onblur_doa43()" id="doa4-3" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -559,16 +559,16 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="doacb4-3">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-3cb">PERDA AUDITIVA
+      				<input type="checkbox" value="1" name="4-3cb" disabled="true">PERDA AUDITIVA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-3cb">OTITE
+      				<input type="checkbox" value="2" name="4-3cb" disabled="true">OTITE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-3cb">VERTIGEM/TONTURA
+      				<input type="checkbox" value="3" name="4-3cb" disabled="true">VERTIGEM/TONTURA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-3cb">ZUMBIDO
+      				<input type="checkbox" value="4" name="4-3cb" disabled="true">ZUMBIDO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -586,7 +586,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">SINAIS DE DOENÇA DO REFLUXO GASTROESOFÁGICO (DRGE)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_sdrg44()" id="sdrg4-4" name="sessao4">
+	        	<select class="btn" onblur="onblur_sdrg44()" id="sdrg4-4" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -597,22 +597,22 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="sdrgcb4-4">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-4cb">ASSINTOMÁTICO
+      				<input type="checkbox" value="1" name="4-4cb" disabled="true">ASSINTOMÁTICO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-4cb">QUEMAÇÃO/ARDÊNCIA
+      				<input type="checkbox" value="2" name="4-4cb" disabled="true">QUEMAÇÃO/ARDÊNCIA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-4cb">AZIA
+      				<input type="checkbox" value="3" name="4-4cb" disabled="true">AZIA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-4cb">PIGARRO
+      				<input type="checkbox" value="4" name="4-4cb" disabled="true">PIGARRO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="4-4cb">RETORNO DO ÁCIDO GÁSTRICO
+      				<input type="checkbox" value="5" name="4-4cb" disabled="true">RETORNO DO ÁCIDO GÁSTRICO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="4-4cb">DOR ESTOMACAL
+      				<input type="checkbox" value="6" name="4-4cb" disabled="true">DOR ESTOMACAL
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -630,7 +630,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTRAS ALTERAÇÕES NA SAÚDE GERAL?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oasg45()" id="oasg4-5" name="sessao4">
+	        	<select class="btn" onblur="onblur_oasg45()" id="oasg4-5" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -641,19 +641,19 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="oasgcb4-5">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-5cb">DEPRESSÃO
+      				<input type="checkbox" value="1" name="4-5cb" disabled="true">DEPRESSÃO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-5cb">HIPO/HIPERTIREOIDISMO
+      				<input type="checkbox" value="2" name="4-5cb" disabled="true">HIPO/HIPERTIREOIDISMO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-5cb">HIPERTENSÃO
+      				<input type="checkbox" value="3" name="4-5cb" disabled="true">HIPERTENSÃO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-5cb">DIABETES
+      				<input type="checkbox" value="4" name="4-5cb" disabled="true">DIABETES
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="4-5cb">OUTROS
+      				<input type="checkbox" value="5" name="4-5cb" disabled="true">OUTROS
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -671,7 +671,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">USO DE MEDICAMENTO(S)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_fudm46()" id="fudm4-6" name="sessao4">
+	        	<select class="btn" onblur="onblur_fudm46()" id="fudm4-6" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -682,31 +682,31 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="fudmcb4-6">
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="4-6cb">ANTICONCEPCIONAL
+      				<input type="checkbox" value="1" name="4-6cb" disabled="true">ANTICONCEPCIONAL
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-6cb">ANTIHIPERTENSIVO
+      				<input type="checkbox" value="2" name="4-6cb" disabled="true">ANTIHIPERTENSIVO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="4-6cb">ANTIDEPRESSIVO
+      				<input type="checkbox" value="3" name="4-6cb" disabled="true">ANTIDEPRESSIVO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="4-6cb">ANTIGLICÊMICO
+      				<input type="checkbox" value="4" name="4-6cb" disabled="true">ANTIGLICÊMICO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="4-6cb">ANTIÁCIDO
+      				<input type="checkbox" value="5" name="4-6cb" disabled="true">ANTIÁCIDO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="4-6cb">HORMÔNIOS
+      				<input type="checkbox" value="6" name="4-6cb" disabled="true">HORMÔNIOS
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="7" name="4-6cb">ANTILIPÊMICO
+      				<input type="checkbox" value="7" name="4-6cb" disabled="true">ANTILIPÊMICO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="8" name="4-6cb">ANSIOLÍTICO
+      				<input type="checkbox" value="8" name="4-6cb" disabled="true">ANSIOLÍTICO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="9" name="4-6cb">OUTROS
+      				<input type="checkbox" value="9" name="4-6cb" disabled="true">OUTROS
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -719,14 +719,14 @@
 
 
 	  <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-	  <div class="row row col-md-10 col-md-offset-1">
+	  <!-- <div class="row row col-md-10 col-md-offset-1">
 	    <div class="collapse col-md-12 collapse_fudm4-6">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">NOME DO(S) MEDICAMENTO(S)</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ndm4-6" style="text-transform: uppercase;"> 	
-	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
-		</div><!-- /.row -->
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ndm4-6" disabled="true"> 	
+	    	</div>
+	  	</div>
+		</div> -->
 		
 
 
@@ -740,7 +740,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">CIRURGIA COM ANESTESIA GERAL?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_ccag47()" id="ccag4-7" name="sessao4">
+	        	<select class="btn" onblur="onblur_ccag47()" id="ccag4-7" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -751,7 +751,7 @@
 	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag4-7">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ccag4-7" style="text-transform: uppercase;"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ccag4-7" disabled="true" "> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
 		</div><!-- /.row -->
@@ -768,34 +768,15 @@
 		    	<div class="input-group input-group-sm">
 		      	<span class="input-group-addon" id="basic-addon">CIRURGIA NA TIREÓIDE?</span>
 		  			<span class="input-group-btn">
-		        	<select class="btn" name="sessao4">
+		        	<select class="btn" name="sessao4" id="select_tire_4_8" disabled="true">
 								 <option value="0">NÃO</option>
 				         <option value="1">SIM</option>
 		        	</select>
 	      		</span>
 		    	</div><!-- /input-group -->
 		    </div><!-- /.col-md-3-->
-		    <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		    <div class="col-md-1 col-md-offset-20">
-		  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs4-8">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-20 col-md-print-offset-2 -->
 		</div><!-- /.row -->
 
-
-
-
-
-
-
-		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs4-8">
-	    <div class="form-group">
-		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
-		    </div>
-			</div>		
-		</div>
 
 
 
@@ -820,7 +801,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">TABAGISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_taba50()" id="taba5-0" name="sessao5">
+	        	<select class="btn" onblur="onblur_taba50()" id="taba5-0" name="sessao5" disabled="true">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
@@ -831,7 +812,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
 		  		<span class="input-group-btn">
-		        <select class="btn" name="sessao5">
+		        <select class="btn" name="sessao5" id="select_hqt_5_0" disabled="true">
 		        	<option id="setselect5-1" value="">SELECIONE...</option>
 							<option value="1">ATÉ 1 ANO</option>
 				      <option value="2">2 A 5 ANOS</option>
@@ -847,7 +828,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANTOS CIGARROS/DIA?</span>
 		  		<span class="input-group-btn">
-		        <select class="btn" name="sessao5">
+		        <select class="btn" name="sessao5" id="select_qcd_5_0" disabled="true">
 		        	<option id="setselect5-2" value="">SELECIONE...</option>
 							<option value="1">10 OU MENOS</option>
 				      <option value="2">11 A 20</option>
@@ -871,7 +852,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EX-TABAGISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_extaba51()" id="extaba5-1" name="sessao5">
+	        	<select class="btn" onblur="onblur_extaba51()" id="extaba5-1" name="sessao5" disabled="true">
 							<option value="0" id="setnao5-1">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -882,7 +863,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUANTO TEMPO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao5">
+	        	<select class="btn" name="sessao5" id="select_fpqt_5_1" disabled="true">
 	        		<option id="setselect5-3" value="">SELECIONE...</option>
 							<option value="1">ATÉ 1 ANO</option>
 				      <option value="2">2 A 5 ANOS</option>
@@ -898,7 +879,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">PAROU HÁ QUANTO TEMPO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao5">
+	        	<select class="btn" name="sessao5" id="select_phqt_5_1" disabled="true">
 	        		<option id="setselect5-4" value="">SELECIONE...</option>
 							<option value="1">MENOS DE 1 ANO</option>
 				      <option value="2">2 A 5 ANOS</option>
@@ -2576,6 +2557,8 @@
 		<script src="js/select_files/identificacao.js"></script>
 		<script src="js/select_files/finalidade.js"></script>
 		<script src="js/select_files/complementares.js"></script>
+		<script src="js/select_files/saude_geral.js"></script>
+		<script src="js/select_files/habitos.js"></script>
 
 		<!-- FUNÇÃO DE LOADING -->
 		<script src="js/loading_script/loading.js"></script>
