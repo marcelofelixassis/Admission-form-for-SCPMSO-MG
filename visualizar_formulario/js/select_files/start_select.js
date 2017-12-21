@@ -4,6 +4,7 @@ var url = "http://10.16.90.76/visualizar_formulario/php/";
 var content = "application/json; charset=UTF-8";
 
 window.onload = function(){
+    $('.noclick').click(false);
     $('#collapse_taba5-0_extaba').collapse('show');
 	$('#collapse_taba5-0_taba').collapse('show');
     getUrlVars();
@@ -35,11 +36,22 @@ function markcheckbox(stringToSplit, checkBoxGroup){
     }
 }
 
-function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
+function markradiobutton(number, radiobuttongroup) {
+    switch (number) {
+        case '0':
+            $(radiobuttongroup[0]).addClass("active");
         break;
-      }
+
+        case '1':
+            $(radiobuttongroup[1]).addClass("active");
+        break;
+
+        case '2':
+            $(radiobuttongroup[2]).addClass("active");
+        break;
+
+        case '3':
+            $(radiobuttongroup[3]).addClass("active");
+        break;
     }
 }

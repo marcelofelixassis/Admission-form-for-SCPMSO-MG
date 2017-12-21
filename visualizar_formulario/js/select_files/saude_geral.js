@@ -18,8 +18,6 @@ function get_saude_geral(){
 }
 
 function preencher_saude_geral(data){
-   console.log(data);
-
    $("#dnsf4-0").val(data.dnsf_4_0);
    if(data.dnsf_4_0 == "1") {
         $('#collapse_dnsf4-0').collapse('show');

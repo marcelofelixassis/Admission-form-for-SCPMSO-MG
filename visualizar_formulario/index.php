@@ -903,7 +903,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DROGAS ILÍCITAS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dril52()" id="dril5-2" name="sessao5">
+	        	<select class="btn" onblur="onblur_dril52()" id="dril5-2" name="sessao5" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -914,13 +914,13 @@
 	    	<div class="input-group input-group-sm">
 	      	<form>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="5-2cb">MACONHA
+      				<input type="checkbox" value="1" name="5-2cb" disabled="true">MACONHA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="5-2cb">COCAÍNA
+      				<input type="checkbox" value="2" name="5-2cb" disabled="true">COCAÍNA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="5-2cb">CRACK
+      				<input type="checkbox" value="3" name="5-2cb" disabled="true">CRACK
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -928,7 +928,7 @@
 	    <div class="collapse col-md-5 collapse_dril5-2">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTRA:</span>
-	  			<input type="text" style="text-transform: uppercase;" maxlength="15" class="form-control" aria-describedby="basic-addon1" maxlength="10" name="sessao5" id="inputsessao5"> 	
+	  			<input type="text" style="text-transform: uppercase;" maxlength="15" class="form-control" aria-describedby="basic-addon1" maxlength="10" name="sessao5" id="inputsessao5" disabled="true"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-5 -->  
 		</div><!-- /.row -->	
@@ -944,7 +944,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ETILISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_etil53()" id="etil5-3" name="sessao5">
+	        	<select class="btn" onblur="onblur_etil53()" id="etil5-3" name="sessao5" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -955,10 +955,10 @@
 	    	<div class="input-group input-group-sm">
 	      	<form>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="1" name="5-3cb">DESTILADOS
+      				<input type="checkbox" value="1" name="5-3cb" disabled="true">DESTILADOS
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="5-3cb">FERMENTADOS
+      				<input type="checkbox" value="2" name="5-3cb" disabled="true">FERMENTADOS
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -967,7 +967,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL A FREQUÊNCIA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao5">
+	        	<select class="btn" name="sessao5" id="select_qaf_5_3" disabled="true">
 	        		<option id="setselect5-6" value="">SELECIONE...</option>
 							<option value="1">1 VEZ POR MÊS</option>
 			        <option value="2">2 A 3 VEZES POR MÊS</option>
@@ -993,17 +993,13 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTROS HÁBITOS VOCAIS INADEQUADOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao5" onblur="onblur_ohvi54()" id="ohvi5-4">
+	        	<select class="btn" name="sessao5" onblur="onblur_ohvi54()" id="ohvi5-4" disabled="true">
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-3 -->
-	    <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-	    <div class="col-md-1 col-md-offset-20">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs5-5">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-3 -->
 	  </div><!-- /.row -->
 
 
@@ -1015,45 +1011,30 @@
 	    	<div class="input-group input-group-sm">
 	      	<form id="ohvicb5-4">
     				<label class="checkbox-inline" style="margin-left: 0px;">
-      				<input type="checkbox" value="1" name="5-4cb">GRITA
+      				<input type="checkbox" value="1" name="5-4cb" disabled="true">GRITA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="5-4cb">FALA MUITO
+      				<input type="checkbox" value="2" name="5-4cb" disabled="true">FALA MUITO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="3" name="5-4cb">FALA ALTO
+      				<input type="checkbox" value="3" name="5-4cb" disabled="true">FALA ALTO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="4" name="5-4cb">FALA RÁPIDO
+      				<input type="checkbox" value="4" name="5-4cb" disabled="true">FALA RÁPIDO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="5" name="5-4cb">PIGARREIA
+      				<input type="checkbox" value="5" name="5-4cb" disabled="true">PIGARREIA
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="5-4cb">TOSSE
+      				<input type="checkbox" value="6" name="5-4cb" disabled="true">TOSSE
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="7" name="5-4cb">HIDRATAÇÃO INSUFICIENTE
+      				<input type="checkbox" value="7" name="5-4cb" disabled="true">HIDRATAÇÃO INSUFICIENTE
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-12 -->	  
 	  </div><!-- /.row -->
-
-
-
-
-
-
-	  <!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs5-5">
-	    <div class="form-group">
-		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
-		    </div>
-			</div>		
-		</div>
 
 
 
@@ -1078,17 +1059,13 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>SINTOMAS PRESENTES?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_sipr60()" id="sipr6-0" name="sessao6">
+	        	<select class="btn" onblur="onblur_sipr60()" id="sipr6-0" name="sessao6" disabled="true">
 							 <option value="1">AUSÊNCIA DE QUEIXAS VOCAIS NO MOMENTO</option>
 			         <option value="2">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-	    <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-	    <div class="col-md-1 col-md-offset-37">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs6-10">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-37 -->
 	  </div><!-- /.row -->
 
 
@@ -1102,61 +1079,61 @@
 		   	<div class="input-group input-group-sm">
 		     	<form>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="1" name="6-1cb">DOR AO FALAR
+	      			<input type="checkbox" value="1" name="6-1cb" disabled="true">DOR AO FALAR
 	    			</label>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="2" name="6-1cb">RESSECAMENTO
+	      			<input type="checkbox" value="2" name="6-1cb" disabled="true">RESSECAMENTO
 	    			</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="3" name="6-1cb">QUEIMAÇÃO
+	     				<input type="checkbox" value="3" name="6-1cb" disabled="true">QUEIMAÇÃO
 	   				</label>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="4" name="6-1cb">ARDÊNCIA
+	      			<input type="checkbox" value="4" name="6-1cb" disabled="true">ARDÊNCIA
 	    			</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="5" name="6-1cb">CANSAÇO VOCAL
+	     				<input type="checkbox" value="5" name="6-1cb" disabled="true">CANSAÇO VOCAL
 	   				</label>
 	   				<label class="checkbox-inline">
-      			<input type="checkbox" value="6" name="6-1cb">ROUQUIDÃO
-	    			</label>
-	    			<label class="checkbox-inline">
-	     				<input type="checkbox" value="7" name="6-1cb">FALTA DE AR
-	   				</label>
-	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="8" name="6-1cb">COCEIRA
+      			<input type="checkbox" value="6" name="6-1cb" disabled="true">ROUQUIDÃO
 	    			</label>
 	    			<label class="checkbox-inline">
-	     				<input type="checkbox" value="9" name="6-1cb">VOZ GROSSA
+	     				<input type="checkbox" value="7" name="6-1cb" disabled="true">FALTA DE AR
 	   				</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="10" name="6-1cb">ESFORÇO PARA FALAR
+	     				<input type="checkbox" value="8" name="6-1cb" disabled="true">COCEIRA
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="9" name="6-1cb" disabled="true">VOZ GROSSA
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="10" name="6-1cb" disabled="true">ESFORÇO PARA FALAR
 	   				</label>
     				<label class="checkbox-inline">
-	      			<input type="checkbox" value="11" name="6-1cb">TOSSE COM SECREÇÃO
+	      			<input type="checkbox" value="11" name="6-1cb" disabled="true">TOSSE COM SECREÇÃO
 	    			</label>
 	    			<label class="checkbox-inline">
-	     				<input type="checkbox" value="12" name="6-1cb">TOSSE SECA
+	     				<input type="checkbox" value="12" name="6-1cb" disabled="true">TOSSE SECA
 	   				</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="13" name="6-1cb">DOR NA GARGANTA
+	     				<input type="checkbox" value="13" name="6-1cb" disabled="true">DOR NA GARGANTA
     				</label>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="14" name="6-1cb">FALHAS NA VOZ
+	      			<input type="checkbox" value="14" name="6-1cb" disabled="true">FALHAS NA VOZ
 	    			</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="15" name="6-1cb">APERTO NA GARGANTA
+	     				<input type="checkbox" value="15" name="6-1cb" disabled="true">APERTO NA GARGANTA
 	   				</label>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="16" name="6-1cb">ENGASGO
+	      			<input type="checkbox" value="16" name="6-1cb" disabled="true">ENGASGO
 	    			</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="17" name="6-1cb">SENSAÇÃO DE CORPO ESTRANHO
+	     				<input type="checkbox" value="17" name="6-1cb" disabled="true">SENSAÇÃO DE CORPO ESTRANHO
 	   				</label>
 	   				<label class="checkbox-inline">
-      				<input type="checkbox" value="18" name="6-1cb">DISFAGIA
+      				<input type="checkbox" value="18" name="6-1cb" disabled="true">DISFAGIA
 	    			</label>
 	    			<label class="checkbox-inline">
-	     				<input type="checkbox" value="19" name="6-1cb">ODINOFAGIA
+	     				<input type="checkbox" value="19" name="6-1cb" disabled="true">ODINOFAGIA
 	   				</label>
 	 				</form>
 	    	</div><!-- /input-group -->
@@ -1174,7 +1151,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>a.1) </strong>SINTOMAS PRESENTES HÁ QUANTO TEMPO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_spqt_6_2" disabled="true">
 			      	<option id="setselect6-1" value="">SELECIONE...</option>
 							<option value="1">ATÉ 5 MESES</option>
 				      <option value="2">6 A 11 MESES</option>
@@ -1191,7 +1168,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">COMO FORAM PERCEBIDOS?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_cfmp_6_2" disabled="true">
 			      	<option id="setselect6-2" value="">SELECIONE...</option>
 							<option value="1">DE FORMA GRADUAL</option>
 				      <option value="2">DE FORMA BRUSCA</option>
@@ -1214,7 +1191,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>b) </strong>PATOLOGIA/SINAIS LARÍNGEOS CONFIRMADOS?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_pslc63()" id="pslc6-3" name="sessao6">
+			      <select class="btn" onblur="onblur_pslc63()" id="pslc6-3" name="sessao6" disabled="true">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1225,7 +1202,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_qnd_6_3" disabled="true">
 			      	<option id="setselect6-3" value="">SELECIONE...</option>
 							<option value="1">ATÉ 6 MESES</option>
 				      <option value="2">DE 7 MESES A 1 ANO</option>
@@ -1251,37 +1228,37 @@
 		   	<div class="input-group input-group-sm">
 		     	<form id="">
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="1" name="6-4cb">NÓDULO(S)
+	      			<input type="checkbox" value="1" name="6-4cb" disabled="true">NÓDULO(S)
 	    			</label>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="2" name="6-4cb">PÓLIPO(S)
+	      			<input type="checkbox" value="2" name="6-4cb" disabled="true">PÓLIPO(S)
 	    			</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="3" name="6-4cb">CISTO(S)
+	     				<input type="checkbox" value="3" name="6-4cb" disabled="true">CISTO(S)
 	   				</label>
 	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="4" name="6-4cb">SULCO(S)
+	      			<input type="checkbox" value="4" name="6-4cb" disabled="true">SULCO(S)
 	    			</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="5" name="6-4cb">EDEMA
+	     				<input type="checkbox" value="5" name="6-4cb" disabled="true">EDEMA
 	   				</label>
 	   				<label class="checkbox-inline">
-      				<input type="checkbox" value="6" name="6-4cb">EDEMA DE REINKE
-	    			</label>
-	    			<label class="checkbox-inline">
-	     				<input type="checkbox" value="7" name="6-4cb">HIPEREMIA NA(S) PPVV(S)
-	   				</label>
-	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="8" name="6-4cb">ALTERAÇÃO VASCULAR
+      				<input type="checkbox" value="6" name="6-4cb" disabled="true">EDEMA DE REINKE
 	    			</label>
 	    			<label class="checkbox-inline">
-	     				<input type="checkbox" value="9" name="6-4cb">FENDA GLÓTICA
+	     				<input type="checkbox" value="7" name="6-4cb" disabled="true">HIPEREMIA NA(S) PPVV(S)
 	   				</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="10" name="6-4cb">OUTRA(S)
+	     				<input type="checkbox" value="8" name="6-4cb" disabled="true">ALTERAÇÃO VASCULAR
+	    			</label>
+	    			<label class="checkbox-inline">
+	     				<input type="checkbox" value="9" name="6-4cb" disabled="true">FENDA GLÓTICA
 	   				</label>
 	   				<label class="checkbox-inline">
-	     				<input type="checkbox" value="11" name="6-4cb">NÃO SOUBE INFORMAR
+	     				<input type="checkbox" value="10" name="6-4cb" disabled="true">OUTRA(S)
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="11" name="6-4cb" disabled="true">NÃO SOUBE INFORMAR
 	   				</label>
 	 				</form>
 	    	</div><!-- /input-group -->
@@ -1300,7 +1277,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>TRATAMENTO FONOTERÁPICO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_tf65()" id="tf6-5" name="sessao6">
+	        	<select class="btn" onblur="onblur_tf65()" id="tf6-5" name="sessao6" disabled="true">
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
 	        	</select>
@@ -1321,7 +1298,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c.1) </strong>TRATAMENTO FONOTERÁPICO JÁ REALIZADO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_tfjr66()" id="tfjr6-6" name="sessao6">
+			      <select class="btn" onblur="onblur_tfjr66()" id="tfjr6-6" name="sessao6" disabled="true">
 							<option id="setselect6-7id" value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1332,7 +1309,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_qnd_6_6" disabled="true">
 			      	<option id="setselect6-7" value="">SELECIONE...</option>
 							<option value="1">ATÉ 1 ANO ATRÁS</option>
 				      <option value="2">DE 1 ANO A 2 ATRÁS</option>
@@ -1356,7 +1333,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao6">
+	        	<select class="btn" name="sessao6" id="select_alfa_6_7" disabled="true">
 	        		<option id="setselect6-8" value="">SELECIONE...</option>
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
@@ -1376,7 +1353,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c.2) </strong>EM TRATAMENTO FONOTERÁPICO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_etfo68()" id="etfo6-8" name="sessao6">
+			      <select class="btn" onblur="onblur_etfo68()" id="etfo6-8" name="sessao6" disabled="true">
 							<option id="setselect6-4id" value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1387,7 +1364,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">Nº DE SESSÕES?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_ndse_6_8" disabled="true">
 			      	<option id="setselect6-4" value="">SELECIONE...</option>
 							<option value="1">SOMENTE A AVALIAÇÃO</option>
 				      <option value="2">ATÉ 4 SESSÕES</option>
@@ -1414,7 +1391,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA SEMANAL:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_frse_6_9" disabled="true">
 			      	<option id="setselect6-5" value="">SELECIONE...</option>
 							<option value="1">1X/SEMANA</option>
 				      <option value="2">2X/SEMANA</option>
@@ -1430,7 +1407,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA DA FONOTERAPIA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_fdfo_6_9" disabled="true">
 			      	<option id="setselect6-6" value="">SELECIONE...</option>
 							<option value="1">TRATAMENTO CONTÍNUO</option>
 				      <option value="2">TRATAMENTO COM INTERRUPÇÕES</option>
@@ -1453,7 +1430,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">LAUDO FONOAUDIÓLOGO EM ANEXO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao6">
+	        	<select class="btn" name="sessao6" id="select_lfea_6_10" disabled="true">
 	        		<option id="setselect6-8id" value="">SELECIONE...</option>
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
@@ -1474,7 +1451,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>d) </strong>CIRUGIA(S) VOCAL(IS)?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_civo611()" id="civo6-11" name="sessao6">
+			      <select class="btn" onblur="onblur_civo611()" id="civo6-11" name="sessao6" disabled="true">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1485,7 +1462,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUANDO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_qnd_6_11" disabled="true">
 			      	<option id="setselect6-9" value="">SELECIONE...</option>
 							<option value="1">ATÉ 1 ANO ATRÁS</option>
 				      <option value="2">DE 1 ANO A 2 ATRÁS</option>
@@ -1508,7 +1485,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>e) </strong>FAZ USO DE MICROFONE?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_fudm612()" id="fudm6-12" name="sessao6">
+			      <select class="btn" onblur="onblur_fudm612()" id="fudm6-12" name="sessao6" disabled="true">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1519,7 +1496,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">HÁ QUANTO TEMPO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_hqnt_6_12" disabled="true">
 			      	<option id="setselect6-10" value="">SELECIONE...</option>
 							<option value="1">ATÉ 1 ANO</option>
 				      <option value="2">DE 1 A 2 ANOS</option>
@@ -1534,7 +1511,7 @@
 			  <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">O QUE MUDOU?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao6">
+			      <select class="btn" name="sessao6" id="select_oqmd_6_12" disabled="true">
 			      	<option id="setselect6-11" value="">SELECIONE...</option>
 							<option value="1">AUXILIA MUITO</option>
 				      <option value="2">AUXILIA POUCO</option>
@@ -1545,20 +1522,6 @@
 			</div><!-- /.col-md-3 col-md-offset-38 /// col-md-print-offset-24 -->		 
 		</div><!-- /.row -->
 
-
-
-
-
-
-		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-10">
-	    <div class="form-group">
-	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
-	    </div>
-			</div>		
-		</div>
 
 
 
@@ -1582,7 +1545,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">QUALIDADE VOCAL:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_qev_7_0" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">NEUTRA</option>
 				      <option value="2">DISFÔNICA</option>
@@ -1594,7 +1557,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">GRAU DE ALTERAÇÃO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_gda_7_0" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">AUSENTE</option>
 				      <option value="2">LEVEMENTE ALTERADO</option>
@@ -1625,23 +1588,23 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">G GERAL DA DISFONIA:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default active" onclick="letra_g(0)">	
-														<input type="radio" autocomplete="off" value="0" name="7-1grb" checked="checked">0
+				       						<label class="btn btn-default noclick" disabled="true" name="rb_7_1_g">	
+														<input type="radio" value="0">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_g(1)">
-														<input type="radio" value="1" name="7-1grb" autocomplete="off">1
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_g">
+														<input type="radio" value="1">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
  
-													<label class="btn btn-default" onclick="letra_g(2)">
-														<input type="radio" value="2" name="7-1grb" autocomplete="off">2
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_g">
+														<input type="radio" value="2">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_g(3)">
-														<input type="radio" value="3" name="7-1grb" autocomplete="off">3
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_g">
+														<input type="radio" value="3">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 				        				</div>
@@ -1651,23 +1614,23 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">RUGOSIDADE:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default active" onclick="letra_r(0)">
-														<input type="radio" value="0" name="7-1srb" autocomplete="off" checked="checked">0
+			       							<label class="btn btn-default noclick" disabled="true" name="rb_7_1_r">
+														<input type="radio" value="0">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_r(1)">
-														<input type="radio" value="1" name="7-1srb" autocomplete="off">1
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_r">
+														<input type="radio" value="1">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_r(2)">
-														<input type="radio" value="2" name="7-1srb" autocomplete="off">2
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_r">
+														<input type="radio" value="2">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_r(3)">
-														<input type="radio" value="3" name="7-1srb" autocomplete="off">3
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_r">
+														<input type="radio" value="3">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 			        					</div>
@@ -1679,23 +1642,23 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">SOPROSIDADE:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default active" onclick="letra_b(0)">
-														<input type="radio" value="0" name="7-1trb" autocomplete="off" checked="checked">0
+				       						<label class="btn btn-default noclick" disabled="true" name="rb_7_1_s">
+														<input type="radio" value="0">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_b(1)">
-														<input type="radio" value="1" name="7-1trb" autocomplete="off">1
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_s">
+														<input type="radio" value="1">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_b(2)">
-														<input type="radio" value="2" name="7-1trb" autocomplete="off">2
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_s">
+														<input type="radio" value="2">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_b(3)">
-														<input type="radio" value="3" name="7-1trb" autocomplete="off">3
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_s">
+														<input type="radio" value="3">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 				        				</div>
@@ -1705,23 +1668,23 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">ASTENIA:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default active" onclick="letra_a(0)">
-														<input type="radio" value="0" name="7-1rrb" autocomplete="off" checked="checked">0
+			       							<label class="btn btn-default noclick" disabled="true" name="rb_7_1_a">
+														<input type="radio" value="0">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_a(1)">
-														<input type="radio" value="1" name="7-1rrb" autocomplete="off">1
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_a">
+														<input type="radio" value="1">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_a(2)">
-														<input type="radio" value="2" name="7-1rrb" autocomplete="off">2
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_a">
+														<input type="radio" value="2">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_a(3)">
-														<input type="radio" value="3" name="7-1rrb" autocomplete="off">3
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_a">
+														<input type="radio" value="3">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 			        					</div>
@@ -1733,23 +1696,23 @@
 			      					<div class="input-group input-group-sm">
 				        				<span class="input-group-addon" id="basic-addon">TENSÃO:</span>
 				        				<div class="input-group-btn" data-toggle="buttons">
-				       						<label class="btn btn-default active" onclick="letra_s(0)">
-														<input type="radio" value="0" name="7-1arb" autocomplete="off" checked="checked">0
+				       						<label class="btn btn-default noclick" disabled="true" name="rb_7_1_t">
+														<input type="radio" value="0">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_s(1)">
-														<input type="radio" value="1" name="7-1arb" autocomplete="off">1
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_t">
+														<input type="radio" value="1">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_s(2)">
-														<input type="radio" value="2" name="7-1arb" autocomplete="off">2
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_t">
+														<input type="radio" value="2">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
-
-													<label class="btn btn-default" onclick="letra_s(3)">
-														<input type="radio" value="3" name="7-1arb" autocomplete="off">3
+ 
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_t">
+														<input type="radio" value="3">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 				        				</div>
@@ -1759,23 +1722,23 @@
 			      					<div class="input-group input-group-sm">
 			        					<span class="input-group-addon" id="basic-addon">INSTABILIDADE:</span>
 			        					<div class="input-group-btn" data-toggle="buttons">
-			       							<label class="btn btn-default active" onclick="letra_i(0)">
-														<input type="radio" value="0" name="7-1irb" autocomplete="off" checked="checked">0
+			       							<label class="btn btn-default noclick" disabled="true" name="rb_7_1_i">
+														<input type="radio" value="0">0
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_i(1)">
-														<input type="radio" value="1" name="7-1irb" autocomplete="off">1
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_i">
+														<input type="radio" value="1">1
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_i(2)">
-														<input type="radio" value="2" name="7-1irb" autocomplete="off">2
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_i">
+														<input type="radio" value="2">2
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 
-													<label class="btn btn-default" onclick="letra_i(3)">
-														<input type="radio" value="3" name="7-1irb" autocomplete="off">3
+													<label class="btn btn-default noclick" disabled="true" name="rb_7_1_i">
+														<input type="radio" value="3">3
 														<span class="glyphicon glyphicon-ok"></span>
 													</label>
 			        					</div>
@@ -1791,7 +1754,7 @@
 	    						<span class="input-group-addon" style="background-color: #f2baba; border-color: #eaa1a1;">
 	      						<span id="inp_letra_g">0</span>
 	    						</span>
-
+	    		
 	        				<span class="input-group-addon"><strong>R:</strong></span>
 	    						<span class="input-group-addon" style="background-color: #f2baba; border-color: #eaa1a1;">
 	      						<span id="inp_letra_r">0</span>
@@ -1835,7 +1798,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">CPFA <small>(fala espontânea):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_cpfe_7_2" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">COORDENADA</option>
 				      <option value="2">INCOORDENADA</option>
@@ -1847,7 +1810,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">CPFA <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_cpfd_7_2" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">COORDENADA</option>
 				      <option value="2">INCOORDENADA</option>
@@ -1868,7 +1831,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala espontânea):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_atve_7_3" disabled="true">
 			      	<option id="setselect7-5" value="">SELECIONE...</option>
 							<option value="1">ISOCRÔNICO</option>
 				      <option value="2">BRUSCO</option>
@@ -1881,7 +1844,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">ATAQUE VOCAL <small>(fala dirigida):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_atvd_7_3" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">ISOCRÔNICO</option>
 				      <option value="2">BRUSCO</option>
@@ -1903,7 +1866,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">PITCH <small>(sensação da frequência vocal):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_pit_7_4" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">GRAVE</option>
 				      <option value="2">MÉDIO</option>
@@ -1916,7 +1879,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">LOUDNESS <small>(sensação da intensidade vocal):</small></span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_lns_7_4" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">FORTE</option>
@@ -1938,7 +1901,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESSONÂNCIA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_rnc_7_5" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">EQUILIBRADA</option>
 				      <option value="2">BAIXA</option>
@@ -1951,7 +1914,7 @@
 			  <div class="input-group input-group-sm">
 			  <span class="input-group-addon" id="basic-addon">TENSÃO LARÍNGEA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_tlg_7_5" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">AUMENTADA</option>
@@ -1972,7 +1935,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESISTÊNCIA VOCAL:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_rcv_7_6" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">MANTEVE-SE INALTERADA AO FINAL DA AVALIAÇÃO</option>
 				      <option value="2">QUALIDADE VOCAL ALTEROU AO FINAL DA AVALIAÇÃO</option>
@@ -2007,7 +1970,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR AS VOGAIS?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7" id="tmdf7-7" onblur="onblur_tmdf77()">
+			      <select class="btn" name="sessao7" id="tmdf7-7" onblur="onblur_tmdf77()" disabled="true">
 							<option value="0">NAO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -2559,6 +2522,8 @@
 		<script src="js/select_files/complementares.js"></script>
 		<script src="js/select_files/saude_geral.js"></script>
 		<script src="js/select_files/habitos.js"></script>
+		<script src="js/select_files/saude_vocal.js"></script>
+		<script src="js/select_files/avaliacao_perceptivo.js"></script>
 
 		<!-- FUNÇÃO DE LOADING -->
 		<script src="js/loading_script/loading.js"></script>
