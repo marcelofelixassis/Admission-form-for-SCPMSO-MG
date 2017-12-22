@@ -18,8 +18,6 @@ function get_avaliacao_perceptivo(){
 }
 
 function preencher_avaliacao_perceptivo(data){
-    console.log(data);
-
     $("#select_qev_7_0").val(data.qev_7_0);
 
     $("#select_gda_7_0").val(data.gda_7_0);
@@ -61,20 +59,32 @@ function preencher_avaliacao_perceptivo(data){
     if(data.tmdf_7_7 == "1") {
         $('.collapse_tmdf7-7').collapse('show');
 
-        
+        $("#input_a").val(data.a_7_8);
+        markcheckbox(data.cb_a_7_8, document.getElementsByName("7-8acb"));
+
+        $("#input_i").val(data.i_7_8);
+        markcheckbox(data.cb_i_7_8, document.getElementsByName("7-8icb"));
+
+        $("#input_u").val(data.u_7_8);
+        markcheckbox(data.cb_u_7_8, document.getElementsByName("7-8ucb"));
     }
-    
-    
 
+    $("#epasz7-9").val(data.tmdf_7_9);
+    if(data.tmdf_7_9 == "1") {
+        $('.collapse_epasz7-9').collapse('show');
 
+        $("#input_s").val(data.s_7_10);
+        $("#input_z").val(data.z_7_10);
+        $("#input_sz").val(data.rsz_7_10);
 
-    
+        $("#select_rst_7_11").val(data.rst_7_11);
+    }
 
-    
+    $("#select_flu_7_12").val(data.flu_7_12);
+    $("#select_vel_7_13").val(data.vel_7_13);
+    $("#select_art_7_14").val(data.art_7_14);
+    $("#select_dist_7_15").val(data.dist_7_15);
+    $("#select_aud_7_16").val(data.aud_7_16); 
 
-    
-
-    
-    
-   
+    get_avaliacao_espectrografica();
 }

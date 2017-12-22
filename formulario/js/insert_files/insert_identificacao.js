@@ -37,6 +37,7 @@ function verification(){
 	var sessao = document.getElementsByName("sessao1");
 	var retorno = true;
 	for(var i = 0; i < sessao.length; i++){
+		console.log(sessao[i].value);
 		if(sessao[i].value === ""){
 			retorno = false;
 		}

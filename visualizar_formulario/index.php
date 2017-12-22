@@ -2001,36 +2001,36 @@
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[a]</strong></span>
-    			<input type="text" class="form-control" name="sessao7" id="input_a">
+    			<input type="text" class="form-control" name="sessao7" id="input_a" disabled="true">
       		<span class="input-group-addon" style="line-height: 0;">
-        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-8acb"> NOR</label>
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-8acb" disabled="true"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
-          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-8acb"> RED</label>
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-8acb" disabled="true"> RED</label>
       		</span> 
     		</div>
  		 	</div><!-- /.col-md-4 -->
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[i]</strong></span>
-    			<input type="text" class="form-control" name="sessao7" id="input_i">
+    			<input type="text" class="form-control" name="sessao7" id="input_i" disabled="true">
       		<span class="input-group-addon lineheight" style="line-height: 0;">
-        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-8icb"> NOR</label>
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-8icb" disabled="true"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
-          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-8icb"> RED</label>
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-8icb" disabled="true"> RED</label>
       		</span> 
     		</div>
  		 	</div><!-- /.col-md-4 -->
   		<div class="col-md-4">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[u]</strong></span>
-    			<input type="text" class="form-control" name="sessao7" id="input_u">
+    			<input type="text" class="form-control" name="sessao7" id="input_u" disabled="true">
       		<span class="input-group-addon" style="line-height: 0;">
-        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-8ucb"> NOR</label>
+        		<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="1" name="7-8ucb" disabled="true"> NOR</label>
       		</span>
           <span class="input-group-addon" style="line-height: 0;">
-          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-8ucb"> RED</label>
+          	<label class="vogaislbl"><input type="checkbox" class="vogaisinp" value="2" name="7-8ucb" disabled="true"> RED</label>
       		</span> 
     		</div>
  		 	</div><!-- /.col-md-4 -->
@@ -2047,7 +2047,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR A RELAÇÃO S/Z?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7" id="epasz7-9" onblur="onblur_epasz79()">
+			      <select class="btn" name="sessao7" id="epasz7-9" onblur="onblur_epasz79()" disabled="true">
 							<option value="0">NAO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -2071,11 +2071,11 @@
   		<div class="col-md-6">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[s]</strong></span>
-    			<input type="number" class="form-control" id="input_s" onblur="onblur_calc_sz()" name="sessao7">
+    			<input type="number" class="form-control" id="input_s" onblur="onblur_calc_sz()" name="sessao7" disabled="true">
     			<span class="input-group-addon"><strong>[z]</strong></span>
-					<input type="number" class="form-control" id="input_z" onblur="onblur_calc_sz()" name="sessao7">
+					<input type="number" class="form-control" id="input_z" onblur="onblur_calc_sz()" name="sessao7" disabled="true">
     			<span class="input-group-addon"><strong>Relação: s/z =</strong></span>
-					<input type="number" class="form-control" step=0.01 id="input_sz" name="sessao7">
+					<input type="number" class="form-control" step=0.01 id="input_sz" name="sessao7" disabled="true">
     		</div>  		
  		 	</div><!-- /.col-md-6 -->
 		</div><!-- /.row -->
@@ -2090,7 +2090,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">RESULTADO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_rst_7_11" disabled="true">
 			      	<option id="setselect7-12" value="">SELECIONE...</option>
 			      	<option value="1">NORMAL</option>
 							<option value="2">SUGESTIVO DE PATOLOGIA VOCAL E/OU FALTA DE COAPTAÇÃO GLÓTICA</option>
@@ -2125,7 +2125,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">FLUÊNCIA:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_flu_7_12" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">FLUENTE</option>
 				      <option value="2">DISFLUENTE</option>
@@ -2146,7 +2146,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">VELOCIDADE:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_vel_7_13" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">ADEQUADA</option>
 				      <option value="2">AUMENTADA</option>
@@ -2168,7 +2168,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">ARTICULAÇÃO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_art_7_14" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">PRECISA</option>
 				      <option value="2">IMPRECISA</option>
@@ -2192,7 +2192,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">DISTÚRBIO FONÉTICO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_dist_7_15" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">CECEIO ANTERIOR</option>
 				      <option value="2">CECEIO LATERAL</option>
@@ -2215,7 +2215,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">AUDIÇÃO:</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7">
+			      <select class="btn" name="sessao7" id="select_aud_7_16" disabled="true">
 			      	<option value="">SELECIONE...</option>
 							<option value="1">NÃO SE OBSERVA ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
 							<option value="2">OBSERVA-SE ALTERAÇÃO DO COMPORTAMENTO AUDITIVO</option>
@@ -2223,26 +2223,7 @@
 		     	</span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-5 -->
-		  <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-			<div class="col-md-1 col-md-offset-37 col-md-print-offset-2">
-	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs7-14">OBSERVAÇÕES</button>
-			</div><!-- /.col-md-1 col-md-offset-37 /// col-md-print-offset-2 -->			
 		</div><!-- /.row -->
-
-
-
-
-
-
-	  <!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse collapse_civo7-7 row row col-md-10 col-md-offset-1" id="obs7-14">
-	    <div class="form-group">
-		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
-		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
-		    </div>
-			</div>		
-		</div>
 
 
 
@@ -2268,7 +2249,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><i>SOFTWARE</i> UTILIZADO:</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" id="spfu" name="sessao8" onblur="onblur_spfu()">
+	        	<select class="btn" id="spfu" name="sessao8" onblur="onblur_spfu()" disabled="true">
 							<option value="1">GRAM</option>
 			        <option value="2">PRAAT</option>
 			        <option value="3">OUTRO</option>
@@ -2276,12 +2257,12 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-4 -->
-	    <div class="collapse collapse_spfu col-md-8 col-md-print-10 col-md-print-offset-13">
+	    <!-- <div class="collapse collapse_spfu col-md-8 col-md-print-10 col-md-print-offset-13">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL?</span>
 	  			<input type="text" class="form-control" aria-describedby="basic-addon1"> 	
-	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
+	    	</div>
+	  	</div> -->
 		</div><!-- /.row -->
 
 
@@ -2302,48 +2283,39 @@
 	  			<tbody>
 				    <tr>
 				      <td scope="row">Flutuações de frequência</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="fdf" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Quebras de frequência</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="qdf" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Ruído</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="rui" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Quebras de sonoridade</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="qds" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Flutuações de intensidade</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="fdi" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Sub-harmônicos</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="sbh" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Ataque vocal: Brusco</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="avb" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 				    <tr>
 				      <td scope="row">Ataque vocal: Soproso</td>
-				      <td style="text-align: center;"><input type="checkbox" value="1" name="8-1cb"></td>
+				      <td style="text-align: center;"><input type="checkbox" id="avs" value="1" name="8-1cb" disabled="true"></td>
 				    </tr>
 	  			</tbody>
 				</table>
 			</div><!-- /.col-md-6 -->	
-			<div class="col-md-6">
-		  	<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs8-1">OBSERVAÇÕES</button>
-		  	<div class="collapse form-group" id="obs8-1">
-			    <div style="padding-right: 0.5%; padding-left: 0.5%; margin-top: 2%;">
-			    	<label for="txtareaobs" style="margin-left: 0.3%;">Observações:</label>
-				  	<textarea class="form-control" rows="5" id="txtareaobs"></textarea>
-			    </div>
-				</div>
-			</div><!-- /.col-md-6 -->		
 		</div><!-- /.row -->		
 
 
@@ -2361,6 +2333,7 @@
 			<h6 style="page-break-after: always;"></h6>
 			<img src="imagens/cabecalho9.png" class="col-md-12">
 		</div>  
+
 
 
 
@@ -2429,6 +2402,7 @@
 
 
 
+
 	  <div class="row row col-md-10 col-md-offset-1">
 	  	<hr style="margin-top: 10px;">
 	  </div>
@@ -2438,6 +2412,26 @@
 
 
 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      SESSAO 10    #####################################################
+		##########################################################################################################################
+		##########################################################################################################################-->
 	  
 
 
@@ -2447,8 +2441,7 @@
 		<div class="row row fotter col-md-10 col-md-offset-1">
 			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
 			<button type="" onclick="start_insert()">teste name function</button> -->
-			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="avalicao_espectrografica('1')">AQUI TESTE</button>
+			<button type="button" class="btn btn-info" onclick="">IMPRIMIR</button>
 		</div>		
 
 
@@ -2524,6 +2517,7 @@
 		<script src="js/select_files/habitos.js"></script>
 		<script src="js/select_files/saude_vocal.js"></script>
 		<script src="js/select_files/avaliacao_perceptivo.js"></script>
+		<script src="js/select_files/avaliacao_espectrografica.js"></script>
 
 		<!-- FUNÇÃO DE LOADING -->
 		<script src="js/loading_script/loading.js"></script>

@@ -38,7 +38,7 @@ function preencher_saude_geral(data){
    }
 
    $("#doa4-3").val(data.doa_4_3);
-   if(data.dfl_4_2 == "1") { 
+   if(data.doa_4_3 == "1") { 
         $('#collapse_doa4-3').collapse('show'); 
         markcheckbox(data.cb_doa_4_3, document.getElementsByName("4-3cb"));  
     }

@@ -79,7 +79,7 @@ function preencher_saude_vocal(data){
 
             $("#select_hqnt_6_12").val(data.hqnt_6_12);
 
-            $("#select_oqmd_6_12").val(data.oqmd_6_11);
+            $("#select_oqmd_6_12").val(data.oqmd_6_12);
         }
 
         get_avaliacao_perceptivo()

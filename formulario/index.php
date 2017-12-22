@@ -2476,13 +2476,13 @@
 	    <div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DATA DO EXAME:</span>
-	  			<input type='text' class="form-control date" name="sessao1" />
+	  			<input type='text' class="form-control date" name="sessao9" />
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-3 /// col-md-print-3 -->
 	  	<div class="col-md-3 col-md-offset-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">MEDICO/CRM:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao1" style="text-transform: uppercase;">
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" style="text-transform: uppercase;">
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-10 /// col-md-print-1 -->
 	  </div>
@@ -2530,9 +2530,78 @@
 
 
 
+		<!-- escrever ainda -->
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">ACHADOS GERAIS DA LARINGE:</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao9">
+							<option value="1">LARINGE SIMÉTRICA</option>
+			        <option value="2">LARINGE ASSIMÉTRICA</option>
+			        <option value="3">ACUMULO DE SECREÇAO EM PPVV</option>
+			        <option value="4">AVANÇO DE BANDAS VENTRICULARES</option>
+			        <option value="5">EDEMA NA REGIAO INTERARITENOIDEA</option>
+			        <option value="6">HIPEREMIA NA REGIAO INTERARITENOIDEA</option>
+			        <option value="7">EDEMA NA REGIAO LARÍNGEA</option>
+			        <option value="8">HIPEREMIA NA REGIAO LARÍNGEA</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+	    <div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">PREGAS VOCAIS:</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" name="sessao9">
+							<option value="1">SEM ALTERAÇÕES</option>
+			        <option value="2">COM ALTERAÇOES. QUAIS?</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-3 /// col-md-print-3 -->
+	  </div>
+
+
+
+
+
+
+	  <div class="row row col-md-10 col-md-offset-1">
+	  	<div class="input-group-btn" data-toggle="buttons" style="text-align: center;">
+	  	<label class="btn btn-warning" onclick="letra_r(0)">
+				<input type="radio" value="0" name="7-1srb"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
+				<span class="glyphicon glyphicon-ok"></span>
+			</label>
+
+			<label class="btn btn-success" onclick="letra_r(0)" style="margin-left: 10px;">
+				<input type="radio" value="0" name="7-1srb"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
+				<span class="glyphicon glyphicon-ok"></span>
+			</label>
+		</div>
+	  </div>
+
+
+
+
+	  <div class="">
+
+	  </div>
+
+
+
+
+
+
+
+
+
 
 	  
-
+		<!--######################################################################################################################
+		##################################################      SESSAO 9     #####################################################
+		##########################################################################################################################
+		##########################################################################################################################-->
 
 		
 		
