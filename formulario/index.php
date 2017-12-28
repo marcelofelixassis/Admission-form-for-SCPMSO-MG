@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/loading.css">
 		<link rel="stylesheet" href="css/jquery.datetimepicker.css">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -2459,32 +2460,33 @@
 
 
 
-		<!-- escrever ainda -->
+		<!-- LINHA 9.0 (EXA_9_0, DEXA_9_0, CRM_9_0) -->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EXAME APRESENTADO:</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" name="sessao9">
+	        		<option value="">SELECIONE...</option>
 							<option value="1">VIDEOLARINGOSCOPIA</option>
 			        <option value="2">VIDEOLARINGOESTROBOSCOPIA</option>
 			        <option value="3">FIBRONASOLARINGOSCOPIA</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-4 -->
+	    </div><!-- /.col-md-5 -->
 	    <div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DATA DO EXAME:</span>
 	  			<input type='text' class="form-control date" name="sessao9" />
 	    	</div><!-- /input-group -->
-	  	</div><!-- /.col-md-3 /// col-md-print-3 -->
+	  	</div><!-- /.col-md-3 -->
 	  	<div class="col-md-3 col-md-offset-1">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">MEDICO/CRM:</span>
 	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" style="text-transform: uppercase;">
 	    	</div><!-- /input-group -->
-	  	</div><!-- /.col-md-10 /// col-md-print-1 -->
+	  	</div><!-- /.col-md-3 col-md-offset-1 -->
 	  </div>
 
 
@@ -2492,114 +2494,1113 @@
 
 
 
-		<!-- escrever ainda -->
+		<!-- LINHA 9.1 (TIPG_9_1, LOEA_9_1) -->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">TEM IMAGEM DO (A) PERICIANDO (A) GRAVADA?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" name="sessao9">
+	        		<option value="">SELECIONE...</option>
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-4 -->
+	    </div><!-- /.col-md-5 -->
 	    <div class="col-md-5">
 	    	<div class="input-group input-group-sm" >
 	      	<span class="input-group-addon" id="basic-addon">LAUDO OTORRINOLARINGOLÓGICO EM ANEXO?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" name="sessao9">
+	        		<option value="">SELECIONE...</option>
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-4 -->
+	    </div><!-- /.col-md-5 -->
 	  </div>
 
 
 
 
-
+	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
 	  <div class="row row col-md-10 col-md-offset-1">
-	  	<hr style="margin-top: 10px;">
+	  	<hr style="margin-top: 20px;">
 	  </div>
 
 
 
 
 
-		<!-- escrever ainda -->
+	  <!--SOMENTE TEXTO DE INDICAÇÃO-->
 		<div class="row row col-md-10 col-md-offset-1">
-	  	<div class="col-md-6">
-	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">ACHADOS GERAIS DA LARINGE:</span>
-	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao9">
-							<option value="1">LARINGE SIMÉTRICA</option>
-			        <option value="2">LARINGE ASSIMÉTRICA</option>
-			        <option value="3">ACUMULO DE SECREÇAO EM PPVV</option>
-			        <option value="4">AVANÇO DE BANDAS VENTRICULARES</option>
-			        <option value="5">EDEMA NA REGIAO INTERARITENOIDEA</option>
-			        <option value="6">HIPEREMIA NA REGIAO INTERARITENOIDEA</option>
-			        <option value="7">EDEMA NA REGIAO LARÍNGEA</option>
-			        <option value="8">HIPEREMIA NA REGIAO LARÍNGEA</option>
-	        	</select>
-      		</span>
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>ACHADOS GERAIS DA LARINGE</strong></span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+
+		<!-- LINHA 9.2 (CB_AGL_9_2) -->
+	  <div class="row row col-md-10 col-md-offset-1">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-2cb">LARINGE SIMÉTRICA
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-2cb">LARINGE ASSIMÉTRICA
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-2cb">ACUMULO DE SECREÇAO EM PPVV
+	   				</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="4" name="9-2cb">AVANÇO DE BANDAS VENTRICULARES
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="5" name="9-2cb">EDEMA NA REGIAO INTERARITENOIDEA
+	   				</label>
+	   				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="9-2cb">HIPEREMIA NA REGIAO INTERARITENOIDEA
+	    			</label>
+	    			<label class="checkbox-inline" >
+	     				<input type="checkbox" value="7" name="9-2cb">EDEMA NA REGIAO LARÍNGEA
+	   				</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="8" name="9-2cb">HIPEREMIA NA REGIAO LARÍNGEA
+	    			</label>
+	 				</form>
 	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-4 -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+		<!-- LINHA 9.3 (PRV_9_3) -->
+		<div class="row row col-md-10 col-md-offset-1">
 	    <div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">PREGAS VOCAIS:</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao9">
+	        	<select class="btn" name="sessao9" id="prv9-3" onblur="onblur_prv93()">
 							<option value="1">SEM ALTERAÇÕES</option>
-			        <option value="2">COM ALTERAÇOES. QUAIS?</option>
+			        <option value="2">COM ALTERAÇOES</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /.col-md-3 /// col-md-print-3 -->
+	  	</div><!-- /.col-md-3 -->
 	  </div>
 
 
+
+
+
+
+	  <!-- LINHA 9.4 (AGPV_9_4) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="agpv9-4"><strong> ASPECTOS GERAIS DAS PREGAS VOCAIS:</strong></label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+
+
+	  <!-- LINHA 9.5 (EDE_9_5) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_agpv9-4">
+		  <div class="col-md-1 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="ede9-5"> EDEMA</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 9.5.0 (CB_EDE_9_5_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ede9-5">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-5-0cb">BILATERAL
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-5-0cb">UNILATERAL A DIREITA
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-5-0cb">UNILATERAL A ESQUERDA
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+		<!-- LINHA 9.5.1 (CB_EDE_9_5_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ede9-5">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-5-1cb">LEVE
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-5-1cb">MODERADO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-5-1cb">ACENTUADO
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LINHA 9.6 (HIP_9_6) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_agpv9-4">
+		  <div class="col-md-1 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="hip9-6"> HIPERMIA</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+
+		<!-- LINHA 9.6.0 (CB_HIP_9_6_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_hip9-6">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-6-0cb">BILATERAL
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-6-0cb">UNILATERAL A DIREITA
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-6-0cb">UNILATERAL A ESQUERDA
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<!-- LINHA 9.6.1 (CB_HIP_9_6_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_hip9-6">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-6-1cb">1/3 ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-6-1cb">1/3 MÉDIO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-6-1cb">1/3 POSTERIOR
+	   				</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-6-1cb">EM TODA EXTENSÃO
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<!-- LINHA 9.6.2 (CB_HIP_9_6_2) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_hip9-6">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-6-2cb">LEVE
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-6-2cb">MODERADO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-6-2cb">ACENTUADO
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+	  <!-- LINHA 9.7 (AVA_9_7) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_agpv9-4">
+		  <div class="col-md-2 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="ava9-7"> ALTERAÇÃO VASCULAR</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+
+
+
+		<!-- LINHA 9.7.0 (CB_AVA_9_7_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ava9-7">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-7-0cb">1/3 ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-7-0cb">1/3 MÉDIO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-7-0cb">1/3 POSTERIOR
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 9.7.1 (CB_AVA_9_7_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ava9-7">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-7-1cb">LEVE
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-7-1cb">MODERADO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-7-1cb">ACENTUADO
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+		<!-- LINHA 9.7.2 (CB_AVA_9_7_2) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ava9-7">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-7-2cb">ENOVELAMENTO RESTRITO
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-7-2cb">TRANSVERSAL À BORDA LIVRE
+	    			</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+		
+
+
+
+
+
+
+	  <!-- LINHA 9.8 (BLI_9_8) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="bli9-8"><strong> BORDAS LIVRES:</strong></label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+
+
+
+	  <!-- LINHA 9.9 (IBI_9_9) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
+		  <div class="col-md-2 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="ibi9-9"> IRREGULARIDADE BILATERAL</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 9.9.0 (CB_IBI_9_9_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ibi9-9">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-9-0cb">1/3 ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-9-0cb">1/3 MÉDIO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-9-0cb">1/3 POSTERIOR
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+		<!-- LINHA 9.9.1 (CB_IBI_9_9_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ibi9-9">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-9-1cb">LEVE
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-9-1cb">MODERADO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-9-1cb">ACENTUADO
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+	  <!-- LINHA 9.10 (IUD_9_10) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
+		  <div class="col-md-2 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="iud9-10"> IRREGULARIDADE UNILATERAL A DIREITA</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 9.10.0 (CB_IUD_9_10_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_iud9-10">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-10-0cb">1/3 ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-10-0cb">1/3 MÉDIO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-10-0cb">1/3 POSTERIOR
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+		<!-- LINHA 9.10.1 (CB_IUD_9_10_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_iud9-10">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-10-1cb">LEVE
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-10-1cb">MODERADO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-10-1cb">ACENTUADO
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+	  <!-- LINHA 9.11 (IUE_9_11) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
+		  <div class="col-md-2 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="iue9-11"> IRREGULARIDADE UNILATERAL A ESQUERDA</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+		<!-- LINHA 9.11.0 (CB_IUE_9_11_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_iue9-11">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-11-0cb">1/3 ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-11-0cb">1/3 MÉDIO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-11-0cb">1/3 POSTERIOR
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+		<!-- LINHA 9.11.1 (CB_IUE_9_11_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_iue9-11">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-11-1cb">LEVE
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-11-1cb">MODERADO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-11-1cb">ACENTUADO
+	   				</label>
+	 				</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+	  <!-- LINHA 9.12 (RCO_9_12) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
+		  <div class="col-md-2 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="rco9-12"> REAÇÃO CONTRALATERAL</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+	  <!-- LINHA 9.13 (DEP_9_13) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
+		  <div class="col-md-1 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="dep9-13"> DEPRESSÃO</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 9.13.0 (CB_DEP_9_13_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_dep9-13">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-13-0cb">PREGA VOCAL DIREITA
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-13-0cb">PREGA VOCAL ESQUERDA
+	    			</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+		<!-- LINHA 9.13.1 (CB_DEP_9_13_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_dep9-13">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-13-1cb">1/3 ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-13-1cb">1/3 MÉDIO
+	    			</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-13-1cb">1/3 POSTERIOR
+	   				</label>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-13-1cb">EM TODA EXTENSÃO
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+	  <!-- LINHA 9.14 (HIPE_9_14) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
+		  <div class="col-md-1 col-md-offset-1">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="hipe9-14"> HIPERMIA (SOMENTE NA BORDA LIVRE DA PREGA VOCAL)</label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+
+
+
+
+		<!-- LINHA 9.15 (CGL_9_15) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="cgl9-15"><strong> COAPTAÇÃO GLÓTICA:</strong></label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 9.15.0 (CB_CGL_9_15_0, CB_CGL_9_15_1) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_cgl9-15">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-15-0cb">INCOMPLETA EM REGIÃO ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" style="float: right;">
+	      			<input type="checkbox" value="2" name="9-15-0cb">INCOMPLETA EM REGIÃO ANTERIOR (EXAME SUGESTIVO)
+	    			</label>
+
+	    			<br>
+
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO MEDIO-POSTERIOR
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO MEDIO-POSTERIOR (EXAME SUGESTIVO)
+	   				</label>
+
+	    			<br>
+
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO POSTERIOR
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
+	   				</label>
+
+	    			<br>
+
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM TODA EXTENSÃO
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
+	   				</label>
+
+	    			<br>
+
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-15-0cb">IRREGULAR
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-0cb">IRREGULAR (EXAME SUGESTIVO)
+	   				</label>
+
+	    			<br>
+
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-15-0cb">ASSISTEMATICO
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-0cb">ASSISTEMATICO (EXAME SUGESTIVO)
+	   				</label>
+
+	    			<br>
+
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-15-1cb">PONTO DE CONTATO PREMATURO
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-1cb">1/3 ANTERIOR
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-1cb">1/3 MEDIO
+	   				</label>
+	   				<label class="checkbox-inline" style="float: right;">
+	     				<input type="checkbox" value="3" name="9-15-1cb">1/3 POSTERIOR
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+		
+		
+
+
+
+
+
+
+		<!-- LINHA 9.16 (MMO_9_16) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
+	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="mmo9-16"><strong> MOVIMENTO MUCO ONDULATÓRIO:</strong></label>
+	    		</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 9.16.0 (CB_MMO_9_16_0) -->
+	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_mmo9-16">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		     	<form>
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="1" name="9-16-0cb">SIMÉTRICO
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" >
+	      			<input type="checkbox" value="2" name="9-16-0cb">ASSIMETRICO
+	    			</label>
+	    			<br>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-16-0cb">DIMINUIDO A ESQUERDA
+	   				</label>
+	   				<br>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-16-0cb">DIMINUIDO À DIREITA
+	   				</label>
+	   				<br>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-16-0cb">DIMINUIDO A ESQUERDA E À DIREITA
+	   				</label>
+	   				<br>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-16-0cb">NÃO SE APLICA, EXAME SEM ESTROBOSCOPIA
+	   				</label>
+	   				<br>
+	   				<label class="checkbox-inline" >
+	     				<input type="checkbox" value="3" name="9-16-0cb">NÃO FOI POSSÍVEL AVALIAR
+	   				</label>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
+	  <div class="row row col-md-10 col-md-offset-1">
+	  	<hr style="margin-top: 20px;">
+	  </div>
+
+
+
+
+		<!--######################################################################################################################
+		############################################      BUTTONS DE PENDENTE OU FINALIZADO    ###################################
+		##########################################################################################################################
+		##########################################################################################################################-->
 
 
 
 
 	  <div class="row row col-md-10 col-md-offset-1">
 	  	<div class="input-group-btn" data-toggle="buttons" style="text-align: center;">
-	  	<label class="btn btn-warning" onclick="letra_r(0)">
-				<input type="radio" value="0" name="7-1srb"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
-				<span class="glyphicon glyphicon-ok"></span>
-			</label>
+		  	<label class="btn btn-warning" onclick="pendente()">
+					<input type="radio"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
+					<span class="glyphicon glyphicon-ok"></span>
+				</label>
 
-			<label class="btn btn-success" onclick="letra_r(0)" style="margin-left: 10px;">
-				<input type="radio" value="0" name="7-1srb"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
-				<span class="glyphicon glyphicon-ok"></span>
-			</label>
+				<label class="btn btn-success" onclick="final()" style="margin-left: 10px;">
+					<input type="radio"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
+					<span class="glyphicon glyphicon-ok"></span>
+				</label>
+			</div>
+	  </div>
+
+
+
+
+	  <!--######################################################################################################################
+		##################################################      PENDENTE - SESSAO 10   ###########################################
+		##########################################################################################################################
+		##########################################################################################################################-->
+
+		<!--INICIO CABEÇALHO /// SESSÃO 10 (pendente)-->	
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente" style="margin-top: 1.5%;">
+			<img src="imagens/pendente.png" class="col-md-12">
+		</div>  
+
+
+
+
+
+	 
+	  <!--SOMENTE TEXTO DE INDICAÇÃO-->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>MOTIVO DA PENDÊNCIA</strong></span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
 		</div>
-	  </div>
-
-
-
-
-	  <div class="">
-
-	  </div>
 
 
 
 
 
+		<!-- LINHA 10.0 (CB_MDP_10_0) -->
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		   		<form>
+	    			<label class="checkbox-inline" style="padding-left: 11px;">
+	      			<input type="checkbox" value="1" name="10-0cb">EXAME LARÍNGEO COM QUALIDADE INSUFICIENTE PARA CONCLUSÃO DA AVALIAÇÃO FONOAUDIOLÓGICA
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
+	      			<input type="checkbox" value="1" name="10-0cb">ENCAMINHAMENTO PARA AVALIAÇÃO OTORRINOLARINGOLÓGICA DA SCPMSO/AGUARDANDO DISCUSSÃO DO CASO COM O OTORRINOLARINGOLOGISTA DA SCPMSO
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;" id="lbl3-mdp10-0">
+	      			<input type="checkbox" value="1" name="10-0cb" id="cb3-mdp10-0">OUTROS ENCAMINHAMENTOS/MOTIVOS
+	    			</label>
+	    		</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
 
 
 
+
+
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_lbl3-mdp10-0">
+	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+	    <div class="col-md-8">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_quais10-0" style="text-transform: uppercase;"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-8 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--SOMENTE TEXTO DE INDICAÇÃO-->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>CONDULTA FONOAUDIOLÓGICA</strong></span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->	
+		</div>
+
+
+
+
+
+		<!-- LINHA 10.1 (CB_CFO_10_1) -->
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		   		<form>
+	    			<label class="checkbox-inline" style="padding-left: 11px;">
+	      			<input type="checkbox" value="1" name="10-1cb">SOLICITAÇÃO DE EXAME RECENTE <small>(AGUARDANDO EXAME - FILMAGEM E/OU LAUDO OTORRINOLARINGOLÓGICO - PARA CONCLUSÃO DA AVALIAÇÃO)</small>
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
+	      			<input type="checkbox" value="1" name="10-1cb">PERICIANDO(A) DEVERÁ PROTOCOLAR EXAME SOLICITADO
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
+	      			<input type="checkbox" value="1" name="10-1cb">PERICIANDO(A) DEVERÁ RETORNAR À SCPMSO
+	    			</label>
+	    		</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<!-- LINHA 10.2 (EXS_10_2, DT_10_2)-->		
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
+	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+	    <div class="col-md-5">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">EXAME SOLICITADO:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="exs10-2" name="sessao10" style="text-transform: uppercase;"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-5 -->
+	  	<div class="col-md-2 col-md-print-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DATA:</span>
+	  			<input type='text' class="form-control date" name="sessao10" id="dt10-2" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-2 /// col-md-print-6 -->
+	  	<div class="col-md-4">
+	  		<!--(CAMPO PARA ASSINATURA A CANETA - ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">ASSINATURA FONO:</span>
+	  			<input type='text' class="form-control" disabled="true" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-4 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<!--######################################################################################################################
+		##################################################      FINAL - SESSAO 11   ###########################################
+		##########################################################################################################################
+		##########################################################################################################################-->
+
+		<!--INICIO CABEÇALHO /// SESSÃO 11 (final)-->	
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_final" style="margin-top: 1.5%;">
+			<img src="imagens/final.png" class="col-md-12">
+		</div>  
+
+
+
+
+
+		<!-- LINHA 11.0 (CB_FNL_11_0) -->
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_final">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		   		<form>
+	    			<label class="checkbox-inline" style="padding-left: 11px;">
+	      			<input type="checkbox" value="1" name="11-0cb"><strong>SEM RESTRIÇÃO PARA O EXERCÍCIO DA FUNÇÃO</strong> (SUGESTÃO DE APTIDÃO PARA O CARGO DE PROFESSOR)
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
+	      			<input type="checkbox" value="2" name="11-0cb"><strong>COM RESTRIÇÃO PARA O EXERCÍCIO DA FUNÇÃO</strong> (SUGESTÃO DE INAPTIDÃO PARA O CARGO DE PROFESSOR)
+	    			</label>
+	    			<br>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;" id="lbl3-fnl11-0">
+	      			<input type="checkbox" value="3" name="11-0cb" id="cb3-fnl11-0"><strong>INCAPACITADO TEMPORARIAMENTE</strong>
+	    			</label>
+	    		</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+		<!-- LINHA 11.1 (DIAS_11_1, COM_11_1)-->		
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_lbl3-fnl11-0">
+	  	<div class="col-md-2 col-md-print-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DIAS</span>
+	  			<input type='text' class="form-control" maxlength="3" id="input_dias11-1" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-2 /// col-md-print-6 -->
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">COM:</span>
+	  			<input type='text' class="form-control" maxlength="20" id="input_com11-1" style="text-transform: uppercase;"/>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-4 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+
+		<!-- LINHA 11.2 (CB_FNL_11_0) -->
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_final">
+			<div class="col-md-12">
+		   	<div class="input-group input-group-sm">
+		   		<form>
+	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;" id="lbl4-fnl11-0">
+	      			<input type="checkbox" value="4" name="11-0cb" id="cb4-fnl11-0"><strong>OUTRO</strong>
+	    			</label>
+	    		</form>
+	    	</div><!-- /input-group -->
+		  </div><!-- /.col-md-12 -->	  
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+		<!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->		
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse collapse_lbl4-fnl11-0">
+	    <div class="col-md-8">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL?</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_qual11-0" style="text-transform: uppercase;"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-8 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
+
+		<!-- LINHA 11.2 (LCL_11_2, DT_11_2)-->		
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_final">
+	    <div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">LOCAL:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="lcl11-2" name="sessao11" style="text-transform: uppercase;"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-3 -->
+	  	<div class="col-md-2 col-md-print-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">DATA:</span>
+	  			<input type='text' class="form-control date" name="sessao11" id="dt11-2"/>
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-2 /// col-md-print-6 -->
+	  	<div class="col-md-6">
+	  	<!--(CAMPO PARA ASSINATURA A CANETA - ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">FONOAUDIÓLOGO(A) PERITO(A)/CARIMBO</span>
+	  			<input type='text' class="form-control" disabled="true" />
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-6 -->
+		</div><!-- /.row -->
+	  
 
 
 	  
 		<!--######################################################################################################################
-		##################################################      SESSAO 9     #####################################################
+		##########################################      BUTTONS SALVAR E IMPRIMIR    #############################################
 		##########################################################################################################################
 		##########################################################################################################################-->
 
@@ -2607,11 +3608,21 @@
 		
 	
 		<div class="row row fotter col-md-10 col-md-offset-1">
-			<!-- <button type="" onclick="avaliacao_perceptivo(2)">insert function</button>
-			<button type="" onclick="start_insert()">teste name function</button> -->
-			<button type="button" class="btn btn-info" onclick="start_insert()">AQUI</button>
-			<button type="button" class="btn btn-info" onclick="avalicao_espectrografica('1')">AQUI TESTE</button>
-		</div>		
+			<a href="#" title="" class="btn btn-primary">
+    		<span class="fa fa-print"></span> IMPRIMIR
+			</a>
+    	<a href="#" title="" class="btn btn-primary" onclick="parecer_fono(1)">
+    		<span class="fa fa-floppy-o"></span> SALVAR
+			</a>
+		</div>	
+
+
+
+
+		<!--######################################################################################################################
+		##############################################      LOADDING MODAL    ####################################################
+		##########################################################################################################################
+		##########################################################################################################################-->	
 
 
 
@@ -2667,6 +3678,14 @@
 
 
 
+
+  	<!--######################################################################################################################
+		##################################################      IMPORTS   ########################################################
+		##########################################################################################################################
+		##########################################################################################################################-->	
+
+
+
 	</body>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -2687,6 +3706,7 @@
 		<script src="js/insert_files/insert_saude_vocal.js"></script>
 		<script src="js/insert_files/insert_avaliacao_perceptivo.js"></script>
 		<script src="js/insert_files/insert_avaliacao_espectrografica.js"></script>
+		<script src="js/insert_files/insert_parecer_fono.js"></script>
 
 		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
 		<script src="js/scripts_identificacao/identificacao.js"></script>
@@ -2697,6 +3717,9 @@
 		<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
 		<script src="js/scripts_avaliacao_perceptivo/avaliacao_perceptivo.js"></script>
 		<script src="js/scripts_avaliacao_espectrografica/avaliacao_espectrografica.js"></script>
+		<script src="js/scripts_parecer_fono/parecer_fono.js"></script>
+		<script src="js/scripts_pendente/pendente.js"></script>
+		<script src="js/scripts_final/final.js"></script>
 
 		<!-- FUNÇÃO DE LOADING -->
 		<script src="js/loading_script/loading.js"></script>
