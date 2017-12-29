@@ -137,7 +137,18 @@ form#sdrgcb4-4 {
   }
 
   button.btn-observacao {
-    /*visibility: hidden;*/
+    display: none;
+  }
+
+  label.btn-print {
+    font-size: 10px;
+  }
+
+  a.btn-final {
+    display: none;
+  }
+
+  .fotter {
     display: none;
   }
 

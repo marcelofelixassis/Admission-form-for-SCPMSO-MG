@@ -66,7 +66,7 @@ function onblur_prv93() {
 //-------------------------------------------------------------------
 
 $('#agpv9-4').click(function() {
-    if($('#agpv9-4').is(':checked') ) {
+    if($('#agpv9-4').is(':checked')) {
         $('.collapse_agpv9-4').collapse('show'); 
     }else {
         clearcheckbox(document.getElementsByName("9-5-0cb")); 

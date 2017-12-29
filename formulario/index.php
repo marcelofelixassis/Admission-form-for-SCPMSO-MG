@@ -98,7 +98,7 @@
 	  	<div class="col-md-2 col-md-print-6">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DATA:</span>
-	  			<input type='text' class="form-control date" name="sessao2"/>
+	  			<input type='text' class="form-control date" id="dt2-0" name="sessao2"/>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-2 /// col-md-print-3 -->
 	  	<div class="col-md-9 col-md-offset-1 col-md-print-5">
@@ -2475,16 +2475,16 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-	    <div class="col-md-3">
+	    <div class="col-md-3 col-md-print-offset-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DATA DO EXAME:</span>
 	  			<input type='text' class="form-control date" name="sessao9" />
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-3 -->
-	  	<div class="col-md-3 col-md-offset-1">
+	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">MEDICO/CRM:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" style="text-transform: uppercase;">
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="6" style="text-transform: uppercase;">
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-3 col-md-offset-1 -->
 	  </div>
@@ -2508,7 +2508,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-	    <div class="col-md-5">
+	    <div class="col-md-5 col-md-print-offset-14">
 	    	<div class="input-group input-group-sm" >
 	      	<span class="input-group-addon" id="basic-addon">LAUDO OTORRINOLARINGOLÓGICO EM ANEXO?</span>
 	  			<span class="input-group-btn">
@@ -2593,6 +2593,7 @@
 	      	<span class="input-group-addon" id="basic-addon">PREGAS VOCAIS:</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" name="sessao9" id="prv9-3" onblur="onblur_prv93()">
+	        		<option value="">SELECIONE...</option>
 							<option value="1">SEM ALTERAÇÕES</option>
 			        <option value="2">COM ALTERAÇOES</option>
 	        	</select>
@@ -2739,7 +2740,7 @@
 	     				<input type="checkbox" value="3" name="9-6-1cb">1/3 POSTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-6-1cb">EM TODA EXTENSÃO
+	     				<input type="checkbox" value="4" name="9-6-1cb">EM TODA EXTENSÃO
 	   				</label>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
@@ -3122,7 +3123,7 @@
 	     				<input type="checkbox" value="3" name="9-13-1cb">1/3 POSTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-13-1cb">EM TODA EXTENSÃO
+	     				<input type="checkbox" value="4" name="9-13-1cb">EM TODA EXTENSÃO
 	   				</label>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
@@ -3184,58 +3185,58 @@
 	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO MEDIO-POSTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO MEDIO-POSTERIOR (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="4" name="9-15-0cb">INCOMPLETA EM REGIÃO MEDIO-POSTERIOR (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO POSTERIOR
+	     				<input type="checkbox" value="5" name="9-15-0cb">INCOMPLETA EM REGIÃO POSTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="6" name="9-15-0cb">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM TODA EXTENSÃO
+	     				<input type="checkbox" value="7" name="9-15-0cb">INCOMPLETA EM TODA EXTENSÃO
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-0cb">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="8" name="9-15-0cb">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-15-0cb">IRREGULAR
+	     				<input type="checkbox" value="9" name="9-15-0cb">IRREGULAR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-0cb">IRREGULAR (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="10" name="9-15-0cb">IRREGULAR (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-15-0cb">ASSISTEMATICO
+	     				<input type="checkbox" value="11" name="9-15-0cb">ASSISTEMATICO
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-0cb">ASSISTEMATICO (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="12" name="9-15-0cb">ASSISTEMATICO (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-15-1cb">PONTO DE CONTATO PREMATURO
+	     				<input type="checkbox" value="1" name="9-15-1cb">PONTO DE CONTATO PREMATURO
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-1cb">1/3 ANTERIOR
+	     				<input type="checkbox" value="2" name="9-15-1cb">1/3 ANTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
 	     				<input type="checkbox" value="3" name="9-15-1cb">1/3 MEDIO
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="3" name="9-15-1cb">1/3 POSTERIOR
+	     				<input type="checkbox" value="4" name="9-15-1cb">1/3 POSTERIOR
 	   				</label>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
@@ -3281,19 +3282,19 @@
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-16-0cb">DIMINUIDO À DIREITA
+	     				<input type="checkbox" value="4" name="9-16-0cb">DIMINUIDO À DIREITA
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-16-0cb">DIMINUIDO A ESQUERDA E À DIREITA
+	     				<input type="checkbox" value="5" name="9-16-0cb">DIMINUIDO A ESQUERDA E À DIREITA
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-16-0cb">NÃO SE APLICA, EXAME SEM ESTROBOSCOPIA
+	     				<input type="checkbox" value="6" name="9-16-0cb">NÃO SE APLICA, EXAME SEM ESTROBOSCOPIA
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-16-0cb">NÃO FOI POSSÍVEL AVALIAR
+	     				<input type="checkbox" value="7" name="9-16-0cb">NÃO FOI POSSÍVEL AVALIAR
 	   				</label>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
@@ -3321,13 +3322,13 @@
 
 	  <div class="row row col-md-10 col-md-offset-1">
 	  	<div class="input-group-btn" data-toggle="buttons" style="text-align: center;">
-		  	<label class="btn btn-warning" onclick="pendente()">
-					<input type="radio"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
+		  	<label class="btn btn-warning btn-print" onclick="pendente()">
+					<input type="radio" id="rbtn-pendente"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
 					<span class="glyphicon glyphicon-ok"></span>
 				</label>
 
-				<label class="btn btn-success" onclick="final()" style="margin-left: 10px;">
-					<input type="radio"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
+				<label class="btn btn-success btn-print" onclick="final()" style="margin-left: 10px;">
+					<input type="radio" id="rbtn-final"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
 					<span class="glyphicon glyphicon-ok"></span>
 				</label>
 			</div>
@@ -3374,11 +3375,11 @@
 	    			</label>
 	    			<br>
 	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
-	      			<input type="checkbox" value="1" name="10-0cb">ENCAMINHAMENTO PARA AVALIAÇÃO OTORRINOLARINGOLÓGICA DA SCPMSO/AGUARDANDO DISCUSSÃO DO CASO COM O OTORRINOLARINGOLOGISTA DA SCPMSO
+	      			<input type="checkbox" value="2" name="10-0cb">ENCAMINHAMENTO PARA AVALIAÇÃO OTORRINOLARINGOLÓGICA DA SCPMSO/AGUARDANDO DISCUSSÃO DO CASO COM O OTORRINOLARINGOLOGISTA DA SCPMSO
 	    			</label>
 	    			<br>
 	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;" id="lbl3-mdp10-0">
-	      			<input type="checkbox" value="1" name="10-0cb" id="cb3-mdp10-0">OUTROS ENCAMINHAMENTOS/MOTIVOS
+	      			<input type="checkbox" value="3" name="10-0cb" id="cb3-mdp10-0">OUTROS ENCAMINHAMENTOS/MOTIVOS
 	    			</label>
 	    		</form>
 	    	</div><!-- /input-group -->
@@ -3427,11 +3428,11 @@
 	    			</label>
 	    			<br>
 	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
-	      			<input type="checkbox" value="1" name="10-1cb">PERICIANDO(A) DEVERÁ PROTOCOLAR EXAME SOLICITADO
+	      			<input type="checkbox" value="2" name="10-1cb">PERICIANDO(A) DEVERÁ PROTOCOLAR EXAME SOLICITADO
 	    			</label>
 	    			<br>
 	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;">
-	      			<input type="checkbox" value="1" name="10-1cb">PERICIANDO(A) DEVERÁ RETORNAR À SCPMSO
+	      			<input type="checkbox" value="3" name="10-1cb">PERICIANDO(A) DEVERÁ RETORNAR À SCPMSO
 	    			</label>
 	    		</form>
 	    	</div><!-- /input-group -->
@@ -3444,7 +3445,7 @@
 
 
 
-		<!-- LINHA 10.2 (EXS_10_2, DT_10_2)-->		
+		<!-- LINHA 10.2 (DT_10_2)-->		
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
 	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	    <div class="col-md-5">
@@ -3537,7 +3538,7 @@
 
 
 
-		<!-- LINHA 11.2 (CB_FNL_11_0) -->
+		<!-- LINHA 11.2 (CB_FNL_11_2) -->
 	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_final">
 			<div class="col-md-12">
 		   	<div class="input-group input-group-sm">
@@ -3573,7 +3574,7 @@
 
 
 
-		<!-- LINHA 11.2 (LCL_11_2, DT_11_2)-->		
+		<!-- LINHA 11.3 (LCL_11_3, DT_11_3)-->		
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_final">
 	    <div class="col-md-3">
 	    	<div class="input-group input-group-sm">
@@ -3606,12 +3607,12 @@
 
 		
 		
-	
+		
 		<div class="row row fotter col-md-10 col-md-offset-1">
-			<a href="#" title="" class="btn btn-primary">
+			<a class="btn btn-primary btn-final" onClick="javascript:window.print()">
     		<span class="fa fa-print"></span> IMPRIMIR
 			</a>
-    	<a href="#" title="" class="btn btn-primary" onclick="parecer_fono(1)">
+    	<a class="btn btn-primary btn-final" onclick="insert_pendentes(12)">
     		<span class="fa fa-floppy-o"></span> SALVAR
 			</a>
 		</div>	
@@ -3673,6 +3674,11 @@
 					<span class="label">8</span>
 					<span class="title">Espectro.</span>
 				</div>
+				<span class="bar"></span>
+				<div class="circle">
+					<span class="label">9</span>
+					<span class="title">Parecer</span>
+				</div>
 			</div>
   	</div>
 
@@ -3707,6 +3713,7 @@
 		<script src="js/insert_files/insert_avaliacao_perceptivo.js"></script>
 		<script src="js/insert_files/insert_avaliacao_espectrografica.js"></script>
 		<script src="js/insert_files/insert_parecer_fono.js"></script>
+		<script src="js/insert_files/insert_pendentes.js"></script>
 
 		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
 		<script src="js/scripts_identificacao/identificacao.js"></script>

@@ -27,6 +27,7 @@ function avalicao_espectrografica(id_da_finalidade){
 		success: function (response) {
 			var json = JSON.parse(response);
 			if(json['success']){
+				parecer_fono(id_da_finalidade);
 				loading(10, true);
 			}else{
 				loading(9, false);
