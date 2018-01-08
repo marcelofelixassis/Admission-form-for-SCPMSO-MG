@@ -63,7 +63,7 @@ function parecer_fono(id_da_finalidade){
         success: function (response) {
             var json = JSON.parse(response);
             if(json['success']){
-                aux_insert_pen_fin(json['id']);
+                aux_insert_pen_fin(json['id'], id_da_finalidade);
                 loading(11, true);
             }else{
                 loading(10, false);
@@ -76,11 +76,11 @@ function parecer_fono(id_da_finalidade){
     });	
 }
 
-function aux_insert_pen_fin(id_do_parecer_fon) {
+function aux_insert_pen_fin(id_do_parecer_fon, id_da_finalidade) {
     if($('#rbtn-pendente').is(':checked')) {
-        insert_pendentes(id_do_parecer_fon);
+        insert_pendentes(id_do_parecer_fon, id_da_finalidade);
     }
     else if($('#rbtn-final').is(':checked')){
-        insert_concluidos(id_do_parecer_fon);
+        insert_concluidos(id_do_parecer_fon, id_da_finalidade);
     }
 } 

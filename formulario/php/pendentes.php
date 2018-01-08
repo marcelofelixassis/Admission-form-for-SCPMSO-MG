@@ -36,7 +36,19 @@
 		$return["success"] = false; 
 		echo json_encode($return);
 	    exit;
-    }
+	}
+	
+	$sql = "UPDATE `finalidade`SET `state` = 'PENDENTE' WHERE id_finalidade = :id";
+	$stmt = $PDO->prepare( $sql );
+	$stmt->bindParam( ':id', $myvar[4] );
+	$result = $stmt->execute();
+
+	if ( ! $result ){
+		$return = array();
+		$return["success"] = false; 
+		echo json_encode($return);
+	    exit;
+	}
 
 	$return = array();
     $return["success"] = true; 

@@ -1,4 +1,4 @@
-function insert_concluidos(id_do_parecer_fon){
+function insert_concluidos(id_do_parecer_fon, id_da_finalidade){
 
     var vet = new Array();
     var sessao = document.getElementsByName("sessao11");
@@ -10,6 +10,7 @@ function insert_concluidos(id_do_parecer_fon){
     vet.push(getcheckboxs(document.getElementsByName("11-2cb")));
 
     vet.push(id_do_parecer_fon);
+    vet.push(id_da_finalidade);
 
     console.log(vet);
 
@@ -22,11 +23,11 @@ function insert_concluidos(id_do_parecer_fon){
             if(json['success']){
                 console.log(json);
             }else{
-                console.log(json);
+                loading(10, false);
             }
         },
         error: function (e) {
-            loading(6, false);
+            loading(10, false);
             console.log(e);
         } 
     });	

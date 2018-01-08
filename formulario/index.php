@@ -3612,7 +3612,7 @@
 			<a class="btn btn-primary btn-final" onClick="javascript:window.print()">
     		<span class="fa fa-print"></span> IMPRIMIR
 			</a>
-    	<a class="btn btn-primary btn-final" onclick="parecer_fono(1)">
+    	<a class="btn btn-primary btn-final" onclick="start_insert()">
     		<span class="fa fa-floppy-o"></span> SALVAR
 			</a>
 		</div>	
