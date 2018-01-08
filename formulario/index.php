@@ -2475,7 +2475,7 @@
       		</span>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-5 -->
-	    <div class="col-md-3 col-md-print-offset-3">
+	    <div class="col-md-3 col-md-print-offset-28">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DATA DO EXAME:</span>
 	  			<input type='text' class="form-control date" name="sessao9" />
@@ -2527,7 +2527,7 @@
 
 	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
 	  <div class="row row col-md-10 col-md-offset-1">
-	  	<hr style="margin-top: 20px;">
+	  	<hr style="margin-top: 20px;" class="hr">
 	  </div>
 
 
@@ -3306,7 +3306,7 @@
 
 	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
 	  <div class="row row col-md-10 col-md-offset-1">
-	  	<hr style="margin-top: 20px;">
+	  	<hr style="margin-top: 20px;" class="hr">
 	  </div>
 
 
@@ -3320,15 +3320,15 @@
 
 
 
-	  <div class="row row col-md-10 col-md-offset-1">
+	  <div class="row row col-md-10 col-md-offset-1 btns_pen_fin">
 	  	<div class="input-group-btn" data-toggle="buttons" style="text-align: center;">
 		  	<label class="btn btn-warning btn-print" onclick="pendente()">
-					<input type="radio" id="rbtn-pendente"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
+					<input type="radio" id="rbtn-pendente" name="btn_pen_fin"><strong>PARECER FONOAUDIOLOGICO PENDENTE</strong>
 					<span class="glyphicon glyphicon-ok"></span>
 				</label>
 
 				<label class="btn btn-success btn-print" onclick="final()" style="margin-left: 10px;">
-					<input type="radio" id="rbtn-final"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
+					<input type="radio" id="rbtn-final" name="btn_pen_fin"><strong>PARECER FINAL DA PERÍCIA FONOAUDIOLÓGICA</strong>
 					<span class="glyphicon glyphicon-ok"></span>
 				</label>
 			</div>
@@ -3343,7 +3343,7 @@
 		##########################################################################################################################-->
 
 		<!--INICIO CABEÇALHO /// SESSÃO 10 (pendente)-->	
-	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente" style="margin-top: 1.5%;">
+	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
 			<img src="imagens/pendente.png" class="col-md-12">
 		</div>  
 
@@ -3451,7 +3451,7 @@
 	    <div class="col-md-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EXAME SOLICITADO:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="exs10-2" name="sessao10" style="text-transform: uppercase;"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="exs10-2" style="text-transform: uppercase;"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-5 -->
 	  	<div class="col-md-2 col-md-print-6">
@@ -3481,7 +3481,7 @@
 		##########################################################################################################################-->
 
 		<!--INICIO CABEÇALHO /// SESSÃO 11 (final)-->	
-		<div class="row row col-md-10 col-md-offset-1 collapse collapse_final" style="margin-top: 1.5%;">
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_final">
 			<img src="imagens/final.png" class="col-md-12">
 		</div>  
 
@@ -3520,13 +3520,13 @@
 	  	<div class="col-md-2 col-md-print-6">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DIAS</span>
-	  			<input type='text' class="form-control" maxlength="3" id="input_dias11-1" />
+	  			<input type='text' class="form-control" maxlength="3" id="input_dias11-1" name="sessao11"/>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-2 /// col-md-print-6 -->
 	  	<div class="col-md-4">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">COM:</span>
-	  			<input type='text' class="form-control" maxlength="20" id="input_com11-1" style="text-transform: uppercase;"/>
+	  			<input type='text' class="form-control" maxlength="20" id="input_com11-1" name="sessao11" style="text-transform: uppercase;"/>
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-4 -->
 		</div><!-- /.row -->
@@ -3544,7 +3544,7 @@
 		   	<div class="input-group input-group-sm">
 		   		<form>
 	    			<label class="checkbox-inline" style="margin-top: 1.5%; padding-left: 11px;" id="lbl4-fnl11-0">
-	      			<input type="checkbox" value="4" name="11-0cb" id="cb4-fnl11-0"><strong>OUTRO</strong>
+	      			<input type="checkbox" value="1" name="11-2cb" id="cb4-fnl11-0"><strong>OUTRO</strong>
 	    			</label>
 	    		</form>
 	    	</div><!-- /input-group -->
@@ -3612,7 +3612,7 @@
 			<a class="btn btn-primary btn-final" onClick="javascript:window.print()">
     		<span class="fa fa-print"></span> IMPRIMIR
 			</a>
-    	<a class="btn btn-primary btn-final" onclick="insert_pendentes(12)">
+    	<a class="btn btn-primary btn-final" onclick="parecer_fono(1)">
     		<span class="fa fa-floppy-o"></span> SALVAR
 			</a>
 		</div>	
@@ -3714,6 +3714,7 @@
 		<script src="js/insert_files/insert_avaliacao_espectrografica.js"></script>
 		<script src="js/insert_files/insert_parecer_fono.js"></script>
 		<script src="js/insert_files/insert_pendentes.js"></script>
+		<script src="js/insert_files/insert_concluidos.js"></script>
 
 		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
 		<script src="js/scripts_identificacao/identificacao.js"></script>

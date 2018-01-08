@@ -6,9 +6,9 @@
 
     $myvar = json_decode($_GET['data'], true);
     
-    $myvar[0] = explode('/', $myvar[0]);    // transforma em array
-	$myvar[0] = array_reverse($myvar[0]); 	// inverte posicoes do array
-	$myvar[0] = implode('-', $myvar[0]);   	// transforma em string novamente
+    $myvar[3] = explode('/', $myvar[3]);    // transforma em array
+	$myvar[3] = array_reverse($myvar[3]); 	// inverte posicoes do array
+	$myvar[3] = implode('-', $myvar[3]);   	// transforma em string novamente
 	
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );
@@ -19,15 +19,18 @@
 		exit;
     }
     
-    $sql = "INSERT INTO `pendentes`(`fk_parecer_fon`, `cb_mdp_10_0`, `cb_cfo_10_1`, `dt_10_2`) 
-    VALUES (:fkparecerfon, :cbmdp, :cbcfo, :dt)";
+    $sql = "INSERT INTO `concluidos`(`fk_parecer_fon`, `cb_fnl_11_0`, `dias_11_1`, `com_11_1`, `cb_fnl_11_2`, `lcl_11_3`, `dt_11_3`) 
+    VALUES (:fkparecerfon, :cbfnl, :dias, :com, :cbfnl2, :lcl, :dt)";
     
     $stmt = $PDO->prepare( $sql );
     
-	$stmt->bindParam( ':fkparecerfon', $myvar[3] );
-	$stmt->bindParam( ':cbmdp', $myvar[1] );
-	$stmt->bindParam( ':cbcfo', $myvar[2] );
-	$stmt->bindParam( ':dt', $myvar[0] );
+	$stmt->bindParam( ':fkparecerfon', $myvar[6] );
+	$stmt->bindParam( ':cbfnl', $myvar[4] );
+	$stmt->bindParam( ':dias', $myvar[0] );
+    $stmt->bindParam( ':com', $myvar[1] );
+    $stmt->bindParam( ':cbfnl2', $myvar[5] );
+    $stmt->bindParam( ':lcl', $myvar[2] );
+    $stmt->bindParam( ':dt', $myvar[3] );
 	
 	$result = $stmt->execute();
 		

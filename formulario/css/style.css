@@ -136,6 +136,14 @@ form#sdrgcb4-4 {
     width: 20%;
   }
 
+  .hr {
+    display: none;
+  }
+
+  .btns_pen_fin {
+    display: none;
+  }
+
   button.btn-observacao {
     display: none;
   }

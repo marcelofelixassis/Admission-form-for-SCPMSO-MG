@@ -1,4 +1,3 @@
-// 8° FASE >>> FASE DE INSERTS NA TABELA DE AVALIACAO ESPECTROGRAFICA
 function insert_pendentes(id_do_parecer_fon){
         
     var vet = new Array();
@@ -11,4 +10,22 @@ function insert_pendentes(id_do_parecer_fon){
     vet.push(getcheckboxs(document.getElementsByName("10-1cb")))
 
     vet.push(id_do_parecer_fon);
+
+    $.ajax({
+		type : "GET",
+		url : url+"pendentes.php?data="+JSON.stringify(vet),
+		contentType: content,
+		success: function (response) {
+			var json = JSON.parse(response);
+			if(json['success']){
+				console.log(json);
+			}else{
+				console.log(json);
+			}
+		},
+		error: function (e) {
+			loading(6, false);
+    		console.log(e);
+		} 
+	});	
 }
