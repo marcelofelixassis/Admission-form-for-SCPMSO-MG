@@ -3395,7 +3395,7 @@
 	    <div class="col-md-8">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_quais10-0" style="text-transform: uppercase;"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_quais10-0" maxlength="30" style="text-transform: uppercase;"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 -->
 		</div><!-- /.row -->
@@ -3445,13 +3445,13 @@
 
 
 
-		<!-- LINHA 10.2 (DT_10_2)-->		
+		<!-- LINHA 10.2 (EXS_10_2, DT_10_2)-->		
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
 	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 	    <div class="col-md-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EXAME SOLICITADO:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="exs10-2" style="text-transform: uppercase;"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" maxlength="15" name="sessao10" id="exs10-2" style="text-transform: uppercase;"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-5 -->
 	  	<div class="col-md-2 col-md-print-6">
@@ -3562,7 +3562,7 @@
 	    <div class="col-md-8">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL?</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_qual11-0" style="text-transform: uppercase;"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" maxlength="30" id="input_qual11-0" style="text-transform: uppercase;"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 -->
 		</div><!-- /.row -->
@@ -3579,7 +3579,7 @@
 	    <div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">LOCAL:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="lcl11-2" name="sessao11" style="text-transform: uppercase;"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" maxlength="15" id="lcl11-2" name="sessao11" style="text-transform: uppercase;"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-3 -->
 	  	<div class="col-md-2 col-md-print-6">
@@ -3615,6 +3615,7 @@
     	<a class="btn btn-primary btn-final" onclick="start_insert()">
     		<span class="fa fa-floppy-o"></span> SALVAR
 			</a>
+			
 		</div>	
 
 

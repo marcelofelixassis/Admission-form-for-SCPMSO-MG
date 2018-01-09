@@ -11,6 +11,8 @@ function insert_pendentes(id_do_parecer_fon, id_da_finalidade){
 
 	vet.push(id_do_parecer_fon);
 	vet.push(id_da_finalidade);
+	
+	console.log(vet);
 
     $.ajax({
 		type : "GET",

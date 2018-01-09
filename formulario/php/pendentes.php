@@ -19,15 +19,16 @@
 		exit;
     }
     
-    $sql = "INSERT INTO `pendentes`(`fk_parecer_fon`, `cb_mdp_10_0`, `cb_cfo_10_1`, `dt_10_2`) 
-    VALUES (:fkparecerfon, :cbmdp, :cbcfo, :dt)";
+    $sql = "INSERT INTO `pendentes`(`fk_parecer_fon`, `cb_mdp_10_0`, `cb_cfo_10_1`, `exs_10_2`, `dt_10_2`) 
+    VALUES (:fkparecerfon, :cbmdp, :cbcfo, :exs, :dt)";
     
     $stmt = $PDO->prepare( $sql );
     
-	$stmt->bindParam( ':fkparecerfon', $myvar[3] );
-	$stmt->bindParam( ':cbmdp', $myvar[1] );
-	$stmt->bindParam( ':cbcfo', $myvar[2] );
-	$stmt->bindParam( ':dt', $myvar[0] );
+	$stmt->bindParam( ':fkparecerfon', $myvar[4] );
+	$stmt->bindParam( ':cbmdp', $myvar[2] );
+	$stmt->bindParam( ':cbcfo', $myvar[3] );
+	$stmt->bindParam( ':exs', $myvar[0] );
+	$stmt->bindParam( ':dt', $myvar[1] );
 	
 	$result = $stmt->execute();
 		
@@ -40,7 +41,7 @@
 	
 	$sql = "UPDATE `finalidade`SET `state` = 'PENDENTE' WHERE id_finalidade = :id";
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':id', $myvar[4] );
+	$stmt->bindParam( ':id', $myvar[5] );
 	$result = $stmt->execute();
 
 	if ( ! $result ){

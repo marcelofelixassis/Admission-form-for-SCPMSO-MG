@@ -97,7 +97,7 @@ function visualizar(finalidade, identificacao) {
     window.open("http://10.16.90.76/visualizar_formulario/index.php?id="+identificacao+"&fi="+finalidade);
 }
 
-function editar(id) {
-    console.log(id);
+function editar(finalidade, identificacao) {
+    window.open("http://10.16.90.76/editar_formulario/index.php?id="+identificacao+"&fi="+finalidade);
 }
 
