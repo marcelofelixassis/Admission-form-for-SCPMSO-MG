@@ -133,7 +133,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ADMISSIONAL PARA FINS DE:</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_apfd20()" id="apfd2-0" name="sessao2" disabled="true">
+	        	<select class="btn" id="apfd2-0" name="sessao2" disabled="true">
 	        		<option id="setselect2-1" value="">SELECIONE...</option>
 				  		<option value="1">NOMEAÇAO EM CONCURSO PÚBLICO</option>
 				  		<option value="2">DESIGNAÇÃO</option>
@@ -263,7 +263,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>POSSUI QUANTOS CARGOS COMO PROFESSOR(A)?</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_pqccp30()" id="pqccp3-0" name="sessao3" disabled="true">
+	        	<select class="btn" id="pqccp3-0" name="sessao3" disabled="true">
 					  	<option value="0">NENHUM</option>
 					  	<option value="1">UM CARGO</option>
 					  	<option value="2">DOIS CARGOS</option>
@@ -294,7 +294,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>b) </strong>JÁ ATUOU COMO PROFESSOR(A)?</span>
 	      	<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_jacp34()" id="jacp3-4" name="sessao3" disabled="true">
+	        	<select class="btn" id="jacp3-4" name="sessao3" disabled="true">
 					  	<option value="0">NÃO</option>
 					  	<option value="1">SIM(1)</option>
 					  	<option value="2">SIM(2)</option>
@@ -327,7 +327,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oada39()" id="oada3-9" name="sessao3" disabled="true">
+	        	<select class="btn" id="oada3-9" name="sessao3" disabled="true">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
@@ -374,7 +374,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>d) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ATUAL)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oadu310()" id="oadu3-10" name="sessao3" disabled="true">
+	        	<select class="btn" id="oadu3-10" name="sessao3" disabled="true">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
@@ -435,7 +435,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS NASAIS E DOS SEIOS DA FACE?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dnsf40()" id="dnsf4-0" name="sessao4" disabled="true">
+	        	<select class="btn" id="dnsf4-0" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -470,7 +470,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS ALÉRGICOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_da41()" id="da4-1" name="sessao4" disabled="true">
+	        	<select class="btn" id="da4-1" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -514,7 +514,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS FARÍNGEOS/LARÍNGEOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dfl42()" id="dfl4-2" name="sessao4" disabled="true">
+	        	<select class="btn" id="dfl4-2" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -549,7 +549,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DISTÚRBIOS OTOLÓGICOS/AUDITIVOS?</span>                                                     
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_doa43()" id="doa4-3" name="sessao4" disabled="true">
+	        	<select class="btn" id="doa4-3" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -587,7 +587,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">SINAIS DE DOENÇA DO REFLUXO GASTROESOFÁGICO (DRGE)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_sdrg44()" id="sdrg4-4" name="sessao4" disabled="true">
+	        	<select class="btn" id="sdrg4-4" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -631,7 +631,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTRAS ALTERAÇÕES NA SAÚDE GERAL?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_oasg45()" id="oasg4-5" name="sessao4" disabled="true">
+	        	<select class="btn" id="oasg4-5" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -672,7 +672,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">USO DE MEDICAMENTO(S)?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_fudm46()" id="fudm4-6" name="sessao4" disabled="true">
+	        	<select class="btn" id="fudm4-6" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -741,7 +741,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">CIRURGIA COM ANESTESIA GERAL?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_ccag47()" id="ccag4-7" name="sessao4" disabled="true">
+	        	<select class="btn" id="ccag4-7" name="sessao4" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -802,7 +802,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">TABAGISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_taba50()" id="taba5-0" name="sessao5" disabled="true">
+	        	<select class="btn" id="taba5-0" name="sessao5" disabled="true">
 							<option value="0">NÃO</option>
 			        <option value="1">SIM</option>
 	        	</select>
@@ -853,7 +853,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EX-TABAGISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_extaba51()" id="extaba5-1" name="sessao5" disabled="true">
+	        	<select class="btn" id="extaba5-1" name="sessao5" disabled="true">
 							<option value="0" id="setnao5-1">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -904,7 +904,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">DROGAS ILÍCITAS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_dril52()" id="dril5-2" name="sessao5" disabled="true">
+	        	<select class="btn" id="dril5-2" name="sessao5" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -945,7 +945,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ETILISTA?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_etil53()" id="etil5-3" name="sessao5" disabled="true">
+	        	<select class="btn" id="etil5-3" name="sessao5" disabled="true">
 							<option value="0">NÃO</option>
 			         <option value="1">SIM</option>
 	        	</select>
@@ -994,7 +994,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">OUTROS HÁBITOS VOCAIS INADEQUADOS?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" name="sessao5" onblur="onblur_ohvi54()" id="ohvi5-4" disabled="true">
+	        	<select class="btn" name="sessao5" id="ohvi5-4" disabled="true">
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
 	        	</select>
@@ -1060,7 +1060,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>a) </strong>SINTOMAS PRESENTES?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_sipr60()" id="sipr6-0" name="sessao6" disabled="true">
+	        	<select class="btn" id="sipr6-0" name="sessao6" disabled="true">
 							 <option value="1">AUSÊNCIA DE QUEIXAS VOCAIS NO MOMENTO</option>
 			         <option value="2">SIM</option>
 	        	</select>
@@ -1192,7 +1192,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>b) </strong>PATOLOGIA/SINAIS LARÍNGEOS CONFIRMADOS?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_pslc63()" id="pslc6-3" name="sessao6" disabled="true">
+			      <select class="btn" id="pslc6-3" name="sessao6" disabled="true">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1278,7 +1278,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>TRATAMENTO FONOTERÁPICO?</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_tf65()" id="tf6-5" name="sessao6" disabled="true">
+	        	<select class="btn" id="tf6-5" name="sessao6" disabled="true">
 	        		<option value="0">NÃO</option>
 							<option value="1">SIM</option>
 	        	</select>
@@ -1299,7 +1299,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c.1) </strong>TRATAMENTO FONOTERÁPICO JÁ REALIZADO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_tfjr66()" id="tfjr6-6" name="sessao6" disabled="true">
+			      <select class="btn" id="tfjr6-6" name="sessao6" disabled="true">
 							<option id="setselect6-7id" value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1354,7 +1354,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>c.2) </strong>EM TRATAMENTO FONOTERÁPICO?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_etfo68()" id="etfo6-8" name="sessao6" disabled="true">
+			      <select class="btn" id="etfo6-8" name="sessao6" disabled="true">
 							<option id="setselect6-4id" value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1452,7 +1452,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>d) </strong>CIRUGIA(S) VOCAL(IS)?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_civo611()" id="civo6-11" name="sessao6" disabled="true">
+			      <select class="btn" id="civo6-11" name="sessao6" disabled="true">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1486,7 +1486,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon"><strong>e) </strong>FAZ USO DE MICROFONE?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" onblur="onblur_fudm612()" id="fudm6-12" name="sessao6" disabled="true">
+			      <select class="btn" id="fudm6-12" name="sessao6" disabled="true">
 							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -1971,7 +1971,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR AS VOGAIS?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7" id="tmdf7-7" onblur="onblur_tmdf77()" disabled="true">
+			      <select class="btn" name="sessao7" id="tmdf7-7" disabled="true">
 							<option value="0">NAO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -2048,7 +2048,7 @@
 		    <div class="input-group input-group-sm">
 		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR A RELAÇÃO S/Z?</span>
 		  		<span class="input-group-btn">
-			      <select class="btn" name="sessao7" id="epasz7-9" onblur="onblur_epasz79()" disabled="true">
+			      <select class="btn" name="sessao7" id="epasz7-9" disabled="true">
 							<option value="0">NAO</option>
 				      <option value="1">SIM</option>
 			      </select>
@@ -2072,9 +2072,9 @@
   		<div class="col-md-6">
     		<div class="input-group input-group-sm">
     			<span class="input-group-addon"><strong>[s]</strong></span>
-    			<input type="number" class="form-control" id="input_s" onblur="onblur_calc_sz()" name="sessao7" disabled="true">
+    			<input type="number" class="form-control" id="input_s" name="sessao7" disabled="true">
     			<span class="input-group-addon"><strong>[z]</strong></span>
-					<input type="number" class="form-control" id="input_z" onblur="onblur_calc_sz()" name="sessao7" disabled="true">
+					<input type="number" class="form-control" id="input_z" name="sessao7" disabled="true">
     			<span class="input-group-addon"><strong>Relação: s/z =</strong></span>
 					<input type="number" class="form-control" step=0.01 id="input_sz" name="sessao7" disabled="true">
     		</div>  		
@@ -2250,7 +2250,7 @@
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon"><i>SOFTWARE</i> UTILIZADO:</span>
 	  			<span class="input-group-btn">
-	        	<select class="btn" id="spfu" name="sessao8" onblur="onblur_spfu()" disabled="true">
+	        	<select class="btn" id="spfu" name="sessao8" disabled="true">
 							<option value="1">GRAM</option>
 			        <option value="2">PRAAT</option>
 			        <option value="3">OUTRO</option>
@@ -2372,7 +2372,6 @@
 
 
 
-
 		<!-- LINHA 9.1 (TIPG_9_1, LOEA_9_1) -->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
@@ -2412,7 +2411,6 @@
 
 
 
-
 	  <!--SOMENTE TEXTO DE INDICAÇÃO-->
 		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
@@ -2421,7 +2419,6 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
 		</div>
-
 
 
 
@@ -2456,7 +2453,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="8" name="9-2cb" disabled="true">HIPEREMIA NA REGIAO LARÍNGEA
 	    			</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2485,7 +2482,6 @@
 
 
 
-
 	  <!-- LINHA 9.4 (AGPV_9_4) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3">
 		  <div class="col-md-3">
@@ -2496,8 +2492,6 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
 		</div>
-
-
 
 
 
@@ -2532,10 +2526,11 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-5-0cb" disabled="true">UNILATERAL A ESQUERDA
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
 
 
 
@@ -2554,11 +2549,10 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-5-1cb" disabled="true">ACENTUADO
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
-
 
 
 
@@ -2579,7 +2573,6 @@
 
 
 
-
 		<!-- LINHA 9.6.0 (CB_HIP_9_6_0) -->
 	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_hip9-6">
 			<div class="col-md-12">
@@ -2594,11 +2587,10 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-6-0cb" disabled="true">UNILATERAL A ESQUERDA
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
-
-
 
 
 
@@ -2621,10 +2613,10 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="4" name="9-6-1cb" disabled="true">EM TODA EXTENSÃO
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
-
 
 
 
@@ -2645,11 +2637,10 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-6-2cb" disabled="true">ACENTUADO
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
-
 
 
 
@@ -2670,9 +2661,6 @@
 
 
 
-
-
-
 		<!-- LINHA 9.7.0 (CB_AVA_9_7_0) -->
 	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ava9-7">
 			<div class="col-md-12">
@@ -2687,11 +2675,10 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-7-0cb" disabled="true">1/3 POSTERIOR
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
-
-
 
 
 
@@ -2710,7 +2697,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-7-1cb" disabled="true">ACENTUADO
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2730,16 +2717,10 @@
 	    			<label class="checkbox-inline" >
 	      			<input type="checkbox" value="2" name="9-7-2cb" disabled="true">TRANSVERSAL À BORDA LIVRE
 	    			</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
-
-
-
-
-		
-
 
 
 
@@ -2755,8 +2736,6 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
 		</div>
-
-
 
 
 
@@ -2792,6 +2771,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-9-0cb" disabled="true">1/3 POSTERIOR
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2814,7 +2794,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-9-1cb" disabled="true">ACENTUADO
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2852,6 +2832,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-10-0cb" disabled="true">1/3 POSTERIOR
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2874,7 +2855,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-10-1cb" disabled="true">ACENTUADO
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2896,6 +2877,7 @@
 
 
 
+
 		<!-- LINHA 9.11.0 (CB_IUE_9_11_0) -->
 	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_iue9-11">
 			<div class="col-md-12">
@@ -2910,6 +2892,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-11-0cb" disabled="true">1/3 POSTERIOR
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2932,7 +2915,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="3" name="9-11-1cb" disabled="true">ACENTUADO
 	   				</label>
-	 				</form>
+	 			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -2980,9 +2963,11 @@
 	    			<label class="checkbox-inline" >
 	      			<input type="checkbox" value="2" name="9-13-0cb" disabled="true">PREGA VOCAL ESQUERDA
 	    			</label>
+	    		</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
 
 
 
@@ -3004,6 +2989,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="4" name="9-13-1cb" disabled="true">EM TODA EXTENSÃO
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -3022,8 +3008,6 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
 		</div>
-
-
 
 
 
@@ -3117,6 +3101,7 @@
 	   				<label class="checkbox-inline" style="float: right;">
 	     				<input type="checkbox" value="4" name="9-15-1cb" disabled="true">1/3 POSTERIOR
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -3175,6 +3160,7 @@
 	   				<label class="checkbox-inline" >
 	     				<input type="checkbox" value="7" name="9-16-0cb" disabled="true">NÃO FOI POSSÍVEL AVALIAR
 	   				</label>
+	   			</form>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
@@ -3183,12 +3169,10 @@
 
 
 
-	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
-	  <div class="row row col-md-10 col-md-offset-1">
-	  	<hr style="margin-top: 20px;" class="hr">
-	  </div>
-
-
+		<!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
+		<div class="row row col-md-10 col-md-offset-1">
+			<hr style="margin-top: 20px;" class="hr">
+		</div>
 
 
 
@@ -3197,10 +3181,6 @@
 		##########################################      PENDENTE OU CONCLUIDO    #############################################
 		##########################################################################################################################
 		##########################################################################################################################-->
-
-
-
-
 
 		<div id="collapse_pendente_ou_concluido" class="col-md-12"></div>
 
@@ -3213,69 +3193,41 @@
 		##########################################################################################################################
 		##########################################################################################################################-->
 
-		
-		
-		
 		<div class="row row fotter col-md-10 col-md-offset-1">
 			<a class="btn btn-primary btn-final" onClick="javascript:window.print()">
     		<span class="fa fa-print"></span> IMPRIMIR
 			</a>
 		</div>	
 
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!--######################################################################################################################
-		##################################################      SESSAO 10    #####################################################
-		##########################################################################################################################
-		##########################################################################################################################-->
 	  
 
 
 		
 		
-	
+		<!--  ##################################################  IMPORTS  #######################################-->
 	</body>
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<!-- FUNÇÕES DE DATA -->
-		<script src="js/jquery.datetimepicker.full.min.js"></script>
-		<script src="js/date.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- FUNÇÕES DE DATA -->
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
+	<script src="js/date.js"></script>
 
-		<!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
-		<script src="js/formulario_config.js"></script>
+	<!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
+	<script src="js/formulario_config.js"></script>
 
-		<!-- SCRIPTS DE SELECT PARA CADA SESSAO -->
-		<script src="js/select_files/start_select.js"></script>
-		<script src="js/select_files/identificacao.js"></script>
-		<script src="js/select_files/finalidade.js"></script>
-		<script src="js/select_files/complementares.js"></script>
-		<script src="js/select_files/saude_geral.js"></script>
-		<script src="js/select_files/habitos.js"></script>
-		<script src="js/select_files/saude_vocal.js"></script>
-		<script src="js/select_files/avaliacao_perceptivo.js"></script>
-		<script src="js/select_files/avaliacao_espectrografica.js"></script>
-		<script src="js/select_files/parecer_fono.js"></script>
-		<script src="js/select_files/pendente_ou_concluido.js"></script>
+	<!-- SCRIPTS DE SELECT PARA CADA SESSAO -->
+	<script src="js/select_files/start_select.js"></script>
+	<script src="js/select_files/identificacao.js"></script>
+	<script src="js/select_files/finalidade.js"></script>
+	<script src="js/select_files/complementares.js"></script>
+	<script src="js/select_files/saude_geral.js"></script>
+	<script src="js/select_files/habitos.js"></script>
+	<script src="js/select_files/saude_vocal.js"></script>
+	<script src="js/select_files/avaliacao_perceptivo.js"></script>
+	<script src="js/select_files/avaliacao_espectrografica.js"></script>
+	<script src="js/select_files/parecer_fono.js"></script>
+	<script src="js/select_files/pendente_ou_concluido.js"></script>
 
-		<!-- FUNÇÃO DE LOADING -->
-		<script src="js/loading_script/loading.js"></script>
+	<!-- FUNÇÃO DE LOADING -->
+	<script src="js/loading_script/loading.js"></script>
 </html>

@@ -65,8 +65,9 @@ function preencher_saude_vocal(data){
 
             $("#select_lfea_6_10").val(data.lfea_6_10);
         }
+   }
 
-        $("#civo6-11").val(data.crvc_6_11);
+   $("#civo6-11").val(data.crvc_6_11);
         if(data.crvc_6_11 == "1") {
             $('.collapse_civo6-11').collapse('show');
 
@@ -74,7 +75,7 @@ function preencher_saude_vocal(data){
         }
 
         $("#fudm6-12").val(data.fudm_6_12);
-        if(data.crvc_6_11 == "1") {
+        if(data.fudm_6_12 == "1") {
             $('.collapse_fudm6-12').collapse('show');
 
             $("#select_hqnt_6_12").val(data.hqnt_6_12);
@@ -83,5 +84,4 @@ function preencher_saude_vocal(data){
         }
 
         get_avaliacao_perceptivo()
-   }
 }

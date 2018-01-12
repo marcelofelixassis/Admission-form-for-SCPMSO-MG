@@ -6,9 +6,9 @@
 
     $myvar = json_decode($_GET['data'], true);
     
-    $myvar[1] = explode('/', $myvar[1]);    // transforma em array
-	$myvar[1] = array_reverse($myvar[1]); 	// inverte posicoes do array
-	$myvar[1] = implode('-', $myvar[1]);   	// transforma em string novamente
+    $myvar[3] = explode('/', $myvar[3]);    // transforma em array
+	$myvar[3] = array_reverse($myvar[3]); 	// inverte posicoes do array
+	$myvar[3] = implode('-', $myvar[3]);   	// transforma em string novamente
 	
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );
@@ -19,16 +19,18 @@
 		exit;
     }
     
-    $sql = "INSERT INTO `pendentes`(`fk_parecer_fon`, `cb_mdp_10_0`, `cb_cfo_10_1`, `exs_10_2`, `dt_10_2`) 
-    VALUES (:fkparecerfon, :cbmdp, :cbcfo, :exs, :dt)";
+    $sql = "INSERT INTO `concluidos_retorno`(`fk_parecer_fon_retorno`, `cb_fnl_0`, `dias`, `com`, `cb_fnl_1`, `lcl`, `dt`) 
+    VALUES (:fkparecerfonretorno, :cbfnl0, :dias, :com, :cbfnl1, :lcl, :dt)";
     
     $stmt = $PDO->prepare( $sql );
     
-	$stmt->bindParam( ':fkparecerfon', $myvar[4] );
-	$stmt->bindParam( ':cbmdp', $myvar[2] );
-	$stmt->bindParam( ':cbcfo', $myvar[3] );
-	$stmt->bindParam( ':exs', $myvar[0] );
-	$stmt->bindParam( ':dt', $myvar[1] );
+	$stmt->bindParam( ':fkparecerfonretorno', $myvar[6] );
+	$stmt->bindParam( ':cbfnl0', $myvar[4] );
+	$stmt->bindParam( ':dias', $myvar[0] );
+    $stmt->bindParam( ':com', $myvar[1] );
+    $stmt->bindParam( ':cbfnl1', $myvar[5] );
+    $stmt->bindParam( ':lcl', $myvar[2] );
+    $stmt->bindParam( ':dt', $myvar[3] );
 	
 	$result = $stmt->execute();
 		
@@ -39,9 +41,9 @@
 	    exit;
 	}
 	
-	$sql = "UPDATE `finalidade`SET `state` = 'PENDENTE' WHERE id_finalidade = :id";
+	$sql = "UPDATE `finalidade`SET `state` = 'CONCLUIDO' WHERE id_finalidade = :id";
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':id', $myvar[5] );
+	$stmt->bindParam( ':id', $myvar[7] );
 	$result = $stmt->execute();
 
 	if ( ! $result ){

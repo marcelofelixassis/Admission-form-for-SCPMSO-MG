@@ -9,7 +9,7 @@ function get_pendente_ou_concluido(id_parecer_fon){
                 console.log(json);
                 preencher_pendente_ou_concluido(json['data'][0], json['tipo']);
             }else{
-                console.log("erro fase de parecer fono");
+                console.log("erro fase de pendente ou concluido");
             }
         },
         error: function (e) {

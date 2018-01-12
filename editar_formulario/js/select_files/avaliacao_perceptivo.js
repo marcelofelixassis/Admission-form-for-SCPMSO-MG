@@ -8,7 +8,7 @@ function get_avaliacao_perceptivo(){
             if(json['success']){
                 preencher_avaliacao_perceptivo(json['data'][0]);
             }else{
-                console.log("erro na fase de finalidade");
+                console.log("erro na fase de avaliacao perceptivo");
             }
         },
         error: function (e) {

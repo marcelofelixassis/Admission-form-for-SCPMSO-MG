@@ -8,7 +8,7 @@ function get_avaliacao_espectrografica(){
             if(json['success']){
                 preencher_avaliacao_espectrografica(json['data'][0]);
             }else{
-                console.log("erro na fase de finalidade");
+                console.log("erro na fase de avaliacao espectrografica");
             }
         },
         error: function (e) {

@@ -9,7 +9,7 @@ function get_pendente_ou_concluido(id_parecer_fon){
                 console.log(json);
                 preencher_pendente_ou_concluido(json['data'][0], json['tipo']);
             }else{
-                console.log("erro fase de parecer fono");
+                console.log("erro fase de pendente ou concluido");
             }
         },
         error: function (e) {
@@ -50,6 +50,8 @@ function preencher_pendente(data) {
     $("#exs10-2").val(data.exs_10_2);
 
     $("#dt10-2").val(data.dt_10_2);   
+
+    apresentar_dados();
 }
 
 function preencher_concluido(data) {
@@ -65,6 +67,8 @@ function preencher_concluido(data) {
     markcheckbox(data.cb_fnl_11_2, document.getElementsByName("11-2cb"));
 
     $("#lcl11-2").val(data.lcl_11_3);
-    $("#dt11-2").val(data.dt_11_3);     
+    $("#dt11-2").val(data.dt_11_3); 
+    
+    apresentar_dados();  
 }
 

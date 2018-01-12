@@ -8,7 +8,7 @@ function get_complementares(){
             if(json['success']){
                 preencher_complementares(json['data'][0]);
             }else{
-                console.log("erro na fase de finalidade");
+                console.log("erro na fase de complementares");
             }
         },
         error: function (e) {
