@@ -3,6 +3,12 @@ var finalidade = 0;
 var url = "http://10.16.90.76/visualizar_formulario/php/";
 var content = "application/json; charset=UTF-8";
 
+function apresentar_dados() {
+    document.getElementById("textloader").style.display = "none";
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("conteudo").style.display = "block";
+}
+
 window.onload = function(){
     $('.noclick').click(false);
     $('#collapse_taba5-0_extaba').collapse('show');

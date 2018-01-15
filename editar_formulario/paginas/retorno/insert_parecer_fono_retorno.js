@@ -1,6 +1,6 @@
 // 8° FASE >>> FASE DE INSERTS NA TABELA DE AVALIACAO ESPECTROGRAFICA
 function insert_parecer_fono_retorno(){
-
+    
         
     var vet = new Array();
     var sessao = document.getElementsByName("sessao_retorno");
@@ -113,6 +113,7 @@ function insert_pendentes_retorno(id_do_parecer_fon){
 			var json = JSON.parse(response);
 			if(json['success']){
 				console.log(json);
+                window.location.replace("http://10.16.90.76");
 			}else{
 				console.log("erro");
 			}
@@ -146,6 +147,7 @@ function insert_concluidos_retorno(id_do_parecer_fon){
             var json = JSON.parse(response);
             if(json['success']){
                 console.log(json);
+                window.location.replace("http://10.16.90.76");
             }else{
                 console.log("erro");
             }

@@ -31,7 +31,7 @@ function preencher_pendente_ou_concluido(data, tipo) {
             preencher_pendente(data);
         }, 2000);     
         
-    }else {
+    }else if (tipo == "concluido") {
         $.get("paginas/concluido.html", function (data) {
             $("#collapse_pendente_ou_concluido").append(data);
         }); 
@@ -49,7 +49,9 @@ function preencher_pendente(data) {
 
     $("#exs10-2").val(data.exs_10_2);
 
-    $("#dt10-2").val(data.dt_10_2);   
+    $("#dt10-2").val(data.dt_10_2);  
+
+    get_parecer_fono_retorno(); 
 }
 
 function preencher_concluido(data) {

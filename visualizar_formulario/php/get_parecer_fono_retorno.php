@@ -15,7 +15,7 @@
 		exit;
 	}
 
-    $sql = "SELECT pf.* FROM parecer_fon AS pf WHERE pf.fk_finalidade = '$number'";
+    $sql = "SELECT pf.* FROM parecer_fon_retorno AS pf WHERE pf.fk_finalidade = '$number'";
     $result = $PDO->query( $sql );
     $rows = $result->fetchAll( PDO::FETCH_ASSOC );
 

@@ -6,9 +6,9 @@
 
     $myvar = json_decode($_GET['data'], true);
     
-    $myvar[0] = explode('/', $myvar[0]);    // transforma em array
-	$myvar[0] = array_reverse($myvar[0]); 	// inverte posicoes do array
-	$myvar[0] = implode('-', $myvar[0]);   	// transforma em string novamente
+    $myvar[1] = explode('/', $myvar[1]);    // transforma em array
+	$myvar[1] = array_reverse($myvar[1]); 	// inverte posicoes do array
+	$myvar[1] = implode('-', $myvar[1]);   	// transforma em string novamente
 	
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );
