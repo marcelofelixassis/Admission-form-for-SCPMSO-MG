@@ -56,6 +56,8 @@ function parecer_fono(id_da_finalidade){
     
     vet.push(id_da_finalidade);
 
+    console.log(vet);
+
     $.ajax({
         type : "GET",
         url : url+"parecer_fono.php?data="+JSON.stringify(vet),

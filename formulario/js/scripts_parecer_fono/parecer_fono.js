@@ -47,17 +47,8 @@ function onblur_prv93() {
         
         $('.collapse_bli9-8').collapse('hide');
         
-        clearcheckbox(document.getElementsByName("9-15-0cb")); 
-        clearcheckbox(document.getElementsByName("9-15-1cb"));
-        $('.collapse_cgl9-15').collapse('hide');
-
-        clearcheckbox(document.getElementsByName("9-16-0cb")); 
-        $('.collapse_mmo9-16').collapse('hide');
-        
         $('#agpv9-4').prop('checked', false);
         $('#bli9-8').prop('checked', false);
-        $('#cgl9-15').prop('checked', false);
-        $('#mmo9-16').prop('checked', false);
 
 		$('.collapse_prv9-3').collapse('hide');	
 	}		

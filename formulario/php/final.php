@@ -6,9 +6,9 @@
 
     $myvar = json_decode($_GET['data'], true);
     
-    $myvar[3] = explode('/', $myvar[3]);    // transforma em array
-	$myvar[3] = array_reverse($myvar[3]); 	// inverte posicoes do array
-	$myvar[3] = implode('-', $myvar[3]);   	// transforma em string novamente
+    $myvar[2] = explode('/', $myvar[2]);    // transforma em array
+	$myvar[2] = array_reverse($myvar[2]); 	// inverte posicoes do array
+	$myvar[2] = implode('-', $myvar[2]);   	// transforma em string novamente
 	
 	try{
 		$PDO = new PDO( 'mysql:host=' . MYSQL_HOST . ';dbname=' . MYSQL_DB_NAME, MYSQL_USER, MYSQL_PASSWORD );
@@ -19,18 +19,17 @@
 		exit;
     }
     
-    $sql = "INSERT INTO `concluidos`(`fk_parecer_fon`, `cb_fnl_11_0`, `dias_11_1`, `com_11_1`, `cb_fnl_11_2`, `lcl_11_3`, `dt_11_3`) 
-    VALUES (:fkparecerfon, :cbfnl, :dias, :com, :cbfnl2, :lcl, :dt)";
+    $sql = "INSERT INTO `concluidos`(`fk_parecer_fon`, `cb_fnl_11_0`, `dias_11_1`, `cb_fnl_11_2`, `lcl_11_3`, `dt_11_3`) 
+    VALUES (:fkparecerfon, :cbfnl, :dias, :cbfnl2, :lcl, :dt)";
     
     $stmt = $PDO->prepare( $sql );
     
-	$stmt->bindParam( ':fkparecerfon', $myvar[6] );
-	$stmt->bindParam( ':cbfnl', $myvar[4] );
+	$stmt->bindParam( ':fkparecerfon', $myvar[5] );
+	$stmt->bindParam( ':cbfnl', $myvar[3] );
 	$stmt->bindParam( ':dias', $myvar[0] );
-    $stmt->bindParam( ':com', $myvar[1] );
-    $stmt->bindParam( ':cbfnl2', $myvar[5] );
-    $stmt->bindParam( ':lcl', $myvar[2] );
-    $stmt->bindParam( ':dt', $myvar[3] );
+    $stmt->bindParam( ':cbfnl2', $myvar[4] );
+    $stmt->bindParam( ':lcl', $myvar[1] );
+    $stmt->bindParam( ':dt', $myvar[2] );
 	
 	$result = $stmt->execute();
 		
@@ -43,7 +42,7 @@
 	
 	$sql = "UPDATE `finalidade`SET `state` = 'CONCLUIDO' WHERE id_finalidade = :id";
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':id', $myvar[7] );
+	$stmt->bindParam( ':id', $myvar[6] );
 	$result = $stmt->execute();
 
 	if ( ! $result ){
