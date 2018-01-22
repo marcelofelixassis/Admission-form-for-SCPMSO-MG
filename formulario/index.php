@@ -27,7 +27,7 @@
 
 
 
-		<!-- NAME = SESSAO1 || LINHA 1.0 (NOME_1_0, SEXO_1_0)-->
+		<!-- LINHA 1.0 (NOME_1_0, SEXO_1_0)-->
 		<div class="row col-md-10 col-md-offset-1">
 	  	<div class="col-md-10 col-md-print-1">
 	    	<div class="input-group input-group-sm">
@@ -100,13 +100,13 @@
 	      	<span class="input-group-addon" id="basic-addon">DATA:</span>
 	  			<input type='text' class="form-control date" id="dt2-0" name="sessao2"/>
 	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-2 /// col-md-print-3 -->
+	  	</div><!-- /col-md-2 /// col-md-print-6 -->
 	  	<div class="col-md-9 col-md-offset-1 col-md-print-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">ASSINATURA DO(A) PERICIANDO(A):</span>
 	  			<input type='text' class="form-control" disabled="true" />
 	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-9 col-md-offset-1 /// col-md-print-5 col-md-print-offset-2 -->
+	  	</div><!-- /col-md-9 col-md-offset-1 /// col-md-print-5 -->
 		</div><!-- /.row -->
 		
 
@@ -236,7 +236,7 @@
 	        	<label class="ap2-1"><input type="checkbox" class="vogaisinp" value="4" name="2-2cb"> ENSINO SUPERIOR</label>
 	    		</span> 
 	  		</div>
-			</div><!-- /.col-md-3 -->
+			</div><!-- /.col-md-3 /// col-md-print-12 -->
 			<!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 			<div class="col-md-1 col-md-offset-20">
 	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs2-3">OBSERVAÇÕES</button>
@@ -1066,6 +1066,8 @@
 
 
 
+
+
 	  <!--LINHA 5.4 (CB_OHVI_5_4)-->		
 		<div class="collapse row row col-md-10 col-md-offset-1" id="collapse_ohvi5-4">
 			<div class="col-md-12">
@@ -1111,6 +1113,7 @@
 		    </div>
 			</div>		
 		</div>
+
 
 
 
@@ -1174,7 +1177,7 @@
 	     				<input type="checkbox" value="5" name="6-1cb">CANSAÇO VOCAL
 	   				</label>
 	   				<label class="checkbox-inline">
-      			<input type="checkbox" value="6" name="6-1cb">ROUQUIDÃO
+      				<input type="checkbox" value="6" name="6-1cb">ROUQUIDÃO
 	    			</label>
 	    			<label class="checkbox-inline">
 	     				<input type="checkbox" value="7" name="6-1cb">FALTA DE AR
@@ -1455,8 +1458,8 @@
 							<option value="4">9 A 12 SESSÕES</option>
 				      <option value="5">13 A 16 SESSÕES</option>
 							<option value="6">17 A 24 SESSÕES</option>
-							<option value="6">MAIS DE 24 SESSÕES</option>
-							<option value="7">NÃO SOUBE INFORMAR</option>
+							<option value="7">MAIS DE 24 SESSÕES</option>
+							<option value="8">NÃO SOUBE INFORMAR</option>
 			      </select>
 		    	</span>
 			  </div><!-- /input-group -->
@@ -1619,6 +1622,8 @@
 	    </div>
 			</div>		
 		</div>
+
+
 
 
 
@@ -2181,6 +2186,7 @@
 
 
 
+
 		<!-- LINHA 7.11 (RST_7_11) -->
 		<div class="collapse collapse_epasz7-9 row row col-md-10 col-md-offset-1">
 		  <div class="col-md-6">
@@ -2197,6 +2203,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-4 -->	
 		</div>
+
 
 
 
@@ -2463,6 +2470,7 @@
 
 
 
+
 		<!-- LINHA 9.0 (EXA_9_0, DEXA_9_0, CRM_9_0, MNOME_9_0) -->
 		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
@@ -2492,19 +2500,19 @@
 
 
 		<div class="row row col-md-10 col-md-offset-1">
-		  	<div class="col-md-6">
-		    	<div class="input-group input-group-sm">
-		      	<span class="input-group-addon" id="basic-addon">MÉDICO:</span>
-		  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="50" style="text-transform: uppercase;">
-		    	</div><!-- /input-group -->
-		  	</div><!-- /.col-md-3 col-md-offset-1 -->
-		  	<div class="col-md-3">
-		    	<div class="input-group input-group-sm">
-		      	<span class="input-group-addon" id="basic-addon">CRM:</span>
-		  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="6" style="text-transform: uppercase;">
-		    	</div><!-- /input-group -->
-	  		</div><!-- /.col-md-3 col-md-offset-1 -->
-	  	</div>
+	  	<div class="col-md-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">MÉDICO:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="50" style="text-transform: uppercase;">
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-6 -->
+	  	<div class="col-md-3">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">CRM:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="6" style="text-transform: uppercase;">
+	    	</div><!-- /input-group -->
+  		</div><!-- /.col-md-3 -->
+  	</div>
 
 
 
@@ -2542,10 +2550,13 @@
 
 
 
+
+
 	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
 	  <div class="row row col-md-10 col-md-offset-1">
 	  	<hr style="margin-top: 20px;" class="hr">
 	  </div>
+
 
 
 
@@ -2613,6 +2624,7 @@
 
 
 
+
 		<!-- LINHA 9.3 (PRV_9_3) -->
 		<div class="row row col-md-10 col-md-offset-1">
 	    <div class="col-md-3">
@@ -2659,8 +2671,9 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="ede9-5"> EDEMA</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-1 col-md-offset-1 -->	
 		</div>
+
 
 
 
@@ -2684,6 +2697,8 @@
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
+
 
 
 
@@ -2720,7 +2735,7 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="hip9-6"> HIPEREMIA</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-1 col-md-offset-1 -->	
 		</div>
 
 
@@ -2811,10 +2826,8 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="ava9-7"> ALTERAÇÃO VASCULAR</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-2 col-md-offset-1 -->	
 		</div>
-
-
 
 
 
@@ -2867,6 +2880,7 @@
 
 
 
+
 		<!-- LINHA 9.7.2 (CB_AVA_9_7_2) -->
 	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_ava9-7">
 			<div class="col-md-12">
@@ -2886,12 +2900,7 @@
 
 
 
-		
-
-
-
-
-
+	
 
 	  <!-- LINHA 9.8 (BLI_9_8) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3">
@@ -2909,8 +2918,6 @@
 
 
 
-
-
 	  <!-- LINHA 9.9 (IBI_9_9) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
 		  <div class="col-md-2 col-md-offset-1">
@@ -2919,8 +2926,9 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="ibi9-9"> IRREGULARIDADE BILATERAL</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-2 col-md-offset-1 -->	
 		</div>
+
 
 
 
@@ -2943,6 +2951,7 @@
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
 
 
 
@@ -2971,6 +2980,7 @@
 
 
 
+
 	  <!-- LINHA 9.10 (IUD_9_10) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
 		  <div class="col-md-2 col-md-offset-1">
@@ -2979,8 +2989,9 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="iud9-10"> IRREGULARIDADE UNILATERAL À DIREITA</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-2 col-md-offset-1 -->	
 		</div>
+
 
 
 
@@ -3008,6 +3019,7 @@
 
 
 
+
 		<!-- LINHA 9.10.1 (CB_IUD_9_10_1) -->
 	  <div class="row row col-md-10 col-md-offset-2 collapse collapse_iud9-10">
 			<div class="col-md-12">
@@ -3030,6 +3042,8 @@
 
 
 
+
+
 	  <!-- LINHA 9.11 (IUE_9_11) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
 		  <div class="col-md-2 col-md-offset-1">
@@ -3038,8 +3052,10 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="iue9-11"> IRREGULARIDADE UNILATERAL À ESQUERDA</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-2 col-md-offset-1 -->	
 		</div>
+
+
 
 
 
@@ -3061,6 +3077,7 @@
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
 
 
 
@@ -3088,6 +3105,8 @@
 
 
 
+
+
 	  <!-- LINHA 9.12 (RCO_9_12) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
 		  <div class="col-md-2 col-md-offset-1">
@@ -3096,8 +3115,10 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="rco9-12"> REAÇÃO CONTRALATERAL</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-2 col-md-offset-1 -->	
 		</div>
+
+
 
 
 
@@ -3110,8 +3131,9 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="dep9-13"> DEPRESSÃO</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-1 col-md-offset-1 -->	
 		</div>
+
 
 
 
@@ -3131,6 +3153,8 @@
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
+
 
 
 
@@ -3160,6 +3184,7 @@
 
 
 
+
 	  <!-- LINHA 9.14 (HIPE_9_14) -->
 		<div class="row row col-md-10 col-md-offset-1 collapse collapse_bli9-8">
 		  <div class="col-md-1 col-md-offset-1">
@@ -3168,9 +3193,8 @@
 	      		<label class="ap2-1"><input type="checkbox" class="vogaisinp" id="hipe9-14"> HIPEREMIA (SOMENTE NA BORDA LIVRE DA PREGA VOCAL)</label>
 	    		</span>
 		    </div><!-- /input-group -->
-		  </div><!-- /.col-md-3 -->	
+		  </div><!-- /.col-md-1 col-md-offset-1 -->	
 		</div>
-
 
 
 
@@ -3275,9 +3299,7 @@
 	   				</label>
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
-		</div><!-- /.row -->
-		
-		
+		</div><!-- /.row -->		
 
 
 
@@ -3294,6 +3316,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
 		</div>
+
 
 
 
@@ -3354,6 +3377,7 @@
 
 
 
+
 	  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
 	  <div class="row row col-md-10 col-md-offset-1">
 	  	<hr style="margin-top: 20px;" class="hr">
@@ -3362,13 +3386,12 @@
 
 
 
+
+
 		<!--######################################################################################################################
 		############################################      BUTTONS DE PENDENTE OU FINALIZADO    ###################################
 		##########################################################################################################################
 		##########################################################################################################################-->
-
-
-
 
 	  <div class="row row col-md-10 col-md-offset-1 btns_pen_fin">
 	  	<div class="input-group-btn" data-toggle="buttons" style="text-align: center;">
@@ -3383,6 +3406,8 @@
 				</label>
 			</div>
 	  </div>
+
+
 
 
 
@@ -3419,6 +3444,7 @@
 
 
 
+
 		<!-- LINHA 10.0 (CB_MDP_10_0) -->
 	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_pendente">
 			<div class="col-md-12">
@@ -3439,6 +3465,7 @@
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
 
 
 
@@ -3467,6 +3494,7 @@
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
 		</div>
+
 
 
 
@@ -3529,7 +3557,7 @@
 
 
 		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs_pendente">
+		<div class="collapse collapse_pendente_obs row row col-md-10 col-md-offset-1" id="obs_pendente">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
@@ -3685,7 +3713,7 @@
 
 
 		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-		<div class="collapse row row col-md-10 col-md-offset-1" id="obs_final">
+		<div class="collapse collapse_final_obs row row col-md-10 col-md-offset-1" id="obs_final">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
@@ -3704,9 +3732,6 @@
 		##########################################################################################################################
 		##########################################################################################################################-->
 
-		
-		
-		
 		<div class="row row fotter col-md-10 col-md-offset-1">
 			<a class="btn btn-primary btn-final" onClick="javascript:window.print()">
     		<span class="fa fa-print"></span> IMPRIMIR
@@ -3714,8 +3739,14 @@
     	<a class="btn btn-primary btn-final" onclick="start_insert()">
     		<span class="fa fa-floppy-o"></span> SALVAR
 			</a>
+			<a class="btn btn-primary btn-final" onclick="cargos_atuais_2(1)">
+    		<span class="fa fa-floppy-o"></span> SALVAR
+			</a>
+
 			
 		</div>	
+
+
 
 
 
@@ -3724,9 +3755,6 @@
 		##############################################      LOADDING MODAL    ####################################################
 		##########################################################################################################################
 		##########################################################################################################################-->	
-
-
-
 
 		<div class="modal fade" id="loading_modal" role="dialog">
 			<div class="progress">
@@ -3785,50 +3813,51 @@
 
 
 
-  	<!--######################################################################################################################
-		##################################################      IMPORTS   ########################################################
-		##########################################################################################################################
-		##########################################################################################################################-->	
 
 
-
+  	<!--.body-->		
 	</body>
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<!-- FUNÇÕES DE DATA -->
-		<script src="js/jquery.datetimepicker.full.min.js"></script>
-		<script src="js/date.js"></script>
+	<!--######################################################################################################################
+	##################################################      IMPORTS   ########################################################
+	##########################################################################################################################
+	##########################################################################################################################-->
 
-		<!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
-		<script src="js/formulario_config.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- FUNÇÕES DE DATA -->
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
+	<script src="js/date.js"></script>
 
-		<!-- SCRIPTS DE INSERT PARA CADA SESSAO -->
-		<script src="js/insert_files/insert_start.js"></script>
-		<script src="js/insert_files/insert_identificacao.js"></script>
-		<script src="js/insert_files/insert_finalidade.js"></script>
-		<script src="js/insert_files/insert_complementares.js"></script>
-		<script src="js/insert_files/insert_saude_geral.js"></script>
-		<script src="js/insert_files/insert_habitos.js"></script>
-		<script src="js/insert_files/insert_saude_vocal.js"></script>
-		<script src="js/insert_files/insert_avaliacao_perceptivo.js"></script>
-		<script src="js/insert_files/insert_avaliacao_espectrografica.js"></script>
-		<script src="js/insert_files/insert_parecer_fono.js"></script>
-		<script src="js/insert_files/insert_pendentes.js"></script>
-		<script src="js/insert_files/insert_concluidos.js"></script>
+	<!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
+	<script src="js/formulario_config.js"></script>
 
-		<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
-		<script src="js/scripts_identificacao/identificacao.js"></script>
-		<script src="js/scripts_finalidade/finalidade.js"></script>
-		<script src="js/scripts_complementares/complementares.js"></script>
-		<script src="js/scripts_saude_geral/saude_geral.js"></script>
-		<script src="js/scripts_habitos/habitos.js"></script>
-		<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
-		<script src="js/scripts_avaliacao_perceptivo/avaliacao_perceptivo.js"></script>
-		<script src="js/scripts_avaliacao_espectrografica/avaliacao_espectrografica.js"></script>
-		<script src="js/scripts_parecer_fono/parecer_fono.js"></script>
-		<script src="js/scripts_pendente/pendente.js"></script>
-		<script src="js/scripts_final/final.js"></script>
+	<!-- SCRIPTS DE INSERT PARA CADA SESSAO -->
+	<script src="js/insert_files/insert_start.js"></script>
+	<script src="js/insert_files/insert_identificacao.js"></script>
+	<script src="js/insert_files/insert_finalidade.js"></script>
+	<script src="js/insert_files/insert_complementares.js"></script>
+	<script src="js/insert_files/insert_saude_geral.js"></script>
+	<script src="js/insert_files/insert_habitos.js"></script>
+	<script src="js/insert_files/insert_saude_vocal.js"></script>
+	<script src="js/insert_files/insert_avaliacao_perceptivo.js"></script>
+	<script src="js/insert_files/insert_avaliacao_espectrografica.js"></script>
+	<script src="js/insert_files/insert_parecer_fono.js"></script>
+	<script src="js/insert_files/insert_pendentes.js"></script>
+	<script src="js/insert_files/insert_concluidos.js"></script>
 
-		<!-- FUNÇÃO DE LOADING -->
-		<script src="js/loading_script/loading.js"></script>
+	<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
+	<script src="js/scripts_identificacao/identificacao.js"></script>
+	<script src="js/scripts_finalidade/finalidade.js"></script>
+	<script src="js/scripts_complementares/complementares.js"></script>
+	<script src="js/scripts_saude_geral/saude_geral.js"></script>
+	<script src="js/scripts_habitos/habitos.js"></script>
+	<script src="js/scripts_saude_vocal/saude_vocal.js"></script>
+	<script src="js/scripts_avaliacao_perceptivo/avaliacao_perceptivo.js"></script>
+	<script src="js/scripts_avaliacao_espectrografica/avaliacao_espectrografica.js"></script>
+	<script src="js/scripts_parecer_fono/parecer_fono.js"></script>
+	<script src="js/scripts_pendente/pendente.js"></script>
+	<script src="js/scripts_final/final.js"></script>
+
+	<!-- FUNÇÃO DE LOADING -->
+	<script src="js/loading_script/loading.js"></script>
 </html>

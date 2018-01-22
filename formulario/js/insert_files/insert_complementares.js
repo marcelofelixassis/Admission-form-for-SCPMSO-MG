@@ -144,7 +144,7 @@ function cargos_atuais_2(id_da_complementares){
 	}
 	vet.push(getcheckboxs(document.getElementsByName("3-2-3cb")));
 	vet.push(id_da_complementares);
-	vet.push(2); // NUMERO 1
+	vet.push(2); // NUMERO 2
 	$.ajax({
 		type : "GET",
 		url : url+"cargos_atuais.php?data="+JSON.stringify(vet),

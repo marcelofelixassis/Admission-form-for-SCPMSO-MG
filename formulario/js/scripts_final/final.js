@@ -10,6 +10,8 @@ function final() {
 
     $('.collapse_pendente').collapse('hide');
 
+    $('.collapse_pendente_obs').collapse('hide');
+
     $('.collapse_final').collapse('show');
 }
 
