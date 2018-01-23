@@ -876,7 +876,7 @@
 							<option value="3">6 A 10 ANOS</option>
 				      <option value="4">11 A 15 ANOS</option>
 							<option value="5">MAIS DE 15 ANOS</option>
-							<option value="6">NÃO SOUBE INFORM</option>
+							<option value="6">NÃO SOUBE INFORM.</option>
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
@@ -891,7 +891,7 @@
 				      <option value="2">11 A 20</option>
 							<option value="3">21 A 30</option>
 				      <option value="4">31 OU MAIS</option>
-				      <option value="5">NÃO SOUBE INFORM</option>
+				      <option value="5">NÃO SOUBE INFORM.</option>
 		        </select>
 	      	</span>
 		    </div><!-- /input-group -->
@@ -927,7 +927,7 @@
 							<option value="3">6 A 10 ANOS</option>
 				      <option value="4">11 A 15 ANOS</option>
 							<option value="5">MAIS DE 15 ANOS</option>
-							<option value="6">NÃO SOUBE INFOR</option>
+							<option value="6">NÃO SOUBE INFOR.</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -942,7 +942,7 @@
 				      <option value="2">2 A 5 ANOS</option>
 							<option value="3">6 A 10 ANOS</option>
 							<option value="4">MAIS DE 10 ANOS</option>
-							<option value="5">NÃO SOUBE INFOR</option>
+							<option value="5">NÃO SOUBE INFOR.</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -2073,7 +2073,7 @@
 		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR AS VOGAIS?</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao7" id="tmdf7-7" onblur="onblur_tmdf77()">
-							<option value="0">NAO</option>
+							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
@@ -2150,7 +2150,7 @@
 		      <span class="input-group-addon" id="basic-addon">É POSSÍVEL AVALIAR A RELAÇÃO S/Z?</span>
 		  		<span class="input-group-btn">
 			      <select class="btn" name="sessao7" id="epasz7-9" onblur="onblur_epasz79()">
-							<option value="0">NAO</option>
+							<option value="0">NÃO</option>
 				      <option value="1">SIM</option>
 			      </select>
 		     	</span>
@@ -2383,7 +2383,7 @@
 	    <div class="collapse collapse_spfu col-md-8 col-md-print-10 col-md-print-offset-13">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">QUAL?</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1"> 	
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" style="text-transform: uppercase;"> 	
 	    	</div><!-- /input-group -->
 	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
 		</div><!-- /.row -->
@@ -2509,7 +2509,7 @@
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">CRM:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="6" style="text-transform: uppercase;">
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao9" maxlength="11" style="text-transform: uppercase;">
 	    	</div><!-- /input-group -->
   		</div><!-- /.col-md-3 -->
   	</div>

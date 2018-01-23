@@ -20,7 +20,6 @@ function get_pendente_ou_concluido(id_parecer_fon){
 
 function preencher_pendente_ou_concluido(data, tipo) {
     console.log(data);
-    console.log(data.cb_mdp_10_0);
     if (tipo == "pendente") {
         
         $.get("paginas/pendente.html", function (data) {
@@ -67,6 +66,8 @@ function preencher_concluido(data) {
     markcheckbox(data.cb_fnl_11_2, document.getElementsByName("11-2cb"));
 
     $("#lcl11-2").val(data.lcl_11_3);
-    $("#dt11-2").val(data.dt_11_3);     
+    $("#dt11-2").val(data.dt_11_3);   
+
+    get_parecer_fono_retorno();  
 }
 

@@ -6,7 +6,6 @@ function get_parecer_fono_retorno(){
         success: function (response) {
             var json = JSON.parse(response);
             if(json['success']){
-                console.log(json['data'][0]);
                 preencher_pareceres(json['data']);
             }else{
                 console.log("erro fase de parecer fono retorno");
@@ -20,6 +19,10 @@ function get_parecer_fono_retorno(){
 
 
 function preencher_pareceres(data) {
+
+    if(data.length == 0) {
+        apresentar_dados();
+    }   
     
     if(data.length == 1) {
         $.get("paginas/retorno/primeiro/parecer_fono_retorno_primeiro.html", function (data) {
