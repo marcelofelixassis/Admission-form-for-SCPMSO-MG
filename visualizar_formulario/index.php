@@ -61,7 +61,7 @@
 		  	<div class="col-md-3 col-md-print-3">
 		    	<div class="input-group input-group-sm">
 		      	<span class="input-group-addon" id="basic-addon">DATA NASCIMENTO:</span>
-		  			<input type='text' class="form-control date" name="sessao1" disabled="true"/>
+		  			<input type='text' class="form-control" name="sessao1" disabled="true"/>
 		    	</div><!-- /input-group -->
 		  	</div><!-- /.col-md-3 /// col-md-print-3 -->
 		  	<div class="col-md-4 col-md-offset-1 col-md-print-4 col-md-print-offset-3">
@@ -101,7 +101,7 @@
 		  	<div class="col-md-2 col-md-print-6">
 		    	<div class="input-group input-group-sm">
 		      	<span class="input-group-addon" id="basic-addon">DATA:</span>
-		  			<input type='text' class="form-control date" name="sessao2" disabled="true"/>
+		  			<input type='text' class="form-control" name="sessao2" disabled="true"/>
 		    	</div><!-- /input-group -->
 		  	</div><!-- /col-md-2 /// col-md-print-3 -->
 		  	<div class="col-md-9 col-md-offset-1 col-md-print-5">
@@ -3059,10 +3059,10 @@
 			   	<div class="input-group input-group-sm">
 			     	<form>
 			     		<label class="checkbox-inline">
-	      				<input type="checkbox" value="1" name="9-15-0cb">COMPLETA
+	      				<input type="checkbox" value="1" name="9-15-0cb" disabled="true">COMPLETA
 	    				</label>
 	    				<label class="checkbox-inline" style="float: right;">
-	      				<input type="checkbox" value="2" name="9-15-0cb">COMPLETA (EXAME SUGESTIVO)
+	      				<input type="checkbox" value="2" name="9-15-0cb" disabled="true">COMPLETA (EXAME SUGESTIVO)
 	    				</label>
 
 	    				<br>

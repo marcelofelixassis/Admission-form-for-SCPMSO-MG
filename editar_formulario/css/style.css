@@ -16,6 +16,15 @@ body {
   font-weight: bold
 }
 
+.cabecalho_de_retornos {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #loader {
   margin: auto;
   border: 16px solid #f3f3f3;
@@ -153,6 +162,10 @@ form#sdrgcb4-4 {
 
 
 @media print{
+
+  .cabecalho_de_retornos_none {
+    display: none;
+  }
 
   div{ page-break-inside:avoid; }
 

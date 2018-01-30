@@ -65,6 +65,6 @@
 
   <!-- FUNÇÕES DE CONFIGURAÇÃO DO INDEX -->
   <script src="./js/scripts_painel/painel.js"></script>
-</html>>
+</html>
 
 

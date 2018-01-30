@@ -1,7 +1,9 @@
 function preecher_parecer_fono_retorno_primeiro(data) {
-    
+
+    $("#input_epe_9_0_rprimeiro").val(data.epe);
     $("#select_exa_9_0_rprimeiro").val(data.exa);
     $("#input_dexa_9_0_rprimeiro").val(data.dexa);
+    $("#input_mnome_9_0_rprimeiro").val(data.mnome);
     $("#input_crm_9_0_rprimeiro").val(data.crm);
     
     $("#select_tipg_9_1_rprimeiro").val(data.tipg);

@@ -207,6 +207,7 @@
 							<option value="1">SEE</option>
 	  					<option value="2">UNIMONTES</option>
 	  					<option value="3">UEMG</option>
+	  					<option value="4">OUTRO</option>
 	        	</select>
       		</span>
 	    	</div><!-- /input-group -->
@@ -3739,11 +3740,6 @@
     	<a class="btn btn-primary btn-final" onclick="start_insert()">
     		<span class="fa fa-floppy-o"></span> SALVAR
 			</a>
-			<a class="btn btn-primary btn-final" onclick="cargos_atuais_2(1)">
-    		<span class="fa fa-floppy-o"></span> SALVAR
-			</a>
-
-			
 		</div>	
 
 

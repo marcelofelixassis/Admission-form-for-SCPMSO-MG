@@ -30,9 +30,8 @@
 
 
 
-
-		<!-- (EXA, DEXA, CRM) -->
-				<div class="row row col-md-10 col-md-offset-1">
+		<!-- (EXA, DEXA, MNOME, CRM) -->
+		<div class="row row col-md-10 col-md-offset-1">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
 	      	<span class="input-group-addon" id="basic-addon">EXAME APRESENTADO:</span>
@@ -52,13 +51,28 @@
 	  			<input type='text' class="form-control date" name="sessao_retorno" />
 	    	</div><!-- /input-group -->
 	  	</div><!-- /.col-md-3 -->
+	  </div>
+
+
+
+
+
+
+		<div class="row row col-md-10 col-md-offset-1">
+	  	<div class="col-md-6">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">MÉDICO:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao_retorno" maxlength="50" style="text-transform: uppercase;">
+	    	</div><!-- /input-group -->
+	  	</div><!-- /.col-md-6 -->
 	  	<div class="col-md-3">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">MÉDICO/CRM:</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao_retorno" maxlength="6" style="text-transform: uppercase;">
+	      	<span class="input-group-addon" id="basic-addon">CRM:</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" name="sessao_retorno" maxlength="11" style="text-transform: uppercase;">
 	    	</div><!-- /input-group -->
-	  	</div><!-- /.col-md-3 col-md-offset-1 -->
-	  </div>
+  		</div><!-- /.col-md-3 -->
+  	</div>
+
 
 
 
@@ -111,6 +125,10 @@
 		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>ACHADOS GERAIS DA LARINGE</strong></span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->
+		   <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="col-md-1 col-md-offset-20">
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs9">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-20-->
 		</div>
 
 
@@ -754,7 +772,7 @@
 
 
 		<!-- (CGL) -->
-		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3_retorno">
+		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
@@ -774,56 +792,65 @@
 			<div class="col-md-12">
 		   	<div class="input-group input-group-sm">
 		     	<form>
-	    			<label class="checkbox-inline">
-	      			<input type="checkbox" value="1" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO ANTERIOR
+		     		<label class="checkbox-inline">
+	      				<input type="checkbox" value="1" name="9-15-0cb_retorno">COMPLETA
 	    			</label>
 	    			<label class="checkbox-inline" style="float: right;">
-	      			<input type="checkbox" value="2" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO ANTERIOR (EXAME SUGESTIVO)
+	      				<input type="checkbox" value="2" name="9-15-0cb_retorno">COMPLETA (EXAME SUGESTIVO)
+	    			</label>
+
+	    			<br>
+
+	    			<label class="checkbox-inline">
+	      			<input type="checkbox" value="3" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO ANTERIOR
+	    			</label>
+	    			<label class="checkbox-inline" style="float: right;">
+	      			<input type="checkbox" value="4" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO ANTERIOR (EXAME SUGESTIVO)
 	    			</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR
+	     				<input type="checkbox" value="5" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="4" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="6" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="5" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO POSTERIOR
+	     				<input type="checkbox" value="7" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO POSTERIOR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="6" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="8" name="9-15-0cb_retorno">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="7" name="9-15-0cb_retorno">INCOMPLETA EM TODA EXTENSÃO
+	     				<input type="checkbox" value="9" name="9-15-0cb_retorno">INCOMPLETA EM TODA EXTENSÃO
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="8" name="9-15-0cb_retorno">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="10" name="9-15-0cb_retorno">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="9" name="9-15-0cb_retorno">IRREGULAR
+	     				<input type="checkbox" value="11" name="9-15-0cb_retorno">IRREGULAR
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="10" name="9-15-0cb_retorno">IRREGULAR (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="12" name="9-15-0cb_retorno">IRREGULAR (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
 
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="11" name="9-15-0cb_retorno">ASSISTEMÁTICO
+	     				<input type="checkbox" value="13" name="9-15-0cb_retorno">ASSISTEMÁTICO
 	   				</label>
 	   				<label class="checkbox-inline" style="float: right;">
-	     				<input type="checkbox" value="12" name="9-15-0cb_retorno">ASSISTEMÁTICO (EXAME SUGESTIVO)
+	     				<input type="checkbox" value="14" name="9-15-0cb_retorno">ASSISTEMÁTICO (EXAME SUGESTIVO)
 	   				</label>
 
 	    			<br>
@@ -851,7 +878,7 @@
 
 
 		<!-- (MMO) -->
-		<div class="row row col-md-10 col-md-offset-1 collapse collapse_prv9-3_retorno">
+		<div class="row row col-md-10 col-md-offset-1">
 		  <div class="col-md-3">
 		    <div class="input-group input-group-sm">
 	    		<span class="input-group-addon" style="line-height: 0; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px;">
@@ -880,15 +907,15 @@
 	    			</label>
 	    			<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="3" name="9-16-0cb_retorno">DIMINUIDO À ESQUERDA
+	     				<input type="checkbox" value="3" name="9-16-0cb_retorno">DIMINUÍDO À ESQUERDA
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="4" name="9-16-0cb_retorno">DIMINUIDO À DIREITA
+	     				<input type="checkbox" value="4" name="9-16-0cb_retorno">DIMINUÍDO À DIREITA
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
-	     				<input type="checkbox" value="5" name="9-16-0cb_retorno">DIMINUIDO À ESQUERDA E À DIREITA
+	     				<input type="checkbox" value="5" name="9-16-0cb_retorno">DIMINUÍDO À ESQUERDA E À DIREITA
 	   				</label>
 	   				<br>
 	   				<label class="checkbox-inline" >
@@ -902,6 +929,21 @@
 	    	</div><!-- /input-group -->
 		  </div><!-- /.col-md-12 -->	  
 		</div><!-- /.row -->
+
+
+
+
+
+
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+		<div class="collapse row row col-md-10 col-md-offset-1" id="obs9">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+		    </div>
+			</div>		
+		</div><!--/.row -->
 
 
 
@@ -964,6 +1006,10 @@
 		      <span class="input-group-addon" id="basic-addon" style="border: 1px solid #ccc; border-radius: 4px;"><strong>MOTIVO DA PENDÊNCIA</strong></span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-md-3 -->	
+		  <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="col-md-1 col-md-offset-20">
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs_pendente">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-20-->
 		</div>
 
 
@@ -1079,6 +1125,21 @@
 
 
 
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+		<div class="collapse collapse_pendente_obs row row col-md-10 col-md-offset-1" id="obs_pendente">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+		    </div>
+			</div>		
+		</div><!--/.row -->
+
+
+
+
+
+
 
 		<!--######################################################################################################################
 		#####################################################      FINAL     #####################################################
@@ -1096,7 +1157,7 @@
 
 		<!-- (CB_FNL_0) -->
 	  <div class="row row col-md-10 col-md-offset-1 collapse collapse_final_retorno">
-			<div class="col-md-12">
+			<div class="col-md-10">
 		   	<div class="input-group input-group-sm">
 		   		<form>
 	    			<label class="checkbox-inline" style="padding-left: 11px;">
@@ -1112,7 +1173,11 @@
 	    			</label>
 	    		</form>
 	    	</div><!-- /input-group -->
-		  </div><!-- /.col-md-12 -->	  
+		  </div><!-- /.col-md-12 -->	
+		  <!--(BUTTON DE COLLAPSE PARA OBSERVAÇÕES NÃO SERAM INCLUSOS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="col-md-1 col-md-offset-0">
+	  		<button type="button" class="btn btn-danger btn-observacao" data-toggle="collapse" data-target="#obs_final">OBSERVAÇÕES</button>
+			</div><!-- /.col-md-1 col-md-offset-20-->  
 		</div><!-- /.row -->
 
 
@@ -1213,3 +1278,18 @@
 	  	</div><!-- /col-md-6 -->
 		</div><!-- /.row -->
 
+
+
+
+
+
+
+		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+		<div class="collapse collapse_final_obs row row col-md-10 col-md-offset-1" id="obs_final">
+	    <div class="form-group">
+		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+		    	<label for="txtareaobs">Observações:</label>
+			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+		    </div>
+			</div>		
+		</div><!--/.row -->

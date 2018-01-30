@@ -51,7 +51,7 @@ function preencher_pendente(data) {
 
     $("#dt10-2").val(data.dt_10_2);   
 
-    apresentar_dados();
+    get_parecer_fono_retorno(finalidade);
 }
 
 function preencher_concluido(data) {

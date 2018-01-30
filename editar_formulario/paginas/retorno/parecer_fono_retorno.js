@@ -47,17 +47,8 @@ function onblur_prv() {
         
         $('.collapse_bli9-8_retorno').collapse('hide');
         
-        clearcheckbox(document.getElementsByName("9-15-0cb_retorno")); 
-        clearcheckbox(document.getElementsByName("9-15-1cb_retorno"));
-        $('.collapse_cgl9-15_retorno').collapse('hide');
-
-        clearcheckbox(document.getElementsByName("9-16-0cb_retorno")); 
-        $('.collapse_mmo9-16_retorno').collapse('hide');
-        
         $('#agpv').prop('checked', false);
         $('#bli').prop('checked', false);
-        $('#cgl').prop('checked', false);
-        $('#mmo').prop('checked', false);
 
 		$('.collapse_prv9-3_retorno').collapse('hide');	
 	}		

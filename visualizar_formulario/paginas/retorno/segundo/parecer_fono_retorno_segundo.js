@@ -1,7 +1,9 @@
 function preecher_parecer_fono_retorno_segundo(data) {
-    
+
+    $("#input_epe_9_0_rsegundo").val(data.epe);
     $("#select_exa_9_0_rsegundo").val(data.exa);
     $("#input_dexa_9_0_rsegundo").val(data.dexa);
+    $("#input_mnome_9_0_rsegundo").val(data.mnome);
     $("#input_crm_9_0_rsegundo").val(data.crm);
     
     $("#select_tipg_9_1_rsegundo").val(data.tipg);

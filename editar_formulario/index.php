@@ -1250,7 +1250,7 @@
 	      				<input type="checkbox" value="6" name="6-4cb" disabled="true">EDEMA DE REINKE
 		    			</label>
 		    			<label class="checkbox-inline">
-		     				<input type="checkbox" value="7" name="6-4cb" disabled="true">HIPEREMIA NA(S) PPVV(S)
+		     				<input type="checkbox" value="7" name="6-4cb" disabled="true">HIPEREMIA
 		   				</label>
 		   				<label class="checkbox-inline">
 		     				<input type="checkbox" value="8" name="6-4cb" disabled="true">ALTERAÇÃO VASCULAR
@@ -1264,6 +1264,9 @@
 		   				<label class="checkbox-inline">
 		     				<input type="checkbox" value="11" name="6-4cb" disabled="true">NÃO SOUBE INFORMAR
 		   				</label>
+		   				<label class="checkbox-inline">
+		     				<input type="checkbox" value="12" name="6-4cb" disabled="true">SINAIS DE RGE
+		   				</label
 		 				</form>
 		    	</div><!-- /input-group -->
 			  </div><!-- /.col-md-12 -->	  
@@ -2360,16 +2363,30 @@
 		    <div class="col-md-3 col-md-print-offset-28">
 		    	<div class="input-group input-group-sm">
 		      	<span class="input-group-addon" id="basic-addon">DATA DO EXAME:</span>
-		  			<input type='text' class="form-control date" id="input_dexa_9_0" disabled="true"/>
+		  			<input type='text' class="form-control" id="input_dexa_9_0" disabled="true" />
 		    	</div><!-- /input-group -->
 		  	</div><!-- /.col-md-3 -->
+	  	</div>
+
+
+
+
+
+
+	  	<div class="row row col-md-10 col-md-offset-1">
+		  	<div class="col-md-6">
+		    	<div class="input-group input-group-sm">
+		      	<span class="input-group-addon" id="basic-addon">MÉDICO:</span>
+		  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_mnome_9_0" style="text-transform: uppercase;" disabled="true">
+		    	</div><!-- /input-group -->
+		  	</div><!-- /.col-md-6 -->
 		  	<div class="col-md-3">
 		    	<div class="input-group input-group-sm">
-		      	<span class="input-group-addon" id="basic-addon">MÉDICO/CRM:</span>
-		  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_crm_9_0" maxlength="6" style="text-transform: uppercase;" disabled="true">
+		      	<span class="input-group-addon" id="basic-addon">CRM:</span>
+		  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_crm_9_0" style="text-transform: uppercase;" disabled="true">
 		    	</div><!-- /input-group -->
-		  	</div><!-- /.col-md-3 col-md-offset-1 -->
-		  </div>
+	  		</div><!-- /.col-md-3 -->
+  		</div>
 
 
 
@@ -2443,7 +2460,7 @@
 		      			<input type="checkbox" value="2" name="9-2cb" disabled="true">LARINGE ASSIMÉTRICA
 		    			</label>
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="3" name="9-2cb" disabled="true">ACÚMULO DE SECREÇAO EM PPVV
+		     				<input type="checkbox" value="3" name="9-2cb" disabled="true">ACÚMULO DE SECREÇÃO EM PPVV
 		   				</label>
 		    			<label class="checkbox-inline" >
 		      			<input type="checkbox" value="4" name="9-2cb" disabled="true">AVANÇO DE BANDAS VENTRICULARES
@@ -2461,10 +2478,10 @@
 		     				<input type="checkbox" value="8" name="9-2cb" disabled="true">HIPEREMIA NA REGIÃO LARÍNGEA
 		    			</label>
 		    			<label class="checkbox-inline" >
-	     					<input type="checkbox" value="9" name="9-2cb">EDEMA NAS ARITENÓIDES
+	     					<input type="checkbox" value="9" name="9-2cb" disabled="true">EDEMA NAS ARITENÓIDES
 	    				</label>
 		    			<label class="checkbox-inline" >
-		     				<input type="checkbox" value="10" name="9-2cb">HIPEREMIA NAS ARITENÓIDES
+		     				<input type="checkbox" value="10" name="9-2cb" disabled="true">HIPEREMIA NAS ARITENÓIDES
 		    			</label>
 		 				</form>
 		    	</div><!-- /input-group -->
@@ -3072,56 +3089,65 @@
 				<div class="col-md-12">
 			   	<div class="input-group input-group-sm">
 			     	<form>
+			     		<label class="checkbox-inline">
+	      				<input type="checkbox" value="1" name="9-15-0cb" disabled="true">COMPLETA
+	    				</label>
+	    				<label class="checkbox-inline" style="float: right;">
+	      				<input type="checkbox" value="2" name="9-15-0cb" disabled="true">COMPLETA (EXAME SUGESTIVO)
+	    				</label>
+
+	    				<br>
+
 		    			<label class="checkbox-inline">
-		      			<input type="checkbox" value="1" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO ANTERIOR
+		      			<input type="checkbox" value="3" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO ANTERIOR
 		    			</label>
 		    			<label class="checkbox-inline" style="float: right;">
-		      			<input type="checkbox" value="2" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO ANTERIOR (EXAME SUGESTIVO)
+		      			<input type="checkbox" value="4" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO ANTERIOR (EXAME SUGESTIVO)
 		    			</label>
 
 		    			<br>
 
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="3" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR
+		     				<input type="checkbox" value="5" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR
 		   				</label>
 		   				<label class="checkbox-inline" style="float: right;">
-		     				<input type="checkbox" value="4" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR (EXAME SUGESTIVO)
+		     				<input type="checkbox" value="6" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO MÉDIO-POSTERIOR (EXAME SUGESTIVO)
 		   				</label>
 
 		    			<br>
 
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="5" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO POSTERIOR
+		     				<input type="checkbox" value="7" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO POSTERIOR
 		   				</label>
 		   				<label class="checkbox-inline" style="float: right;">
-		     				<input type="checkbox" value="6" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
+		     				<input type="checkbox" value="8" name="9-15-0cb" disabled="true">INCOMPLETA EM REGIÃO POSTERIOR (EXAME SUGESTIVO)
 		   				</label>
 
 		    			<br>
 
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="7" name="9-15-0cb" disabled="true">INCOMPLETA EM TODA EXTENSÃO
+		     				<input type="checkbox" value="9" name="9-15-0cb" disabled="true">INCOMPLETA EM TODA EXTENSÃO
 		   				</label>
 		   				<label class="checkbox-inline" style="float: right;">
-		     				<input type="checkbox" value="8" name="9-15-0cb" disabled="true">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
+		     				<input type="checkbox" value="10" name="9-15-0cb" disabled="true">INCOMPLETA EM TODA EXTENSÃO (EXAME SUGESTIVO)
 		   				</label>
 
 		    			<br>
 
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="9" name="9-15-0cb" disabled="true">IRREGULAR
+		     				<input type="checkbox" value="11" name="9-15-0cb" disabled="true">IRREGULAR
 		   				</label>
 		   				<label class="checkbox-inline" style="float: right;">
-		     				<input type="checkbox" value="10" name="9-15-0cb" disabled="true">IRREGULAR (EXAME SUGESTIVO)
+		     				<input type="checkbox" value="12" name="9-15-0cb" disabled="true">IRREGULAR (EXAME SUGESTIVO)
 		   				</label>
 
 		    			<br>
 
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="11" name="9-15-0cb" disabled="true">ASSISTEMÁTICO
+		     				<input type="checkbox" value="13" name="9-15-0cb" disabled="true">ASSISTEMÁTICO
 		   				</label>
 		   				<label class="checkbox-inline" style="float: right;">
-		     				<input type="checkbox" value="12" name="9-15-0cb" disabled="true">ASSISTEMÁTICO (EXAME SUGESTIVO)
+		     				<input type="checkbox" value="14" name="9-15-0cb" disabled="true">ASSISTEMÁTICO (EXAME SUGESTIVO)
 		   				</label>
 
 		    			<br>
@@ -3179,15 +3205,15 @@
 		    			</label>
 		    			<br>
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="3" name="9-16-0cb" disabled="true">DIMINUIDO À ESQUERDA
+		     				<input type="checkbox" value="3" name="9-16-0cb" disabled="true">DIMINUÍDO À ESQUERDA
 		   				</label>
 		   				<br>
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="4" name="9-16-0cb" disabled="true">DIMINUIDO À DIREITA
+		     				<input type="checkbox" value="4" name="9-16-0cb" disabled="true">DIMINUÍDO À DIREITA
 		   				</label>
 		   				<br>
 		   				<label class="checkbox-inline" >
-		     				<input type="checkbox" value="5" name="9-16-0cb" disabled="true">DIMINUIDO À ESQUERDA E À DIREITA
+		     				<input type="checkbox" value="5" name="9-16-0cb" disabled="true">DIMINUÍDO À ESQUERDA E À DIREITA
 		   				</label>
 		   				<br>
 		   				<label class="checkbox-inline" >
@@ -3201,15 +3227,6 @@
 		    	</div><!-- /input-group -->
 			  </div><!-- /.col-md-12 -->	  
 			</div><!-- /.row -->
-
-
-
-
-
-		  <!-- SOMENTE TAG HR PARA SEPARAR AS PARTES -->
-		  <div class="row row col-md-10 col-md-offset-1">
-		  	<hr style="margin-top: 20px;" class="hr">
-		  </div>
 
 
 
@@ -3282,4 +3299,9 @@
 	<script src="paginas/retorno/insert_parecer_fono_retorno.js"></script>
 	<script src="paginas/retorno/final.js"></script>
 	<script src="paginas/retorno/pendente.js"></script>
+	<script src="paginas/retorno/primeiro/parecer_fono_retorno_primeiro.js"></script>
+	<script src="paginas/retorno/segundo/parecer_fono_retorno_segundo.js"></script>
+	<script src="paginas/retorno/terceiro/parecer_fono_retorno_terceiro.js"></script>
+	<script src="paginas/retorno/quarto/parecer_fono_retorno_quarto.js"></script>
+	<script src="js/select_files/parecer_fono_retorno.js"></script>
 </html>

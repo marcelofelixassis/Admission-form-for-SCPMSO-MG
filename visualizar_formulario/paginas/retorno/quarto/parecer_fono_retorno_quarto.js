@@ -1,7 +1,9 @@
 function preecher_parecer_fono_retorno_quarto(data) {
 
+    $("#input_epe_9_0_rquarto").val(data.epe);
     $("#select_exa_9_0_rquarto").val(data.exa);
     $("#input_dexa_9_0_rquarto").val(data.dexa);
+    $("#input_mnome_9_0_rquarto").val(data.mnome);
     $("#input_crm_9_0_rquarto").val(data.crm);
     
     $("#select_tipg_9_1_rquarto").val(data.tipg);

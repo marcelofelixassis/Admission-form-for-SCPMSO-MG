@@ -12,6 +12,8 @@ function pendente() {
 
     $('.collapse_final_retorno').collapse('hide');
 
+    $('.collapse_final_obs').collapse('hide');
+
     $('.collapse_pendente_retorno').collapse('show');
 }
 
