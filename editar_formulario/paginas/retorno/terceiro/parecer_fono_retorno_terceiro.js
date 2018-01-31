@@ -3,7 +3,7 @@ function preecher_parecer_fono_retorno_terceiro(data) {
     $("#select_exa_9_0_rterceiro").val(data.exa);
     $("#input_dexa_9_0_rterceiro").val(data.dexa);
     $("#input_crm_9_0_rterceiro").val(data.crm);
-    
+    $("#input_mnome_9_0_rterceiro").val(data.mnome);
     $("#select_tipg_9_1_rterceiro").val(data.tipg);
     $("#select_loea_9_1_rterceiro").val(data.loea);
     
