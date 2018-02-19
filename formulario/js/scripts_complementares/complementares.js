@@ -92,7 +92,7 @@ function onblur_oada39(){
 	var x = document.getElementById("oada3-9").value;
 	if(x == 1){	
   		$('#collapse_oada3-9').collapse('show');
-  		document.getElementById("oada3-9").style.height = "30px";
+  		document.getElementById("oada3-9").style.height = "42px";
 	}else{
 		$('#collapse_oada3-9').collapse('hide');
 		clearcheckbox(document.getElementsByName("3-9cb"));	
@@ -105,7 +105,7 @@ function onblur_oadu310(){
 	var x = document.getElementById("oadu3-10").value;
 	if(x == 1){	
   		$('#collapse_oadu3-10').collapse('show');
-  		document.getElementById("oadu3-10").style.height = "30px";
+  		document.getElementById("oadu3-10").style.height = "42px";
 	}else{
 		$('#collapse_oadu3-10').collapse('hide');
 		clearcheckbox(document.getElementsByName("3-10cb"));	

@@ -107,6 +107,11 @@ function preecher_parecer_fono_retorno_primeiro(data) {
         markcheckbox(data.cb_mmo_0, document.getElementsByName("9-16-0cb_rprimeiro"));
     }
 
+    if(data.obs_parecer_fon_retorno != "") { 
+        $('.collapse_obs_retorno_primeiro').collapse('show');
+        document.getElementById("txtareaobsprimeiro").value = data.obs_parecer_fon_retorno;
+    }
+
     pendente_ou_concluido_parecer_fono_retorno_primeiro(data.id_parecer_fon_retorno);
 }
 
@@ -145,6 +150,11 @@ function preencher_pendente_retorno_primeiro(data) {
     $("#exs10-2_rprimeiro").val(data.exs);
 
     $("#dt10-2_rprimeiro").val(data.dt);
+
+    if (data.obs_pendente_retorno != "") {
+        $('.collapse_obs_retorno_primeiro_pendente').collapse('show');
+        $("#txtareaobsprimeiropendente").val(data.obs_pendente_retorno);
+    }
 }
 
 
@@ -163,5 +173,10 @@ function preencher_concluido_retorno_primeiro(data) {
     markcheckbox(data.cb_fnl_1, document.getElementsByName("11-2cb_rprimeiro"));
 
     $("#lcl11-2_rprimeiro").val(data.lcl);
-    $("#dt11-2_rprimeiro").val(data.dt);     
+    $("#dt11-2_rprimeiro").val(data.dt);  
+
+    if (data.obs_concluido_retorno != "") {
+        $('.collapse_obs_retorno_primeiro_concluido').collapse('show');
+        $("#txtareaobsprimeiroconcluido").val(data.obs_concluido_retorno);
+    }   
 }

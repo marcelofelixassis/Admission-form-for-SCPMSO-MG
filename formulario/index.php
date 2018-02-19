@@ -138,7 +138,7 @@
 				  		<option value="1">NOMEAÇAO EM CONCURSO PÚBLICO</option>
 				  		<option value="2">DESIGNAÇÃO</option>
 				  		<option value="3">RECURSO</option>
-				  		<option value="4">RETORNO</option>
+				  		<option value="4">RETORNO TI</option>
 				  		<option value="5">REAVALIAÇÃO</option>
 	        	</select>
       		</span>
@@ -254,7 +254,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div><!--/.row -->
@@ -349,7 +349,7 @@
 		<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
 	  	<div class="col-md-5">
 	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
+	      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER.)?</span>
 	  			<span class="input-group-btn">
 	        	<select class="btn" onblur="onblur_oada39()" id="oada3-9" name="sessao3">
 							<option value="0">NÃO</option>
@@ -381,6 +381,9 @@
     				</label>
         		<label class="checkbox-inline">
       				<input type="checkbox" value="7" name="3-9cb">TELEMARKETING
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="8" name="3-9cb">MÚSICO/INSTRUMENTO DE SOPRO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -429,6 +432,9 @@
         		<label class="checkbox-inline">
       				<input type="checkbox" value="7" name="3-10cb">TELEMARKETING
     				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="8" name="3-10cb">MÚSICO/INSTRUMENTO DE SOPRO
+    				</label>
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
@@ -444,7 +450,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -492,6 +498,12 @@
     				<label class="checkbox-inline">
       				<input type="checkbox" value="3" name="4-0cb">RINITE
     				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="4" name="4-0cb">PÓLIPO NASAL
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="4-0cb">OUTRO
+    				</label>
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /col-md-5 col-md-offset-31 /// col-md-print-offset-1 -->	  
@@ -535,6 +547,15 @@
     				</label>
     				<label class="checkbox-inline">
       				<input type="checkbox" value="6" name="4-1cb">MEDICAÇÃO
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="7" name="4-1cb">MUDANÇAS CLIMÁTICAS
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="8" name="4-1cb">PRODUTOS DE LIMPEZA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="9" name="4-1cb">OUTRO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -609,6 +630,12 @@
     				<label class="checkbox-inline">
       				<input type="checkbox" value="4" name="4-3cb">ZUMBIDO
     				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="5" name="4-3cb">HIPERSENSIBILIDADE AUDITIVA
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="4-3cb">OUTRO
+    				</label>
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-7 col-md-offset-22 /// col-md-print-offset-11 -->	  
@@ -639,7 +666,7 @@
       				<input type="checkbox" value="1" name="4-4cb">ASSINTOMÁTICO
     				</label>
     				<label class="checkbox-inline">
-      				<input type="checkbox" value="2" name="4-4cb">QUEMAÇÃO/ARDÊNCIA
+      				<input type="checkbox" value="2" name="4-4cb">QUEIMAÇÃO/ARDÊNCIA
     				</label>
     				<label class="checkbox-inline">
       				<input type="checkbox" value="3" name="4-4cb">AZIA
@@ -652,6 +679,9 @@
     				</label>
     				<label class="checkbox-inline">
       				<input type="checkbox" value="6" name="4-4cb">DOR ESTOMACAL
+    				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="6" name="4-4cb">SINAIS INDIRETOR EM EXAME LARÍNGEO
     				</label>
   				</form>
 	    	</div><!-- /input-group -->
@@ -773,34 +803,6 @@
 
 
 
-	  <!-- LETRA B /// LINHA 4.7 (CCAG_4_7)-->		
-		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
-	  	<div class="col-md-4">
-	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">CIRURGIA COM ANESTESIA GERAL?</span>
-	  			<span class="input-group-btn">
-	        	<select class="btn" onblur="onblur_ccag47()" id="ccag4-7" name="sessao4">
-							<option value="0">NÃO</option>
-			         <option value="1">SIM</option>
-	        	</select>
-      		</span>
-	    	</div><!-- /input-group -->
-	    </div><!-- /.col-md-4 -->
-	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
-	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag4-7">
-	    	<div class="input-group input-group-sm">
-	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
-	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ccag4-7" style="text-transform: uppercase;"> 	
-	    	</div><!-- /input-group -->
-	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
-		</div><!-- /.row -->
-		
-
-
-
-
-
-
 		<!-- LETRA B.1 /// LINHA 4.8 (TIRE_4_8) -->	
 		<div class="row row col-md-10 col-md-offset-1">
 		  	<div class="col-md-3">
@@ -826,12 +828,40 @@
 
 
 
+		<!-- LETRA B /// LINHA 4.7 (CCAG_4_7)-->		
+		<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
+	  	<div class="col-md-4">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">CIRURGIA COM ANESTESIA GERAL?</span>
+	  			<span class="input-group-btn">
+	        	<select class="btn" onblur="onblur_ccag47()" id="ccag4-7" name="sessao4">
+							<option value="0">NÃO</option>
+			         <option value="1">SIM</option>
+	        	</select>
+      		</span>
+	    	</div><!-- /input-group -->
+	    </div><!-- /.col-md-4 -->
+	    <!--(ESSAS INFORMAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+	    <div class="collapse col-md-8 col-md-print-10 col-md-print-offset-13" id="collapse_ccag4-7">
+	    	<div class="input-group input-group-sm">
+	      	<span class="input-group-addon" id="basic-addon">QUAL(IS)?</span>
+	  			<input type="text" class="form-control" aria-describedby="basic-addon1" id="input_ccag4-7" style="text-transform: uppercase;"> 	
+	    	</div><!-- /input-group -->
+	  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
+
 		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs4-8">
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -1095,6 +1125,9 @@
     				<label class="checkbox-inline">
       				<input type="checkbox" value="7" name="5-4cb">HIDRATAÇÃO INSUFICIENTE
     				</label>
+    				<label class="checkbox-inline">
+      				<input type="checkbox" value="8" name="5-4cb">USO DE BALAS, PASTILHAS, <i>SPRAYS</i> ANESTÉSICOS
+    				</label>
   				</form>
 	    	</div><!-- /input-group -->
 	    </div><!-- /.col-md-12 -->	  
@@ -1110,7 +1143,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -1346,6 +1379,9 @@
 	   				</label>
 	   				<label class="checkbox-inline">
 	     				<input type="checkbox" value="12" name="6-4cb">SINAIS DE RGE
+	   				</label>
+	   				<label class="checkbox-inline">
+	     				<input type="checkbox" value="13" name="6-4cb">IRREGULARIDADE(S) EM PV OU PPVV
 	   				</label>
 	 				</form>
 	    	</div><!-- /input-group -->
@@ -1614,12 +1650,33 @@
 
 
 
+		<!-- LINHA 6.13 (FREQ_6_13) -->
+		<div class="row row col-md-10 col-md-offset-1 collapse collapse_fudm6-12"">
+		  <div class="col-md-3">
+		    <div class="input-group input-group-sm">
+		      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA</span>
+		  		<span class="input-group-btn">
+			      <select class="btn" name="sessao6">
+			      	<option id="setselect6-12" value="">SELECIONE...</option>
+							<option value="1">REGULAR</option>
+				      <option value="2">ASSISTEMÁTICO</option>
+			      </select>
+		     	</span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-md-3 -->
+		</div><!-- /.row -->
+
+
+
+
+
+
 		<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
 		<div class="collapse row row col-md-10 col-md-offset-1" id="obs6-10">
 	    <div class="form-group">
 	    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 	    	<label for="txtareaobs">Observações:</label>
-		  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+		  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 	    </div>
 			</div>		
 		</div>
@@ -2042,6 +2099,7 @@
 			      	<option value="">SELECIONE...</option>
 							<option value="1">MANTEVE-SE INALTERADA AO FINAL DA AVALIAÇÃO</option>
 				      <option value="2">QUALIDADE VOCAL ALTEROU AO FINAL DA AVALIAÇÃO</option>
+				      <option value="3">QUALIDADE VOCAL MELHOROU AO FINAL DA AVALIAÇÃO</option>
 			      </select>
 		     	</span>
 		    </div><!-- /input-group -->
@@ -2344,7 +2402,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div>
@@ -2445,7 +2503,7 @@
 		  	<div class="collapse form-group" id="obs8-1">
 			    <div style="padding-right: 0.5%; padding-left: 0.5%; margin-top: 2%;">
 			    	<label for="txtareaobs" style="margin-left: 0.3%;">Observações:</label>
-				  	<textarea class="form-control" rows="5" id="txtareaobs"></textarea>
+				  	<textarea class="form-control" rows="5" id="txtareaobs" name="textobs"></textarea>
 			    </div>
 				</div>
 			</div><!-- /.col-md-6 -->		
@@ -3369,7 +3427,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div><!--/.row -->
@@ -3562,7 +3620,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div><!--/.row -->
@@ -3718,7 +3776,7 @@
 	    <div class="form-group">
 		    <div style="padding-right: 0.5%; padding-left: 0.5%;">
 		    	<label for="txtareaobs">Observações:</label>
-			  	<textarea class="form-control" rows="3" id="txtareaobs"></textarea>
+			  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs"></textarea>
 		    </div>
 			</div>		
 		</div><!--/.row -->
@@ -3840,6 +3898,7 @@
 	<script src="js/insert_files/insert_parecer_fono.js"></script>
 	<script src="js/insert_files/insert_pendentes.js"></script>
 	<script src="js/insert_files/insert_concluidos.js"></script>
+	<script src="js/insert_files/insert_obs.js">
 
 	<!-- FUNÇÕES DE CONFIGURAÇÃO DO FORMULÁRIO DE CADA SESSAO -->
 	<script src="js/scripts_identificacao/identificacao.js"></script>

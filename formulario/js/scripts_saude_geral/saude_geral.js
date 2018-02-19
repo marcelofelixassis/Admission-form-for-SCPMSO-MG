@@ -3,6 +3,7 @@ function onblur_dnsf40(){
 	var x = document.getElementById("dnsf4-0").value;
 	if(x == 1){	
   		$('#collapse_dnsf4-0').collapse('show');
+  		document.getElementById("dnsf4-0").style.height = "30px";
 	}else{
 		$('#collapse_dnsf4-0').collapse('hide');
 		clearcheckbox(document.getElementsByName("4-0cb"));	
@@ -37,6 +38,7 @@ function onblur_doa43(){
 	var x = document.getElementById("doa4-3").value;
 	if(x == 1){	
   		$('#collapse_doa4-3').collapse('show');
+  		document.getElementById("doa4-3").style.height = "30px";
 	}else{
 		$('#collapse_doa4-3').collapse('hide');
 		clearcheckbox(document.getElementsByName("4-3cb"));	
@@ -48,7 +50,7 @@ function onblur_sdrg44(){
 	var x = document.getElementById("sdrg4-4").value;
 	if(x == 1){	
   		$('#collapse_sdrg4-4').collapse('show');
-  		document.getElementById("sdrg4-4").style.height = "42px";
+  		document.getElementById("sdrg4-4").style.height = "54px";
 	}else{
 		$('#collapse_sdrg4-4').collapse('hide');	
 		clearcheckbox(document.getElementsByName("4-4cb"));

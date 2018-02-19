@@ -111,10 +111,6 @@ form#doacb4-3 {
 	margin-top: 2%;
 }
 
-form#dacb4-1 {
-	margin-top: 1.6%;
-}
-
 form#dnsfcb4-0 {
 	margin-top: 3.1%;
 }
@@ -128,8 +124,12 @@ form#fudmcb4-6 {
 }
 
 form#sdrgcb4-4 {
-    margin-top: 1%;
-  }
+  margin-top: 2.5%;
+}
+
+form.adupv {
+  margin-top: 2%;
+}
 
 /**********************/
 
@@ -238,11 +238,11 @@ form#sdrgcb4-4 {
 }
 
   form#dacb4-1 {
-    margin-top: 0.4%;
+    margin-top: 0.3%;
   }
 
   form#dnsfcb4-0 {
-    margin-top: 2%;
+    margin-top: 0.3%;
   }
 
   form#sdrgcb4-4 {

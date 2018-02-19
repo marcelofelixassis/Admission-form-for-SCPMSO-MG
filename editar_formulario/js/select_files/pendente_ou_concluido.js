@@ -51,6 +51,8 @@ function preencher_pendente(data) {
 
     $("#dt10-2").val(data.dt_10_2);   
 
+    get_obs(); 
+
     get_parecer_fono_retorno(finalidade);
 }
 
@@ -68,6 +70,8 @@ function preencher_concluido(data) {
 
     $("#lcl11-2").val(data.lcl_11_3);
     $("#dt11-2").val(data.dt_11_3); 
+
+    get_obs(); 
     
     apresentar_dados();  
 }

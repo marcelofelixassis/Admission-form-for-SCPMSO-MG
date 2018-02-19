@@ -1,9 +1,11 @@
 function preecher_parecer_fono_retorno_segundo(data) {
-    
+
+    $("#input_epe_9_0_rsegundo").val(data.epe);
     $("#select_exa_9_0_rsegundo").val(data.exa);
     $("#input_dexa_9_0_rsegundo").val(data.dexa);
-    $("#input_crm_9_0_rsegundo").val(data.crm);
     $("#input_mnome_9_0_rsegundo").val(data.mnome);
+    $("#input_crm_9_0_rsegundo").val(data.crm);
+
     $("#select_tipg_9_1_rsegundo").val(data.tipg);
     $("#select_loea_9_1_rsegundo").val(data.loea);
     
@@ -105,6 +107,11 @@ function preecher_parecer_fono_retorno_segundo(data) {
         markcheckbox(data.cb_mmo_0, document.getElementsByName("9-16-0cb_rsegundo"));
     }
 
+    if(data.obs_parecer_fon_retorno != "") { 
+        $('.collapse_obs_retorno_segundo').collapse('show');
+        document.getElementById("txtareaobssegundo").value = data.obs_parecer_fon_retorno;
+    }
+
     pendente_ou_concluido_parecer_fono_retorno_segundo(data.id_parecer_fon_retorno);
 }
 
@@ -143,6 +150,11 @@ function preencher_pendente_retorno_segundo(data) {
     $("#exs10-2_rsegundo").val(data.exs);
 
     $("#dt10-2_rsegundo").val(data.dt);
+
+    if (data.obs_pendente_retorno != "") {
+        $('.collapse_obs_retorno_segundo_pendente').collapse('show');
+        $("#txtareaobssegundopendente").val(data.obs_pendente_retorno);
+    }
 }
 
 
@@ -161,5 +173,10 @@ function preencher_concluido_retorno_segundo(data) {
     markcheckbox(data.cb_fnl_1, document.getElementsByName("11-2cb_rsegundo"));
 
     $("#lcl11-2_rsegundo").val(data.lcl);
-    $("#dt11-2_rsegundo").val(data.dt);     
+    $("#dt11-2_rsegundo").val(data.dt);
+
+    if (data.obs_concluido_retorno != "") {
+        $('.collapse_obs_retorno_segundo_concluido').collapse('show');
+        $("#txtareaobssegundoconcluido").val(data.obs_concluido_retorno);
+    }       
 }

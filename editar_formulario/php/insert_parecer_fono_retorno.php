@@ -23,14 +23,14 @@
 		exit;
 	}
 
-	$sql = "INSERT INTO `parecer_fon_retorno`(`fk_finalidade`, `epe`, `exa`, `dexa`, `mnome`, `crm`, `tipg`, `loea`, `cb_agl_9_2`, `prv`, `agpv`, `ede`, `cb_ede_0`, `cb_ede_1`, `hip`, `cb_hip_0`, `cb_hip_1`, `cb_hip_2`, `ava`, `cb_ava_0`, `cb_ava_1`, `cb_ava_2`, `bli`, `ibi`, `cb_ibi_0`, `cb_ibi_1`, `iud`, `cb_iud_0`, `cb_iud_1`, `iue`, `cb_iue_0`, `cb_iue_1`, `rco`, `dep`, `cb_dep_0`, `cb_dep_1`, `hipe`, `cgl`, `cb_cgl_0`, `cb_cgl_1`, `mmo`, `cb_mmo_0`) 
+	$sql = "INSERT INTO `parecer_fon_retorno`(`fk_finalidade`, `epe`, `exa`, `dexa`, `mnome`, `crm`, `tipg`, `loea`, `cb_agl_9_2`, `prv`, `agpv`, `ede`, `cb_ede_0`, `cb_ede_1`, `hip`, `cb_hip_0`, `cb_hip_1`, `cb_hip_2`, `ava`, `cb_ava_0`, `cb_ava_1`, `cb_ava_2`, `bli`, `ibi`, `cb_ibi_0`, `cb_ibi_1`, `iud`, `cb_iud_0`, `cb_iud_1`, `iue`, `cb_iue_0`, `cb_iue_1`, `rco`, `dep`, `cb_dep_0`, `cb_dep_1`, `hipe`, `cgl`, `cb_cgl_0`, `cb_cgl_1`, `mmo`, `cb_mmo_0`, `obs_parecer_fon_retorno`) 
     VALUES(:fkfinalidade, :epe, :exa, :dexa, :mnome, :crm, :tipg, :loea, :cb_agl, :prv, :agpv, :ede, :cb_ede0, :cd_ede1, :hip, :cb_hip0,
     :cb_hip1, :cb_hip2, :ava, :cb_ava0, :cb_ava1, :cb_ava2, :bli, :ibi, :cb_ibi0, :cb_ibi1, :iud, :cb_iud0, :cb_iud1, :iue,
-    :cb_iue0, :cb_iue1, :rco, :dep, :cb_dep0, :cb_dep1, :hipe, :cgl, :cb_cgl0, :cb_cgl1, :mmo, :cb_mmo0)";
+    :cb_iue0, :cb_iue1, :rco, :dep, :cb_dep0, :cb_dep1, :hipe, :cgl, :cb_cgl0, :cb_cgl1, :mmo, :cb_mmo0, :obs_parecer_fon_retorno)";
     
     $stmt = $PDO->prepare( $sql );
     
-	$stmt->bindParam( ':fkfinalidade', $myvar[41] );
+	$stmt->bindParam( ':fkfinalidade', $myvar[42] );
     $stmt->bindParam( ':epe', $myvar[0] );
 	$stmt->bindParam( ':exa', $myvar[1] );
 	$stmt->bindParam( ':dexa', $myvar[2] );
@@ -87,6 +87,8 @@
 
     $stmt->bindParam( ':mmo', $myvar[39] );
     $stmt->bindParam( ':cb_mmo0', $myvar[40] );
+    $stmt->bindParam( ':obs_parecer_fon_retorno', $myvar[41] );
+    
    
 
 	$result = $stmt->execute();

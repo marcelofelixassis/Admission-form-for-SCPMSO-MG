@@ -107,6 +107,11 @@ function preecher_parecer_fono_retorno_quarto(data) {
         markcheckbox(data.cb_mmo_0, document.getElementsByName("9-16-0cb_rquarto"));
     }
 
+    if(data.obs_parecer_fon_retorno != "") { 
+        $('.collapse_obs_retorno_quarto').collapse('show');
+        document.getElementById("txtareaobsquarto").value = data.obs_parecer_fon_retorno;
+    }
+
     pendente_ou_concluido_parecer_fono_retorno_quarto(data.id_parecer_fon_retorno);
 }
 
@@ -145,6 +150,11 @@ function preencher_pendente_retorno_quarto(data) {
     $("#exs10-2_rquarto").val(data.exs);
 
     $("#dt10-2_rquarto").val(data.dt);
+
+    if (data.obs_pendente_retorno != "") {
+        $('.collapse_obs_retorno_quarto_pendente').collapse('show');
+        $("#txtareaobsquartopendente").val(data.obs_pendente_retorno);
+    }
 }
 
 
@@ -163,5 +173,10 @@ function preencher_concluido_retorno_quarto(data) {
     markcheckbox(data.cb_fnl_1, document.getElementsByName("11-2cb_rquarto"));
 
     $("#lcl11-2_rquarto").val(data.lcl);
-    $("#dt11-2_rquarto").val(data.dt);     
+    $("#dt11-2_rquarto").val(data.dt); 
+
+    if (data.obs_concluido_retorno != "") {
+        $('.collapse_obs_retorno_quarto_concluido').collapse('show');
+        $("#txtareaobsquartoconcluido").val(data.obs_concluido_retorno);
+    }     
 }

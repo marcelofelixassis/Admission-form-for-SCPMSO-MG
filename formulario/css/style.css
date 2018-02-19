@@ -75,11 +75,11 @@ form#doacb4-3 {
 }
 
 form#dacb4-1 {
-	margin-top: 1.6%;
+	margin-top: 0.3%;
 }
 
 form#dnsfcb4-0 {
-	margin-top: 3.1%;
+	margin-top: 3%;
 }
 
 form#oasgcb4-5 {
@@ -91,6 +91,10 @@ form#fudmcb4-6 {
 }
 
 form#sdrgcb4-4 {
+    margin-top: 2.5%;
+  }
+
+  form.adupv {
     margin-top: 1%;
   }
 
@@ -185,7 +189,7 @@ form#sdrgcb4-4 {
   }
 
   form.adupv {
-    margin-top: 0.5%;
+    margin-top: 0.3%;
   }
 
   form#doacb4-3 {
@@ -201,7 +205,11 @@ form#sdrgcb4-4 {
   }
 
   form#dnsfcb4-0 {
-    margin-top: 2%;
+    margin-top: 0.3%;
+  }
+
+  form#doa4-3 {
+    margin-top: 0.3%;
   }
 
   form#sdrgcb4-4 {

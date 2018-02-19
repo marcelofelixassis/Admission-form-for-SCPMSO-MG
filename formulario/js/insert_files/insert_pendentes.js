@@ -22,7 +22,7 @@ function insert_pendentes(id_do_parecer_fon, id_da_finalidade){
 			var json = JSON.parse(response);
 			if(json['success']){
 				console.log(json);
-				window.location.replace("http://10.16.90.76");
+				insert_obs(id_da_finalidade);
 			}else{
 				loading(10, false);
 			}

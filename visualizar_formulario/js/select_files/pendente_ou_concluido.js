@@ -48,7 +48,9 @@ function preencher_pendente(data) {
 
     $("#exs10-2").val(data.exs_10_2);
 
-    $("#dt10-2").val(data.dt_10_2);  
+    $("#dt10-2").val(data.dt_10_2); 
+
+    get_obs(); 
 
     get_parecer_fono_retorno(); 
 }
@@ -66,8 +68,9 @@ function preencher_concluido(data) {
     markcheckbox(data.cb_fnl_11_2, document.getElementsByName("11-2cb"));
 
     $("#lcl11-2").val(data.lcl_11_3);
-    $("#dt11-2").val(data.dt_11_3);   
+    $("#dt11-2").val(data.dt_11_3); 
+
+    get_obs();  
 
     get_parecer_fono_retorno();  
 }
-

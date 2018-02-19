@@ -141,7 +141,7 @@
 					  		<option value="1">NOMEAÇAO EM CONCURSO PÚBLICO</option>
 					  		<option value="2">DESIGNAÇÃO</option>
 					  		<option value="3">RECURSO</option>
-					  		<option value="4">RETORNO</option>
+					  		<option value="4">RETORNO TI</option>
 					  		<option value="5">REAVALIAÇÃO</option>
 		        	</select>
 	      		</span>
@@ -247,6 +247,20 @@
 
 
 
+			<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_finalidade" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
+
+
+
+
+
 
 			<!--######################################################################################################################
 			##################################################      SESSAO 3     #####################################################
@@ -329,7 +343,7 @@
 			<div class="row row col-md-10 col-md-offset-1" style="margin-top: -0.2%;">
 		  	<div class="col-md-5">
 		    	<div class="input-group input-group-sm">
-		      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER)?</span>
+		      	<span class="input-group-addon" id="basic-addon"><strong>c) </strong>ATIVIDADES DE USO PROFISSIONAL DA VOZ (ANTER.)?</span>
 		  			<span class="input-group-btn">
 		        	<select class="btn" id="oada3-9" name="sessao3" disabled="true">
 								<option value="0">NÃO</option>
@@ -362,6 +376,9 @@
 	        		<label class="checkbox-inline">
 	      				<input type="checkbox" value="7" name="3-9cb" disabled="true">TELEMARKETING
 	    				</label>
+	    				<label class="checkbox-inline">
+      					<input type="checkbox" value="8" name="3-9cb" disabled="true">MÚSICO/INSTRUMENTO DE SOPRO
+    					</label>
 	  				</form>
 		    	</div><!-- /input-group -->
 		    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
@@ -409,10 +426,27 @@
 	        		<label class="checkbox-inline">
 	      				<input type="checkbox" value="7" name="3-10cb" disabled="true">TELEMARKETING
 	    				</label>
+	    				<label class="checkbox-inline">
+      					<input type="checkbox" value="8" name="3-10cb" disabled="true">MÚSICO/INSTRUMENTO DE SOPRO
+    					</label>
 	  				</form>
 		    	</div><!-- /input-group -->
 		    </div><!-- /col-md-6 /// col-md-print-offset-1 -->	  
 		  </div><!-- /.row -->  
+
+
+
+
+
+		  <!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_complementares" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
 
 
 
@@ -458,6 +492,12 @@
 	    				<label class="checkbox-inline">
 	      				<input type="checkbox" value="3" name="4-0cb" disabled="true">RINITE
 	    				</label>
+	    				<label class="checkbox-inline">
+      					<input type="checkbox" value="4" name="4-0cb" disabled="true">PÓLIPO NASAL
+    					</label>
+	    				<label class="checkbox-inline">
+	      				<input type="checkbox" value="5" name="4-0cb" disabled="true">OUTRO
+	    				</label>
 	  				</form>
 		    	</div><!-- /input-group -->
 		    </div><!-- /col-md-5 col-md-offset-31 /// col-md-print-offset-1 -->	  
@@ -501,6 +541,15 @@
 	    				</label>
 	    				<label class="checkbox-inline">
 	      				<input type="checkbox" value="6" name="4-1cb" disabled="true">MEDICAÇÃO
+	    				</label>
+	    				<label class="checkbox-inline">
+	      				<input type="checkbox" value="7" name="4-1cb" disabled="true">MUDANÇAS CLIMÁTICAS
+	    				</label>
+	    				<label class="checkbox-inline">
+	      				<input type="checkbox" value="8" name="4-1cb" disabled="true">PRODUTOS DE LIMPEZA
+	    				</label>
+	    				<label class="checkbox-inline">
+	      				<input type="checkbox" value="9" name="4-1cb" disabled="true">OUTRO
 	    				</label>
 	  				</form>
 		    	</div><!-- /input-group -->
@@ -575,6 +624,12 @@
 	    				<label class="checkbox-inline">
 	      				<input type="checkbox" value="4" name="4-3cb" disabled="true">ZUMBIDO
 	    				</label>
+	    				<label class="checkbox-inline">
+	      				<input type="checkbox" value="5" name="4-3cb" disabled="true">HIPERSENSIBILIDADE AUDITIVA
+	    				</label>
+	    				<label class="checkbox-inline">
+	      				<input type="checkbox" value="6" name="4-3cb" disabled="true">OUTRO
+	    				</label>
 	  				</form>
 		    	</div><!-- /input-group -->
 		    </div><!-- /.col-md-7 col-md-offset-22 /// col-md-print-offset-11 -->	  
@@ -605,7 +660,7 @@
 	      				<input type="checkbox" value="1" name="4-4cb" disabled="true">ASSINTOMÁTICO
 	    				</label>
 	    				<label class="checkbox-inline">
-	      				<input type="checkbox" value="2" name="4-4cb" disabled="true">QUEMAÇÃO/ARDÊNCIA
+	      				<input type="checkbox" value="2" name="4-4cb" disabled="true">QUEIMAÇÃO/ARDÊNCIA
 	    				</label>
 	    				<label class="checkbox-inline">
 	      				<input type="checkbox" value="3" name="4-4cb" disabled="true">AZIA
@@ -619,6 +674,9 @@
 	    				<label class="checkbox-inline">
 	      				<input type="checkbox" value="6" name="4-4cb" disabled="true">DOR ESTOMACAL
 	    				</label>
+	    				<label class="checkbox-inline">
+      					<input type="checkbox" value="6" name="4-4cb" disabled="true">SINAIS INDIRETOR EM EXAME LARÍNGEO
+    					</label>
 	  				</form>
 		    	</div><!-- /input-group -->
 		    </div><!-- /col-md-17 col-md-offset-18 /// col-md-print-9 col-md-print-offset-12 -->	  
@@ -738,8 +796,28 @@
 
 
 
+			<!-- LETRA B.1 /// LINHA 4.8 (TIRE_4_8) -->	
+			<div class="row row col-md-10 col-md-offset-1">
+			  	<div class="col-md-3">
+			    	<div class="input-group input-group-sm">
+			      	<span class="input-group-addon" id="basic-addon">CIRURGIA NA TIREÓIDE?</span>
+			  			<span class="input-group-btn">
+			        	<select class="btn" name="sessao4" id="select_tire_4_8" disabled="true">
+								 <option value="0">NÃO</option>
+				         <option value="1">SIM</option>
+			        	</select>
+		      		</span>
+			    	</div><!-- /input-group -->
+			    </div><!-- /.col-md-3-->
+			</div><!-- /.row -->
 
-		  <!-- LETRA B /// LINHA 4.7 (CCAG_4_7)-->		
+
+
+
+
+
+
+			<!-- LETRA B /// LINHA 4.7 (CCAG_4_7)-->		
 			<div class="row row col-md-10 col-md-offset-1" style="margin-top:1%;">
 		  	<div class="col-md-4">
 		    	<div class="input-group input-group-sm">
@@ -760,27 +838,21 @@
 		    	</div><!-- /input-group -->
 		  	</div><!-- /col-md-8 col-md-print-10 /// col-md-print-offset-13 -->
 			</div><!-- /.row -->
-			
 
 
 
 
 
 
-			<!-- LETRA B.1 /// LINHA 4.8 (TIRE_4_8) -->	
-			<div class="row row col-md-10 col-md-offset-1">
-			  	<div class="col-md-3">
-			    	<div class="input-group input-group-sm">
-			      	<span class="input-group-addon" id="basic-addon">CIRURGIA NA TIREÓIDE?</span>
-			  			<span class="input-group-btn">
-			        	<select class="btn" name="sessao4" id="select_tire_4_8" disabled="true">
-									 <option value="0">NÃO</option>
-					         <option value="1">SIM</option>
-			        	</select>
-		      		</span>
-			    	</div><!-- /input-group -->
-			    </div><!-- /.col-md-3-->
-			</div><!-- /.row -->
+			<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_saude_geral" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
 
 
 
@@ -1036,11 +1108,28 @@
 	    				<label class="checkbox-inline">
 	      				<input type="checkbox" value="7" name="5-4cb" disabled="true">HIDRATAÇÃO INSUFICIENTE
 	    				</label>
+	    				<label class="checkbox-inline">
+      					<input type="checkbox" value="8" name="5-4cb" disabled="true">USO DE BALAS, PASTILHAS, <i>SPRAYS</i> ANESTÉSICOS
+    					</label>
 	  				</form>
 		    	</div><!-- /input-group -->
 		    </div><!-- /.col-md-12 -->	  
 		  </div><!-- /.row -->
 
+
+
+
+
+
+			<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_habitos" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
 
 
 
@@ -1267,7 +1356,10 @@
 		   				</label>
 		   				<label class="checkbox-inline">
 		     				<input type="checkbox" value="12" name="6-4cb" disabled="true">SINAIS DE RGE
-		   				</label
+		   				</label>
+		   				<label class="checkbox-inline">
+	     					<input type="checkbox" value="13" name="6-4cb" disabled="true">IRREGULARIDADE(S) EM PV OU PPVV
+	   					</label>
 		 				</form>
 		    	</div><!-- /input-group -->
 			  </div><!-- /.col-md-12 -->	  
@@ -1529,6 +1621,42 @@
 				  </div><!-- /input-group -->
 				</div><!-- /.col-md-3 col-md-offset-38 /// col-md-print-offset-24 -->		 
 			</div><!-- /.row -->
+
+
+
+
+
+
+
+			<!-- LINHA 6.13 (FREQ_6_13) -->
+			<div class="row row col-md-10 col-md-offset-1 collapse collapse_fudm6-12"">
+			  <div class="col-md-3">
+			    <div class="input-group input-group-sm">
+			      <span class="input-group-addon" id="basic-addon">FREQUÊNCIA</span>
+			  		<span class="input-group-btn">
+				      <select class="btn" name="sessao6" id="select_freq_6_13" disabled="true">
+				      	<option id="setselect6-12" value="">SELECIONE...</option>
+								<option value="1">REGULAR</option>
+					      <option value="2">ASSISTEMÁTICO</option>
+				      </select>
+			     	</span>
+			    </div><!-- /input-group -->
+			  </div><!-- /.col-md-3 -->
+			</div><!-- /.row -->
+
+
+
+
+
+			<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_saude_vocal" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
 
 
 
@@ -1947,6 +2075,7 @@
 				      	<option value="">SELECIONE...</option>
 								<option value="1">MANTEVE-SE INALTERADA AO FINAL DA AVALIAÇÃO</option>
 					      <option value="2">QUALIDADE VOCAL ALTEROU AO FINAL DA AVALIAÇÃO</option>
+					      <option value="3">QUALIDADE VOCAL MELHOROU AO FINAL DA AVALIAÇÃO</option>
 				      </select>
 			     	</span>
 			    </div><!-- /input-group -->
@@ -2237,6 +2366,20 @@
 
 
 
+			<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_avaliacao_percep" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
+
+
+
+
+
 
 			<!--######################################################################################################################
 			##################################################      SESSAO 8     #####################################################
@@ -2324,6 +2467,14 @@
 		  			</tbody>
 					</table>
 				</div><!-- /.col-md-6 -->	
+				<div class="col-md-6">
+			  	<div class="collapse form-group collapse_obs_avaliacao_especto" id="obs8-1">
+				    <div style="padding-right: 0.5%; padding-left: 0.5%; margin-top: 2%;">
+				    	<label for="txtareaobs" style="margin-left: 0.3%;">Observações:</label>
+					  	<textarea class="form-control" rows="5" id="txtareaobs" name="textobs" disabled="true"></textarea>
+				    </div>
+					</div>
+				</div><!-- /.col-md-6 -->		
 			</div><!-- /.row -->		
 
 
@@ -3203,6 +3354,21 @@
 
 
 
+			<!--(OBSERVAÇÕES NAO VÃO SER INCLUSAS NA ANÁLISE DE DADOS, NAO SERÁ INCLUSO NA DOCUMENTAÇÃO)-->
+			<div class="collapse row row col-md-10 col-md-offset-1 collapse_obs_parecer_fon" id="obs2-3">
+		    <div class="form-group">
+			    <div style="padding-right: 0.5%; padding-left: 0.5%;">
+			    	<label for="txtareaobs">Observações:</label>
+				  	<textarea class="form-control" rows="3" id="txtareaobs" name="textobs" disabled="true"></textarea>
+			    </div>
+				</div>		
+			</div><!--/.row -->
+
+
+
+
+
+
 
 		  <!--######################################################################################################################
 			##########################################      PENDENTE OU CONCLUIDO    #############################################
@@ -3266,4 +3432,5 @@
 	<script src="paginas/retorno/segundo/parecer_fono_retorno_segundo.js"></script>
 	<script src="paginas/retorno/terceiro/parecer_fono_retorno_terceiro.js"></script>
 	<script src="paginas/retorno/quarto/parecer_fono_retorno_quarto.js"></script>
+	<script src="js/select_files/obs.js"></script>
 </html>

@@ -119,14 +119,14 @@ function preencher_complementares(data) {
     if(data.oada_3_9 == 1){
         $("#oada3-9").val(data.oada_3_9);
         $('#collapse_oada3-9').collapse('show');
-        document.getElementById("oada3-9").style.height = "30px";
+        document.getElementById("oada3-9").style.height = "42px";
         markcheckbox(data.cb_oada_3_9, document.getElementsByName("3-9cb"));
     }
     
     if(data.oadu_3_10 == 1){
         $("#oadu3-10").val(data.oadu_3_10);
         $('#collapse_oadu3-10').collapse('show');
-        document.getElementById("oadu3-10").style.height = "30px";
+        document.getElementById("oadu3-10").style.height = "42px";
         markcheckbox(data.cb_oadu_3_10, document.getElementsByName("3-10cb"));
     }
 

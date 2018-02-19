@@ -55,6 +55,8 @@ function insert_parecer_fono_retorno(){
         //------------------------------------------------------------------------------------------
         if($('#mmo').is(':checked')) { vet.push("1"); }else{ vet.push("0"); }
         vet.push(getcheckboxs(document.getElementsByName("9-16-0cb_retorno")));
+
+        vet.push(document.getElementById("textobsretorno").value);
         
         vet.push(finalidade);
 
@@ -102,8 +104,10 @@ function insert_pendentes_retorno(id_do_parecer_fon){
         vet[i] = sessao[i].value;
     }
 
-    vet.push(getcheckboxs(document.getElementsByName("10-0cb_retorno")))
-    vet.push(getcheckboxs(document.getElementsByName("10-1cb_retorno")))
+    vet.push(getcheckboxs(document.getElementsByName("10-0cb_retorno")));
+    vet.push(getcheckboxs(document.getElementsByName("10-1cb_retorno")));
+
+    vet.push(document.getElementById("txtareaobspendenteori").value);
 
 	vet.push(id_do_parecer_fon);
 	
@@ -137,6 +141,8 @@ function insert_concluidos_retorno(id_do_parecer_fon){
 
     vet.push(getcheckboxs(document.getElementsByName("11-0cb_retorno")));
     vet.push(getcheckboxs(document.getElementsByName("11-2cb_retorno")));
+
+    vet.push(document.getElementById("txtareaobsconcluidoori").value);
 
     vet.push(id_do_parecer_fon);
     vet.push(finalidade);

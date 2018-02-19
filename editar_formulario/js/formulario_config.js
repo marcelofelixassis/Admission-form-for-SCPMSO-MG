@@ -57,5 +57,5 @@ function exibir_parecer_fono_retorno(){
 		$("#collapse_parecer_fono_retorno").append(data);	
 	}); 
 
-	$( "#btn_add_parecerfono" ).hide();
+	$("#btn_add_parecerfono").hide();
 }

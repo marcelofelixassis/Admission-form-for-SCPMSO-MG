@@ -20,6 +20,7 @@ function get_saude_geral(){
 function preencher_saude_geral(data){
    $("#dnsf4-0").val(data.dnsf_4_0);
    if(data.dnsf_4_0 == "1") {
+        document.getElementById("dnsf4-0").style.height = "30px";
         $('#collapse_dnsf4-0').collapse('show');
         markcheckbox(data.cb_dnsf_4_0, document.getElementsByName("4-0cb"));
    }
@@ -39,6 +40,7 @@ function preencher_saude_geral(data){
 
    $("#doa4-3").val(data.doa_4_3);
    if(data.doa_4_3 == "1") { 
+        document.getElementById("doa4-3").style.height = "30px";
         $('#collapse_doa4-3').collapse('show'); 
         markcheckbox(data.cb_doa_4_3, document.getElementsByName("4-3cb"));  
     }
@@ -46,7 +48,7 @@ function preencher_saude_geral(data){
     $("#sdrg4-4").val(data.sdrg_4_4);
     if(data.sdrg_4_4 == "1") {
         $('#collapse_sdrg4-4').collapse('show');
-        document.getElementById("sdrg4-4").style.height = "42px";
+        document.getElementById("sdrg4-4").style.height = "54px";
         markcheckbox(data.cb_sdrg_4_4, document.getElementsByName("4-4cb"));  
     }
 

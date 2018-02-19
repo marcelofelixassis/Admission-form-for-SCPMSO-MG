@@ -19,18 +19,19 @@
 		exit;
     }
     
-    $sql = "INSERT INTO `concluidos_retorno`(`fk_parecer_fon_retorno`, `cb_fnl_0`, `dias`, `com`, `cb_fnl_1`, `lcl`, `dt`) 
-    VALUES (:fkparecerfonretorno, :cbfnl0, :dias, :com, :cbfnl1, :lcl, :dt)";
+    $sql = "INSERT INTO `concluidos_retorno`(`fk_parecer_fon_retorno`, `cb_fnl_0`, `dias`, `com`, `cb_fnl_1`, `lcl`, `dt`, `obs_concluido_retorno`) 
+    VALUES (:fkparecerfonretorno, :cbfnl0, :dias, :com, :cbfnl1, :lcl, :dt, :obs)";
     
     $stmt = $PDO->prepare( $sql );
     
-	$stmt->bindParam( ':fkparecerfonretorno', $myvar[6] );
+	$stmt->bindParam( ':fkparecerfonretorno', $myvar[7] );
 	$stmt->bindParam( ':cbfnl0', $myvar[4] );
 	$stmt->bindParam( ':dias', $myvar[0] );
     $stmt->bindParam( ':com', $myvar[1] );
     $stmt->bindParam( ':cbfnl1', $myvar[5] );
     $stmt->bindParam( ':lcl', $myvar[2] );
     $stmt->bindParam( ':dt', $myvar[3] );
+    $stmt->bindParam( ':obs', $myvar[6] );
 	
 	$result = $stmt->execute();
 		
@@ -43,7 +44,7 @@
 	
 	$sql = "UPDATE `finalidade`SET `state` = 'CONCLUIDO' WHERE id_finalidade = :id";
 	$stmt = $PDO->prepare( $sql );
-	$stmt->bindParam( ':id', $myvar[7] );
+	$stmt->bindParam( ':id', $myvar[8] );
 	$result = $stmt->execute();
 
 	if ( ! $result ){

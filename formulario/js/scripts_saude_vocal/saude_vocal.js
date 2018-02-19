@@ -82,7 +82,7 @@ function onblur_civo611(){
 	}	
 }
 
-//LETRA F /// LINHA 6.12 (FUDM6-12, HQNT6-12, OQMD6-12)
+//LETRA F /// LINHA 6.12 (FUDM_6_12, HQNT_6_12, OQMD_6_12, FREQ_6_13)
 function onblur_fudm612(){
 	var x = document.getElementById("fudm6-12").value;
 	if(x == 1){	
@@ -91,6 +91,7 @@ function onblur_fudm612(){
 		$('.collapse_fudm6-12').collapse('hide');	
 		document.getElementById("setselect6-10").selected = "true";
 		document.getElementById("setselect6-11").selected = "true";
+		document.getElementById("setselect6-12").selected = "true";
 	}	
 }
 
